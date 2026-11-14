@@ -30,6 +30,8 @@ class Path:
     hop2: list[str] = field(default_factory=list)   # why the contact knows the target
     caution: str | None = None                      # e.g. contact works at the same company today
     match_confidence: float | None = None
+    hop1_label: str | None = None                   # you -> contact
+    hop2_label: str | None = None                   # contact -> target
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -51,7 +53,7 @@ def paths_to(target: Person, net: Network, today: date, limit: int = 3) -> list[
     for cand in match(target, net.contacts):
         tie = investor_tie(net, cand.person, today)
         out.append(Path("direct", tie.strength, tie.label, cand.person.id, cand.person.name,
-                        hop1=cand.evidence + tie.reasons, match_confidence=cand.confidence))
+                        hop1=cand.evidence + tie.reasons, match_confidence=cand.confidence, hop1_label=tie.label))
         matched_ids.add(cand.person.id)
 
     # 2. Did the investor personally overlap with them?
@@ -68,8 +70,10 @@ def paths_to(target: Person, net: Network, today: date, limit: int = 3) -> list[
             continue
         tie = investor_tie(net, contact, today)
         strength = round(tie.strength * link.strength, 2)
+        # A two-hop path is labelled on a scale 1.6x looser than a single tie (0.6 x 0.6 ~ "strong").
         out.append(Path("via", strength, label(strength * 1.6), contact.id, contact.name,
-                        hop1=tie.reasons, hop2=link.reasons, caution=_caution(contact, target)))
+                        hop1=tie.reasons, hop2=link.reasons, caution=_caution(contact, target),
+                        hop1_label=tie.label, hop2_label=link.label))
 
     # Rank by strength. A faint direct acquaintance ("met once in 2024") must not hide a
     # batchmate who sat in the target's unit for nine years; the UI marks direct ties anyway.
