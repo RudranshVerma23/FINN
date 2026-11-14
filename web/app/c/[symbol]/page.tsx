@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { PersonBlock } from "@/components/person-block";
 import { ReactionPill } from "@/components/reaction-pill";
 import { Sparkline } from "@/components/sparkline";
 import { getCompanies, getCompany, getMeta, getPrices, getStories, getWhoToCall, lastMove, shortName } from "@/lib/data";
@@ -106,6 +107,12 @@ export default async function CompanyPage(props: PageProps<"/c/[symbol]">) {
               </div>
               <p className="mt-1 text-[14.5px] font-medium leading-snug">{s.headline}</p>
               {s.summary ? <p className="mt-0.5 text-[13px] leading-snug text-ink-2">{s.summary}</p> : null}
+              {s.people
+                .filter((p) => p.change !== "leaves")
+                .slice(0, 1)
+                .map((p) => (
+                  <PersonBlock key={p.name} person={p} />
+                ))}
               {s.url ? (
                 <a href={s.url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-[12px] text-muted underline underline-offset-2">
                   Filing ↗

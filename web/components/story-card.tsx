@@ -7,6 +7,7 @@ import { useState } from "react";
 import { ago, relationText } from "@/lib/format";
 import type { StoryCard as Story } from "@/lib/types";
 
+import { PersonBlock } from "./person-block";
 import { ReactionPill } from "./reaction-pill";
 
 const SWIPE = 110;
@@ -71,7 +72,12 @@ export function StoryCard({
         <h3 className="mt-1 font-serif text-[21px] leading-[1.22] tracking-[-0.01em] text-ink">{story.headline}</h3>
         {story.summary ? <p className="mt-2 text-[14.5px] leading-[1.45] text-ink-2">{story.summary}</p> : null}
 
-        {story.contact && showContact ? (
+        {story.people.slice(0, 2).map((p) => (
+          <PersonBlock key={p.name} person={p} />
+        ))}
+
+        {/* A specific path to the person beats a generic "you know people at this company". */}
+        {story.contact && showContact && !story.people.some((p) => p.change !== "leaves") ? (
           <div className="mt-3 rounded-[14px] bg-people-soft px-3 py-2.5">
             <p className="text-[13px] leading-snug text-ink">
               <span className="mr-1.5 inline-block h-2 w-2 rounded-full bg-people align-middle" aria-hidden />

@@ -37,6 +37,34 @@ export interface Filing {
   reaction: Reaction | null;
   story_id: string;
   related: string[];
+  people?: FilingPerson[];
+}
+
+export interface Path {
+  kind: "direct" | "via";
+  strength: number;
+  label: "strong" | "good" | "light" | "weak";
+  via_id: string | null;
+  via_name: string | null;
+  hop1: string[];
+  hop2: string[];
+  caution: string | null;
+  match_confidence: number | null;
+  hop1_label: Path["label"] | null;
+  hop2_label: Path["label"] | null;
+}
+
+/** A person announced in a management-change filing, with the profile the filing discloses. */
+export interface FilingPerson {
+  name: string;
+  role: string;
+  change: "joins" | "leaves" | "redesignated" | "reappointed";
+  effective: string | null;
+  bio: string | null;
+  stints: { org: string; role: string; from: string | null; to: string | null; dates_approximate: boolean; end_unknown?: boolean }[];
+  education: { org: string; degree: string }[];
+  paths: Path[];
+  source_filing: string;
 }
 
 export interface Company {
@@ -128,4 +156,5 @@ export interface StoryCard {
   inPortfolio: boolean;
   weight: number;
   contact: { name: string; relation: string; org: string; tie: string; angle: string; caution: string | null } | null;
+  people: FilingPerson[];
 }
