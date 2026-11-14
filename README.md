@@ -34,6 +34,7 @@ Requires Python 3.12+ and Node 20+.
 cp .env.example .env            # then add your GEMINI_API_KEY
 pip install -r ingest/requirements.txt
 python ingest/scripts/smoke_llm.py   # checks the key and model routing
+python ingest/scripts/build_snapshot.py --days 30   # refresh data/snapshot/ from NSE + Yahoo
 
 cd web
 npm install
