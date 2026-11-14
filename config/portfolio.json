@@ -1,0 +1,31 @@
+{
+  "_comment": "Mock portfolio (FR-01). Chosen with ingest/scripts/scan_universe.py: 18 sectors, large and mid caps, each name with a real material event or unusual price/volume move between 1 and 15 Nov 2026. `watchlist` are research targets outside the portfolio (Pull demo). Weights are % of portfolio value.",
+  "investor": "Demo investor",
+  "currency": "INR",
+  "holdings": [
+    { "symbol": "RELIANCE",   "sector": "Energy & conglomerate", "cap": "large", "weight": 9 },
+    { "symbol": "HDFCBANK",   "sector": "Private bank",          "cap": "large", "weight": 9 },
+    { "symbol": "M&M",        "sector": "Automobiles",           "cap": "large", "weight": 7 },
+    { "symbol": "TATASTEEL",  "sector": "Steel",                 "cap": "large", "weight": 6 },
+    { "symbol": "ITC",        "sector": "FMCG",                  "cap": "large", "weight": 6 },
+    { "symbol": "WIPRO",      "sector": "IT services",           "cap": "large", "weight": 5 },
+    { "symbol": "BAJFINANCE", "sector": "NBFC",                  "cap": "large", "weight": 6 },
+    { "symbol": "POWERGRID",  "sector": "Power transmission",    "cap": "large", "weight": 5 },
+    { "symbol": "TATAPOWER",  "sector": "Power utility",         "cap": "large", "weight": 5 },
+    { "symbol": "ASIANPAINT", "sector": "Paints",                "cap": "large", "weight": 5 },
+    { "symbol": "APOLLOHOSP", "sector": "Hospitals",             "cap": "large", "weight": 5 },
+    { "symbol": "HAL",        "sector": "Defence",               "cap": "large", "weight": 5 },
+    { "symbol": "LUPIN",      "sector": "Pharma",                "cap": "large", "weight": 4 },
+    { "symbol": "BSE",        "sector": "Capital markets",       "cap": "mid",   "weight": 4 },
+    { "symbol": "DIXON",      "sector": "Consumer electronics",  "cap": "mid",   "weight": 4 },
+    { "symbol": "KAYNES",     "sector": "Electronics manufacturing", "cap": "mid", "weight": 4 },
+    { "symbol": "PIIND",      "sector": "Agrochemicals",         "cap": "mid",   "weight": 3 },
+    { "symbol": "PAGEIND",    "sector": "Apparel",               "cap": "mid",   "weight": 2 }
+  ],
+  "watchlist": [
+    { "symbol": "DEEPAKNTR", "sector": "Specialty chemicals" },
+    { "symbol": "TRENT",     "sector": "Retail" },
+    { "symbol": "POLYCAB",   "sector": "Cables & wires" },
+    { "symbol": "CDSL",      "sector": "Capital markets" }
+  ]
+}
