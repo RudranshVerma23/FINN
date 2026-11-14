@@ -40,7 +40,7 @@ python ingest/scripts/enrich_filings.py             # classify, read (bulk LLM),
 
 cd web
 npm install
-npm run dev                     # http://localhost:3000
+npm run dev                     # syncs data/snapshot into web/data, then http://localhost:3000
 ```
 
 ## Status

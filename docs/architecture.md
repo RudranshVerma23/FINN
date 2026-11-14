@@ -153,6 +153,12 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-21 | Score = product of explainable factors, squashed by `100·p/(p+0.5)`; tiers top ≥ 66, notable ≥ 36 | Raw product, capped | Raw products piled 95 filings at 100. The squash keeps order and gives 0–4 top stories per day. |
 | ADR-22 | Filings about the same company, category and day are grouped into one story | One card per filing | Results day produces 4–6 filings; the investor wants one story with the rest attached. |
 
+| ADR-23 | The Brief opens with a count, not a feed: "Two things matter. 4 worth a glance. 15 routine filings filed away." | Chronological feed, dashboard | States the product thesis on the first screen; the investor knows in one line whether to keep reading. |
+| ADR-24 | Three tiers on screen: full cards (top), one-line rows (notable), one collapsed line (routine) | Equal-weight list | Density follows importance, which is what "bury everything else, beautifully" asks for. |
+| ADR-25 | Triage by swipe (left done, right later) mirrored by buttons; state per viewer in `localStorage` via `useSyncExternalStore` | Server-side state; gestures only | Triage is a personal convenience, needs no backend for the prototype, and must work without gestures (accessibility). A snooze lasts until the next data snapshot. |
+| ADR-26 | One "people" colour (amber) used only for the network, on every surface | Network as a separate tab | The network should feel like a quiet advantage woven into Push, not a contact list beside it. |
+| ADR-27 | The web app reads a copy of the snapshot synced into `web/data/` at `predev`/`prebuild`, through one data module (`web/lib/data.ts`) | Reading `../data` at runtime | The Next.js bundle never reaches outside its folder (Vercel root dir = `web`); every page prerenders statically. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |
