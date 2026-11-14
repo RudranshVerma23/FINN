@@ -35,6 +35,7 @@ cp .env.example .env            # then add your GEMINI_API_KEY
 pip install -r ingest/requirements.txt
 python ingest/scripts/smoke_llm.py   # checks the key and model routing
 python ingest/scripts/build_snapshot.py --days 30   # refresh data/snapshot/ from NSE + Yahoo
+python ingest/scripts/build_network.py --stories    # network.json + print paths to new executives
 
 cd web
 npm install
