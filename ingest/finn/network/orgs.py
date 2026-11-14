@@ -14,7 +14,7 @@ _LEGAL = re.compile(r"\b(limited|ltd|pvt|private|plc|inc|llp|co|company|corporat
 
 
 def _norm(name: str) -> str:
-    s = name.lower().replace("&", " and ")
+    s = re.sub(r"\([^)]*\)", " ", name.lower()).replace("&", " and ")  # "Dixon Technologies (India)"
     s = re.sub(r"[^\w\s]", " ", s)
     s = _LEGAL.sub(" ", s)
     s = re.sub(r"^the\s+", "", s.strip())

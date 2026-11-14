@@ -73,6 +73,7 @@ function toCard(f: Filing): StoryCard {
       top && top.score >= 0.25 && f.tier !== "routine"
         ? { name: top.name, relation: top.relation, org: top.org, tie: top.tie_label, angle: top.angle, caution: top.caution }
         : null,
+    people: (f.people ?? []).filter((p) => p.change !== "reappointed"),
   };
 }
 

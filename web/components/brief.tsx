@@ -19,6 +19,20 @@ const WINDOWS = [
 ] as const;
 type WindowKey = (typeof WINDOWS)[number]["key"];
 
+/** One quiet line on a compact row: "Rohan Mehta can introduce you to Guha". */
+function WayIn({ story }: { story: Story }) {
+  const person = story.people.find((p) => p.change !== "leaves" && p.paths.length && p.paths[0].label !== "weak");
+  if (!person) return null;
+  const path = person.paths[0];
+  const surname = person.name.split(" ").slice(-1)[0];
+  return (
+    <p className="mt-1 text-[12px] text-people">
+      <span className="mr-1.5 inline-block h-1.5 w-1.5 rounded-full bg-people align-middle" aria-hidden />
+      {path.kind === "via" ? `${path.via_name} knows ${surname} (${path.label})` : `You know ${surname}`}
+    </p>
+  );
+}
+
 function isWeekend(iso: string): boolean {
   const day = new Date(iso).toLocaleDateString("en-IN", { weekday: "short", timeZone: "Asia/Kolkata" });
   return day === "Sat" || day === "Sun";
@@ -139,6 +153,7 @@ export function Brief({ stories, now }: { stories: Story[]; now: string }) {
                   </div>
                   <p className="mt-1 text-[14.5px] font-medium leading-snug text-ink">{s.headline}</p>
                   {s.summary ? <p className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-ink-2">{s.summary}</p> : null}
+                  <WayIn story={s} />
                 </Link>
               </li>
             ))}

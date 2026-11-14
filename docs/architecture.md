@@ -159,6 +159,11 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-26 | One "people" colour (amber) used only for the network, on every surface | Network as a separate tab | The network should feel like a quiet advantage woven into Push, not a contact list beside it. |
 | ADR-27 | The web app reads a copy of the snapshot synced into `web/data/` at `predev`/`prebuild`, through one data module (`web/lib/data.ts`) | Reading `../data` at runtime | The Next.js bundle never reaches outside its folder (Vercel root dir = `web`); every page prerenders statically. |
 
+| ADR-28 | Executive profiles come from the appointment filing itself (SEBI requires a "brief profile"), extracted by the bulk model into the network's `Person` schema, 3 filings per call | LinkedIn lookup; reasoning model | Primary, legal source. 12 calls for 35 filings; recalls 11/11 employers against hand-built fixtures (`extract_people.py --eval`). The model never sees the network. |
+| ADR-29 | Dates are never invented: a role followed by one that has started is closed (or marked `end_unknown`); a future-dated role doesn't end today's; joining a different group ends the current employer; estimated years shown as "around" | Trust the model's `to: null` | The first extraction left Banga "at TPDDL 2003–present", which would have fabricated overlaps. Honesty beats a stronger-looking path. |
+| ADR-30 | Two new kinds of evidence: "same career path" (both moved A → B, counted only where their time could have overlapped) and "joined first" bounded overlap | Only dated overlaps | Recovers real signal when filings omit years (Rohan followed Guha Wipro → Birlasoft) without accepting false ones (both went NTPC → TPREL, 20 years apart). |
+| ADR-31 | The path UI shows each hop's own strength, a reason per hop, a UPSI caution, "you've met them", and an explicit negative ("No one in your network has crossed paths with Ritu") | Show only positive matches | The investor can judge the path themselves; silence would hide whether FINN looked. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |

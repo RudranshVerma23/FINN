@@ -96,6 +96,31 @@ def overlaps(a: Person, b: Person, now: int) -> list[Overlap]:
     return out
 
 
+def _shared_sequence(a: Person, b: Person, plausible: set[str]) -> list[str] | None:
+    """Two or more employers both people worked at, in the same order, counting only employers
+    where their time there could have overlapped (`plausible`). Both moving NTPC -> TPREL twenty
+    years apart is not a shared path."""
+    def order(p: Person) -> list[str]:
+        seq: list[str] = []
+        for s in p.stints:
+            if s.org and (not seq or seq[-1] != s.org):
+                seq.append(s.org)
+        return seq
+
+    sa, sb = order(a), order(b)
+    common = [o for o in sa if o in sb and o in plausible]
+    if len(set(common)) < 2:
+        return None
+    # keep only orgs that appear in the same relative order in both careers
+    seq, last = [], -1
+    for o in common:
+        idx = sb.index(o)
+        if idx > last:
+            seq.append(o)
+            last = idx
+    return [orgs.name(o) for o in dict.fromkeys(seq)] if len(set(seq)) >= 2 else None
+
+
 # ---------------------------------------------------------------- investor -> contact
 
 
@@ -146,17 +171,30 @@ def career_link(contact: Person, target: Person, today: date) -> Tie | None:
     now = today_month(today)
     surname = target.name.split()[-1] if target.name else "they"
     best_per_org: dict[tuple[str, str], tuple[float, str]] = {}
-    for ov in overlaps(contact, target, now):
+    found = overlaps(contact, target, now)  # only overlapping or not-disproven periods
+    plausible = {ov.org for ov in found if ov.kind == "same_org"}
+    for ov in found:
         org = orgs.name(ov.org)
         if ov.kind == "school":
             score, text = (0.3, f"studied at {org} at the same time") if ov.months else (0.08, f"both {org} alumni")
         elif ov.months is None:
             unit = ov.a.unit if ov.same_unit else ""
-            if ov.kind == "same_group":
+            a0, b0 = ov.a.start, ov.b.start
+            if ov.kind == "same_org" and ov.a.current and ov.b.current:
+                score, text = 0.42, f"both at {org} today"
+                if _senior(ov.b.role) and not _senior(ov.a.role):
+                    text += f", where {surname} is {ov.b.role}"
+            elif ov.kind == "same_group":
                 score, text = 0.1, f"both in the {org} group (exact years unclear)"
             elif unit:
                 possessive = f"{org}'" if org.endswith("s") else f"{org}'s"
                 score, text = 0.35, f"both in {possessive} {unit} function (exact years unclear)"
+            elif a0 is not None and b0 is not None and b0 <= a0 <= (_end(ov.a, now) or now):
+                # The target was there first and their end isn't stated: a likely, not proven, overlap.
+                score = 0.34
+                when = f"around {month_label(b0)}" if ov.b.start_approx else f"by {month_label(b0)}"
+                text = (f"{surname} had joined {org} {when}; {contact.name.split()[0]} was there "
+                        f"{month_label(a0)}–{'now' if ov.a.current else month_label(ov.a.end)} (how long they overlapped isn't stated)")
             else:
                 score, text = 0.25, f"both worked at {org} (exact years unclear)"
         else:
@@ -185,5 +223,12 @@ def career_link(contact: Person, target: Person, today: date) -> Tie | None:
         return None
     scored = sorted(best_per_org.values(), reverse=True)
     strength = scored[0][0] + 0.1 * sum(s for s, _ in scored[1:])
+
+    # Same career path: both moved A -> B in that order (e.g. Wipro -> Birlasoft). Strong evidence
+    # they worked together, often that one followed the other.
+    path = _shared_sequence(contact, target, plausible)
+    if path:
+        strength += 0.25
+        scored.insert(0, (1.0, f"same career path: {' → '.join(path)}"))
     strength = round(min(0.9, strength), 2)
     return Tie(strength, label(strength), [t for _, t in scored])

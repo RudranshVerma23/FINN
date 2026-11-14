@@ -44,7 +44,8 @@ class Stint:
     start: int | None = None  # month index; None = unknown
     end: int | None = None    # month index; None = present (or unknown if `approx`)
     current: bool = False
-    approx: bool = False
+    approx: bool = False          # some date in this stint is estimated or unknown
+    start_approx: bool = False    # the start year itself is an estimate
 
     def span(self, now: int) -> str:
         end = "now" if self.current else month_label(self.end)
@@ -89,10 +90,10 @@ def person_from_dict(pid: str, name: str, d: dict) -> Person:
             unit=s.get("unit", ""),
             start=month(s.get("from")),
             end=month(s.get("to")),
-            # "to": null means ongoing, unless the start is unknown too (then we know nothing)
-            current=bool(s.get("current")) or (s.get("to") is None and s.get("from") is not None)
-                    or (s.get("to") is None and s.get("from") is None and not s.get("dates_approximate")),
-            approx=bool(s.get("dates_approximate")),
+            # "to": null means ongoing, unless the end is known to have happened but isn't dated
+            current=bool(s.get("current")) or (s.get("to") is None and not s.get("end_unknown")),
+            approx=bool(s.get("dates_approximate")) or bool(s.get("end_unknown")),
+            start_approx=bool(s.get("dates_approximate")),
         ))
     edu = [Education(org=orgs.canonical(e.get("org")), org_name=e.get("org", ""), degree=e.get("degree", ""),
                      start=month(e.get("from")), end=month(e.get("to"))) for e in d.get("education", [])]

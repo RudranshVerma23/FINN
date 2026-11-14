@@ -32,7 +32,7 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | T03 | Synthetic network, entity resolution, paths, tie strength | FR-18, FR-19, FR-20, FR-21, NFR-05 | v0.1.0 | done |
 | T04 | Classification and ranking engine | FR-03, FR-04, FR-05, NFR-04, NFR-07 | v0.1.0 | done |
 | T05 | Web app shell and Push digest UI | FR-02, FR-04, FR-10, FR-26, NFR-08 | v0.1.0 | done |
-| T06 | Management change card with network path | FR-06, FR-20, FR-21 | v0.1.0 | todo |
+| T06 | Management change card with network path | FR-06, FR-20, FR-21 | v0.1.0 | done |
 | — | **Release v0.1.0** — Push + Network working end to end, first deploy | | | |
 | T07 | Quarterly results card (QoQ / YoY) | FR-07, NFR-06 | v0.2.0 | todo |
 | T08 | Pull pipeline for any ticker: fetch, snapshot, trajectory, cache | FR-11, FR-12, FR-13, FR-17, NFR-02, NFR-03 | v0.2.0 | todo |

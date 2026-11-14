@@ -410,7 +410,44 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106858944",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "change": "reappointed",
+    "effective": "2026-11-23",
+    "bio": "Mr. V. Srinivasa Rangan is the Executive Director of HDFC Bank, heading various functions. He has vast experience in housing finance, real estate, and finance, and previously served as Executive Director & CFO of HDFC Limited.",
+    "stints": [
+     {
+      "org": "HDFC Limited",
+      "role": "Executive Director & Chief Financial Officer",
+      "from": null,
+      "to": "2023-07-01",
+      "dates_approximate": false
+     },
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Whole-time Director (designated as Executive Director)",
+      "from": "2026-11-23",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "University of Delhi",
+      "degree": "Bachelor’s degree in Commerce"
+     },
+     {
+      "org": "Institute of Chartered Accountants of India (ICAI)",
+      "degree": "Associate"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106858944"
+   }
+  ]
  },
  {
   "id": "NSE-106858736",
@@ -528,7 +565,28 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106858581",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Shrirang Anilrao Kothe",
+    "role": "CEO (Helicopter Complex)",
+    "change": "joins",
+    "effective": "2026-11-13",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Hindustan Aeronautics Limited",
+      "role": "CEO (Helicopter Complex)",
+      "from": "2026-11-13",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106858581"
+   }
+  ]
  },
  {
   "id": "NSE-106858452",
@@ -940,7 +998,28 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106857049",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "change": "reappointed",
+    "effective": "2026-11-23",
+    "bio": null,
+    "stints": [
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Whole-time Director (designated as Executive Director)",
+      "from": "2026-11-23",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106857049"
+   }
+  ]
  },
  {
   "id": "NSE-106857034",
@@ -2135,6 +2214,117 @@
   "story_id": "NSE-106855625",
   "related": [
    "NSE-106855670"
+  ],
+  "people": [
+   {
+    "name": "Sanjay Banga",
+    "role": "CEO & Managing Director",
+    "change": "joins",
+    "effective": "2027-05-01",
+    "bio": "Power-sector professional with over three decades of experience in operational and commercial management of distribution companies, business development, digital transformation, project management, and change management across public and private utilities in India.",
+    "stints": [
+     {
+      "org": "National Thermal Power Corporation Limited",
+      "role": "Engineer Trainee",
+      "from": "1989",
+      "to": "1995",
+      "dates_approximate": false
+     },
+     {
+      "org": "Reliance Energy",
+      "role": "Operations, maintenance, planning, design and project engineering roles",
+      "from": "1996",
+      "to": "2003",
+      "dates_approximate": false
+     },
+     {
+      "org": "Tata Power Delhi Distribution Limited",
+      "role": "Chief Executive Officer",
+      "from": "2003",
+      "to": null,
+      "dates_approximate": false,
+      "end_unknown": true
+     },
+     {
+      "org": "The Tata Power Company Limited",
+      "role": "President – Renewables",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Tata Power Renewable Energy Limited",
+      "role": "Chief Executive Officer and Managing Director",
+      "from": null,
+      "to": null,
+      "dates_approximate": true
+     },
+     {
+      "org": "The Tata Power Company Limited",
+      "role": "CEO & Managing Director",
+      "from": "2027-05-01",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "National Institute of Technology, Kurukshetra",
+      "degree": "Alumnus"
+     },
+     {
+      "org": "Faculty of Management Studies, University of Delhi",
+      "degree": "Master of Business Administration"
+     },
+     {
+      "org": "Harvard Business School",
+      "degree": "Senior Executive Leadership Program"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.41,
+      "label": "good",
+      "via_id": "harsh-vora",
+      "via_name": "Harsh Vora",
+      "hop1": [
+       "Same batch at IIT Bombay (2004–2008)",
+       "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+      ],
+      "hop2": [
+       "both at Tata Power Renewable Energy today, where Banga is Chief Executive Officer and Managing Director",
+       "both in the Tata Power group (exact years unclear)"
+      ],
+      "caution": "Harsh Vora currently works at Tata Power. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "strong",
+      "hop2_label": "light"
+     },
+     {
+      "kind": "via",
+      "strength": 0.23,
+      "label": "light",
+      "via_id": "meera-iyer",
+      "via_name": "Meera Iyer",
+      "hop1": [
+       "Professional contact since 2014",
+       "Last spoke Sep 2026 (coffee: Discom privatisation and Delhi tariff orders)"
+      ],
+      "hop2": [
+       "Banga had joined Tata Power Delhi Distribution by 2003; Meera was there 2008–2017 (how long they overlapped isn't stated)",
+       "both in the Tata Power group (exact years unclear)",
+       "both FMS Delhi alumni"
+      ],
+      "caution": null,
+      "match_confidence": null,
+      "hop1_label": "good",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106855625"
+   }
   ]
  },
  {
@@ -4137,6 +4327,27 @@
   "story_id": "NSE-106852254",
   "related": [
    "NSE-106852199"
+  ],
+  "people": [
+   {
+    "name": "Noel Naval Tata",
+    "role": "Non-Executive, Non-Independent Director and Vice Chairman",
+    "change": "leaves",
+    "effective": "2026-11-11",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Tata Steel Limited",
+      "role": "Non-Executive, Non-Independent Director and Vice Chairman",
+      "from": "2022-03",
+      "to": "2026-11-11",
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106852254"
+   }
   ]
  },
  {
@@ -4687,6 +4898,27 @@
   "story_id": "NSE-106851770",
   "related": [
    "NSE-106851762"
+  ],
+  "people": [
+   {
+    "name": "Leo Puri",
+    "role": "Independent Director",
+    "change": "reappointed",
+    "effective": "2026-09-07",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Asian Paints Limited",
+      "role": "Independent Director",
+      "from": "2026-09-07",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106851770"
+   }
   ]
  },
  {
@@ -4985,6 +5217,91 @@
   "story_id": "NSE-106851504",
   "related": [
    "NSE-106851464"
+  ],
+  "people": [
+   {
+    "name": "Angan Guha",
+    "role": "President and Chief Executive Officer for Americas 2 Strategic Market Unit",
+    "change": "joins",
+    "effective": "2026-12-08",
+    "bio": "Angan Guha is an experienced technology and business leader with over three decades driving growth and digital transformation. He previously served as Global CEO and Managing Director of Birlasoft Ltd. and spent over 28 years at Wipro.",
+    "stints": [
+     {
+      "org": "Wipro",
+      "role": "Senior leadership roles, including CEO of the Americas 2 Business Unit",
+      "from": "1998",
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Birlasoft Ltd.",
+      "role": "Global CEO & Managing Director",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Wipro Limited",
+      "role": "President and Chief Executive Officer for Americas 2 Strategic Market Unit",
+      "from": "2026-12-08",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "University of Pune",
+      "degree": "Electronics Engineering"
+     },
+     {
+      "org": "Booth School of Business, University of Chicago",
+      "degree": "programs in management"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.6,
+      "label": "strong",
+      "via_id": "rohan-mehta",
+      "via_name": "Rohan Mehta",
+      "hop1": [
+       "Same batch at IIM Ahmedabad (2010–2012)",
+       "Last spoke Oct 2026 (dinner: IIM-A batch dinner)"
+      ],
+      "hop2": [
+       "same career path: Wipro → Birlasoft",
+       "Guha had joined Wipro around 1998; Rohan was there 2012–2021 (how long they overlapped isn't stated)",
+       "both worked at Birlasoft (exact years unclear)"
+      ],
+      "caution": null,
+      "match_confidence": null,
+      "hop1_label": "strong",
+      "hop2_label": "good"
+     },
+     {
+      "kind": "direct",
+      "strength": 0.15,
+      "label": "weak",
+      "via_id": "angan-guha",
+      "via_name": "Angan Guha",
+      "hop1": [
+       "name match 100% ('Angan Guha' ~ 'Angan Guha')",
+       "both careers include Birlasoft, Wipro",
+       "Professional contact since 2024",
+       "Last spoke Mar 2024 (meeting: Birlasoft analyst meet - one-on-one after the session)"
+      ],
+      "hop2": [],
+      "caution": null,
+      "match_confidence": 1.0,
+      "hop1_label": "weak",
+      "hop2_label": null
+     }
+    ],
+    "source_filing": "NSE-106851504"
+   }
   ]
  },
  {
@@ -5365,7 +5682,64 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106850382",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "V. N. Srivatsan",
+    "role": "Chief Compliance Officer",
+    "change": "joins",
+    "effective": "2026-11-06",
+    "bio": "V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years in Compliance. Previously served as Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited.",
+    "stints": [
+     {
+      "org": "ICICI Bank Limited",
+      "role": "Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Chief Compliance Officer",
+      "from": "2026-11-06",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "PSG College of Technology",
+      "degree": "Post Graduate degree in Business Administration"
+     },
+     {
+      "org": "Sri Venkateshwara University",
+      "degree": "Bachelor of Technology (B. Tech)"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.26,
+      "label": "light",
+      "via_id": "arjun-nair",
+      "via_name": "Arjun Nair",
+      "hop1": [
+       "Overlapped at IIM Ahmedabad (2011–2013)",
+       "Last spoke Aug 2026 (coffee: SME credit cycle)"
+      ],
+      "hop2": [
+       "overlapped 1 months at HDFC Bank; both there today"
+      ],
+      "caution": "Arjun Nair currently works at HDFC Bank. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "strong",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106850382"
+   }
+  ]
  },
  {
   "id": "NSE-106850338",
@@ -6452,6 +6826,19 @@
   "story_id": "NSE-106846758",
   "related": [
    "NSE-106846774"
+  ],
+  "people": [
+   {
+    "name": "Shuchi Suri",
+    "role": "Chief Sales & Marketing Officer - Automotive Business",
+    "change": "joins",
+    "effective": "2027-04-01",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106846774"
+   }
   ]
  },
  {
@@ -7585,6 +7972,111 @@
   "story_id": "NSE-106845158",
   "related": [
    "NSE-106845110"
+  ],
+  "people": [
+   {
+    "name": "Ritu Garg",
+    "role": "Chief Executive Officer, Multi Regions (North, Central, Western and Eastern Regions)",
+    "change": "joins",
+    "effective": null,
+    "bio": "A clinician by training with over two decades of healthcare experience, bringing extensive expertise in operations, growth, transformation and innovation.",
+    "stints": [
+     {
+      "org": "Apollo Hospitals Enterprise Limited",
+      "role": "Chief Executive Officer, Multi Regions (North, Central, Western and Eastern Regions)",
+      "from": null,
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "",
+      "degree": "MBBS"
+     },
+     {
+      "org": "",
+      "degree": "MS"
+     },
+     {
+      "org": "",
+      "degree": "MBA in Finance & Strategy"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106845158"
+   },
+   {
+    "name": "N. Venkatesan",
+    "role": "Chief Procurement Officer",
+    "change": "joins",
+    "effective": null,
+    "bio": "Has over 25 years of diverse experience across healthcare procurement, supply chain, pharmacy operations, materials management, commercial functions and hospital project execution.",
+    "stints": [
+     {
+      "org": "Apollo Hospitals Enterprise Limited",
+      "role": "Chief Procurement Officer",
+      "from": null,
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "",
+      "degree": "Ph.D. in Hospital Supply Chain Management"
+     },
+     {
+      "org": "",
+      "degree": "MBA in Systems"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106845158"
+   },
+   {
+    "name": "Anand Wasker",
+    "role": "Chief Business Officer - International",
+    "change": "joins",
+    "effective": null,
+    "bio": "Has over 26 years of leadership experience building, scaling and transforming large service businesses across healthcare, financial services, telecom, education, beauty and wellness consumer services.",
+    "stints": [
+     {
+      "org": "Apollo Hospitals Enterprise Limited",
+      "role": "Chief Business Officer - International",
+      "from": null,
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "",
+      "degree": "Master's degree in Business Management"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106845158"
+   },
+   {
+    "name": "Madhu Sasidhar",
+    "role": "President & CEO - Hospitals Division",
+    "change": "leaves",
+    "effective": "2026-11-14",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Apollo Hospitals Enterprise Limited",
+      "role": "President & CEO - Hospitals Division",
+      "from": null,
+      "to": "2026-11-14",
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106845158"
+   }
   ]
  },
  {
@@ -7796,7 +8288,28 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106845094",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Ashutosh Singh",
+    "role": "Executive Director - Business (Vertical 3)",
+    "change": "joins",
+    "effective": "2026-11-30",
+    "bio": null,
+    "stints": [
+     {
+      "org": "BSE Limited",
+      "role": "Executive Director - Business (Vertical 3)",
+      "from": "2026-11-30",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106845094"
+   }
+  ]
  },
  {
   "id": "NSE-106845063",
@@ -8307,7 +8820,41 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106843298",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Akhil Gupta",
+    "role": "Independent Director",
+    "change": "joins",
+    "effective": "2026-11-03",
+    "bio": "Mr. Akhil Gupta is a qualified Chartered Accountant with over four decades of professional experience and has completed the Advanced Management Program from the Harvard Business School. He holds numerous non-executive chairmanships, board positions, and advisory roles.",
+    "stints": [
+     {
+      "org": "Bharti Enterprises Limited",
+      "role": "Vice Chairman",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Lupin Limited",
+      "role": "Independent Director",
+      "from": "2026-11-03",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "Harvard Business School at Harvard University, Boston, Massachusetts",
+      "degree": "Advanced Management Program"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106843298"
+   }
+  ]
  },
  {
   "id": "NSE-106843296",
@@ -8492,6 +9039,38 @@
   "story_id": "NSE-106843027",
   "related": [
    "NSE-106843024"
+  ],
+  "people": [
+   {
+    "name": "Anupam Kumar",
+    "role": "Govt. Nominee Director",
+    "change": "joins",
+    "effective": "2026-11-03",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Power Grid Corporation of India Limited",
+      "role": "Govt. Nominee Director",
+      "from": "2026-11-03",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106843027"
+   },
+   {
+    "name": "Abhay Bakre",
+    "role": "Govt. Nominee Director",
+    "change": "leaves",
+    "effective": "2026-11-03",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106843027"
+   }
   ]
  },
  {
@@ -10535,7 +11114,28 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106838688",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Sanjay D’Souza",
+    "role": "Group Head – Business Banking, Emerging & Micro Enterprises Group and Senior Management Personnel",
+    "change": "leaves",
+    "effective": "2026-10-31",
+    "bio": "Mr. Sanjay D’Souza was one of the key architects of the Bank’s SME business, contributing significantly across both Credit and Business, and establishing a strong leadership position in this space.",
+    "stints": [
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Group Head – Business Banking, Emerging & Micro Enterprises Group and Senior Management Personnel",
+      "from": "1999-11",
+      "to": "2026-10-31",
+      "dates_approximate": true
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106838688"
+   }
+  ]
  },
  {
   "id": "NSE-106838529",
@@ -10922,7 +11522,28 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106837508",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Pankaj Pandey",
+    "role": "Director (Operations)",
+    "change": "joins",
+    "effective": null,
+    "bio": null,
+    "stints": [
+     {
+      "org": "Power Grid Corporation of India Limited",
+      "role": "Director (Operations)",
+      "from": null,
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106837508"
+   }
+  ]
  },
  {
   "id": "NSE-106837485",
@@ -11649,7 +12270,64 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106836531",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Prithvi Vachani",
+    "role": "Executive Director",
+    "change": "joins",
+    "effective": "2026-10-30",
+    "bio": "Mr. Prithvi Vachani is currently serving as Vice President at Dixon Technologies. A 2017 graduate of Bentley University with an MBA from London Business School, he has spearheaded major collaborations, expansions, and key account management.",
+    "stints": [
+     {
+      "org": "Dixon Technologies (India) Limited",
+      "role": "Vice President",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Dixon Technologies (India) Limited",
+      "role": "Executive Director",
+      "from": "2026-10-30",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "Bentley University",
+      "degree": "Graduate"
+     },
+     {
+      "org": "London Business School",
+      "degree": "Master of Business Administration"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.11,
+      "label": "weak",
+      "via_id": "aisha-khan",
+      "via_name": "Aisha Khan",
+      "hop1": [
+       "Professional contact since 2023",
+       "Last spoke Jan 2026 (meeting: Dixon Noida plant visit)"
+      ],
+      "hop2": [
+       "overlapped 2 months at Dixon Technologies; both there today"
+      ],
+      "caution": "Aisha Khan currently works at Dixon Technologies. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "light",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106836531"
+   }
+  ]
  },
  {
   "id": "NSE-106836523",
@@ -12464,6 +13142,119 @@
    "NSE-106834503",
    "NSE-106834504",
    "NSE-106834506"
+  ],
+  "people": [
+   {
+    "name": "Bahram Vakil",
+    "role": "Chairman",
+    "change": "joins",
+    "effective": "2026-11-12",
+    "bio": null,
+    "stints": [
+     {
+      "org": "Trent Limited",
+      "role": "Chairman",
+      "from": "2026-11-12",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106834505"
+   },
+   {
+    "name": "Rajiv Dube",
+    "role": "Additional Director (Non-Executive, Non-Independent)",
+    "change": "joins",
+    "effective": "2026-10-30",
+    "bio": "Mr. Rajiv Dube is an industry veteran with over 40 years of multi-sector experience at Tata and Aditya Birla, bringing deep insights in corporate governance, management, and business transformation.",
+    "stints": [
+     {
+      "org": "Tata Motors",
+      "role": "President of car business",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Aditya Birla Group",
+      "role": "Executive Director",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Trent Limited",
+      "role": "Additional Director (Non-Executive, Non-Independent)",
+      "from": "2026-10-30",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.12,
+      "label": "weak",
+      "via_id": "sameer-joshi",
+      "via_name": "Sameer Joshi",
+      "hop1": [
+       "Same batch at IIM Ahmedabad (2010–2012)",
+       "Last spoke Jun 2024 (coffee)"
+      ],
+      "hop2": [
+       "both worked at Tata Motors Passenger Vehicles (exact years unclear)"
+      ],
+      "caution": null,
+      "match_confidence": null,
+      "hop1_label": "good",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106834505"
+   },
+   {
+    "name": "Kalpana Merchant",
+    "role": "Independent Director",
+    "change": "joins",
+    "effective": "2026-10-30",
+    "bio": "Ms. Kalpana Merchant has over 45 years of experience in the legal profession, with significant experience in commercial property matters, infrastructure, project finance, banking, dispute resolution, capital markets, and M&A.",
+    "stints": [
+     {
+      "org": "Trent Limited",
+      "role": "Independent Director",
+      "from": "2026-10-30",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106834505"
+   },
+   {
+    "name": "Noel N. Tata",
+    "role": "Chairman and Director",
+    "change": "leaves",
+    "effective": "2026-11-11",
+    "bio": "Mr. Noel N. Tata has been associated with the Company since 1997, providing exemplary leadership and strategic direction. He retires from the office of Chairman and Director and is appointed as Chairman Emeritus.",
+    "stints": [
+     {
+      "org": "Trent Limited",
+      "role": "Chairman and Director",
+      "from": "1997",
+      "to": "2026-11-11",
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106834505"
+   }
   ]
  },
  {
@@ -13537,7 +14328,78 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106832710",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "P B Rangarao",
+    "role": "Director (Operations)",
+    "change": "joins",
+    "effective": "2026-10-28",
+    "bio": "Shri P B Rangarao brings more than three decades of extensive experience across multiple domains within the organization, including end-to-end process optimization, manufacturing systems, quality control, and supply chain management.",
+    "stints": [
+     {
+      "org": "Hindustan Aeronautics Limited",
+      "role": "Design Trainee and various roles including General Manager and Executive Director, Helicopter Division, and Chief Executive Officer (Helicopter Complex)",
+      "from": "1995-07-17",
+      "to": "2026-10-28",
+      "dates_approximate": false
+     },
+     {
+      "org": "Hindustan Aeronautics Limited",
+      "role": "Director (Operations)",
+      "from": "2026-10-28",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "Regional Engineering College, Warangal",
+      "degree": "Bachelor’s degree in Mechanical Engineering"
+     },
+     {
+      "org": "XIME, Bengaluru",
+      "degree": "Post Graduate Diploma in Business Management"
+     },
+     {
+      "org": "Indian Institute of Management (IIM), Ahmedabad",
+      "degree": "Leadership Development Program"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.21,
+      "label": "light",
+      "via_id": "ishaan-kapoor",
+      "via_name": "Ishaan Kapoor",
+      "hop1": [
+       "Overlapped at IIT Bombay (2001–2005)",
+       "Last spoke Oct 2023 (conference: Aero India side meeting)"
+      ],
+      "hop2": [
+       "overlapped 10 yrs at Hindustan Aeronautics, while Rangarao was Design Trainee and various roles including General Manager and Executive Director, Helicopter Division, and Chief Executive Officer (Helicopter Complex) (over a decade ago)"
+      ],
+      "caution": null,
+      "match_confidence": null,
+      "hop1_label": "light",
+      "hop2_label": "good"
+     }
+    ],
+    "source_filing": "NSE-106832710"
+   },
+   {
+    "name": "Kota Ravi",
+    "role": "Director (Operations) additional charge",
+    "change": "leaves",
+    "effective": "2026-10-28",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106832710"
+   }
+  ]
  },
  {
   "id": "NSE-106832707",
@@ -14632,7 +15494,58 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106829496",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Anup Bagchi",
+    "role": "Managing Director and Chief Executive Officer",
+    "change": "joins",
+    "effective": "2026-10-27",
+    "bio": null,
+    "stints": [
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Managing Director and Chief Executive Officer",
+      "from": "2026-10-27",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.31,
+      "label": "good",
+      "via_id": "arjun-nair",
+      "via_name": "Arjun Nair",
+      "hop1": [
+       "Overlapped at IIM Ahmedabad (2011–2013)",
+       "Last spoke Aug 2026 (coffee: SME credit cycle)"
+      ],
+      "hop2": [
+       "overlapped 2 months at HDFC Bank, while Bagchi was Managing Director and Chief Executive Officer; both there today"
+      ],
+      "caution": "Arjun Nair currently works at HDFC Bank. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "strong",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106829496"
+   },
+   {
+    "name": "Sashidhar Jagdishan",
+    "role": "Managing Director and Chief Executive Officer",
+    "change": "leaves",
+    "effective": "2026-10-26",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106829496"
+   }
+  ]
  },
  {
   "id": "NSE-106829096",
@@ -15481,7 +16394,74 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106825892",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Brian Savage",
+    "role": "President, Chief Legal Officer",
+    "change": "joins",
+    "effective": null,
+    "bio": "Brian Savage is President, Chief Legal Officer at Lupin, leading global Legal, Compliance, and Intellectual Property Management Group functions. He previously held senior roles at Teva Pharmaceuticals and practiced law at Dechert LLP.",
+    "stints": [
+     {
+      "org": "Dechert LLP",
+      "role": "Lawyer",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Teva Pharmaceuticals",
+      "role": "Executive Vice President and Interim Global Chief Legal Officer",
+      "from": "2015",
+      "to": null,
+      "dates_approximate": false,
+      "end_unknown": true
+     },
+     {
+      "org": "Lupin Limited",
+      "role": "President, Chief Legal Officer",
+      "from": null,
+      "to": null,
+      "dates_approximate": true
+     }
+    ],
+    "education": [
+     {
+      "org": "Yale Law School",
+      "degree": "Juris Doctor (J.D.)"
+     },
+     {
+      "org": "University of Pennsylvania",
+      "degree": "B.A."
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.17,
+      "label": "light",
+      "via_id": "sneha-kulkarni",
+      "via_name": "Sneha Kulkarni",
+      "hop1": [
+       "Professional contact since 2020",
+       "Last spoke Dec 2024 (call: US generics litigation landscape)"
+      ],
+      "hop2": [
+       "same career path: Teva Pharmaceuticals → Lupin",
+       "both at Lupin today, where Savage is President, Chief Legal Officer",
+       "both worked at Teva Pharmaceuticals (exact years unclear)"
+      ],
+      "caution": "Sneha Kulkarni currently works at Lupin. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "light",
+      "hop2_label": "strong"
+     }
+    ],
+    "source_filing": "NSE-106825892"
+   }
+  ]
  },
  {
   "id": "NSE-106825533",
@@ -15544,7 +16524,74 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106825533",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Brian Savage",
+    "role": "President, Chief Legal Officer",
+    "change": "joins",
+    "effective": "2026-10-22",
+    "bio": "Brian Savage brings extensive legal leadership experience in the global pharmaceutical industry. Previously, he worked at Teva Pharmaceuticals as Executive Vice President and Interim Global Chief Legal Officer, and at Dechert LLP.",
+    "stints": [
+     {
+      "org": "Dechert LLP",
+      "role": "Lawyer",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Teva Pharmaceuticals",
+      "role": "Executive Vice President and Interim Global Chief Legal Officer",
+      "from": null,
+      "to": null,
+      "dates_approximate": true,
+      "end_unknown": true
+     },
+     {
+      "org": "Lupin Limited",
+      "role": "President, Chief Legal Officer",
+      "from": "2026-10-22",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "Yale Law School",
+      "degree": "Juris Doctor (J.D.)"
+     },
+     {
+      "org": "University of Pennsylvania",
+      "degree": "Bachelor of Arts"
+     }
+    ],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.16,
+      "label": "light",
+      "via_id": "sneha-kulkarni",
+      "via_name": "Sneha Kulkarni",
+      "hop1": [
+       "Professional contact since 2020",
+       "Last spoke Dec 2024 (call: US generics litigation landscape)"
+      ],
+      "hop2": [
+       "same career path: Teva Pharmaceuticals → Lupin",
+       "overlapped 2 months at Lupin, while Savage was President, Chief Legal Officer; both there today",
+       "both worked at Teva Pharmaceuticals (exact years unclear)"
+      ],
+      "caution": "Sneha Kulkarni currently works at Lupin. Keep it to background; don't seek unpublished price-sensitive information.",
+      "match_confidence": null,
+      "hop1_label": "light",
+      "hop2_label": "good"
+     }
+    ],
+    "source_filing": "NSE-106825533"
+   }
+  ]
  },
  {
   "id": "NSE-106824670",
@@ -16122,7 +17169,47 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106823240",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Ashutosh Singh",
+    "role": "Executive Director for Vertical 3 (Business)",
+    "change": "joins",
+    "effective": null,
+    "bio": null,
+    "stints": [
+     {
+      "org": "BSE Limited",
+      "role": "Executive Director for Vertical 3 (Business)",
+      "from": null,
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [
+     {
+      "kind": "via",
+      "strength": 0.12,
+      "label": "weak",
+      "via_id": "vikram-desai",
+      "via_name": "Vikram Desai",
+      "hop1": [
+       "Overlapped at IIT Bombay (2002–2006)",
+       "Last spoke Sep 2025 (coffee: Passive flows and index inclusion)"
+      ],
+      "hop2": [
+       "both worked at BSE (exact years unclear)"
+      ],
+      "caution": null,
+      "match_confidence": null,
+      "hop1_label": "good",
+      "hop2_label": "light"
+     }
+    ],
+    "source_filing": "NSE-106823240"
+   }
+  ]
  },
  {
   "id": "NSE-106823197",
@@ -16584,7 +17671,35 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106822209",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Prashant Verma",
+    "role": "Chief Information Security Officer",
+    "change": "reappointed",
+    "effective": "2027-02-01",
+    "bio": "Prashant Verma is the Chief Information Security Officer of Bajaj Finance Ltd since February 1, 2024. Prashant Verma has around 21 years of full-time experience on Security Domain. He joined us as head of Cyber Risk Unit 7 years back and is now heading Information Security.",
+    "stints": [
+     {
+      "org": "Bajaj Finance Ltd",
+      "role": "head of Cyber Risk Unit",
+      "from": "2019",
+      "to": "2024",
+      "dates_approximate": true
+     },
+     {
+      "org": "Bajaj Finance Limited",
+      "role": "Chief Information Security Officer",
+      "from": "2027-02-01",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106822209"
+   }
+  ]
  },
  {
   "id": "NSE-106822137",
@@ -17078,7 +18193,20 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106821444",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Harish Bhat",
+    "role": "Non-Executive Non-Independent Director",
+    "change": "leaves",
+    "effective": "2026-10-17",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106821444"
+   }
+  ]
  },
  {
   "id": "NSE-106821374",
@@ -17262,7 +18390,51 @@
   ],
   "category_label": "Management change",
   "story_id": "NSE-106821168",
-  "related": []
+  "related": [],
+  "people": [
+   {
+    "name": "Lily Vadera",
+    "role": "Independent Director",
+    "change": "reappointed",
+    "effective": "2026-11-26",
+    "bio": "Mrs. Lily Vadera, has over 34 years of experience in Central banking. She is a M.A in International Relations. She retired as an Executive Director from the Reserve Bank of India (RBI) in October 2020.",
+    "stints": [
+     {
+      "org": "Reserve Bank of India",
+      "role": "Executive Director",
+      "from": null,
+      "to": "2020-10",
+      "dates_approximate": false
+     },
+     {
+      "org": "HDFC Bank Limited",
+      "role": "Independent Director",
+      "from": "2026-11-26",
+      "to": null,
+      "dates_approximate": false
+     }
+    ],
+    "education": [
+     {
+      "org": "",
+      "degree": "M.A in International Relations"
+     }
+    ],
+    "paths": [],
+    "source_filing": "NSE-106821168"
+   },
+   {
+    "name": "Kaizad Bharucha",
+    "role": "Deputy Managing Director",
+    "change": "leaves",
+    "effective": "2026-12-31",
+    "bio": null,
+    "stints": [],
+    "education": [],
+    "paths": [],
+    "source_filing": "NSE-106821168"
+   }
+  ]
  },
  {
   "id": "NSE-106821121",
