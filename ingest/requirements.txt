@@ -4,3 +4,4 @@ requests>=2.34
 beautifulsoup4>=4.15
 yfinance>=1.8
 rapidfuzz>=3.14
+pypdf>=7.1

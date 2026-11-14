@@ -36,6 +36,7 @@ pip install -r ingest/requirements.txt
 python ingest/scripts/smoke_llm.py   # checks the key and model routing
 python ingest/scripts/build_snapshot.py --days 30   # refresh data/snapshot/ from NSE + Yahoo
 python ingest/scripts/build_network.py --stories    # network.json + print paths to new executives
+python ingest/scripts/enrich_filings.py             # classify, read (bulk LLM), score and group filings
 
 cd web
 npm install

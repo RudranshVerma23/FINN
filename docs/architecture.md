@@ -147,6 +147,23 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-16 | Paths ranked by strength, but a confirmed direct acquaintance is always shown | Direct ties first | Meeting someone once in 2024 shouldn't outrank a batchmate who worked in their unit for 9 years; but "you've met them" is still worth knowing. |
 | ADR-17 | A UPSI caution on any path or suggestion through a current employee of the company | No caution | Real compliance risk for an investor; the network should make the right call easy. |
 
+| ADR-18 | Hybrid classification: ordered text rules → NSE label → bulk LLM only for leftovers | LLM classifies everything | Rules settle 261/290 filings for free and traceably (`rule` field). The LLM handled the 29 vague "General Updates", and found HDFC Bank's CEO handover hidden in one. |
+| ADR-19 | The LLM reads only potentially material filings (144/290), 10 per call, and returns headline, one-line summary and a *materiality* judgement | Summarise everything; no LLM | Routine paperwork never costs a token. 15 calls per full refresh, cached by content hash, so re-scoring is free. |
+| ADR-20 | Materiality must cite a fact from the filing and is judged against company size (large/mid cap) | Free-text reason | First pass gave generic reasons ("results impact valuation") and rated a USD 2,000 stake "high". Forcing a cited fact plus size context fixed both: no AI slop on the card. |
+| ADR-21 | Score = product of explainable factors, squashed by `100·p/(p+0.5)`; tiers top ≥ 66, notable ≥ 36 | Raw product, capped | Raw products piled 95 filings at 100. The squash keeps order and gives 0–4 top stories per day. |
+| ADR-22 | Filings about the same company, category and day are grouped into one story | One card per filing | Results day produces 4–6 filings; the investor wants one story with the rest attached. |
+
+### Push ranking factors (`ingest/finn/score.py`)
+
+| Factor | Range | Example reason shown on the card |
+|---|---|---|
+| Category (+ subtype, seniority) | 0.02–1.0 | "Management change at the top (CEO/MD/CFO level)" |
+| Investor preference | 0.3–1.2 | "You asked to see more of these" |
+| Position size | 0.75–1.12 | "9% of your portfolio" / "On your watchlist" |
+| Network | 1.0–1.1 | "You know people here: Harsh Vora (current, Tata Power Renewable Energy)" |
+| Price reaction | 1.0–1.35 | "Stock fell 19.1% on 30.1x usual volume that session" |
+| Materiality (LLM read) | 0.4–1.25 | "FINN read the filing: high, secures transmission project worth Rs 243 crore" |
+
 ### Network inputs (synthetic in this prototype)
 
 | File | Real-world equivalent |
