@@ -1,0 +1,17 @@
+{
+  "_comment": "The investor's own definition of 'what matters' (FR-04, FR-09). Category boosts multiply the base weight in ingest/finn/score.py; muted categories are always collapsed. Alert thresholds are used by T11.",
+  "category_boost": {
+    "management_change": 1.2,
+    "M&A": 1.2,
+    "litigation": 1.2,
+    "results": 1.1,
+    "pledging": 1.2
+  },
+  "muted": ["investor_meetings", "postal_ballot"],
+  "alerts": {
+    "volume_multiple": 2.0,
+    "volume_lookback_days": 20,
+    "price_move_pct": 5.0,
+    "categories": ["results", "M&A", "management_change", "litigation", "pledging"]
+  }
+}
