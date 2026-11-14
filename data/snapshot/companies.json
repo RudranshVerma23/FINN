@@ -1,0 +1,222 @@
+{
+ "RELIANCE": {
+  "symbol": "RELIANCE",
+  "name": "Reliance Industries Limited",
+  "isin": "INE002A01018",
+  "industry": "Refineries",
+  "sector": "Energy & conglomerate",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 9
+ },
+ "HDFCBANK": {
+  "symbol": "HDFCBANK",
+  "name": "HDFC Bank Limited",
+  "isin": "INE040A01018",
+  "industry": "Banks",
+  "sector": "Private bank",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 9
+ },
+ "M&M": {
+  "symbol": "M&M",
+  "name": "Mahindra & Mahindra Limited",
+  "isin": "INE101A01026",
+  "industry": "Automobiles - 4 Wheelers",
+  "sector": "Automobiles",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 7
+ },
+ "TATASTEEL": {
+  "symbol": "TATASTEEL",
+  "name": "Tata Steel Limited",
+  "isin": "INE081A01012",
+  "industry": "Steel And Steel Products",
+  "sector": "Steel",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 6
+ },
+ "ITC": {
+  "symbol": "ITC",
+  "name": "ITC Limited",
+  "isin": "INE154A01025",
+  "industry": "Cigarettes",
+  "sector": "FMCG",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 6
+ },
+ "WIPRO": {
+  "symbol": "WIPRO",
+  "name": "Wipro Limited",
+  "isin": "INE075A01022",
+  "industry": "Computers - Software",
+  "sector": "IT services",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "BAJFINANCE": {
+  "symbol": "BAJFINANCE",
+  "name": "Bajaj Finance Limited",
+  "isin": "INE296A01016",
+  "industry": "Finance",
+  "sector": "NBFC",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 6
+ },
+ "POWERGRID": {
+  "symbol": "POWERGRID",
+  "name": "Power Grid Corporation of India Limited",
+  "isin": "INE752E01010",
+  "industry": "Power",
+  "sector": "Power transmission",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "TATAPOWER": {
+  "symbol": "TATAPOWER",
+  "name": "Tata Power Company Limited",
+  "isin": "INE245A01013",
+  "industry": "Power",
+  "sector": "Power utility",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "ASIANPAINT": {
+  "symbol": "ASIANPAINT",
+  "name": "Asian Paints Limited",
+  "isin": "INE021A01018",
+  "industry": "Paints",
+  "sector": "Paints",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "APOLLOHOSP": {
+  "symbol": "APOLLOHOSP",
+  "name": "Apollo Hospitals Enterprise Limited",
+  "isin": "INE437A01016",
+  "industry": "Miscellaneous",
+  "sector": "Hospitals",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "HAL": {
+  "symbol": "HAL",
+  "name": "Hindustan Aeronautics Limited",
+  "isin": "INE066F01012",
+  "industry": null,
+  "sector": "Defence",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 5
+ },
+ "LUPIN": {
+  "symbol": "LUPIN",
+  "name": "Lupin Limited",
+  "isin": "INE326A01029",
+  "industry": "Pharmaceuticals",
+  "sector": "Pharma",
+  "cap": "large",
+  "in_portfolio": true,
+  "weight": 4
+ },
+ "BSE": {
+  "symbol": "BSE",
+  "name": "BSE Limited",
+  "isin": "INE118H01025",
+  "industry": null,
+  "sector": "Capital markets",
+  "cap": "mid",
+  "in_portfolio": true,
+  "weight": 4
+ },
+ "DIXON": {
+  "symbol": "DIXON",
+  "name": "Dixon Technologies (India) Limited",
+  "isin": "INE935N01012",
+  "industry": null,
+  "sector": "Consumer electronics",
+  "cap": "mid",
+  "in_portfolio": true,
+  "weight": 4
+ },
+ "KAYNES": {
+  "symbol": "KAYNES",
+  "name": "Kaynes Technology India Limited",
+  "isin": "INE918Z01012",
+  "industry": null,
+  "sector": "Electronics manufacturing",
+  "cap": "mid",
+  "in_portfolio": true,
+  "weight": 4
+ },
+ "PIIND": {
+  "symbol": "PIIND",
+  "name": "PI Industries Limited",
+  "isin": "INE603J01014",
+  "industry": "Pesticides And Agrochemicals",
+  "sector": "Agrochemicals",
+  "cap": "mid",
+  "in_portfolio": true,
+  "weight": 3
+ },
+ "PAGEIND": {
+  "symbol": "PAGEIND",
+  "name": "Page Industries Limited",
+  "isin": "INE761H01022",
+  "industry": "Textile Products",
+  "sector": "Apparel",
+  "cap": "mid",
+  "in_portfolio": true,
+  "weight": 2
+ },
+ "DEEPAKNTR": {
+  "symbol": "DEEPAKNTR",
+  "name": "Deepak Nitrite Limited",
+  "isin": "INE288B01011",
+  "industry": "Chemicals - Organic",
+  "sector": "Specialty chemicals",
+  "cap": null,
+  "in_portfolio": false,
+  "weight": 0
+ },
+ "TRENT": {
+  "symbol": "TRENT",
+  "name": "Trent Limited",
+  "isin": "INE849A01012",
+  "industry": "Miscellaneous",
+  "sector": "Retail",
+  "cap": null,
+  "in_portfolio": false,
+  "weight": 0
+ },
+ "POLYCAB": {
+  "symbol": "POLYCAB",
+  "name": "Polycab India Limited",
+  "isin": "INE455K01017",
+  "industry": null,
+  "sector": "Cables & wires",
+  "cap": null,
+  "in_portfolio": false,
+  "weight": 0
+ },
+ "CDSL": {
+  "symbol": "CDSL",
+  "name": "Central Depository Services (India) Limited",
+  "isin": "INE736A01011",
+  "industry": null,
+  "sector": "Capital markets",
+  "cap": null,
+  "in_portfolio": false,
+  "weight": 0
+ }
+}

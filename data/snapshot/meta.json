@@ -1,0 +1,18 @@
+{
+ "generated_at": "2026-11-15T04:03:18+05:30",
+ "filings_from": "2026-10-16",
+ "filings_to": "2026-11-15",
+ "latest_filing_at": "2026-11-15T00:15:37+05:30",
+ "last_trading_day": "2026-11-13",
+ "counts": {
+  "companies": 22,
+  "filings": 290,
+  "price_bars": 2794
+ },
+ "sources": [
+  "NSE corporate announcements",
+  "NSE integrated filing (financials)",
+  "Yahoo Finance EOD"
+ ],
+ "failures": []
+}
