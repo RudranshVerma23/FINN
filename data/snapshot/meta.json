@@ -14,5 +14,11 @@
   "NSE integrated filing (financials)",
   "Yahoo Finance EOD"
  ],
- "failures": []
+ "failures": [],
+ "enriched_at": "2026-11-15T04:26:55+05:30",
+ "tiers": {
+  "top": 58,
+  "routine": 137,
+  "notable": 95
+ }
 }
