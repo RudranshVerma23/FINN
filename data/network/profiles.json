@@ -1,0 +1,337 @@
+{
+  "_comment": "SYNTHETIC enrichment of the investor's connections: the career and education history that public professional profiles would show (FR-19). Every person here is fictional, EXCEPT entries marked `public_figure: true`, which hold only facts disclosed in exchange filings. Keyed by connection URL. Real deployment: see docs/architecture.md section 5.",
+  "profiles": {
+    "https://example.invalid/in/meera-iyer": {
+      "headline": "Power distribution and regulatory specialist",
+      "location": "New Delhi",
+      "stints": [
+        { "org": "Tata Power Delhi Distribution", "role": "Head, Commercial & Regulatory", "unit": "Distribution", "from": "2008-04", "to": "2017-03" },
+        { "org": "Adani Electricity Mumbai", "role": "Chief Regulatory Officer", "unit": "Distribution", "from": "2017-04", "to": "2022-06" },
+        { "org": "Independent", "role": "Power-sector consultant", "from": "2022-07", "to": null }
+      ],
+      "education": [ { "org": "FMS Delhi", "degree": "MBA", "from": "2004-07", "to": "2006-04" } ],
+      "expertise": ["power distribution", "electricity regulation", "discom turnarounds"]
+    },
+    "https://example.invalid/in/rohan-mehta": {
+      "headline": "IT services strategy",
+      "location": "Pune",
+      "stints": [
+        { "org": "Wipro", "role": "Engagement manager, BFSI", "unit": "Americas 2", "from": "2012-05", "to": "2021-08" },
+        { "org": "Birlasoft", "role": "Head of Strategy, Office of the CEO", "unit": "CEO office", "from": "2021-09", "to": "2025-04" },
+        { "org": "LTIMindtree", "role": "VP, Corporate Strategy", "from": "2025-05", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2010-06", "to": "2012-03" } ],
+      "expertise": ["IT services", "large-deal strategy", "BFSI technology"]
+    },
+    "https://example.invalid/in/angan-guha": {
+      "public_figure": true,
+      "headline": "Technology services leader",
+      "stints": [
+        { "org": "Wipro", "role": "CEO, Americas 2 Business Unit", "unit": "Americas 2", "from": "1993-01", "to": "2021-12", "dates_approximate": true },
+        { "org": "Birlasoft", "role": "CEO & Managing Director", "from": "2022-12", "to": "2026-11", "dates_approximate": true }
+      ],
+      "education": [ { "org": "University of Pune", "degree": "Electronics Engineering" }, { "org": "Chicago Booth", "degree": "Management programme" } ],
+      "expertise": ["IT services"]
+    },
+    "https://example.invalid/in/kavita-rao": {
+      "headline": "Banking compliance leader",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "ICICI Bank", "role": "Senior Manager, Retail Banking Compliance", "unit": "Compliance", "from": "2011-02", "to": "2018-03" },
+        { "org": "ICICI Bank", "role": "Deputy Head, Regulatory Inspections", "unit": "Compliance", "from": "2018-04", "to": "2024-01" },
+        { "org": "AU Small Finance Bank", "role": "Chief Compliance Officer", "from": "2024-02", "to": null }
+      ],
+      "education": [ { "org": "XLRI", "degree": "PGDM", "from": "2008-06", "to": "2010-03" } ],
+      "expertise": ["bank compliance", "RBI inspections", "data privacy"]
+    },
+    "https://example.invalid/in/arjun-nair": {
+      "headline": "SME and business-banking credit",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "HDFC Bank", "role": "Senior VP, Business Banking Credit", "unit": "Business Banking, Emerging & Micro Enterprises", "from": "2015-06", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2011-06", "to": "2013-03" } ],
+      "expertise": ["SME lending", "credit underwriting"]
+    },
+    "https://example.invalid/in/sneha-kulkarni": {
+      "headline": "Pharma IP and litigation counsel",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Teva Pharmaceuticals", "role": "Senior Counsel, Generics IP", "unit": "Legal", "from": "2014-08", "to": "2022-02" },
+        { "org": "Lupin", "role": "Associate General Counsel, Intellectual Property", "unit": "Legal", "from": "2022-03", "to": null }
+      ],
+      "education": [ { "org": "National Law School of India University", "degree": "BA LLB", "from": "2006-07", "to": "2011-05" } ],
+      "expertise": ["pharma patents", "US generics litigation"]
+    },
+    "https://example.invalid/in/vikram-desai": {
+      "headline": "Index and mutual-fund infrastructure",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "BSE", "role": "Product head, BSE StAR MF", "unit": "StAR MF", "from": "2010-03", "to": "2018-05" },
+        { "org": "BSE Index Services", "role": "Head, Index Products", "unit": "Index", "from": "2018-06", "to": "2023-03" },
+        { "org": "Indexwise Analytics", "role": "Founder & CEO", "from": "2023-04", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "B.Tech", "from": "2002-07", "to": "2006-05" } ],
+      "expertise": ["passive investing", "exchange businesses", "mutual-fund distribution"]
+    },
+    "https://example.invalid/in/ananya-bose": {
+      "headline": "Agrochemicals business development",
+      "location": "Gurugram",
+      "stints": [
+        { "org": "PI Industries", "role": "Head, Business Development (CSM exports)", "unit": "Custom synthesis", "from": "2014-01", "to": "2021-05" },
+        { "org": "UPL", "role": "Head, Business Development, Speciality", "from": "2021-06", "to": null }
+      ],
+      "education": [ { "org": "ICT Mumbai", "degree": "M.Tech, Chemical Engineering", "from": "2008-07", "to": "2010-05" } ],
+      "expertise": ["agrochemicals", "custom synthesis", "specialty chemicals"]
+    },
+    "https://example.invalid/in/karthik-raman": {
+      "headline": "Apparel supply chain",
+      "location": "Bengaluru",
+      "stints": [
+        { "org": "Page Industries", "role": "Head, Sourcing & Supply Chain", "from": "2012-03", "to": "2020-08" },
+        { "org": "Threadline Apparel", "role": "Chief Operating Officer", "from": "2020-09", "to": null }
+      ],
+      "education": [ { "org": "NIFT", "degree": "M.FTech", "from": "2006-07", "to": "2008-05" } ],
+      "expertise": ["apparel", "consumer retail", "supply chain"]
+    },
+    "https://example.invalid/in/priya-sharma": {
+      "headline": "Electronics manufacturing programs",
+      "location": "Bengaluru",
+      "stints": [
+        { "org": "Kaynes Technology", "role": "Program Manager, Industrial & Automotive", "from": "2017-02", "to": "2022-09" },
+        { "org": "Syrma SGS Technology", "role": "VP, Programs", "from": "2022-10", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "M.Tech", "from": "2010-07", "to": "2012-06" } ],
+      "expertise": ["electronics manufacturing", "EMS", "automotive electronics"]
+    },
+    "https://example.invalid/in/rahul-khanna": {
+      "headline": "Metals & mining M&A",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Tata Steel", "role": "Manager, Corporate Strategy & M&A", "unit": "Strategy", "from": "2010-06", "to": "2019-02" },
+        { "org": "Kotak Investment Banking", "role": "Director, Metals & Mining", "from": "2019-03", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2008-06", "to": "2010-03" } ],
+      "expertise": ["steel", "metals M&A", "mining"]
+    },
+    "https://example.invalid/in/deepa-menon": {
+      "headline": "Electronics operations",
+      "location": "Chennai",
+      "stints": [
+        { "org": "Dixon Technologies", "role": "Head, IT Hardware Operations", "unit": "IT hardware", "from": "2019-07", "to": "2024-05" },
+        { "org": "Foxconn India", "role": "GM, Operations", "from": "2024-06", "to": null }
+      ],
+      "education": [ { "org": "NIT Kurukshetra", "degree": "B.Tech, Electronics", "from": "2005-07", "to": "2009-05" } ],
+      "expertise": ["electronics manufacturing", "PLI schemes", "IT hardware"]
+    },
+    "https://example.invalid/in/sameer-joshi": {
+      "headline": "Automotive marketing",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Mahindra & Mahindra", "role": "Head, SUV Marketing", "unit": "Automotive", "from": "2013-04", "to": "2022-03" },
+        { "org": "Tata Motors Passenger Vehicles", "role": "Head, Brand Marketing", "from": "2022-04", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2010-06", "to": "2012-03" } ],
+      "expertise": ["automobiles", "consumer marketing"]
+    },
+    "https://example.invalid/in/farah-siddiqui": {
+      "headline": "Hospital operations",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Apollo Hospitals", "role": "Cluster COO, West", "from": "2015-01", "to": "2021-06" },
+        { "org": "Max Healthcare", "role": "Regional COO, West", "from": "2021-07", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGPX", "from": "2013-04", "to": "2014-03" } ],
+      "expertise": ["hospitals", "healthcare operations"]
+    },
+    "https://example.invalid/in/nikhil-agarwal": {
+      "headline": "Consumer-lending risk",
+      "location": "Pune",
+      "stints": [
+        { "org": "Bajaj Finance", "role": "Head, Consumer Risk Analytics", "unit": "Risk", "from": "2016-01", "to": "2023-04" },
+        { "org": "Lendgrid", "role": "Chief Risk Officer", "from": "2023-05", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "B.Tech", "from": "2005-07", "to": "2009-05" } ],
+      "expertise": ["consumer lending", "credit risk", "NBFCs"]
+    },
+    "https://example.invalid/in/ishaan-kapoor": {
+      "headline": "Defence manufacturing",
+      "location": "Pune",
+      "stints": [
+        { "org": "Hindustan Aeronautics", "role": "Deputy Manager, Helicopter Division", "unit": "Helicopter", "from": "2005-07", "to": "2015-09" },
+        { "org": "Bharat Forge", "role": "Director, Defence Programs", "from": "2015-10", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "B.Tech, Aerospace", "from": "2001-07", "to": "2005-05" } ],
+      "expertise": ["defence", "aerospace", "helicopters"]
+    },
+    "https://example.invalid/in/lakshmi-narayanan": {
+      "headline": "Paints and coatings supply chain",
+      "location": "Kolkata",
+      "stints": [
+        { "org": "Asian Paints", "role": "Regional Supply Chain Head", "from": "2009-05", "to": "2019-01" },
+        { "org": "Berger Paints", "role": "Head, Supply Chain", "from": "2019-02", "to": null }
+      ],
+      "education": [ { "org": "XLRI", "degree": "PGDM", "from": "2007-06", "to": "2009-03" } ],
+      "expertise": ["paints", "consumer durables", "supply chain"]
+    },
+    "https://example.invalid/in/gaurav-sethi": {
+      "headline": "Equity fund manager",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "UTI Asset Management", "role": "Fund Manager", "from": "2012-01", "to": "2016-12" },
+        { "org": "ICICI Prudential AMC", "role": "Senior Fund Manager", "from": "2017-01", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2009-06", "to": "2011-03" } ],
+      "expertise": ["financials", "consumer"]
+    },
+    "https://example.invalid/in/tanvi-shah": {
+      "headline": "FMCG category leader",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "ITC", "role": "Category Head, Packaged Foods", "unit": "FMCG", "from": "2011-06", "to": "2020-09" },
+        { "org": "Hindustan Unilever", "role": "Director, Foods", "from": "2020-10", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2009-06", "to": "2011-03" } ],
+      "expertise": ["FMCG", "packaged foods", "consumer"]
+    },
+    "https://example.invalid/in/aditya-rao": {
+      "headline": "Telecom and digital platforms",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Reliance Jio", "role": "Head, Strategy & Planning", "from": "2016-02", "to": "2022-10" },
+        { "org": "Independent", "role": "Telecom & digital advisor", "from": "2022-11", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "B.Tech", "from": "2003-07", "to": "2007-05" } ],
+      "expertise": ["telecom", "digital platforms", "conglomerates"]
+    },
+    "https://example.invalid/in/neha-gupta": {
+      "headline": "Technology talent leader",
+      "location": "Bengaluru",
+      "stints": [
+        { "org": "Wipro", "role": "HR Business Partner, Americas 2", "unit": "Americas 2", "from": "2005-08", "to": "2019-03" },
+        { "org": "Infosys", "role": "VP, Talent, Americas", "from": "2019-04", "to": null }
+      ],
+      "education": [ { "org": "XLRI", "degree": "PGDM (HR)", "from": "2003-06", "to": "2005-03" } ],
+      "expertise": ["IT services", "talent"]
+    },
+    "https://example.invalid/in/suresh-pillai": {
+      "headline": "Transmission engineer",
+      "location": "Gurugram",
+      "stints": [
+        { "org": "Power Grid Corporation of India", "role": "Chief Manager, Engineering", "from": "2000-03", "to": "2015-12" },
+        { "org": "Central Electricity Authority", "role": "Consultant (Transmission)", "from": "2016-01", "to": null }
+      ],
+      "education": [ { "org": "NIT Kurukshetra", "degree": "B.Tech, Electrical", "from": "1995-07", "to": "1999-05" } ],
+      "expertise": ["power transmission", "PSUs"]
+    },
+    "https://example.invalid/in/rajesh-iyer": {
+      "headline": "Chemical plant operations",
+      "location": "Vadodara",
+      "stints": [
+        { "org": "Deepak Nitrite", "role": "Plant Head, Dahej", "from": "2008-02", "to": "2018-07" },
+        { "org": "Aarti Industries", "role": "VP, Operations", "from": "2018-08", "to": null }
+      ],
+      "education": [ { "org": "ICT Mumbai", "degree": "B.Chem.Eng", "from": "2000-07", "to": "2004-05" } ],
+      "expertise": ["specialty chemicals", "phenolics", "plant operations"]
+    },
+    "https://example.invalid/in/pooja-malhotra": {
+      "headline": "Fashion retail merchandising",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Trent", "role": "Senior Merchandising Manager, Westside", "from": "2012-05", "to": "2020-02" },
+        { "org": "Reliance Retail", "role": "Head of Merchandising, Trends", "from": "2020-03", "to": null }
+      ],
+      "education": [ { "org": "NIFT", "degree": "Fashion Management", "from": "2008-07", "to": "2010-05" } ],
+      "expertise": ["fashion retail", "merchandising", "consumer retail"]
+    },
+    "https://example.invalid/in/manish-bansal": {
+      "headline": "Cables and wires sales",
+      "location": "New Delhi",
+      "stints": [
+        { "org": "Polycab India", "role": "Regional Sales Manager, North", "from": "2014-04", "to": "2019-11" },
+        { "org": "KEI Industries", "role": "GM, Institutional Sales", "from": "2019-12", "to": null }
+      ],
+      "education": [ { "org": "NIT Kurukshetra", "degree": "B.Tech, Electrical", "from": "2007-07", "to": "2011-05" } ],
+      "expertise": ["cables & wires", "electrical products", "infrastructure demand"]
+    },
+    "https://example.invalid/in/shruti-deshpande": {
+      "headline": "Capital-markets operations",
+      "location": "Bengaluru",
+      "stints": [
+        { "org": "NSDL", "role": "Manager, Depository Operations", "from": "2010-08", "to": "2018-12" },
+        { "org": "Zerodha", "role": "Head, Operations", "from": "2019-01", "to": null }
+      ],
+      "education": [ { "org": "XLRI", "degree": "PGDM", "from": "2008-06", "to": "2010-03" } ],
+      "expertise": ["depositories", "broking", "capital markets"]
+    },
+    "https://example.invalid/in/anil-mathur": {
+      "headline": "Specialty chemicals veteran",
+      "location": "Gurugram",
+      "stints": [
+        { "org": "SRF", "role": "VP, Fluorochemicals", "from": "2001-04", "to": "2012-03" },
+        { "org": "Navin Fluorine International", "role": "COO", "from": "2012-04", "to": "2019-06" },
+        { "org": "Independent", "role": "Specialty chemicals advisor", "from": "2019-07", "to": null }
+      ],
+      "education": [ { "org": "ICT Mumbai", "degree": "PhD, Chemical Technology", "from": "1994-07", "to": "1999-05" } ],
+      "expertise": ["specialty chemicals", "fluorochemicals", "agrochemicals"]
+    },
+    "https://example.invalid/in/ritu-saxena": {
+      "headline": "Rural and microfinance lending",
+      "location": "Kolkata",
+      "stints": [
+        { "org": "Bandhan Bank", "role": "Zonal Head, Microfinance", "from": "2012-06", "to": "2019-08" },
+        { "org": "Ujjivan Small Finance Bank", "role": "Head, Rural Lending", "from": "2019-09", "to": null }
+      ],
+      "education": [ { "org": "XLRI", "degree": "PGDM (Rural Management)", "from": "2010-06", "to": "2012-03" } ],
+      "expertise": ["rural lending", "microfinance", "small finance banks"]
+    },
+    "https://example.invalid/in/kunal-verma": {
+      "headline": "Semiconductor packaging",
+      "location": "Bengaluru",
+      "stints": [
+        { "org": "Texas Instruments India", "role": "Senior Engineering Manager", "from": "2008-07", "to": "2021-09" },
+        { "org": "Tata Electronics", "role": "Director, Semiconductor Assembly", "from": "2021-10", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "M.Tech, Microelectronics", "from": "2006-07", "to": "2008-06" } ],
+      "expertise": ["semiconductors", "OSAT", "electronics manufacturing"]
+    },
+    "https://example.invalid/in/divya-krishnan": {
+      "headline": "Consumer brands",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Hindustan Unilever", "role": "Marketing Director, Home Care", "from": "2007-06", "to": "2018-03" },
+        { "org": "Independent", "role": "Consumer brands advisor", "from": "2018-04", "to": null }
+      ],
+      "education": [ { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2005-06", "to": "2007-03" } ],
+      "expertise": ["consumer", "FMCG", "brand building"]
+    },
+    "https://example.invalid/in/harsh-vora": {
+      "headline": "Utility-scale solar",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "NTPC", "role": "Engineer", "from": "2008-07", "to": "2014-06" },
+        { "org": "Tata Power Renewable Energy", "role": "Head, Utility-scale Solar Projects", "unit": "Renewables", "from": "2014-07", "to": null }
+      ],
+      "education": [ { "org": "IIT Bombay", "degree": "B.Tech, Electrical Engineering", "from": "2004-07", "to": "2008-05" } ],
+      "expertise": ["renewable energy", "solar EPC", "power utilities"]
+    },
+    "https://example.invalid/in/siddharth-menon": {
+      "headline": "Sell-side utilities analyst",
+      "location": "Mumbai",
+      "stints": [
+        { "org": "Kotak Institutional Equities", "role": "Analyst, Utilities", "from": "2013-06", "to": null }
+      ],
+      "education": [ { "org": "FMS Delhi", "degree": "MBA", "from": "2011-07", "to": "2013-04" } ],
+      "expertise": ["power utilities", "sell-side research"]
+    },
+    "https://example.invalid/in/aisha-khan": {
+      "headline": "IT hardware manufacturing",
+      "location": "Chennai",
+      "stints": [
+        { "org": "Dixon Technologies", "role": "Senior Manager, IT Hardware", "unit": "IT hardware", "from": "2021-01", "to": null }
+      ],
+      "education": [ { "org": "NIT Kurukshetra", "degree": "B.Tech", "from": "2013-07", "to": "2017-05" } ],
+      "expertise": ["IT hardware", "electronics manufacturing"]
+    }
+  }
+}
