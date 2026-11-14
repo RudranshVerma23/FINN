@@ -1,0 +1,27 @@
+{
+  "_comment": "Who-to-call context (FR-22): for each company, the orgs whose people would understand it from the outside. Hand-curated industry knowledge (allowed on the Network side; Pull analysis stays primary-source only). Values are org ids from config/orgs.json. Companies not listed still get 'worked there' matches.",
+  "links": {
+    "TATAPOWER":  { "competitors": ["adani-electricity", "ntpc", "reliance-energy"], "suppliers": [], "customers": [] },
+    "POWERGRID":  { "competitors": ["adani-electricity"], "suppliers": [], "customers": ["tata-power", "ntpc"] },
+    "WIPRO":      { "competitors": ["infosys", "ltimindtree", "birlasoft"], "suppliers": [], "customers": [] },
+    "HDFCBANK":   { "competitors": ["icici-bank", "kotak", "au-sfb"], "suppliers": [], "customers": [] },
+    "BAJFINANCE": { "competitors": ["hdfc-bank", "icici-bank"], "suppliers": [], "customers": [] },
+    "BSE":        { "competitors": ["nsdl", "cdsl"], "suppliers": [], "customers": ["zerodha"] },
+    "CDSL":       { "competitors": ["nsdl"], "suppliers": [], "customers": ["zerodha"] },
+    "LUPIN":      { "competitors": ["sun-pharma", "teva"], "suppliers": [], "customers": [] },
+    "PIIND":      { "competitors": ["upl", "srf"], "suppliers": [], "customers": [] },
+    "DEEPAKNTR":  { "competitors": ["aarti-industries", "navin-fluorine", "srf"], "suppliers": [], "customers": [] },
+    "PAGEIND":    { "competitors": [], "suppliers": [], "customers": ["reliance-retail", "trent"] },
+    "TRENT":      { "competitors": ["reliance-retail"], "suppliers": ["page-industries"], "customers": [] },
+    "ITC":        { "competitors": ["hul"], "suppliers": [], "customers": [] },
+    "ASIANPAINT": { "competitors": ["berger-paints"], "suppliers": [], "customers": [] },
+    "KAYNES":     { "competitors": ["syrma", "dixon"], "suppliers": ["texas-instruments"], "customers": [] },
+    "DIXON":      { "competitors": ["foxconn-india", "kaynes", "syrma"], "suppliers": ["tata-electronics"], "customers": [] },
+    "POLYCAB":    { "competitors": ["kei"], "suppliers": ["hindalco"], "customers": ["tata-power", "powergrid"] },
+    "TATASTEEL":  { "competitors": ["jsw-steel"], "suppliers": [], "customers": ["mahindra", "tata-motors-pv"] },
+    "M&M":        { "competitors": ["tata-motors-pv"], "suppliers": ["tata-steel", "bharat-forge"], "customers": [] },
+    "HAL":        { "competitors": [], "suppliers": ["bharat-forge"], "customers": [] },
+    "APOLLOHOSP": { "competitors": ["max-healthcare"], "suppliers": [], "customers": [] },
+    "RELIANCE":   { "competitors": [], "suppliers": [], "customers": [] }
+  }
+}

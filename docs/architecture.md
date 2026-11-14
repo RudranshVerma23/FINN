@@ -138,6 +138,22 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-07 | Synthetic network + exec bios taken from filings | Scraping LinkedIn | Platform terms; appointment filings carry the bio, which is a primary source. |
 | ADR-08 | NSE as the filings source; BSE dropped | BSE API primary | T01 spike: BSE's API returned 403 (Akamai) to scripted clients; NSE's API answered with full text plus attachment links. |
 | ADR-09 | Results numbers from NSE "Integrated Filing – Financials" XBRL | NSE legacy results API, Screener tables, LLM on PDF | The legacy endpoint stops at Dec 2024 (SEBI moved results to integrated filings in 2025). The XBRL has Revenue, PBT, PAT, finance costs and D&A for the quarter (context `OneD`), so EBITDA is computed, not guessed. Values were checked against Screener for RELIANCE Q2 FY27. |
+| ADR-10 | Raw `Close` from Yahoo, not `Adj Close` | Adjusted close | `Adj Close` was inconsistent for some NSE tickers in the spike; alerts only need day-over-day moves and volume ratios. |
 | ADR-11 | Portfolio chosen by scanning ~78 names for real recent events (`scan_universe.py`) | Hand-picked blue chips | Puts genuine management changes, M&A, results and outsized moves (PIIND −19% on 17× volume, RELIANCE +11.6% on 4×) in the demo window, across 18 sectors. |
 | ADR-12 | Snapshot builder keeps the previous data for any company whose fetch fails | Fail the whole run | A flaky exchange endpoint must never wipe good data (NFR-01). |
-| ADR-10 | Raw `Close` from Yahoo, not `Adj Close` | Adjusted close | `Adj Close` was inconsistent for some NSE tickers in the spike; alerts only need day-over-day moves and volume ratios. |
+| ADR-13 | Network inputs mirror what an investor really has: a LinkedIn-style `connections.csv`, an interaction log, and their own background | A hand-made graph | Onboarding cost is one export plus a habit of logging meetings. Shared history (same batch, ex-colleagues) is *detected* from both careers, not typed in. |
+| ADR-14 | One `Person` schema for contacts and for executives found in filings | Separate models | Matching a filing to the network becomes comparing two careers: same org, same unit, overlapping months, same school and years. |
+| ADR-15 | Tie strength = small additive model with a sentence per point; path strength = product of hops | Graph embeddings, LLM judgement | Every number on screen can be explained ("overlapped 9 yrs in Wipro's Americas 2 unit while Guha ran it"). Unknown dates lower confidence instead of being guessed. |
+| ADR-16 | Paths ranked by strength, but a confirmed direct acquaintance is always shown | Direct ties first | Meeting someone once in 2024 shouldn't outrank a batchmate who worked in their unit for 9 years; but "you've met them" is still worth knowing. |
+| ADR-17 | A UPSI caution on any path or suggestion through a current employee of the company | No caution | Real compliance risk for an investor; the network should make the right call easy. |
+
+### Network inputs (synthetic in this prototype)
+
+| File | Real-world equivalent |
+|---|---|
+| `data/network/investor.json` | Onboarding: the investor's own schools and employers |
+| `data/network/connections.csv` | LinkedIn "Connections" data export (same columns) |
+| `data/network/profiles.json` | Career/education enrichment of each connection, gathered with consent |
+| `data/network/interactions.csv` | Calendar / CRM meeting log |
+| `config/orgs.json` | Canonical org registry: aliases, subsidiaries → group, NSE symbol |
+| `config/company_links.json` | Competitors / suppliers / customers per company, for who-to-call |

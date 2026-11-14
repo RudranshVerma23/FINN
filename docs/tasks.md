@@ -29,7 +29,7 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | T00 | Requirements, architecture, task plan, repo scaffold | all (docs), NFR-04, NFR-05, NFR-09 | v0.1.0 | done |
 | T01 | Source adapters: NSE filings + results index, Yahoo EOD, Screener | FR-01, FR-02, FR-11, NFR-10 | v0.1.0 | done |
 | T02 | Portfolio selection and first data snapshot | FR-01, FR-02, NFR-01 | v0.1.0 | done |
-| T03 | Synthetic network, entity resolution, paths, tie strength | FR-18, FR-19, FR-20, FR-21, NFR-05 | v0.1.0 | todo |
+| T03 | Synthetic network, entity resolution, paths, tie strength | FR-18, FR-19, FR-20, FR-21, NFR-05 | v0.1.0 | done |
 | T04 | Classification and ranking engine | FR-03, FR-04, FR-05, NFR-04, NFR-07 | v0.1.0 | todo |
 | T05 | Web app shell and Push digest UI | FR-02, FR-04, FR-10, FR-26, NFR-08 | v0.1.0 | todo |
 | T06 | Management change card with network path | FR-06, FR-20, FR-21 | v0.1.0 | todo |
