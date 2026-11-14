@@ -1,0 +1,2415 @@
+{
+ "_comment": "SYNTHETIC network (fictional people) plus public filing facts. Real deployment keeps this private per investor.",
+ "as_of": "2026-11-15",
+ "investor": {
+  "headline": "Partner, public-markets fund",
+  "career": [
+   {
+    "org": "Kotak Institutional Equities",
+    "role": "Research analyst, utilities and industrials",
+    "span": "2012–2016"
+   },
+   {
+    "org": "ICICI Prudential AMC",
+    "role": "Fund manager",
+    "span": "2016–2021"
+   },
+   {
+    "org": "Demo Capital Partners",
+    "role": "Partner",
+    "span": "2021–now"
+   }
+  ],
+  "education": [
+   {
+    "org": "IIT Bombay",
+    "degree": "B.Tech, Electrical Engineering"
+   },
+   {
+    "org": "IIM Ahmedabad",
+    "degree": "PGP"
+   }
+  ]
+ },
+ "contacts": [
+  {
+   "id": "rohan-mehta",
+   "name": "Rohan Mehta",
+   "headline": "IT services strategy",
+   "location": "Pune",
+   "current": {
+    "org": "LTIMindtree",
+    "role": "VP, Corporate Strategy"
+   },
+   "career": [
+    {
+     "org": "Wipro",
+     "org_id": "wipro",
+     "role": "Engagement manager, BFSI",
+     "span": "2012–2021"
+    },
+    {
+     "org": "Birlasoft",
+     "org_id": "birlasoft",
+     "role": "Head of Strategy, Office of the CEO",
+     "span": "2021–2025"
+    },
+    {
+     "org": "LTIMindtree",
+     "org_id": "ltimindtree",
+     "role": "VP, Corporate Strategy",
+     "span": "2025–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "IT services",
+    "large-deal strategy",
+    "BFSI technology"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.98,
+    "label": "strong",
+    "reasons": [
+     "Same batch at IIM Ahmedabad (2010–2012)",
+     "Last spoke Oct 2026 (dinner: IIM-A batch dinner)"
+    ],
+    "last_interaction": "2026-10-30",
+    "interactions_24m": 3
+   }
+  },
+  {
+   "id": "harsh-vora",
+   "name": "Harsh Vora",
+   "headline": "Utility-scale solar",
+   "location": "Mumbai",
+   "current": {
+    "org": "Tata Power Renewable Energy",
+    "role": "Head, Utility-scale Solar Projects"
+   },
+   "career": [
+    {
+     "org": "NTPC",
+     "org_id": "ntpc",
+     "role": "Engineer",
+     "span": "2008–2014"
+    },
+    {
+     "org": "Tata Power Renewable Energy",
+     "org_id": "tprel",
+     "role": "Head, Utility-scale Solar Projects",
+     "span": "2014–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "B.Tech, Electrical Engineering"
+    }
+   ],
+   "expertise": [
+    "renewable energy",
+    "solar EPC",
+    "power utilities"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.95,
+    "label": "strong",
+    "reasons": [
+     "Same batch at IIT Bombay (2004–2008)",
+     "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+    ],
+    "last_interaction": "2026-10-12",
+    "interactions_24m": 2
+   }
+  },
+  {
+   "id": "gaurav-sethi",
+   "name": "Gaurav Sethi",
+   "headline": "Equity fund manager",
+   "location": "Mumbai",
+   "current": {
+    "org": "ICICI Prudential AMC",
+    "role": "Senior Fund Manager"
+   },
+   "career": [
+    {
+     "org": "UTI Asset Management",
+     "org_id": "uti-amc",
+     "role": "Fund Manager",
+     "span": "2012–2016"
+    },
+    {
+     "org": "ICICI Prudential AMC",
+     "org_id": "icici-pru-amc",
+     "role": "Senior Fund Manager",
+     "span": "2017–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "financials",
+    "consumer"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.9,
+    "label": "strong",
+    "reasons": [
+     "Worked together at ICICI Prudential AMC for 4 yrs",
+     "Overlapped at IIM Ahmedabad (2009–2011)",
+     "Last spoke Nov 2026 (lunch: Ex-colleague catch-up)"
+    ],
+    "last_interaction": "2026-11-03",
+    "interactions_24m": 2
+   }
+  },
+  {
+   "id": "arjun-nair",
+   "name": "Arjun Nair",
+   "headline": "SME and business-banking credit",
+   "location": "Mumbai",
+   "current": {
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit"
+   },
+   "career": [
+    {
+     "org": "HDFC Bank",
+     "org_id": "hdfc-bank",
+     "role": "Senior VP, Business Banking Credit",
+     "span": "2015–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "SME lending",
+    "credit underwriting"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.85,
+    "label": "strong",
+    "reasons": [
+     "Overlapped at IIM Ahmedabad (2011–2013)",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "last_interaction": "2026-08-21",
+    "interactions_24m": 2
+   }
+  },
+  {
+   "id": "nikhil-agarwal",
+   "name": "Nikhil Agarwal",
+   "headline": "Consumer-lending risk",
+   "location": "Pune",
+   "current": {
+    "org": "Lendgrid",
+    "role": "Chief Risk Officer"
+   },
+   "career": [
+    {
+     "org": "Bajaj Finance",
+     "org_id": "bajaj-finance",
+     "role": "Head, Consumer Risk Analytics",
+     "span": "2016–2023"
+    },
+    {
+     "org": "Lendgrid",
+     "org_id": "x-lendgrid",
+     "role": "Chief Risk Officer",
+     "span": "2023–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "B.Tech"
+    }
+   ],
+   "expertise": [
+    "consumer lending",
+    "credit risk",
+    "NBFCs"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.8,
+    "label": "strong",
+    "reasons": [
+     "Overlapped at IIT Bombay (2005–2009)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "last_interaction": "2026-09-30",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "kunal-verma",
+   "name": "Kunal Verma",
+   "headline": "Semiconductor packaging",
+   "location": "Bengaluru",
+   "current": {
+    "org": "Tata Electronics",
+    "role": "Director, Semiconductor Assembly"
+   },
+   "career": [
+    {
+     "org": "Texas Instruments India",
+     "org_id": "texas-instruments",
+     "role": "Senior Engineering Manager",
+     "span": "2008–2021"
+    },
+    {
+     "org": "Tata Electronics",
+     "org_id": "tata-electronics",
+     "role": "Director, Semiconductor Assembly",
+     "span": "2021–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "M.Tech, Microelectronics"
+    }
+   ],
+   "expertise": [
+    "semiconductors",
+    "OSAT",
+    "electronics manufacturing"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.8,
+    "label": "strong",
+    "reasons": [
+     "Overlapped at IIT Bombay (2006–2008)",
+     "Last spoke Sep 2026 (coffee: OSAT ramp-up)"
+    ],
+    "last_interaction": "2026-09-02",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "siddharth-menon",
+   "name": "Siddharth Menon",
+   "headline": "Sell-side utilities analyst",
+   "location": "Mumbai",
+   "current": {
+    "org": "Kotak Institutional Equities",
+    "role": "Analyst, Utilities"
+   },
+   "career": [
+    {
+     "org": "Kotak Institutional Equities",
+     "org_id": "kotak-ie",
+     "role": "Analyst, Utilities",
+     "span": "2013–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "FMS Delhi",
+     "degree": "MBA"
+    }
+   ],
+   "expertise": [
+    "power utilities",
+    "sell-side research"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.75,
+    "label": "strong",
+    "reasons": [
+     "Worked together at Kotak Institutional Equities for 3 yrs",
+     "Last spoke Aug 2026 (call: Utilities coverage)"
+    ],
+    "last_interaction": "2026-08-08",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "meera-iyer",
+   "name": "Meera Iyer",
+   "headline": "Power distribution and regulatory specialist",
+   "location": "New Delhi",
+   "current": {
+    "org": "Independent",
+    "role": "Power-sector consultant"
+   },
+   "career": [
+    {
+     "org": "Tata Power Delhi Distribution",
+     "org_id": "tpddl",
+     "role": "Head, Commercial & Regulatory",
+     "span": "2008–2017"
+    },
+    {
+     "org": "Adani Electricity Mumbai",
+     "org_id": "adani-electricity",
+     "role": "Chief Regulatory Officer",
+     "span": "2017–2022"
+    },
+    {
+     "org": "Independent",
+     "org_id": null,
+     "role": "Power-sector consultant",
+     "span": "2022–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "FMS Delhi",
+     "degree": "MBA"
+    }
+   ],
+   "expertise": [
+    "power distribution",
+    "electricity regulation",
+    "discom turnarounds"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.65,
+    "label": "good",
+    "reasons": [
+     "Professional contact since 2014",
+     "Last spoke Sep 2026 (coffee: Discom privatisation and Delhi tariff orders)"
+    ],
+    "last_interaction": "2026-09-18",
+    "interactions_24m": 3
+   }
+  },
+  {
+   "id": "rahul-khanna",
+   "name": "Rahul Khanna",
+   "headline": "Metals & mining M&A",
+   "location": "Mumbai",
+   "current": {
+    "org": "Kotak Investment Banking",
+    "role": "Director, Metals & Mining"
+   },
+   "career": [
+    {
+     "org": "Tata Steel",
+     "org_id": "tata-steel",
+     "role": "Manager, Corporate Strategy & M&A",
+     "span": "2010–2019"
+    },
+    {
+     "org": "Kotak Investment Banking",
+     "org_id": "kotak-ib",
+     "role": "Director, Metals & Mining",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "steel",
+    "metals M&A",
+    "mining"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.65,
+    "label": "good",
+    "reasons": [
+     "Fellow IIM Ahmedabad alum",
+     "Last spoke Oct 2026 (dinner: Steel consolidation and overseas assets)"
+    ],
+    "last_interaction": "2026-10-08",
+    "interactions_24m": 2
+   }
+  },
+  {
+   "id": "priya-sharma",
+   "name": "Priya Sharma",
+   "headline": "Electronics manufacturing programs",
+   "location": "Bengaluru",
+   "current": {
+    "org": "Syrma SGS Technology",
+    "role": "VP, Programs"
+   },
+   "career": [
+    {
+     "org": "Kaynes Technology",
+     "org_id": "kaynes",
+     "role": "Program Manager, Industrial & Automotive",
+     "span": "2017–2022"
+    },
+    {
+     "org": "Syrma SGS Technology",
+     "org_id": "syrma",
+     "role": "VP, Programs",
+     "span": "2022–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "M.Tech"
+    }
+   ],
+   "expertise": [
+    "electronics manufacturing",
+    "EMS",
+    "automotive electronics"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.55,
+    "label": "good",
+    "reasons": [
+     "Fellow IIT Bombay alum",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "last_interaction": "2026-07-17",
+    "interactions_24m": 2
+   }
+  },
+  {
+   "id": "vikram-desai",
+   "name": "Vikram Desai",
+   "headline": "Index and mutual-fund infrastructure",
+   "location": "Mumbai",
+   "current": {
+    "org": "Indexwise Analytics",
+    "role": "Founder & CEO"
+   },
+   "career": [
+    {
+     "org": "BSE",
+     "org_id": "bse",
+     "role": "Product head, BSE StAR MF",
+     "span": "2010–2018"
+    },
+    {
+     "org": "BSE Index Services",
+     "org_id": "bse-index",
+     "role": "Head, Index Products",
+     "span": "2018–2023"
+    },
+    {
+     "org": "Indexwise Analytics",
+     "org_id": "x-indexwise-analytics",
+     "role": "Founder & CEO",
+     "span": "2023–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "B.Tech"
+    }
+   ],
+   "expertise": [
+    "passive investing",
+    "exchange businesses",
+    "mutual-fund distribution"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.5,
+    "label": "good",
+    "reasons": [
+     "Overlapped at IIT Bombay (2002–2006)",
+     "Last spoke Sep 2025 (coffee: Passive flows and index inclusion)"
+    ],
+    "last_interaction": "2025-09-09",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "sameer-joshi",
+   "name": "Sameer Joshi",
+   "headline": "Automotive marketing",
+   "location": "Mumbai",
+   "current": {
+    "org": "Tata Motors Passenger Vehicles",
+    "role": "Head, Brand Marketing"
+   },
+   "career": [
+    {
+     "org": "Mahindra & Mahindra",
+     "org_id": "mahindra",
+     "role": "Head, SUV Marketing",
+     "span": "2013–2022"
+    },
+    {
+     "org": "Tata Motors Passenger Vehicles",
+     "org_id": "tata-motors-pv",
+     "role": "Head, Brand Marketing",
+     "span": "2022–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "automobiles",
+    "consumer marketing"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.5,
+    "label": "good",
+    "reasons": [
+     "Same batch at IIM Ahmedabad (2010–2012)",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "last_interaction": "2024-06-18",
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "tanvi-shah",
+   "name": "Tanvi Shah",
+   "headline": "FMCG category leader",
+   "location": "Mumbai",
+   "current": {
+    "org": "Hindustan Unilever",
+    "role": "Director, Foods"
+   },
+   "career": [
+    {
+     "org": "ITC",
+     "org_id": "itc",
+     "role": "Category Head, Packaged Foods",
+     "span": "2011–2020"
+    },
+    {
+     "org": "Hindustan Unilever",
+     "org_id": "hul",
+     "role": "Director, Foods",
+     "span": "2020–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "FMCG",
+    "packaged foods",
+    "consumer"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.5,
+    "label": "good",
+    "reasons": [
+     "Overlapped at IIM Ahmedabad (2009–2011)",
+     "Last spoke Aug 2025 (coffee)"
+    ],
+    "last_interaction": "2025-08-14",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "anil-mathur",
+   "name": "Anil Mathur",
+   "headline": "Specialty chemicals veteran",
+   "location": "Gurugram",
+   "current": {
+    "org": "Independent",
+    "role": "Specialty chemicals advisor"
+   },
+   "career": [
+    {
+     "org": "SRF",
+     "org_id": "srf",
+     "role": "VP, Fluorochemicals",
+     "span": "2001–2012"
+    },
+    {
+     "org": "Navin Fluorine International",
+     "org_id": "navin-fluorine",
+     "role": "COO",
+     "span": "2012–2019"
+    },
+    {
+     "org": "Independent",
+     "org_id": null,
+     "role": "Specialty chemicals advisor",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "ICT Mumbai",
+     "degree": "PhD, Chemical Technology"
+    }
+   ],
+   "expertise": [
+    "specialty chemicals",
+    "fluorochemicals",
+    "agrochemicals"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.45,
+    "label": "good",
+    "reasons": [
+     "Professional contact since 2014",
+     "Last spoke Jul 2026 (call: Fluorochemicals capacity cycle)"
+    ],
+    "last_interaction": "2026-07-29",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "ishaan-kapoor",
+   "name": "Ishaan Kapoor",
+   "headline": "Defence manufacturing",
+   "location": "Pune",
+   "current": {
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs"
+   },
+   "career": [
+    {
+     "org": "Hindustan Aeronautics",
+     "org_id": "hal",
+     "role": "Deputy Manager, Helicopter Division",
+     "span": "2005–2015"
+    },
+    {
+     "org": "Bharat Forge",
+     "org_id": "bharat-forge",
+     "role": "Director, Defence Programs",
+     "span": "2015–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "B.Tech, Aerospace"
+    }
+   ],
+   "expertise": [
+    "defence",
+    "aerospace",
+    "helicopters"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.4,
+    "label": "light",
+    "reasons": [
+     "Overlapped at IIT Bombay (2001–2005)",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "last_interaction": "2023-10-10",
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "aditya-rao",
+   "name": "Aditya Rao",
+   "headline": "Telecom and digital platforms",
+   "location": "Mumbai",
+   "current": {
+    "org": "Independent",
+    "role": "Telecom & digital advisor"
+   },
+   "career": [
+    {
+     "org": "Reliance Jio",
+     "org_id": "jio",
+     "role": "Head, Strategy & Planning",
+     "span": "2016–2022"
+    },
+    {
+     "org": "Independent",
+     "org_id": null,
+     "role": "Telecom & digital advisor",
+     "span": "2022–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIT Bombay",
+     "degree": "B.Tech"
+    }
+   ],
+   "expertise": [
+    "telecom",
+    "digital platforms",
+    "conglomerates"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.4,
+    "label": "light",
+    "reasons": [
+     "Overlapped at IIT Bombay (2003–2007)",
+     "Last spoke Jan 2024 (call: Jio tariff cycle)"
+    ],
+    "last_interaction": "2024-01-22",
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "deepa-menon",
+   "name": "Deepa Menon",
+   "headline": "Electronics operations",
+   "location": "Chennai",
+   "current": {
+    "org": "Foxconn India",
+    "role": "GM, Operations"
+   },
+   "career": [
+    {
+     "org": "Dixon Technologies",
+     "org_id": "dixon",
+     "role": "Head, IT Hardware Operations",
+     "span": "2019–2024"
+    },
+    {
+     "org": "Foxconn India",
+     "org_id": "foxconn-india",
+     "role": "GM, Operations",
+     "span": "2024–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIT Kurukshetra",
+     "degree": "B.Tech, Electronics"
+    }
+   ],
+   "expertise": [
+    "electronics manufacturing",
+    "PLI schemes",
+    "IT hardware"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.35,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2022",
+     "Last spoke Dec 2025 (call: PLI and laptop assembly ramp)"
+    ],
+    "last_interaction": "2025-12-04",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "pooja-malhotra",
+   "name": "Pooja Malhotra",
+   "headline": "Fashion retail merchandising",
+   "location": "Mumbai",
+   "current": {
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends"
+   },
+   "career": [
+    {
+     "org": "Trent",
+     "org_id": "trent",
+     "role": "Senior Merchandising Manager, Westside",
+     "span": "2012–2020"
+    },
+    {
+     "org": "Reliance Retail",
+     "org_id": "reliance-retail",
+     "role": "Head of Merchandising, Trends",
+     "span": "2020–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIFT",
+     "degree": "Fashion Management"
+    }
+   ],
+   "expertise": [
+    "fashion retail",
+    "merchandising",
+    "consumer retail"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.35,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "last_interaction": "2026-02-19",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "shruti-deshpande",
+   "name": "Shruti Deshpande",
+   "headline": "Capital-markets operations",
+   "location": "Bengaluru",
+   "current": {
+    "org": "Zerodha",
+    "role": "Head, Operations"
+   },
+   "career": [
+    {
+     "org": "NSDL",
+     "org_id": "nsdl",
+     "role": "Manager, Depository Operations",
+     "span": "2010–2018"
+    },
+    {
+     "org": "Zerodha",
+     "org_id": "zerodha",
+     "role": "Head, Operations",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "XLRI",
+     "degree": "PGDM"
+    }
+   ],
+   "expertise": [
+    "depositories",
+    "broking",
+    "capital markets"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.35,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2019",
+     "Last spoke Apr 2026 (call: Demat account growth)"
+    ],
+    "last_interaction": "2026-04-24",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "aisha-khan",
+   "name": "Aisha Khan",
+   "headline": "IT hardware manufacturing",
+   "location": "Chennai",
+   "current": {
+    "org": "Dixon Technologies",
+    "role": "Senior Manager, IT Hardware"
+   },
+   "career": [
+    {
+     "org": "Dixon Technologies",
+     "org_id": "dixon",
+     "role": "Senior Manager, IT Hardware",
+     "span": "2021–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIT Kurukshetra",
+     "degree": "B.Tech"
+    }
+   ],
+   "expertise": [
+    "IT hardware",
+    "electronics manufacturing"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.35,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2023",
+     "Last spoke Jan 2026 (meeting: Dixon Noida plant visit)"
+    ],
+    "last_interaction": "2026-01-15",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "farah-siddiqui",
+   "name": "Farah Siddiqui",
+   "headline": "Hospital operations",
+   "location": "Mumbai",
+   "current": {
+    "org": "Max Healthcare",
+    "role": "Regional COO, West"
+   },
+   "career": [
+    {
+     "org": "Apollo Hospitals",
+     "org_id": "apollo-hospitals",
+     "role": "Cluster COO, West",
+     "span": "2015–2021"
+    },
+    {
+     "org": "Max Healthcare",
+     "org_id": "max-healthcare",
+     "role": "Regional COO, West",
+     "span": "2021–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGPX"
+    }
+   ],
+   "expertise": [
+    "hospitals",
+    "healthcare operations"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.3,
+    "label": "light",
+    "reasons": [
+     "Fellow IIM Ahmedabad alum",
+     "Last spoke Mar 2025 (call: Hospital bed additions in the west)"
+    ],
+    "last_interaction": "2025-03-27",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "kavita-rao",
+   "name": "Kavita Rao",
+   "headline": "Banking compliance leader",
+   "location": "Mumbai",
+   "current": {
+    "org": "AU Small Finance Bank",
+    "role": "Chief Compliance Officer"
+   },
+   "career": [
+    {
+     "org": "ICICI Bank",
+     "org_id": "icici-bank",
+     "role": "Senior Manager, Retail Banking Compliance",
+     "span": "2011–2018"
+    },
+    {
+     "org": "ICICI Bank",
+     "org_id": "icici-bank",
+     "role": "Deputy Head, Regulatory Inspections",
+     "span": "2018–2024"
+    },
+    {
+     "org": "AU Small Finance Bank",
+     "org_id": "au-sfb",
+     "role": "Chief Compliance Officer",
+     "span": "2024–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "XLRI",
+     "degree": "PGDM"
+    }
+   ],
+   "expertise": [
+    "bank compliance",
+    "RBI inspections",
+    "data privacy"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2017",
+     "Last spoke May 2025 (call: Small finance bank compliance load)"
+    ],
+    "last_interaction": "2025-05-07",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "sneha-kulkarni",
+   "name": "Sneha Kulkarni",
+   "headline": "Pharma IP and litigation counsel",
+   "location": "Mumbai",
+   "current": {
+    "org": "Lupin",
+    "role": "Associate General Counsel, Intellectual Property"
+   },
+   "career": [
+    {
+     "org": "Teva Pharmaceuticals",
+     "org_id": "teva",
+     "role": "Senior Counsel, Generics IP",
+     "span": "2014–2022"
+    },
+    {
+     "org": "Lupin",
+     "org_id": "lupin",
+     "role": "Associate General Counsel, Intellectual Property",
+     "span": "2022–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "National Law School of India University",
+     "degree": "BA LLB"
+    }
+   ],
+   "expertise": [
+    "pharma patents",
+    "US generics litigation"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2020",
+     "Last spoke Dec 2024 (call: US generics litigation landscape)"
+    ],
+    "last_interaction": "2024-12-03",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "ananya-bose",
+   "name": "Ananya Bose",
+   "headline": "Agrochemicals business development",
+   "location": "Gurugram",
+   "current": {
+    "org": "UPL",
+    "role": "Head, Business Development, Speciality"
+   },
+   "career": [
+    {
+     "org": "PI Industries",
+     "org_id": "pi-industries",
+     "role": "Head, Business Development (CSM exports)",
+     "span": "2014–2021"
+    },
+    {
+     "org": "UPL",
+     "org_id": "upl",
+     "role": "Head, Business Development, Speciality",
+     "span": "2021–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "ICT Mumbai",
+     "degree": "M.Tech, Chemical Engineering"
+    }
+   ],
+   "expertise": [
+    "agrochemicals",
+    "custom synthesis",
+    "specialty chemicals"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2025 (call: CSM export order book across the industry)"
+    ],
+    "last_interaction": "2025-02-26",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "rajesh-iyer",
+   "name": "Rajesh Iyer",
+   "headline": "Chemical plant operations",
+   "location": "Vadodara",
+   "current": {
+    "org": "Aarti Industries",
+    "role": "VP, Operations"
+   },
+   "career": [
+    {
+     "org": "Deepak Nitrite",
+     "org_id": "deepak-nitrite",
+     "role": "Plant Head, Dahej",
+     "span": "2008–2018"
+    },
+    {
+     "org": "Aarti Industries",
+     "org_id": "aarti-industries",
+     "role": "VP, Operations",
+     "span": "2018–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "ICT Mumbai",
+     "degree": "B.Chem.Eng"
+    }
+   ],
+   "expertise": [
+    "specialty chemicals",
+    "phenolics",
+    "plant operations"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2015",
+     "Last spoke Jun 2025 (plant visit: Aarti Jhagadia site)"
+    ],
+    "last_interaction": "2025-06-11",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "manish-bansal",
+   "name": "Manish Bansal",
+   "headline": "Cables and wires sales",
+   "location": "New Delhi",
+   "current": {
+    "org": "KEI Industries",
+    "role": "GM, Institutional Sales"
+   },
+   "career": [
+    {
+     "org": "Polycab India",
+     "org_id": "polycab",
+     "role": "Regional Sales Manager, North",
+     "span": "2014–2019"
+    },
+    {
+     "org": "KEI Industries",
+     "org_id": "kei",
+     "role": "GM, Institutional Sales",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIT Kurukshetra",
+     "degree": "B.Tech, Electrical"
+    }
+   ],
+   "expertise": [
+    "cables & wires",
+    "electrical products",
+    "infrastructure demand"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2020",
+     "Last spoke Nov 2024 (call)"
+    ],
+    "last_interaction": "2024-11-15",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "ritu-saxena",
+   "name": "Ritu Saxena",
+   "headline": "Rural and microfinance lending",
+   "location": "Kolkata",
+   "current": {
+    "org": "Ujjivan Small Finance Bank",
+    "role": "Head, Rural Lending"
+   },
+   "career": [
+    {
+     "org": "Bandhan Bank",
+     "org_id": "bandhan-bank",
+     "role": "Zonal Head, Microfinance",
+     "span": "2012–2019"
+    },
+    {
+     "org": "Ujjivan Small Finance Bank",
+     "org_id": "ujjivan-sfb",
+     "role": "Head, Rural Lending",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "XLRI",
+     "degree": "PGDM (Rural Management)"
+    }
+   ],
+   "expertise": [
+    "rural lending",
+    "microfinance",
+    "small finance banks"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Professional contact since 2018",
+     "Last spoke Oct 2025 (call)"
+    ],
+    "last_interaction": "2025-10-06",
+    "interactions_24m": 1
+   }
+  },
+  {
+   "id": "divya-krishnan",
+   "name": "Divya Krishnan",
+   "headline": "Consumer brands",
+   "location": "Mumbai",
+   "current": {
+    "org": "Independent",
+    "role": "Consumer brands advisor"
+   },
+   "career": [
+    {
+     "org": "Hindustan Unilever",
+     "org_id": "hul",
+     "role": "Marketing Director, Home Care",
+     "span": "2007–2018"
+    },
+    {
+     "org": "Independent",
+     "org_id": null,
+     "role": "Consumer brands advisor",
+     "span": "2018–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "IIM Ahmedabad",
+     "degree": "PGP"
+    }
+   ],
+   "expertise": [
+    "consumer",
+    "FMCG",
+    "brand building"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.25,
+    "label": "light",
+    "reasons": [
+     "Fellow IIM Ahmedabad alum",
+     "No logged conversations"
+    ],
+    "last_interaction": null,
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "lakshmi-narayanan",
+   "name": "Lakshmi Narayanan",
+   "headline": "Paints and coatings supply chain",
+   "location": "Kolkata",
+   "current": {
+    "org": "Berger Paints",
+    "role": "Head, Supply Chain"
+   },
+   "career": [
+    {
+     "org": "Asian Paints",
+     "org_id": "asian-paints",
+     "role": "Regional Supply Chain Head",
+     "span": "2009–2019"
+    },
+    {
+     "org": "Berger Paints",
+     "org_id": "berger-paints",
+     "role": "Head, Supply Chain",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "XLRI",
+     "degree": "PGDM"
+    }
+   ],
+   "expertise": [
+    "paints",
+    "consumer durables",
+    "supply chain"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.2,
+    "label": "weak",
+    "reasons": [
+     "Professional contact since 2019",
+     "No logged conversations"
+    ],
+    "last_interaction": null,
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "neha-gupta",
+   "name": "Neha Gupta",
+   "headline": "Technology talent leader",
+   "location": "Bengaluru",
+   "current": {
+    "org": "Infosys",
+    "role": "VP, Talent, Americas"
+   },
+   "career": [
+    {
+     "org": "Wipro",
+     "org_id": "wipro",
+     "role": "HR Business Partner, Americas 2",
+     "span": "2005–2019"
+    },
+    {
+     "org": "Infosys",
+     "org_id": "infosys",
+     "role": "VP, Talent, Americas",
+     "span": "2019–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "XLRI",
+     "degree": "PGDM (HR)"
+    }
+   ],
+   "expertise": [
+    "IT services",
+    "talent"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.2,
+    "label": "weak",
+    "reasons": [
+     "Professional contact since 2014",
+     "No logged conversations"
+    ],
+    "last_interaction": null,
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "suresh-pillai",
+   "name": "Suresh Pillai",
+   "headline": "Transmission engineer",
+   "location": "Gurugram",
+   "current": {
+    "org": "Central Electricity Authority",
+    "role": "Consultant (Transmission)"
+   },
+   "career": [
+    {
+     "org": "Power Grid Corporation of India",
+     "org_id": "powergrid",
+     "role": "Chief Manager, Engineering",
+     "span": "2000–2015"
+    },
+    {
+     "org": "Central Electricity Authority",
+     "org_id": "cea",
+     "role": "Consultant (Transmission)",
+     "span": "2016–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIT Kurukshetra",
+     "degree": "B.Tech, Electrical"
+    }
+   ],
+   "expertise": [
+    "power transmission",
+    "PSUs"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.2,
+    "label": "weak",
+    "reasons": [
+     "Professional contact since 2013",
+     "No logged conversations"
+    ],
+    "last_interaction": null,
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "angan-guha",
+   "name": "Angan Guha",
+   "headline": "Technology services leader",
+   "location": "",
+   "current": null,
+   "career": [
+    {
+     "org": "Wipro",
+     "org_id": "wipro",
+     "role": "CEO, Americas 2 Business Unit",
+     "span": "~1993–2021"
+    },
+    {
+     "org": "Birlasoft",
+     "org_id": "birlasoft",
+     "role": "CEO & Managing Director",
+     "span": "~2022–2026"
+    }
+   ],
+   "education": [
+    {
+     "org": "University of Pune",
+     "degree": "Electronics Engineering"
+    },
+    {
+     "org": "Chicago Booth",
+     "degree": "Management programme"
+    }
+   ],
+   "expertise": [
+    "IT services"
+   ],
+   "public_figure": true,
+   "tie": {
+    "strength": 0.15,
+    "label": "weak",
+    "reasons": [
+     "Professional contact since 2024",
+     "Last spoke Mar 2024 (meeting: Birlasoft analyst meet - one-on-one after the session)"
+    ],
+    "last_interaction": "2024-03-19",
+    "interactions_24m": 0
+   }
+  },
+  {
+   "id": "karthik-raman",
+   "name": "Karthik Raman",
+   "headline": "Apparel supply chain",
+   "location": "Bengaluru",
+   "current": {
+    "org": "Threadline Apparel",
+    "role": "Chief Operating Officer"
+   },
+   "career": [
+    {
+     "org": "Page Industries",
+     "org_id": "page-industries",
+     "role": "Head, Sourcing & Supply Chain",
+     "span": "2012–2020"
+    },
+    {
+     "org": "Threadline Apparel",
+     "org_id": "x-threadline-apparel",
+     "role": "Chief Operating Officer",
+     "span": "2020–now"
+    }
+   ],
+   "education": [
+    {
+     "org": "NIFT",
+     "degree": "M.FTech"
+    }
+   ],
+   "expertise": [
+    "apparel",
+    "consumer retail",
+    "supply chain"
+   ],
+   "public_figure": false,
+   "tie": {
+    "strength": 0.15,
+    "label": "weak",
+    "reasons": [
+     "Professional contact since 2019",
+     "Last spoke Aug 2024 (call: Innerwear demand and channel inventory)"
+    ],
+    "last_interaction": "2024-08-30",
+    "interactions_24m": 0
+   }
+  }
+ ],
+ "who_to_call": {
+  "RELIANCE": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "current",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "span": "2020–now",
+    "score": 0.35,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "angle": "Inside view of Reliance Industries today (Head of Merchandising, Trends).",
+    "caution": "Works there now: keep it to background, avoid unpublished price-sensitive information."
+   },
+   {
+    "person_id": "aditya-rao",
+    "name": "Aditya Rao",
+    "relation": "former",
+    "org": "Reliance Jio",
+    "role": "Head, Strategy & Planning",
+    "span": "2016–2022",
+    "score": 0.287,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2003–2007)",
+     "Last spoke Jan 2024 (call: Jio tariff cycle)"
+    ],
+    "angle": "How Reliance Industries works from the inside (Head, Strategy & Planning).",
+    "caution": null
+   }
+  ],
+  "HDFCBANK": [
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "current",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "span": "2015–now",
+    "score": 0.85,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Overlapped at IIM Ahmedabad (2011–2013)",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "angle": "Inside view of HDFC Bank today (Senior VP, Business Banking Credit, Business Banking, Emerging & Micro Enterprises).",
+    "caution": "Works there now: keep it to background, avoid unpublished price-sensitive information."
+   },
+   {
+    "person_id": "kavita-rao",
+    "name": "Kavita Rao",
+    "relation": "competitor",
+    "org": "AU Small Finance Bank",
+    "role": "Chief Compliance Officer",
+    "span": "2024–now",
+    "score": 0.15,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2017",
+     "Last spoke May 2025 (call: Small finance bank compliance load)"
+    ],
+    "angle": "How HDFC Bank looks from a competitor, AU Small Finance Bank (Chief Compliance Officer).",
+    "caution": null
+   }
+  ],
+  "M&M": [
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "former",
+    "org": "Mahindra & Mahindra",
+    "role": "Head, SUV Marketing",
+    "span": "2013–2022",
+    "score": 0.345,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Same batch at IIM Ahmedabad (2010–2012)",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "angle": "How Mahindra & Mahindra works from the inside (Head, SUV Marketing, Automotive).",
+    "caution": null
+   },
+   {
+    "person_id": "ishaan-kapoor",
+    "name": "Ishaan Kapoor",
+    "relation": "supplier",
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs",
+    "span": "2015–now",
+    "score": 0.22,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2001–2005)",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "angle": "Mahindra & Mahindra's demand and terms, seen from supplier Bharat Forge (Director, Defence Programs).",
+    "caution": null
+   }
+  ],
+  "TATASTEEL": [
+   {
+    "person_id": "rahul-khanna",
+    "name": "Rahul Khanna",
+    "relation": "former",
+    "org": "Tata Steel",
+    "role": "Manager, Corporate Strategy & M&A",
+    "span": "2010–2019",
+    "score": 0.358,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Fellow IIM Ahmedabad alum",
+     "Last spoke Oct 2026 (dinner: Steel consolidation and overseas assets)"
+    ],
+    "angle": "How Tata Steel works from the inside (Manager, Corporate Strategy & M&A, Strategy).",
+    "caution": null
+   },
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "customer",
+    "org": "Tata Motors Passenger Vehicles",
+    "role": "Head, Brand Marketing",
+    "span": "2022–now",
+    "score": 0.275,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Same batch at IIM Ahmedabad (2010–2012)",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "angle": "How Tata Steel performs as a supplier, seen from Tata Motors Passenger Vehicles (Head, Brand Marketing).",
+    "caution": null
+   }
+  ],
+  "ITC": [
+   {
+    "person_id": "tanvi-shah",
+    "name": "Tanvi Shah",
+    "relation": "former",
+    "org": "ITC",
+    "role": "Category Head, Packaged Foods",
+    "span": "2011–2020",
+    "score": 0.311,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Overlapped at IIM Ahmedabad (2009–2011)",
+     "Last spoke Aug 2025 (coffee)"
+    ],
+    "angle": "How ITC works from the inside (Category Head, Packaged Foods, FMCG).",
+    "caution": null
+   }
+  ],
+  "WIPRO": [
+   {
+    "person_id": "rohan-mehta",
+    "name": "Rohan Mehta",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "Engagement manager, BFSI",
+    "span": "2012–2021",
+    "score": 0.65,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Same batch at IIM Ahmedabad (2010–2012)",
+     "Last spoke Oct 2026 (dinner: IIM-A batch dinner)"
+    ],
+    "angle": "How Wipro works from the inside (Engagement manager, BFSI, Americas 2).",
+    "caution": null
+   },
+   {
+    "person_id": "neha-gupta",
+    "name": "Neha Gupta",
+    "relation": "competitor",
+    "org": "Infosys",
+    "role": "VP, Talent, Americas",
+    "span": "2019–now",
+    "score": 0.12,
+    "tie_label": "weak",
+    "tie_reasons": [
+     "Professional contact since 2014",
+     "No logged conversations"
+    ],
+    "angle": "How Wipro looks from a competitor, Infosys (VP, Talent, Americas).",
+    "caution": null
+   },
+   {
+    "person_id": "angan-guha",
+    "name": "Angan Guha",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "CEO, Americas 2 Business Unit",
+    "span": "~1993–2021",
+    "score": 0.102,
+    "tie_label": "weak",
+    "tie_reasons": [
+     "Professional contact since 2024",
+     "Last spoke Mar 2024 (meeting: Birlasoft analyst meet - one-on-one after the session)"
+    ],
+    "angle": "How Wipro works from the inside (CEO, Americas 2 Business Unit, Americas 2).",
+    "caution": null
+   }
+  ],
+  "BAJFINANCE": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Head, Consumer Risk Analytics",
+    "span": "2016–2023",
+    "score": 0.591,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2005–2009)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "angle": "How Bajaj Finance works from the inside (Head, Consumer Risk Analytics, Risk).",
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "span": "2015–now",
+    "score": 0.51,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Overlapped at IIM Ahmedabad (2011–2013)",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "angle": "How Bajaj Finance looks from a competitor, HDFC Bank (Senior VP, Business Banking Credit, Business Banking, Emerging & Micro Enterprises).",
+    "caution": null
+   }
+  ],
+  "POWERGRID": [
+   {
+    "person_id": "suresh-pillai",
+    "name": "Suresh Pillai",
+    "relation": "former",
+    "org": "Power Grid Corporation of India",
+    "role": "Chief Manager, Engineering",
+    "span": "2000–2015",
+    "score": 0.09,
+    "tie_label": "weak",
+    "tie_reasons": [
+     "Professional contact since 2013",
+     "No logged conversations"
+    ],
+    "angle": "How Power Grid Corporation of India works from the inside (Chief Manager, Engineering).",
+    "caution": null
+   }
+  ],
+  "TATAPOWER": [
+   {
+    "person_id": "harsh-vora",
+    "name": "Harsh Vora",
+    "relation": "current",
+    "org": "Tata Power Renewable Energy",
+    "role": "Head, Utility-scale Solar Projects",
+    "span": "2014–now",
+    "score": 0.95,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Same batch at IIT Bombay (2004–2008)",
+     "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+    ],
+    "angle": "Inside view of Tata Power today (Head, Utility-scale Solar Projects, Renewables).",
+    "caution": "Works there now: keep it to background, avoid unpublished price-sensitive information."
+   },
+   {
+    "person_id": "meera-iyer",
+    "name": "Meera Iyer",
+    "relation": "former",
+    "org": "Tata Power Delhi Distribution",
+    "role": "Head, Commercial & Regulatory",
+    "span": "2008–2017",
+    "score": 0.302,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Professional contact since 2014",
+     "Last spoke Sep 2026 (coffee: Discom privatisation and Delhi tariff orders)"
+    ],
+    "angle": "How Tata Power works from the inside (Head, Commercial & Regulatory, Distribution).",
+    "caution": null
+   }
+  ],
+  "ASIANPAINT": [
+   {
+    "person_id": "lakshmi-narayanan",
+    "name": "Lakshmi Narayanan",
+    "relation": "competitor",
+    "org": "Berger Paints",
+    "role": "Head, Supply Chain",
+    "span": "2019–now",
+    "score": 0.12,
+    "tie_label": "weak",
+    "tie_reasons": [
+     "Professional contact since 2019",
+     "No logged conversations"
+    ],
+    "angle": "How Asian Paints looks from a competitor, Berger Paints (Head, Supply Chain).",
+    "caution": null
+   }
+  ],
+  "APOLLOHOSP": [
+   {
+    "person_id": "farah-siddiqui",
+    "name": "Farah Siddiqui",
+    "relation": "former",
+    "org": "Apollo Hospitals",
+    "role": "Cluster COO, West",
+    "span": "2015–2021",
+    "score": 0.197,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Fellow IIM Ahmedabad alum",
+     "Last spoke Mar 2025 (call: Hospital bed additions in the west)"
+    ],
+    "angle": "How Apollo Hospitals works from the inside (Cluster COO, West).",
+    "caution": null
+   }
+  ],
+  "HAL": [
+   {
+    "person_id": "ishaan-kapoor",
+    "name": "Ishaan Kapoor",
+    "relation": "supplier",
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs",
+    "span": "2015–now",
+    "score": 0.22,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2001–2005)",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "angle": "Hindustan Aeronautics's demand and terms, seen from supplier Bharat Forge (Director, Defence Programs).",
+    "caution": null
+   }
+  ],
+  "LUPIN": [
+   {
+    "person_id": "sneha-kulkarni",
+    "name": "Sneha Kulkarni",
+    "relation": "current",
+    "org": "Lupin",
+    "role": "Associate General Counsel, Intellectual Property",
+    "span": "2022–now",
+    "score": 0.25,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2020",
+     "Last spoke Dec 2024 (call: US generics litigation landscape)"
+    ],
+    "angle": "Inside view of Lupin today (Associate General Counsel, Intellectual Property, Legal).",
+    "caution": "Works there now: keep it to background, avoid unpublished price-sensitive information."
+   }
+  ],
+  "BSE": [
+   {
+    "person_id": "vikram-desai",
+    "name": "Vikram Desai",
+    "relation": "former",
+    "org": "BSE Index Services",
+    "role": "Head, Index Products",
+    "span": "2018–2023",
+    "score": 0.367,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2002–2006)",
+     "Last spoke Sep 2025 (coffee: Passive flows and index inclusion)"
+    ],
+    "angle": "How BSE works from the inside (Head, Index Products, Index).",
+    "caution": null
+   },
+   {
+    "person_id": "shruti-deshpande",
+    "name": "Shruti Deshpande",
+    "relation": "customer",
+    "org": "Zerodha",
+    "role": "Head, Operations",
+    "span": "2019–now",
+    "score": 0.193,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2019",
+     "Last spoke Apr 2026 (call: Demat account growth)"
+    ],
+    "angle": "How BSE performs as a supplier, seen from Zerodha (Head, Operations).",
+    "caution": null
+   }
+  ],
+  "DIXON": [
+   {
+    "person_id": "kunal-verma",
+    "name": "Kunal Verma",
+    "relation": "supplier",
+    "org": "Tata Electronics",
+    "role": "Director, Semiconductor Assembly",
+    "span": "2021–now",
+    "score": 0.44,
+    "tie_label": "strong",
+    "tie_reasons": [
+     "Overlapped at IIT Bombay (2006–2008)",
+     "Last spoke Sep 2026 (coffee: OSAT ramp-up)"
+    ],
+    "angle": "Dixon Technologies's demand and terms, seen from supplier Tata Electronics (Director, Semiconductor Assembly).",
+    "caution": null
+   },
+   {
+    "person_id": "aisha-khan",
+    "name": "Aisha Khan",
+    "relation": "current",
+    "org": "Dixon Technologies",
+    "role": "Senior Manager, IT Hardware",
+    "span": "2021–now",
+    "score": 0.35,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2023",
+     "Last spoke Jan 2026 (meeting: Dixon Noida plant visit)"
+    ],
+    "angle": "Inside view of Dixon Technologies today (Senior Manager, IT Hardware, IT hardware).",
+    "caution": "Works there now: keep it to background, avoid unpublished price-sensitive information."
+   },
+   {
+    "person_id": "priya-sharma",
+    "name": "Priya Sharma",
+    "relation": "competitor",
+    "org": "Syrma SGS Technology",
+    "role": "VP, Programs",
+    "span": "2022–now",
+    "score": 0.33,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Fellow IIT Bombay alum",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "angle": "How Dixon Technologies looks from a competitor, Syrma SGS Technology (VP, Programs).",
+    "caution": null
+   },
+   {
+    "person_id": "deepa-menon",
+    "name": "Deepa Menon",
+    "relation": "former",
+    "org": "Dixon Technologies",
+    "role": "Head, IT Hardware Operations",
+    "span": "2019–2024",
+    "score": 0.276,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2022",
+     "Last spoke Dec 2025 (call: PLI and laptop assembly ramp)"
+    ],
+    "angle": "How Dixon Technologies works from the inside (Head, IT Hardware Operations, IT hardware).",
+    "caution": null
+   }
+  ],
+  "KAYNES": [
+   {
+    "person_id": "priya-sharma",
+    "name": "Priya Sharma",
+    "relation": "former",
+    "org": "Kaynes Technology",
+    "role": "Program Manager, Industrial & Automotive",
+    "span": "2017–2022",
+    "score": 0.392,
+    "tie_label": "good",
+    "tie_reasons": [
+     "Fellow IIT Bombay alum",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "angle": "How Kaynes Technology works from the inside (Program Manager, Industrial & Automotive).",
+    "caution": null
+   },
+   {
+    "person_id": "aisha-khan",
+    "name": "Aisha Khan",
+    "relation": "competitor",
+    "org": "Dixon Technologies",
+    "role": "Senior Manager, IT Hardware",
+    "span": "2021–now",
+    "score": 0.21,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2023",
+     "Last spoke Jan 2026 (meeting: Dixon Noida plant visit)"
+    ],
+    "angle": "How Kaynes Technology looks from a competitor, Dixon Technologies (Senior Manager, IT Hardware, IT hardware).",
+    "caution": null
+   }
+  ],
+  "PIIND": [
+   {
+    "person_id": "ananya-bose",
+    "name": "Ananya Bose",
+    "relation": "former",
+    "org": "PI Industries",
+    "role": "Head, Business Development (CSM exports)",
+    "span": "2014–2021",
+    "score": 0.163,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2025 (call: CSM export order book across the industry)"
+    ],
+    "angle": "How PI Industries works from the inside (Head, Business Development (CSM exports), Custom synthesis).",
+    "caution": null
+   }
+  ],
+  "PAGEIND": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "customer",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "span": "2020–now",
+    "score": 0.193,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "angle": "How Page Industries performs as a supplier, seen from Reliance Retail (Head of Merchandising, Trends).",
+    "caution": null
+   },
+   {
+    "person_id": "karthik-raman",
+    "name": "Karthik Raman",
+    "relation": "former",
+    "org": "Page Industries",
+    "role": "Head, Sourcing & Supply Chain",
+    "span": "2012–2020",
+    "score": 0.093,
+    "tie_label": "weak",
+    "tie_reasons": [
+     "Professional contact since 2019",
+     "Last spoke Aug 2024 (call: Innerwear demand and channel inventory)"
+    ],
+    "angle": "How Page Industries works from the inside (Head, Sourcing & Supply Chain).",
+    "caution": null
+   }
+  ],
+  "DEEPAKNTR": [
+   {
+    "person_id": "rajesh-iyer",
+    "name": "Rajesh Iyer",
+    "relation": "competitor",
+    "org": "Aarti Industries",
+    "role": "VP, Operations",
+    "span": "2018–now",
+    "score": 0.15,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2015",
+     "Last spoke Jun 2025 (plant visit: Aarti Jhagadia site)"
+    ],
+    "angle": "How Deepak Nitrite looks from a competitor, Aarti Industries (VP, Operations).",
+    "caution": null
+   }
+  ],
+  "TRENT": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "competitor",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "span": "2020–now",
+    "score": 0.21,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2018",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "angle": "How Trent looks from a competitor, Reliance Retail (Head of Merchandising, Trends).",
+    "caution": null
+   }
+  ],
+  "POLYCAB": [
+   {
+    "person_id": "manish-bansal",
+    "name": "Manish Bansal",
+    "relation": "competitor",
+    "org": "KEI Industries",
+    "role": "GM, Institutional Sales",
+    "span": "2019–now",
+    "score": 0.15,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2020",
+     "Last spoke Nov 2024 (call)"
+    ],
+    "angle": "How Polycab India looks from a competitor, KEI Industries (GM, Institutional Sales).",
+    "caution": null
+   }
+  ],
+  "CDSL": [
+   {
+    "person_id": "shruti-deshpande",
+    "name": "Shruti Deshpande",
+    "relation": "customer",
+    "org": "Zerodha",
+    "role": "Head, Operations",
+    "span": "2019–now",
+    "score": 0.193,
+    "tie_label": "light",
+    "tie_reasons": [
+     "Professional contact since 2019",
+     "Last spoke Apr 2026 (call: Demat account growth)"
+    ],
+    "angle": "How CDSL performs as a supplier, seen from Zerodha (Head, Operations).",
+    "caution": null
+   }
+  ]
+ },
+ "expertise": {
+  "electronics manufacturing": [
+   "kunal-verma",
+   "priya-sharma",
+   "deepa-menon",
+   "aisha-khan"
+  ],
+  "IT services": [
+   "rohan-mehta",
+   "neha-gupta",
+   "angan-guha"
+  ],
+  "consumer": [
+   "gaurav-sethi",
+   "tanvi-shah",
+   "divya-krishnan"
+  ],
+  "specialty chemicals": [
+   "anil-mathur",
+   "ananya-bose",
+   "rajesh-iyer"
+  ],
+  "power utilities": [
+   "harsh-vora",
+   "siddharth-menon"
+  ],
+  "FMCG": [
+   "tanvi-shah",
+   "divya-krishnan"
+  ],
+  "agrochemicals": [
+   "anil-mathur",
+   "ananya-bose"
+  ],
+  "IT hardware": [
+   "deepa-menon",
+   "aisha-khan"
+  ],
+  "consumer retail": [
+   "pooja-malhotra",
+   "karthik-raman"
+  ],
+  "supply chain": [
+   "lakshmi-narayanan",
+   "karthik-raman"
+  ],
+  "large-deal strategy": [
+   "rohan-mehta"
+  ],
+  "BFSI technology": [
+   "rohan-mehta"
+  ],
+  "renewable energy": [
+   "harsh-vora"
+  ],
+  "solar EPC": [
+   "harsh-vora"
+  ],
+  "financials": [
+   "gaurav-sethi"
+  ],
+  "SME lending": [
+   "arjun-nair"
+  ],
+  "credit underwriting": [
+   "arjun-nair"
+  ],
+  "consumer lending": [
+   "nikhil-agarwal"
+  ],
+  "credit risk": [
+   "nikhil-agarwal"
+  ],
+  "NBFCs": [
+   "nikhil-agarwal"
+  ],
+  "semiconductors": [
+   "kunal-verma"
+  ],
+  "OSAT": [
+   "kunal-verma"
+  ],
+  "sell-side research": [
+   "siddharth-menon"
+  ],
+  "power distribution": [
+   "meera-iyer"
+  ],
+  "electricity regulation": [
+   "meera-iyer"
+  ],
+  "discom turnarounds": [
+   "meera-iyer"
+  ],
+  "steel": [
+   "rahul-khanna"
+  ],
+  "metals M&A": [
+   "rahul-khanna"
+  ],
+  "mining": [
+   "rahul-khanna"
+  ],
+  "EMS": [
+   "priya-sharma"
+  ],
+  "automotive electronics": [
+   "priya-sharma"
+  ],
+  "passive investing": [
+   "vikram-desai"
+  ],
+  "exchange businesses": [
+   "vikram-desai"
+  ],
+  "mutual-fund distribution": [
+   "vikram-desai"
+  ],
+  "automobiles": [
+   "sameer-joshi"
+  ],
+  "consumer marketing": [
+   "sameer-joshi"
+  ],
+  "packaged foods": [
+   "tanvi-shah"
+  ],
+  "fluorochemicals": [
+   "anil-mathur"
+  ],
+  "defence": [
+   "ishaan-kapoor"
+  ],
+  "aerospace": [
+   "ishaan-kapoor"
+  ],
+  "helicopters": [
+   "ishaan-kapoor"
+  ],
+  "telecom": [
+   "aditya-rao"
+  ],
+  "digital platforms": [
+   "aditya-rao"
+  ],
+  "conglomerates": [
+   "aditya-rao"
+  ],
+  "PLI schemes": [
+   "deepa-menon"
+  ],
+  "fashion retail": [
+   "pooja-malhotra"
+  ],
+  "merchandising": [
+   "pooja-malhotra"
+  ],
+  "depositories": [
+   "shruti-deshpande"
+  ],
+  "broking": [
+   "shruti-deshpande"
+  ],
+  "capital markets": [
+   "shruti-deshpande"
+  ],
+  "hospitals": [
+   "farah-siddiqui"
+  ],
+  "healthcare operations": [
+   "farah-siddiqui"
+  ],
+  "bank compliance": [
+   "kavita-rao"
+  ],
+  "RBI inspections": [
+   "kavita-rao"
+  ],
+  "data privacy": [
+   "kavita-rao"
+  ],
+  "pharma patents": [
+   "sneha-kulkarni"
+  ],
+  "US generics litigation": [
+   "sneha-kulkarni"
+  ],
+  "custom synthesis": [
+   "ananya-bose"
+  ],
+  "phenolics": [
+   "rajesh-iyer"
+  ],
+  "plant operations": [
+   "rajesh-iyer"
+  ],
+  "cables & wires": [
+   "manish-bansal"
+  ],
+  "electrical products": [
+   "manish-bansal"
+  ],
+  "infrastructure demand": [
+   "manish-bansal"
+  ],
+  "rural lending": [
+   "ritu-saxena"
+  ],
+  "microfinance": [
+   "ritu-saxena"
+  ],
+  "small finance banks": [
+   "ritu-saxena"
+  ],
+  "brand building": [
+   "divya-krishnan"
+  ],
+  "paints": [
+   "lakshmi-narayanan"
+  ],
+  "consumer durables": [
+   "lakshmi-narayanan"
+  ],
+  "talent": [
+   "neha-gupta"
+  ],
+  "power transmission": [
+   "suresh-pillai"
+  ],
+  "PSUs": [
+   "suresh-pillai"
+  ],
+  "apparel": [
+   "karthik-raman"
+  ]
+ }
+}

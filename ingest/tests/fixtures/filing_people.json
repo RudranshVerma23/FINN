@@ -1,0 +1,66 @@
+{
+  "_comment": "Real executives named in Nov 2026 NSE appointment filings, with ONLY the facts stated in each filing's 'brief profile' (a primary, public source). Structured by hand in the same schema the T06 extractor will produce, so T03 can be tested before T06 exists. Years marked dates_approximate are inferred from phrases like 'over 28 years with Wipro'.",
+  "people": [
+    {
+      "filing_id": "NSE-106855625", "symbol": "TATAPOWER", "name": "Sanjay Banga",
+      "event": "Appointed CEO & Managing Director designate (from 1 May 2027)",
+      "stints": [
+        { "org": "NTPC", "role": "Engineer Trainee", "from": "1989-01", "to": "1995-12" },
+        { "org": "Reliance Energy", "role": "Operations, maintenance and project engineering", "from": "1996-01", "to": "2003-06" },
+        { "org": "Tata Power Delhi Distribution", "role": "CEO", "unit": "Distribution", "from": "2003-07", "to": "2018-12", "dates_approximate": true },
+        { "org": "Tata Power", "role": "President, Transmission & Distribution", "from": "2019-01", "to": "2022-12", "dates_approximate": true },
+        { "org": "Tata Power Renewable Energy", "role": "CEO & Managing Director", "unit": "Renewables", "from": "2023-01", "to": null, "dates_approximate": true }
+      ],
+      "education": [ { "org": "NIT Kurukshetra", "degree": "Engineering" }, { "org": "FMS Delhi", "degree": "MBA" } ]
+    },
+    {
+      "filing_id": "NSE-106851464", "symbol": "WIPRO", "name": "Angan Guha",
+      "event": "Appointed President & CEO, Americas 2 (from 8 Dec 2026)",
+      "stints": [
+        { "org": "Wipro", "role": "CEO, Americas 2 Business Unit", "unit": "Americas 2", "from": "1993-01", "to": "2021-12", "dates_approximate": true },
+        { "org": "Birlasoft", "role": "CEO & Managing Director", "from": "2022-12", "to": "2026-11", "dates_approximate": true }
+      ],
+      "education": [ { "org": "University of Pune", "degree": "Electronics Engineering" }, { "org": "Chicago Booth", "degree": "Management programme" } ]
+    },
+    {
+      "filing_id": "NSE-106850382", "symbol": "HDFCBANK", "name": "V. N. Srivatsan",
+      "event": "Appointed Chief Compliance Officer (from 6 Nov 2026)",
+      "stints": [
+        { "org": "ICICI Bank", "role": "Head - Compliance: Overseas Banking and Subsidiaries", "unit": "Compliance", "from": null, "to": "2026-10", "dates_approximate": true }
+      ],
+      "education": [ { "org": "PSG College of Technology", "degree": "MBA" }, { "org": "Sri Venkateswara University", "degree": "B.Tech" } ]
+    },
+    {
+      "filing_id": "NSE-106825533", "symbol": "LUPIN", "name": "Brian Savage",
+      "event": "Appointed President, Chief Legal Officer (22 Oct 2026)",
+      "stints": [
+        { "org": "Dechert LLP", "role": "Lawyer", "from": null, "to": null, "dates_approximate": true },
+        { "org": "Teva Pharmaceuticals", "role": "EVP and Interim Global Chief Legal Officer", "unit": "Legal", "from": null, "to": "2026-09", "dates_approximate": true }
+      ],
+      "education": [ { "org": "Yale Law School", "degree": "J.D." }, { "org": "University of Pennsylvania", "degree": "B.A." } ]
+    },
+    {
+      "filing_id": "NSE-106845094", "symbol": "BSE", "name": "Ashutosh Singh",
+      "event": "Appointed Executive Director, Business (from 30 Nov 2026)",
+      "stints": [
+        { "org": "BSE Index Services", "role": "MD & CEO", "unit": "Index", "from": null, "to": "2026-11", "dates_approximate": true },
+        { "org": "BSE", "role": "StAR MF platform (scaling)", "unit": "StAR MF", "from": null, "to": null, "dates_approximate": true }
+      ],
+      "education": []
+    },
+    {
+      "filing_id": "NSE-106836531", "symbol": "DIXON", "name": "Prithvi Vachani",
+      "event": "Appointed Whole-time Director (30 Oct 2026)",
+      "stints": [
+        { "org": "Dixon Technologies", "role": "Vice President, IT hardware", "unit": "IT hardware", "from": "2017-06", "to": null }
+      ],
+      "education": [ { "org": "Bentley University", "degree": "Undergraduate", "to": "2017-05" }, { "org": "London Business School", "degree": "MBA" } ]
+    },
+    {
+      "filing_id": "NSE-106858581", "symbol": "HAL", "name": "Shrirang Anilrao Kothe",
+      "event": "Appointed CEO (Helicopter Complex) (13 Nov 2026)",
+      "stints": [ { "org": "Hindustan Aeronautics", "role": "CEO (Helicopter Complex)", "unit": "Helicopter", "from": "2026-11", "to": null } ],
+      "education": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "SYNTHETIC. What the investor tells FINN about themselves at onboarding (FR-18). In a real deployment this lives in the investor's private, encrypted store, never in a repo.",
+  "name": "You",
+  "headline": "Partner, public-markets fund",
+  "education": [
+    { "org": "IIT Bombay", "degree": "B.Tech, Electrical Engineering", "from": "2004-07", "to": "2008-05" },
+    { "org": "IIM Ahmedabad", "degree": "PGP", "from": "2010-06", "to": "2012-03" }
+  ],
+  "stints": [
+    { "org": "Kotak Institutional Equities", "role": "Research analyst, utilities and industrials", "from": "2012-04", "to": "2016-06" },
+    { "org": "ICICI Prudential AMC", "role": "Fund manager", "from": "2016-07", "to": "2021-03" },
+    { "org": "Demo Capital Partners", "role": "Partner", "from": "2021-04", "to": null }
+  ],
+  "interests": ["power utilities", "IT services", "specialty chemicals", "financials", "electronics manufacturing"]
+}

@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* FINN design tokens. Warm paper + ink, one accent for "people" (the network),
+   semantic up/down. Every colour is a token so dark mode is a token swap (NFR-08). */
+:root {
+  --paper: #f5f3ee;
+  --surface: #ffffff;
+  --surface-2: #faf9f6;
+  --ink: #17171a;
+  --ink-2: #4a4945;
+  --muted: #7a7872;
+  --hairline: #e6e2d9;
+  --accent: #1d3fbb;
+  --people: #a8561a;
+  --people-soft: #f6ebe1;
+  --up: #0f7a4c;
+  --down: #c0392b;
+  --up-soft: #e3f2ea;
+  --down-soft: #f8e5e2;
+  --warn: #8a6100;
+  --warn-soft: #fbf1d6;
+  --shadow: 0 1px 2px rgb(23 23 26 / 0.04), 0 6px 20px -8px rgb(23 23 26 / 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0f0f11;
+    --surface: #18181b;
+    --surface-2: #1f1f23;
+    --ink: #eeece7;
+    --ink-2: #c4c1ba;
+    --muted: #8e8b84;
+    --hairline: #2b2b30;
+    --accent: #8ea6ff;
+    --people: #e3a06a;
+    --people-soft: #2a2019;
+    --up: #4cc38a;
+    --down: #ff7b6b;
+    --up-soft: #15261d;
+    --down-soft: #2c1816;
+    --warn: #e7c063;
+    --warn-soft: #2a2412;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -10px rgb(0 0 0 / 0.6);
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-hairline: var(--hairline);
+  --color-accent: var(--accent);
+  --color-people: var(--people);
+  --color-people-soft: var(--people-soft);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --color-up-soft: var(--up-soft);
+  --color-down-soft: var(--down-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-newsreader);
+  --shadow-card: var(--shadow);
+}
+
+html {
+  background: var(--paper);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Respect users who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
