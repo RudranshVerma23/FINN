@@ -1,0 +1,1702 @@
+{
+ "RELIANCE": {
+  "symbol": "RELIANCE",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-30T21:32:55+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_207709_30102026213255_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 332861.0,
+    "prev": 311850.0,
+    "year_ago": 258898.0,
+    "qoq_pct": 6.7,
+    "yoy_pct": 28.6
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 56616.0,
+    "prev": 47517.0,
+    "year_ago": 45885.0,
+    "qoq_pct": 19.1,
+    "yoy_pct": 23.4
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 38613.0,
+    "prev": 30630.0,
+    "year_ago": 29124.0,
+    "qoq_pct": 26.1,
+    "yoy_pct": 32.6
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 25548.0,
+    "prev": 20946.0,
+    "year_ago": 18165.0,
+    "qoq_pct": 22.0,
+    "yoy_pct": 40.6
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 17.0,
+   "prev": 15.2,
+   "year_ago": 17.7
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹332,861 cr vs ₹330,601 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹38,613 cr vs ₹38,613 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹29,550 cr vs ₹29,550 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +29% YoY, PAT +41% YoY",
+  "missing": []
+ },
+ "HDFCBANK": {
+  "symbol": "HDFCBANK",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "bank",
+  "filed_at": "2026-10-17T17:47:13+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_BANKING_202132_17102026174812_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Net interest income",
+    "value": 44464.2,
+    "prev": 42949.7,
+    "year_ago": 40253.0,
+    "qoq_pct": 3.5,
+    "yoy_pct": 10.5
+   },
+   {
+    "key": "ebitda",
+    "label": "Pre-provision profit",
+    "value": 32871.5,
+    "prev": 30996.0,
+    "year_ago": 30940.7,
+    "qoq_pct": 6.1,
+    "yoy_pct": 6.2
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 27825.5,
+    "prev": 27193.2,
+    "year_ago": 25905.8,
+    "qoq_pct": 2.3,
+    "yoy_pct": 7.4
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 20700.0,
+    "prev": 19244.7,
+    "year_ago": 19610.7,
+    "qoq_pct": 7.6,
+    "yoy_pct": 5.6
+   }
+  ],
+  "margin": null,
+  "note": "For a bank, pre-provision operating profit stands in for EBITDA.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0%"
+   },
+   {
+    "name": "Interest earned vs Screener",
+    "ok": true,
+    "detail": "₹95,132 cr vs ₹95,132 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹27,825 cr vs ₹28,663 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹20,700 cr vs ₹21,537 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Net interest income +10% YoY, PAT +6% YoY",
+  "missing": []
+ },
+ "M&M": {
+  "symbol": "M&M",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-05T17:22:43+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_210367_05112026174042_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 57553.1,
+    "prev": 58187.6,
+    "year_ago": 46105.7,
+    "qoq_pct": -1.1,
+    "yoy_pct": 24.8
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 10221.5,
+    "prev": 10565.0,
+    "year_ago": 8929.1,
+    "qoq_pct": -3.3,
+    "yoy_pct": 14.5
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 6894.7,
+    "prev": 7260.6,
+    "year_ago": 5588.7,
+    "qoq_pct": -5.0,
+    "yoy_pct": 23.4
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 4587.9,
+    "prev": 5454.5,
+    "year_ago": 3673.3,
+    "qoq_pct": -15.9,
+    "yoy_pct": 24.9
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 17.8,
+   "prev": 18.2,
+   "year_ago": 19.4
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹57,553 cr vs ₹57,553 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹7,365 cr incl. JV share vs ₹7,365 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹5,167 cr vs ₹5,167 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +25% YoY, PAT +25% YoY",
+  "missing": []
+ },
+ "TATASTEEL": {
+  "symbol": "TATASTEEL",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-07T17:33:17+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_211791_07112026173333_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 65436.2,
+    "prev": 60794.3,
+    "year_ago": 58689.3,
+    "qoq_pct": 7.6,
+    "yoy_pct": 11.5
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 10533.1,
+    "prev": 9264.3,
+    "year_ago": 8896.5,
+    "qoq_pct": 13.7,
+    "yoy_pct": 18.4
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 5342.9,
+    "prev": 3741.4,
+    "year_ago": 4171.7,
+    "qoq_pct": 42.8,
+    "yoy_pct": 28.1
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 3666.4,
+    "prev": 2318.3,
+    "year_ago": 3101.8,
+    "qoq_pct": 58.1,
+    "yoy_pct": 18.2
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 16.1,
+   "prev": 15.2,
+   "year_ago": 15.2
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹65,436 cr vs ₹65,436 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹5,455 cr incl. JV share vs ₹5,455 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹3,700 cr vs ₹3,700 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +12% YoY, PAT +18% YoY",
+  "missing": []
+ },
+ "ITC": {
+  "symbol": "ITC",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-02T18:55:59+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_208371_02112026185559_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 30578.4,
+    "prev": 29523.3,
+    "year_ago": 21255.9,
+    "qoq_pct": 3.6,
+    "yoy_pct": 43.9
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 5644.8,
+    "prev": 5180.9,
+    "year_ago": 6694.7,
+    "qoq_pct": 9.0,
+    "yoy_pct": -15.7
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 5597.7,
+    "prev": 5774.9,
+    "year_ago": 6912.3,
+    "qoq_pct": -3.1,
+    "yoy_pct": -19.0
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 4168.4,
+    "prev": 4394.1,
+    "year_ago": 5126.1,
+    "qoq_pct": -5.1,
+    "yoy_pct": -18.7
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 18.5,
+   "prev": 17.5,
+   "year_ago": 31.5
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": false,
+    "detail": "₹30,578 cr vs ₹20,269 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹5,695 cr incl. JV share vs ₹5,695 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹4,229 cr vs ₹4,229 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +44% YoY, PAT -19% YoY",
+  "missing": []
+ },
+ "WIPRO": {
+  "symbol": "WIPRO",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-15T16:08:50+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_201410_15102026160931_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 24752.7,
+    "prev": 24478.6,
+    "year_ago": 22697.3,
+    "qoq_pct": 1.1,
+    "yoy_pct": 9.1
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 4862.7,
+    "prev": 4633.2,
+    "year_ago": 4372.4,
+    "qoq_pct": 5.0,
+    "yoy_pct": 11.2
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 4196.1,
+    "prev": 4335.0,
+    "year_ago": 4267.2,
+    "qoq_pct": -3.2,
+    "yoy_pct": -1.7
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 3200.6,
+    "prev": 3352.0,
+    "year_ago": 3246.2,
+    "qoq_pct": -4.5,
+    "yoy_pct": -1.4
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 19.6,
+   "prev": 18.9,
+   "year_ago": 19.3
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹24,753 cr vs ₹24,753 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹4,205 cr incl. JV share vs ₹4,205 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹3,200 cr vs ₹3,200 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +9% YoY, PAT -1% YoY",
+  "missing": []
+ },
+ "BAJFINANCE": {
+  "symbol": "BAJFINANCE",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "nbfc",
+  "filed_at": "2026-10-19T19:59:04+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_202442_19102026195918_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 24546.4,
+    "prev": 23165.5,
+    "year_ago": 20178.9,
+    "qoq_pct": 6.0,
+    "yoy_pct": 21.6
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": null,
+    "prev": null,
+    "year_ago": null,
+    "qoq_pct": null,
+    "yoy_pct": null
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 8533.5,
+    "prev": 8143.9,
+    "year_ago": 6604.8,
+    "qoq_pct": 4.8,
+    "yoy_pct": 29.2
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 6266.2,
+    "prev": 5985.8,
+    "year_ago": 4875.4,
+    "qoq_pct": 4.7,
+    "yoy_pct": 28.5
+   }
+  ],
+  "margin": null,
+  "note": "EBITDA isn't meaningful for a lender: interest is its cost of goods.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹24,546 cr vs ₹24,546 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹8,537 cr incl. JV share vs ₹8,537 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹6,367 cr vs ₹6,367 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +22% YoY, PAT +28% YoY",
+  "missing": []
+ },
+ "POWERGRID": {
+  "symbol": "POWERGRID",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-01T21:09:29+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_208052_01112026210929_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 11816.2,
+    "prev": 11496.7,
+    "year_ago": 11476.0,
+    "qoq_pct": 2.8,
+    "yoy_pct": 3.0
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 9720.0,
+    "prev": 9536.5,
+    "year_ago": 9113.7,
+    "qoq_pct": 1.9,
+    "yoy_pct": 6.7
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 4572.0,
+    "prev": 4585.1,
+    "year_ago": 3936.8,
+    "qoq_pct": -0.3,
+    "yoy_pct": 16.1
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 3866.2,
+    "prev": 3598.4,
+    "year_ago": 3566.1,
+    "qoq_pct": 7.4,
+    "yoy_pct": 8.4
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 82.3,
+   "prev": 82.9,
+   "year_ago": 79.4
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹11,816 cr vs ₹11,816 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹4,663 cr incl. JV share and regulatory deferral vs ₹4,663 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹3,866 cr vs ₹3,866 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +3% YoY, PAT +8% YoY",
+  "missing": []
+ },
+ "TATAPOWER": {
+  "symbol": "TATAPOWER",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-11T19:03:41+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_212451_11112026190341_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 19635.9,
+    "prev": 19051.3,
+    "year_ago": 15544.9,
+    "qoq_pct": 3.1,
+    "yoy_pct": 26.3
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 3666.8,
+    "prev": 4013.3,
+    "year_ago": 3301.9,
+    "qoq_pct": -8.6,
+    "yoy_pct": 11.1
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 1442.9,
+    "prev": 1735.0,
+    "year_ago": 1326.7,
+    "qoq_pct": -16.8,
+    "yoy_pct": 8.8
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 1366.1,
+    "prev": 1175.9,
+    "year_ago": 919.4,
+    "qoq_pct": 16.2,
+    "yoy_pct": 48.6
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 18.7,
+   "prev": 21.1,
+   "year_ago": 21.2
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": "Share of JV/associate profit of ₹487 cr is reported separately from PBT.",
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹19,636 cr vs ₹19,636 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹2,180 cr incl. JV share and regulatory deferral vs ₹2,180 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹1,652 cr vs ₹1,652 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +26% YoY, PAT +49% YoY",
+  "missing": []
+ },
+ "ASIANPAINT": {
+  "symbol": "ASIANPAINT",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-29T21:25:21+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_206843_29102026212521_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 9976.5,
+    "prev": 10541.9,
+    "year_ago": 8531.3,
+    "qoq_pct": -5.4,
+    "yoy_pct": 16.9
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 1557.1,
+    "prev": 2168.8,
+    "year_ago": 1503.4,
+    "qoq_pct": -28.2,
+    "yoy_pct": 3.6
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 1435.8,
+    "prev": 2057.6,
+    "year_ago": 1353.2,
+    "qoq_pct": -30.2,
+    "yoy_pct": 6.1
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 1067.6,
+    "prev": 1539.2,
+    "year_ago": 993.6,
+    "qoq_pct": -30.6,
+    "yoy_pct": 7.5
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 15.6,
+   "prev": 20.6,
+   "year_ago": 17.6
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹9,977 cr vs ₹9,977 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹1,478 cr incl. JV share vs ₹1,478 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹1,085 cr vs ₹1,085 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +17% YoY, PAT +8% YoY",
+  "missing": []
+ },
+ "APOLLOHOSP": {
+  "symbol": "APOLLOHOSP",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-04T19:04:17+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_209708_04112026190518_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 7614.9,
+    "prev": 7043.5,
+    "year_ago": 6303.5,
+    "qoq_pct": 8.1,
+    "yoy_pct": 20.8
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 1190.8,
+    "prev": 1092.1,
+    "year_ago": 941.1,
+    "qoq_pct": 9.0,
+    "yoy_pct": 26.5
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 891.4,
+    "prev": 785.4,
+    "year_ago": 668.4,
+    "qoq_pct": 13.5,
+    "yoy_pct": 33.4
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 629.9,
+    "prev": 580.7,
+    "year_ago": 477.2,
+    "qoq_pct": 8.5,
+    "yoy_pct": 32.0
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 15.6,
+   "prev": 15.5,
+   "year_ago": 14.9
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹7,615 cr vs ₹7,615 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹903 cr incl. JV share vs ₹904 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹660 cr vs ₹660 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +21% YoY, PAT +32% YoY",
+  "missing": []
+ },
+ "HAL": {
+  "symbol": "HAL",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-12T15:38:17+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_212713_12112026153817_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 7613.2,
+    "prev": 5515.2,
+    "year_ago": 6628.6,
+    "qoq_pct": 38.0,
+    "yoy_pct": 14.9
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 1739.5,
+    "prev": 1526.8,
+    "year_ago": 1557.9,
+    "qoq_pct": 13.9,
+    "yoy_pct": 11.7
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 2469.5,
+    "prev": 2122.7,
+    "year_ago": 2219.6,
+    "qoq_pct": 16.3,
+    "yoy_pct": 11.3
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 1935.7,
+    "prev": 1589.7,
+    "year_ago": 1669.1,
+    "qoq_pct": 21.8,
+    "yoy_pct": 16.0
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 22.8,
+   "prev": 27.7,
+   "year_ago": 23.5
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹7,613 cr vs ₹7,613 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹2,566 cr incl. JV share vs ₹2,566 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹1,936 cr vs ₹1,936 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +15% YoY, PAT +16% YoY",
+  "missing": []
+ },
+ "LUPIN": {
+  "symbol": "LUPIN",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-04T01:32:11+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_209216_04112026013306_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 7827.3,
+    "prev": 8276.9,
+    "year_ago": 7047.5,
+    "qoq_pct": -5.4,
+    "yoy_pct": 11.1
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 2044.4,
+    "prev": 2449.6,
+    "year_ago": 2341.3,
+    "qoq_pct": -16.5,
+    "yoy_pct": -12.7
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 1579.6,
+    "prev": 2017.4,
+    "year_ago": 2007.0,
+    "qoq_pct": -21.7,
+    "yoy_pct": -21.3
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 1155.3,
+    "prev": 1415.0,
+    "year_ago": 1477.9,
+    "qoq_pct": -18.4,
+    "yoy_pct": -21.8
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 26.1,
+   "prev": 29.6,
+   "year_ago": 33.2
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹7,827 cr vs ₹7,827 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹1,580 cr incl. JV share vs ₹1,580 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹1,155 cr vs ₹1,155 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +11% YoY, PAT -22% YoY",
+  "missing": []
+ },
+ "BSE": {
+  "symbol": "BSE",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-04T19:16:44+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_209748_04112026191644_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 1432.7,
+    "prev": 1566.0,
+    "year_ago": 1068.4,
+    "qoq_pct": -8.5,
+    "yoy_pct": 34.1
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 973.1,
+    "prev": 1046.0,
+    "year_ago": 680.3,
+    "qoq_pct": -7.0,
+    "yoy_pct": 43.0
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 1044.9,
+    "prev": 1144.1,
+    "year_ago": 718.9,
+    "qoq_pct": -8.7,
+    "yoy_pct": 45.3
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 809.1,
+    "prev": 874.0,
+    "year_ago": 558.4,
+    "qoq_pct": -7.4,
+    "yoy_pct": 44.9
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 67.9,
+   "prev": 66.8,
+   "year_ago": 63.7
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹1,433 cr vs ₹1,433 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹1,072 cr incl. JV share vs ₹1,072 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹808 cr vs ₹808 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +34% YoY, PAT +45% YoY",
+  "missing": []
+ },
+ "DIXON": {
+  "symbol": "DIXON",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-30T20:22:02+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_207643_30102026202202_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 21793.6,
+    "prev": 15547.7,
+    "year_ago": 14855.0,
+    "qoq_pct": 40.2,
+    "yoy_pct": 46.7
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 596.8,
+    "prev": 463.1,
+    "year_ago": 561.3,
+    "qoq_pct": 28.9,
+    "yoy_pct": 6.3
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 529.5,
+    "prev": 860.3,
+    "year_ago": 922.4,
+    "qoq_pct": -38.4,
+    "yoy_pct": -42.6
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 343.7,
+    "prev": 663.4,
+    "year_ago": 670.0,
+    "qoq_pct": -48.2,
+    "yoy_pct": -48.7
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 2.7,
+   "prev": 3.0,
+   "year_ago": 3.8
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹21,794 cr vs ₹21,794 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹532 cr incl. JV share vs ₹532 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹411 cr vs ₹411 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +47% YoY, PAT -49% YoY",
+  "missing": []
+ },
+ "KAYNES": {
+  "symbol": "KAYNES",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-15T00:09:08+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214715_15112026000908_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 952.5,
+    "prev": 946.0,
+    "year_ago": 906.2,
+    "qoq_pct": 0.7,
+    "yoy_pct": 5.1
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 125.6,
+    "prev": 147.6,
+    "year_ago": 148.0,
+    "qoq_pct": -14.9,
+    "yoy_pct": -15.2
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 70.7,
+    "prev": 87.9,
+    "year_ago": 151.7,
+    "qoq_pct": -19.5,
+    "yoy_pct": -53.4
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 38.0,
+    "prev": 56.4,
+    "year_ago": 0.0,
+    "qoq_pct": -32.7,
+    "yoy_pct": null
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 13.2,
+   "prev": 15.6,
+   "year_ago": 16.3
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +5% YoY",
+  "missing": []
+ },
+ "PIIND": {
+  "symbol": "PIIND",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-11-04T20:35:27+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_209873_04112026203604_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 1701.8,
+    "prev": 1702.3,
+    "year_ago": 1872.3,
+    "qoq_pct": -0.0,
+    "yoy_pct": -9.1
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 232.7,
+    "prev": 367.4,
+    "year_ago": 541.3,
+    "qoq_pct": -36.7,
+    "yoy_pct": -57.0
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 180.5,
+    "prev": 319.9,
+    "year_ago": 523.2,
+    "qoq_pct": -43.6,
+    "yoy_pct": -65.5
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 138.9,
+    "prev": 276.2,
+    "year_ago": 378.3,
+    "qoq_pct": -49.7,
+    "yoy_pct": -63.3
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 13.7,
+   "prev": 21.6,
+   "year_ago": 28.9
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹1,702 cr vs ₹1,702 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹184 cr incl. JV share vs ₹184 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹122 cr vs ₹122 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue -9% YoY, PAT -63% YoY",
+  "missing": []
+ },
+ "PAGEIND": {
+  "symbol": "PAGEIND",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "standalone",
+  "kind": "corporate",
+  "filed_at": "2026-11-12T17:08:17+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_212793_12112026170817_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 1439.6,
+    "prev": 1420.4,
+    "year_ago": null,
+    "qoq_pct": 1.3,
+    "yoy_pct": null
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 300.1,
+    "prev": 289.0,
+    "year_ago": null,
+    "qoq_pct": 3.9,
+    "yoy_pct": null
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 271.0,
+    "prev": 258.6,
+    "year_ago": null,
+    "qoq_pct": 4.8,
+    "yoy_pct": null
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 202.5,
+    "prev": 192.8,
+    "year_ago": null,
+    "qoq_pct": 5.1,
+    "yoy_pct": null
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 20.8,
+   "prev": 20.3,
+   "year_ago": null
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0%"
+   }
+  ],
+  "headline": null,
+  "missing": [
+   "yoy"
+  ]
+ },
+ "DEEPAKNTR": {
+  "symbol": "DEEPAKNTR",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-29T20:05:41+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_206751_29102026200541_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 3076.4,
+    "prev": 2577.6,
+    "year_ago": 1901.9,
+    "qoq_pct": 19.4,
+    "yoy_pct": 61.8
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 626.9,
+    "prev": 540.2,
+    "year_ago": 204.3,
+    "qoq_pct": 16.0,
+    "yoy_pct": 206.9
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 542.7,
+    "prev": 467.6,
+    "year_ago": 163.0,
+    "qoq_pct": 16.1,
+    "yoy_pct": 232.9
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 397.7,
+    "prev": 345.0,
+    "year_ago": 118.7,
+    "qoq_pct": 15.3,
+    "yoy_pct": 235.0
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 20.4,
+   "prev": 21.0,
+   "year_ago": 10.7
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0%"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹3,076 cr vs ₹3,076 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹543 cr vs ₹543 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹398 cr vs ₹398 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +62% YoY, PAT +235% YoY",
+  "missing": []
+ },
+ "TRENT": {
+  "symbol": "TRENT",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-29T19:45:09+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_206718_29102026194823_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 5873.1,
+    "prev": 5754.7,
+    "year_ago": 4817.7,
+    "qoq_pct": 2.1,
+    "yoy_pct": 21.9
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 1078.1,
+    "prev": 1128.9,
+    "year_ago": 817.1,
+    "qoq_pct": -4.5,
+    "yoy_pct": 31.9
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 640.1,
+    "prev": 701.6,
+    "year_ago": 478.1,
+    "qoq_pct": -8.8,
+    "yoy_pct": 33.9
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 463.8,
+    "prev": 519.0,
+    "year_ago": 376.9,
+    "qoq_pct": -10.6,
+    "yoy_pct": 23.1
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 18.4,
+   "prev": 19.6,
+   "year_ago": 17.0
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹5,873 cr vs ₹5,873 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹619 cr incl. JV share vs ₹619 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹468 cr vs ₹468 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +22% YoY, PAT +23% YoY",
+  "missing": []
+ },
+ "POLYCAB": {
+  "symbol": "POLYCAB",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-15T15:55:13+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_201397_15102026155523_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 9898.9,
+    "prev": 8209.7,
+    "year_ago": 6477.2,
+    "qoq_pct": 20.6,
+    "yoy_pct": 52.8
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 1422.5,
+    "prev": 1136.2,
+    "year_ago": 1020.7,
+    "qoq_pct": 25.2,
+    "yoy_pct": 39.4
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 1306.2,
+    "prev": 1058.2,
+    "year_ago": 921.0,
+    "qoq_pct": 23.4,
+    "yoy_pct": 41.8
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 977.4,
+    "prev": 784.3,
+    "year_ago": 685.5,
+    "qoq_pct": 24.6,
+    "yoy_pct": 42.6
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 14.4,
+   "prev": 13.8,
+   "year_ago": 15.8
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0%"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹9,899 cr vs ₹9,899 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹1,306 cr vs ₹1,306 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹990 cr vs ₹990 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +53% YoY, PAT +43% YoY",
+  "missing": []
+ },
+ "CDSL": {
+  "symbol": "CDSL",
+  "quarter_end": "2026-09-30",
+  "quarter": "Q2 FY27",
+  "basis": "consolidated",
+  "kind": "corporate",
+  "filed_at": "2026-10-31T15:43:33+05:30",
+  "source_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_207828_31102026154333_iXBRL_WEB.html",
+  "lines": [
+   {
+    "key": "revenue",
+    "label": "Revenue",
+    "value": 394.5,
+    "prev": 292.8,
+    "year_ago": 318.9,
+    "qoq_pct": 34.7,
+    "yoy_pct": 23.7
+   },
+   {
+    "key": "ebitda",
+    "label": "EBITDA",
+    "value": 228.5,
+    "prev": 137.9,
+    "year_ago": 177.6,
+    "qoq_pct": 65.7,
+    "yoy_pct": 28.6
+   },
+   {
+    "key": "pbt",
+    "label": "PBT",
+    "value": 230.8,
+    "prev": 166.4,
+    "year_ago": 184.0,
+    "qoq_pct": 38.7,
+    "yoy_pct": 25.5
+   },
+   {
+    "key": "pat",
+    "label": "PAT",
+    "value": 173.8,
+    "prev": 117.5,
+    "year_ago": 140.2,
+    "qoq_pct": 47.9,
+    "yoy_pct": 24.0
+   }
+  ],
+  "margin": {
+   "label": "EBITDA margin",
+   "value": 57.9,
+   "prev": 47.1,
+   "year_ago": 55.7
+  },
+  "note": "EBITDA = PBT before exceptional items + finance costs + depreciation − other income.",
+  "jv_note": null,
+  "checks": [
+   {
+    "name": "PBT − tax = profit",
+    "ok": true,
+    "detail": "off by 0.0% (after adding JV/associate share)"
+   },
+   {
+    "name": "Revenue vs Screener",
+    "ok": true,
+    "detail": "₹394 cr vs ₹394 cr"
+   },
+   {
+    "name": "PBT vs Screener",
+    "ok": true,
+    "detail": "₹230 cr incl. JV share vs ₹230 cr"
+   },
+   {
+    "name": "Net profit vs Screener",
+    "ok": true,
+    "detail": "₹173 cr vs ₹173 cr"
+   }
+  ],
+  "headline": "Q2 FY27: Revenue +24% YoY, PAT +24% YoY",
+  "missing": []
+ }
+}
