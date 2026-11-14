@@ -48,4 +48,22 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 
 ## Release log
 
-_Filled in at each release._
+### v0.1.0 — Push + Network, end to end (2026-11-15)
+
+Tasks T00–T06. Data snapshot: 22 companies (18 holdings, 4 watchlist), 290 NSE filings from 16 Oct to 15 Nov 2026, 6 months of end-of-day prices, a 33-person synthetic network.
+
+**What works**
+- **The Brief** (FR-02, FR-04, FR-05, FR-10): time windows (24h / 3d / 7d / 30d), opening with a count ("Two things matter"). Top stories are full cards with the price reaction and "why this?"; notable stories are one-line rows; routine filings are collapsed. Triage by swipe or buttons, with undo.
+- **Ranking** (FR-03, FR-04): rules classify 261/290 filings; the bulk model reads 144 potentially material ones in 15 batched calls and returns a headline, one-line summary and fact-cited materiality. The score is explainable factor by factor.
+- **Management-change card** (FR-06, FR-21): the incoming executive's profile is extracted from the filing itself, with their career line and "your way in" (per-hop strength, reasons, UPSI caution, "you've met them", honest negatives).
+- **Network** (FR-18–FR-22): entity resolution, tie strength with reasons, 1st/2nd-degree paths, who-to-call per company, all in code with no LLM.
+- **Holdings and company pages**: sparklines marking material sessions, who you know, 30 days of stories.
+- **PWA**, light and dark themes, phone-first layout.
+
+**Cost**: Gemini free tier, about 30 bulk calls for a full refresh; re-scoring is free (content-hash cache).
+
+**Known limits**
+- Results cards show the filing's summary, not yet Revenue/EBITDA/PBT/PAT with QoQ/YoY (T07).
+- No Pull research view yet (T08–T09); "Dig in" opens the company page.
+- Alerts thresholds are in config but not yet evaluated or shown (T11).
+- Data is a committed snapshot, refreshed by running the ingest scripts locally.
