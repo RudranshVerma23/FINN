@@ -15,10 +15,10 @@
   "Yahoo Finance EOD"
  ],
  "failures": [],
- "enriched_at": "2026-11-15T04:26:55+05:30",
+ "enriched_at": "2026-11-15T04:36:34+05:30",
  "tiers": {
-  "top": 58,
+  "top": 57,
   "routine": 137,
-  "notable": 95
+  "notable": 96
  }
 }

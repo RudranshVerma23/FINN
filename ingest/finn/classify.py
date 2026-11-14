@@ -143,6 +143,8 @@ def classify(filing: dict) -> Classification:
 
     if c.category == "management_change":
         c.seniority = _seniority(text)
+        if re.search(r"re-?\s?appoint|continuation of|extension of (the )?term", text):
+            c.subtype = "reappointment"  # continuity, not change
     elif c.category == "credit_rating":
         c.subtype = "downgrade" if "downgrad" in text else "withdrawal" if "withdraw" in text else c.subtype
     return c
