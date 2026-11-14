@@ -1,2 +1,5 @@
 google-genai>=3.3
 python-dotenv>=1.2
+requests>=2.34
+beautifulsoup4>=4.15
+yfinance>=1.8
