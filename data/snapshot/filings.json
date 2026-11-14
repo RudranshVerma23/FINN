@@ -888,7 +888,7 @@
   "attachment_size": "669.76 KB",
   "has_xbrl": true,
   "category": "management_change",
-  "subtype": "change",
+  "subtype": "reappointment",
   "rule": "text:change",
   "seniority": "senior",
   "title": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan…",
@@ -903,8 +903,8 @@
    "move_pct": -1.0,
    "volume_x": 0.6
   },
-  "score": 73.5,
-  "tier": "top",
+  "score": 52.6,
+  "tier": "notable",
   "why": [
    "Management change at the top (CEO/MD/CFO level)",
    "You asked to see more of these",
@@ -914,7 +914,7 @@
   "factors": [
    {
     "name": "category",
-    "value": 0.938,
+    "value": 0.375,
     "reason": "Management change at the top (CEO/MD/CFO level)"
    },
    {

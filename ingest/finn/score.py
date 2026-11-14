@@ -24,6 +24,7 @@ SUBTYPE_FACTOR = {
     ("results", "newspaper_ad"): 0.06, ("results", "intimation"): 0.2, ("results", "deck"): 0.45,
     ("earnings_call", "transcript"): 1.5, ("earnings_call", "recording"): 0.35, ("earnings_call", "notice"): 0.5,
     ("M&A", "subsidiary_admin"): 0.25, ("M&A", "agreement"): 0.8,
+    ("management_change", "reappointment"): 0.4,
     ("credit_rating", "downgrade"): 1.8, ("credit_rating", "withdrawal"): 0.4,
 }
 SENIORITY_FACTOR = {"senior": 1.25, "board": 0.7, "other": 0.65}
