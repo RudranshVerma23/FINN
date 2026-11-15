@@ -4,7 +4,18 @@ import { notFound } from "next/navigation";
 import { PersonBlock } from "@/components/person-block";
 import { ReactionPill } from "@/components/reaction-pill";
 import { Sparkline } from "@/components/sparkline";
-import { getCompanies, getCompany, getMeta, getPrices, getStories, getWhoToCall, lastMove, shortName } from "@/lib/data";
+import { ResultsTable } from "@/components/results-table";
+import {
+  getCompanies,
+  getCompany,
+  getMeta,
+  getPrices,
+  getResults,
+  getStories,
+  getWhoToCall,
+  lastMove,
+  shortName,
+} from "@/lib/data";
 import { ago, pct, relationText, shortDate } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -31,6 +42,7 @@ export default async function CompanyPage(props: PageProps<"/c/[symbol]">) {
   const material = stories.filter((s) => s.tier !== "routine");
   const routine = stories.length - material.length;
   const people = getWhoToCall(symbol);
+  const latest = getResults(symbol);
   const first = bars[0]?.close;
   const last = bars[bars.length - 1]?.close;
 
@@ -46,6 +58,12 @@ export default async function CompanyPage(props: PageProps<"/c/[symbol]">) {
         <p className="mt-1 text-[13px] text-muted">
           {company.sector} · {company.in_portfolio ? `${company.weight}% of portfolio` : "Watchlist"}
         </p>
+        <Link
+          href={`/r/${encodeURIComponent(company.symbol)}`}
+          className="mt-3 inline-block rounded-full bg-ink px-4 py-2 text-[13px] font-medium text-paper"
+        >
+          Research {company.symbol} →
+        </Link>
       </header>
 
       <section className="mt-5 rounded-[18px] border border-hairline bg-surface p-4">
@@ -67,6 +85,13 @@ export default async function CompanyPage(props: PageProps<"/c/[symbol]">) {
           </p>
         ) : null}
       </section>
+
+      {latest ? (
+        <section className="mt-6">
+          <h2 className="px-1 text-[12px] font-semibold uppercase tracking-[0.08em] text-muted">Latest results</h2>
+          <ResultsTable results={latest} />
+        </section>
+      ) : null}
 
       {people.length ? (
         <section className="mt-6">

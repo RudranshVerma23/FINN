@@ -34,11 +34,11 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | T05 | Web app shell and Push digest UI | FR-02, FR-04, FR-10, FR-26, NFR-08 | v0.1.0 | done |
 | T06 | Management change card with network path | FR-06, FR-20, FR-21 | v0.1.0 | done |
 | — | **Release v0.1.0** — Push + Network working end to end, first deploy | | | |
-| T07 | Quarterly results card (QoQ / YoY) | FR-07, NFR-06 | v0.2.0 | todo |
-| T08 | Pull pipeline for any ticker: fetch, snapshot, trajectory, cache | FR-11, FR-12, FR-13, FR-17, NFR-02, NFR-03 | v0.2.0 | todo |
-| T09 | Promised vs delivered and bull/bear with citation validator | FR-14, FR-15, FR-16 | v0.2.0 | todo |
-| T10 | Who to call inside Pull; material event card | FR-08, FR-22 | v0.2.0 | todo |
-| T11 | Configurable alerts and alert inbox | FR-09 | v0.2.0 | todo |
+| T07 | Quarterly results card (QoQ / YoY) | FR-07, NFR-06 | v0.2.0 | done |
+| T08 | Pull pipeline for any ticker: fetch, snapshot, trajectory, cache | FR-11, FR-12, FR-13, FR-17, NFR-02, NFR-03 | v0.2.0 | done |
+| T09 | Promised vs delivered and bull/bear with citation validator | FR-14, FR-15, FR-16 | v0.2.0 | done |
+| T10 | Who to call inside Pull; material event card | FR-08, FR-22 | v0.2.0 | done |
+| T11 | Configurable alerts and alert inbox | FR-09 | v0.2.0 | done |
 | — | **Release v0.2.0** — Pull working on any ticker, alerts | | | |
 | T12 | Reasons to reconnect in the digest | FR-23 | v1.0.0 | todo |
 | T13 | Person and company pages; Ask bar (stretch) | FR-24, FR-25 | v1.0.0 | todo |
@@ -47,6 +47,25 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | — | **Release v1.0.0** — submission (tag also `submission-v1`) | | | |
 
 ## Release log
+
+### v0.2.0 — Pull for any ticker, results, alerts (2026-11-15)
+
+Tasks T07–T11. New snapshot files: `results.json` (Q2 FY27 for 22 companies), `fundamentals.json` (22 companies), `pull.json` (promised vs delivered for 7 demo tickers).
+
+**What's new**
+- **Results card** (FR-07): Revenue, EBITDA, PBT and PAT with QoQ and YoY, read from the exchange's XBRL (no LLM), with a computed headline. Lenders get NII / pre-provision profit. 81/82 accounting checks pass; the one divergence (ITC revenue vs Screener) is shown on the card.
+- **Research tab** (FR-11–FR-13, FR-17, NFR-02): any NSE ticker by name or symbol. Snapshot tiles, 10-year trajectory, margins, momentum, cash conversion, leverage and working capital, all computed with the source table named; primary documents listed. Known tickers are instant; others are fetched live (verified on ASTRAL, MARICO, SYRMA, INFY).
+- **Promised vs delivered and bull vs bear** (FR-14–FR-16): the last four earnings calls are read, guidance is extracted with verbatim quotes checked against their page, and compared with filed numbers. Verdicts are met / missed / partly / on track / off track, with page-linked sources and a citation validator. Precomputed for 7 tickers; live for others in ~25 s.
+- **Who to call** (FR-08, FR-22): material events name the person best placed to explain them (role and subject expertise, not just employer); Research lists who to call for any ticker, with honest negatives.
+- **Alerts** (FR-09): volume, price and filing-type thresholds you set, a live recount, likely cause or follow-through for every move, and the last session's moves on the Brief.
+
+**Cost**: Gemini free tier. A full Pull run for one ticker is ~50k tokens (4 bulk calls + 1 reasoning call); results, research tiles, network and alerts use no model at all.
+
+**Known limits**
+- Live Pull runs need `GEMINI_API_KEY` on the host and reach Screener/BSE from it; if those are blocked, known tickers still work from the snapshot.
+- Live results are cached per server instance, not persistently (a KV store is the next step).
+- Alerts run on the snapshot; scheduled evaluation after each close and push notifications are the next step.
+- Data is a committed snapshot refreshed by running the ingest scripts locally.
 
 ### v0.1.0 — Push + Network, end to end (2026-11-15)
 

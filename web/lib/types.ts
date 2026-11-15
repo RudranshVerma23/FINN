@@ -38,6 +38,20 @@ export interface Filing {
   story_id: string;
   related: string[];
   people?: FilingPerson[];
+  event_contacts?: EventContact[];
+}
+
+/** The person best placed to explain a material event (FR-08), with reasons. */
+export interface EventContact {
+  person_id: string;
+  name: string;
+  relation: "current" | "former" | "competitor" | "supplier" | "customer" | null;
+  org: string;
+  role: string;
+  score: number;
+  tie_label: string;
+  why: string[];
+  caution: string | null;
 }
 
 export interface Path {
@@ -137,6 +151,34 @@ export interface NetworkSnapshot {
   expertise: Record<string, string[]>;
 }
 
+export interface ResultLine {
+  key: "revenue" | "ebitda" | "pbt" | "pat";
+  label: string;
+  value: number | null; // ₹ crore
+  prev: number | null;
+  year_ago: number | null;
+  qoq_pct: number | null;
+  yoy_pct: number | null;
+}
+
+/** Headline numbers for the latest quarter, straight from the exchange XBRL (FR-07). */
+export interface Results {
+  symbol: string;
+  quarter_end: string;
+  quarter: string;
+  basis: "consolidated" | "standalone";
+  kind: "corporate" | "nbfc" | "bank";
+  filed_at: string | null;
+  source_url: string | null;
+  lines: ResultLine[];
+  margin: { label: string; value: number | null; prev: number | null; year_ago: number | null } | null;
+  note: string;
+  jv_note: string | null;
+  checks: { name: string; ok: boolean; detail: string }[];
+  headline: string | null;
+  missing: string[];
+}
+
 /** What the Brief screen needs per story: small enough to ship to the client. */
 export interface StoryCard {
   id: string;
@@ -156,5 +198,8 @@ export interface StoryCard {
   inPortfolio: boolean;
   weight: number;
   contact: { name: string; relation: string; org: string; tie: string; angle: string; caution: string | null } | null;
+  /** For M&A / capex / litigation / fund raises: who can explain THIS event, and why. */
+  eventContacts: EventContact[];
   people: FilingPerson[];
+  results: Results | null;
 }

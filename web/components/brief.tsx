@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
 
-import { ago, clock, countPhrase, longDate } from "@/lib/format";
+import { ago, clock, countPhrase, longDate, shortDate } from "@/lib/format";
 import { useTriage } from "@/lib/triage";
 import type { StoryCard as Story } from "@/lib/types";
 
@@ -19,10 +19,19 @@ const WINDOWS = [
 ] as const;
 type WindowKey = (typeof WINDOWS)[number]["key"];
 
-/** One quiet line on a compact row: "Rohan Mehta can introduce you to Guha". */
+/** One quiet line on a compact row: "Rohan Mehta can introduce you to Guha" / "Ask Manish Bansal". */
 function WayIn({ story }: { story: Story }) {
   const person = story.people.find((p) => p.change !== "leaves" && p.paths.length && p.paths[0].label !== "weak");
-  if (!person) return null;
+  if (!person) {
+    const ask = story.eventContacts[0];
+    if (!ask) return null;
+    return (
+      <p className="mt-1 text-[12px] text-people">
+        <span className="mr-1.5 inline-block h-1.5 w-1.5 rounded-full bg-people align-middle" aria-hidden />
+        Ask {ask.name}: {ask.why[0].charAt(0).toLowerCase() + ask.why[0].slice(1)}
+      </p>
+    );
+  }
   const path = person.paths[0];
   const surname = person.name.split(" ").slice(-1)[0];
   return (
@@ -38,7 +47,15 @@ function isWeekend(iso: string): boolean {
   return day === "Sat" || day === "Sun";
 }
 
-export function Brief({ stories, now }: { stories: Story[]; now: string }) {
+export function Brief({
+  stories,
+  now,
+  lastSession,
+}: {
+  stories: Story[];
+  now: string;
+  lastSession: { day: string; moves: { symbol: string; movePct: number; volumeX: number }[] };
+}) {
   const [win, setWin] = useState<WindowKey>("24h");
   const { triage, isHidden, mark: markStory, restore: restoreStories } = useTriage(now);
   const [undo, setUndo] = useState<{ id: string; label: string } | null>(null);
@@ -107,6 +124,24 @@ export function Brief({ stories, now }: { stories: Story[]; now: string }) {
           </button>
         ))}
       </div>
+
+      {lastSession.moves.length ? (
+        <Link
+          href="/alerts"
+          className="mt-4 flex items-center gap-2 overflow-hidden rounded-[14px] border border-hairline bg-surface px-3 py-2.5 text-[12.5px]"
+        >
+          <span className="shrink-0 font-medium text-ink">
+            {shortDate(lastSession.day)}: {lastSession.moves.length} unusual move{lastSession.moves.length === 1 ? "" : "s"}
+          </span>
+          <span className="min-w-0 truncate text-ink-2">
+            {lastSession.moves
+              .slice(0, 3)
+              .map((m) => `${m.symbol} ${m.movePct >= 0 ? "▲" : "▼"}${Math.abs(m.movePct).toFixed(1)}% on ${m.volumeX.toFixed(m.volumeX < 10 ? 1 : 0)}× vol`)
+              .join(" · ")}
+          </span>
+          <span className="ml-auto shrink-0 text-muted">→</span>
+        </Link>
+      ) : null}
 
       {quiet && win === "24h" ? (
         <div className="mt-5 rounded-[16px] border border-dashed border-hairline px-4 py-3 text-[13.5px] leading-snug text-ink-2">

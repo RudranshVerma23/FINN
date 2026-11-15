@@ -38,10 +38,16 @@ python ingest/scripts/build_snapshot.py --days 30   # refresh data/snapshot/ fro
 python ingest/scripts/build_network.py --stories    # network.json + print paths to new executives
 python ingest/scripts/enrich_filings.py             # classify, read (bulk LLM), score and group filings
 python ingest/scripts/extract_people.py --eval      # executive bios from filings + network paths
+python ingest/scripts/event_contacts.py             # best person to explain each material event
+python ingest/scripts/build_results.py              # Revenue/EBITDA/PBT/PAT QoQ & YoY from XBRL, with checks
+python ingest/scripts/build_fundamentals.py         # Screener tables + document links for known tickers (Pull)
 
 cd web
 npm install
 npm run dev                     # syncs data/snapshot into web/data, then http://localhost:3000
+
+# precompute "promised vs delivered" for demo tickers (any other ticker runs live)
+npx tsx --env-file=../.env scripts/precompute-pull.ts PIIND WIPRO POLYCAB
 ```
 
 ## Status

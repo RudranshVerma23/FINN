@@ -62,7 +62,37 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106861449",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "priya-sharma",
+    "name": "Priya Sharma",
+    "relation": "former",
+    "org": "Kaynes Technology",
+    "role": "VP, Programs",
+    "score": 0.569,
+    "tie_label": "good",
+    "why": [
+     "Was at Kaynes Technology (2017–2022)",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "aisha-khan",
+    "name": "Aisha Khan",
+    "relation": "competitor",
+    "org": "Dixon Technologies",
+    "role": "Senior Manager, IT Hardware",
+    "score": 0.262,
+    "tie_label": "light",
+    "why": [
+     "At competitor Dixon Technologies",
+     "Last spoke Jan 2026 (meeting: Dixon Noida plant visit)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106861437",
@@ -239,7 +269,37 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106859921",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "customer",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "score": 0.21,
+    "tie_label": "light",
+    "why": [
+     "At customer Reliance Retail",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "karthik-raman",
+    "name": "Karthik Raman",
+    "relation": "former",
+    "org": "Page Industries",
+    "role": "Chief Operating Officer",
+    "score": 0.155,
+    "tie_label": "weak",
+    "why": [
+     "Was at Page Industries (2012–2020)",
+     "Last spoke Aug 2024 (call: Innerwear demand and channel inventory)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106859406",
@@ -929,7 +989,37 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106857511",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "kunal-verma",
+    "name": "Kunal Verma",
+    "relation": null,
+    "org": "Tata Electronics",
+    "role": "Director, Semiconductor Assembly",
+    "score": 0.64,
+    "tie_label": "strong",
+    "why": [
+     "Knows the subject: semiconductors, OSAT",
+     "Last spoke Sep 2026 (coffee: OSAT ramp-up)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "priya-sharma",
+    "name": "Priya Sharma",
+    "relation": "former",
+    "org": "Kaynes Technology",
+    "role": "VP, Programs",
+    "score": 0.569,
+    "tie_label": "good",
+    "why": [
+     "Was at Kaynes Technology (2017–2022)",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106857049",
@@ -2521,7 +2611,38 @@
   ],
   "category_label": "Capex",
   "story_id": "NSE-106855429",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "harsh-vora",
+    "name": "Harsh Vora",
+    "relation": "current",
+    "org": "Tata Power Renewable Energy",
+    "role": "Head, Utility-scale Solar Projects",
+    "score": 1.377,
+    "tie_label": "strong",
+    "why": [
+     "Head, Utility-scale Solar Projects at Tata Power Renewable Energy: the right seat for a capex question",
+     "Works at Tata Power Renewable Energy today",
+     "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+    ],
+    "caution": "Works there now: ask for context, not unpublished price-sensitive information."
+   },
+   {
+    "person_id": "meera-iyer",
+    "name": "Meera Iyer",
+    "relation": "former",
+    "org": "Tata Power Delhi Distribution",
+    "role": "Power-sector consultant",
+    "score": 0.673,
+    "tie_label": "good",
+    "why": [
+     "Was at Tata Power Delhi Distribution (2008–2017)",
+     "Last spoke Sep 2026 (coffee: Discom privatisation and Delhi tariff orders)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106855421",
@@ -2868,7 +2989,38 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106855359",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Chief Risk Officer",
+    "score": 1.044,
+    "tie_label": "strong",
+    "why": [
+     "Chief Risk Officer at Lendgrid: the right seat for a fund raise question",
+     "Was at Bajaj Finance (2016–2023)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At competitor HDFC Bank",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106855248",
@@ -3525,7 +3677,38 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106854062",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Chief Risk Officer",
+    "score": 1.044,
+    "tie_label": "strong",
+    "why": [
+     "Chief Risk Officer at Lendgrid: the right seat for a fund raise question",
+     "Was at Bajaj Finance (2016–2023)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At competitor HDFC Bank",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106854034",
@@ -4047,7 +4230,38 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106852712",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "harsh-vora",
+    "name": "Harsh Vora",
+    "relation": "current",
+    "org": "Tata Power Renewable Energy",
+    "role": "Head, Utility-scale Solar Projects",
+    "score": 1.092,
+    "tie_label": "strong",
+    "why": [
+     "Works at Tata Power Renewable Energy today",
+     "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+    ],
+    "caution": "Works there now: ask for context, not unpublished price-sensitive information."
+   },
+   {
+    "person_id": "meera-iyer",
+    "name": "Meera Iyer",
+    "relation": "former",
+    "org": "Tata Power Delhi Distribution",
+    "role": "Power-sector consultant",
+    "score": 0.848,
+    "tie_label": "good",
+    "why": [
+     "Chief Regulatory Officer at Adani Electricity Mumbai: the right seat for a legal / regulatory question",
+     "Was at Tata Power Delhi Distribution (2008–2017)",
+     "Last spoke Sep 2026 (coffee: Discom privatisation and Delhi tariff orders)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106852572",
@@ -4251,7 +4465,39 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106852468",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "rahul-khanna",
+    "name": "Rahul Khanna",
+    "relation": "former",
+    "org": "Tata Steel",
+    "role": "Director, Metals & Mining",
+    "score": 1.112,
+    "tie_label": "good",
+    "why": [
+     "Knows the subject: steel",
+     "Manager, Corporate Strategy & M&A at Tata Steel: the right seat for a deal question",
+     "Was at Tata Steel (2010–2019)",
+     "Last spoke Oct 2026 (dinner: Steel consolidation and overseas assets)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "customer",
+    "org": "Tata Motors Passenger Vehicles",
+    "role": "Head, Brand Marketing",
+    "score": 0.3,
+    "tie_label": "good",
+    "why": [
+     "At customer Tata Motors Passenger Vehicles",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106852254",
@@ -5607,7 +5853,37 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106850437",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "former",
+    "org": "Mahindra & Mahindra",
+    "role": "Head, Brand Marketing",
+    "score": 0.517,
+    "tie_label": "good",
+    "why": [
+     "Was at Mahindra & Mahindra (2013–2022)",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "ishaan-kapoor",
+    "name": "Ishaan Kapoor",
+    "relation": "supplier",
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs",
+    "score": 0.24,
+    "tie_label": "light",
+    "why": [
+     "At supplier Bharat Forge",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106850382",
@@ -9370,7 +9646,24 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106842119",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "ishaan-kapoor",
+    "name": "Ishaan Kapoor",
+    "relation": "supplier",
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs",
+    "score": 0.384,
+    "tie_label": "light",
+    "why": [
+     "Knows the subject: helicopters",
+     "At supplier Bharat Forge",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106841911",
@@ -9726,6 +10019,38 @@
   "story_id": "NSE-106841480",
   "related": [
    "NSE-106841469"
+  ],
+  "event_contacts": [
+   {
+    "person_id": "rahul-khanna",
+    "name": "Rahul Khanna",
+    "relation": "former",
+    "org": "Tata Steel",
+    "role": "Director, Metals & Mining",
+    "score": 1.112,
+    "tie_label": "good",
+    "why": [
+     "Knows the subject: steel",
+     "Manager, Corporate Strategy & M&A at Tata Steel: the right seat for a deal question",
+     "Was at Tata Steel (2010–2019)",
+     "Last spoke Oct 2026 (dinner: Steel consolidation and overseas assets)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "customer",
+    "org": "Tata Motors Passenger Vehicles",
+    "role": "Head, Brand Marketing",
+    "score": 0.3,
+    "tie_label": "good",
+    "why": [
+     "At customer Tata Motors Passenger Vehicles",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "caution": null
+   }
   ]
  },
  {
@@ -9864,7 +10189,23 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106841356",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "suresh-pillai",
+    "name": "Suresh Pillai",
+    "relation": "former",
+    "org": "Power Grid Corporation of India",
+    "role": "Consultant (Transmission)",
+    "score": 0.207,
+    "tie_label": "weak",
+    "why": [
+     "Was at Power Grid Corporation of India (2000–2015)",
+     "No logged conversations"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106841276",
@@ -10114,7 +10455,23 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106840382",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "tanvi-shah",
+    "name": "Tanvi Shah",
+    "relation": "former",
+    "org": "ITC",
+    "role": "Director, Foods",
+    "score": 0.517,
+    "tie_label": "good",
+    "why": [
+     "Was at ITC (2011–2020)",
+     "Last spoke Aug 2025 (coffee)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106840335",
@@ -10795,7 +11152,23 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106838857",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "suresh-pillai",
+    "name": "Suresh Pillai",
+    "relation": "former",
+    "org": "Power Grid Corporation of India",
+    "role": "Consultant (Transmission)",
+    "score": 0.207,
+    "tie_label": "weak",
+    "why": [
+     "Was at Power Grid Corporation of India (2000–2015)",
+     "No logged conversations"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106838849",
@@ -11824,6 +12197,36 @@
   "story_id": "NSE-106837394",
   "related": [
    "NSE-106837395"
+  ],
+  "event_contacts": [
+   {
+    "person_id": "aditya-rao",
+    "name": "Aditya Rao",
+    "relation": "former",
+    "org": "Reliance Jio",
+    "role": "Telecom & digital advisor",
+    "score": 0.414,
+    "tie_label": "light",
+    "why": [
+     "Was at Reliance Jio (2016–2022)",
+     "Last spoke Jan 2024 (call: Jio tariff cycle)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "current",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "score": 0.35,
+    "tie_label": "light",
+    "why": [
+     "Works at Reliance Retail today",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "caution": "Works there now: ask for context, not unpublished price-sensitive information."
+   }
   ]
  },
  {
@@ -11968,7 +12371,23 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106837294",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "shruti-deshpande",
+    "name": "Shruti Deshpande",
+    "relation": "customer",
+    "org": "Zerodha",
+    "role": "Head, Operations",
+    "score": 0.241,
+    "tie_label": "light",
+    "why": [
+     "At customer Zerodha",
+     "Last spoke Apr 2026 (call: Demat account growth)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106837186",
@@ -12534,7 +12953,38 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106836343",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Chief Risk Officer",
+    "score": 1.044,
+    "tie_label": "strong",
+    "why": [
+     "Chief Risk Officer at Lendgrid: the right seat for a fund raise question",
+     "Was at Bajaj Finance (2016–2023)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At competitor HDFC Bank",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106836184",
@@ -12655,7 +13105,23 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106836029",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "manish-bansal",
+    "name": "Manish Bansal",
+    "relation": "competitor",
+    "org": "KEI Industries",
+    "role": "GM, Institutional Sales",
+    "score": 0.187,
+    "tie_label": "light",
+    "why": [
+     "At competitor KEI Industries",
+     "Last spoke Nov 2024 (call)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106835437",
@@ -13738,7 +14204,40 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106834348",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "rohan-mehta",
+    "name": "Rohan Mehta",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "VP, Corporate Strategy",
+    "score": 1.676,
+    "tie_label": "strong",
+    "why": [
+     "Knows the subject: IT services",
+     "VP, Corporate Strategy at LTIMindtree: the right seat for a deal question",
+     "Was at Wipro (2012–2021)",
+     "Last spoke Oct 2026 (dinner: IIM-A batch dinner)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "angan-guha",
+    "name": "Angan Guha",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "",
+    "score": 0.216,
+    "tie_label": "weak",
+    "why": [
+     "Knows the subject: IT services",
+     "Was at Wipro (~1993–2021)",
+     "Last spoke Mar 2024 (meeting: Birlasoft analyst meet - one-on-one after the session)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106834102",
@@ -14720,7 +15219,23 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106831536",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "manish-bansal",
+    "name": "Manish Bansal",
+    "relation": "competitor",
+    "org": "KEI Industries",
+    "role": "GM, Institutional Sales",
+    "score": 0.187,
+    "tie_label": "light",
+    "why": [
+     "At competitor KEI Industries",
+     "Last spoke Nov 2024 (call)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106831152",
@@ -15666,7 +16181,37 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106828811",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "customer",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "score": 0.21,
+    "tie_label": "light",
+    "why": [
+     "At customer Reliance Retail",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "karthik-raman",
+    "name": "Karthik Raman",
+    "relation": "former",
+    "org": "Page Industries",
+    "role": "Chief Operating Officer",
+    "score": 0.155,
+    "tie_label": "weak",
+    "why": [
+     "Was at Page Industries (2012–2020)",
+     "Last spoke Aug 2024 (call: Innerwear demand and channel inventory)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106827787",
@@ -15792,7 +16337,37 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106827783",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "aditya-rao",
+    "name": "Aditya Rao",
+    "relation": "former",
+    "org": "Reliance Jio",
+    "role": "Telecom & digital advisor",
+    "score": 0.414,
+    "tie_label": "light",
+    "why": [
+     "Was at Reliance Jio (2016–2022)",
+     "Last spoke Jan 2024 (call: Jio tariff cycle)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "current",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "score": 0.35,
+    "tie_label": "light",
+    "why": [
+     "Works at Reliance Retail today",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "caution": "Works there now: ask for context, not unpublished price-sensitive information."
+   }
+  ]
  },
  {
   "id": "NSE-106827502",
@@ -15854,7 +16429,24 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106827502",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "sneha-kulkarni",
+    "name": "Sneha Kulkarni",
+    "relation": "current",
+    "org": "Lupin",
+    "role": "Associate General Counsel, Intellectual Property",
+    "score": 0.362,
+    "tie_label": "light",
+    "why": [
+     "Associate General Counsel, Intellectual Property at Lupin: the right seat for a legal / regulatory question",
+     "Works at Lupin today",
+     "Last spoke Dec 2024 (call: US generics litigation landscape)"
+    ],
+    "caution": "Works there now: ask for context, not unpublished price-sensitive information."
+   }
+  ]
  },
  {
   "id": "NSE-106827180",
@@ -15974,7 +16566,23 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106826976",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "pooja-malhotra",
+    "name": "Pooja Malhotra",
+    "relation": "competitor",
+    "org": "Reliance Retail",
+    "role": "Head of Merchandising, Trends",
+    "score": 0.262,
+    "tie_label": "light",
+    "why": [
+     "At competitor Reliance Retail",
+     "Last spoke Feb 2026 (coffee: Value fashion competition)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106826802",
@@ -16092,7 +16700,39 @@
   ],
   "category_label": "Capex",
   "story_id": "NSE-106826598",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "harsh-vora",
+    "name": "Harsh Vora",
+    "relation": null,
+    "org": "Tata Power Renewable Energy",
+    "role": "Head, Utility-scale Solar Projects",
+    "score": 0.902,
+    "tie_label": "strong",
+    "why": [
+     "Knows the subject: renewable energy",
+     "Head, Utility-scale Solar Projects at Tata Power Renewable Energy: the right seat for a capex question",
+     "Last spoke Oct 2026 (dinner: IIT-B batch reunion)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "suresh-pillai",
+    "name": "Suresh Pillai",
+    "relation": "former",
+    "org": "Power Grid Corporation of India",
+    "role": "Consultant (Transmission)",
+    "score": 0.261,
+    "tie_label": "weak",
+    "why": [
+     "Chief Manager, Engineering at Power Grid Corporation of India: the right seat for a capex question",
+     "Was at Power Grid Corporation of India (2000–2015)",
+     "No logged conversations"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106826529",
@@ -17101,7 +17741,37 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106823800",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "kunal-verma",
+    "name": "Kunal Verma",
+    "relation": "supplier",
+    "org": "Tata Electronics",
+    "role": "Director, Semiconductor Assembly",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At supplier Tata Electronics",
+     "Last spoke Sep 2026 (coffee: OSAT ramp-up)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "priya-sharma",
+    "name": "Priya Sharma",
+    "relation": "competitor",
+    "org": "Syrma SGS Technology",
+    "role": "VP, Programs",
+    "score": 0.411,
+    "tie_label": "good",
+    "why": [
+     "At competitor Syrma SGS Technology",
+     "Last spoke Jul 2026 (call: EMS margins and new-customer wins)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106823240",
@@ -17283,7 +17953,38 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106823197",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Chief Risk Officer",
+    "score": 1.044,
+    "tie_label": "strong",
+    "why": [
+     "Chief Risk Officer at Lendgrid: the right seat for a fund raise question",
+     "Was at Bajaj Finance (2016–2023)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At competitor HDFC Bank",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106823131",
@@ -17596,7 +18297,38 @@
   ],
   "category_label": "Fund raise",
   "story_id": "NSE-106822208",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "nikhil-agarwal",
+    "name": "Nikhil Agarwal",
+    "relation": "former",
+    "org": "Bajaj Finance",
+    "role": "Chief Risk Officer",
+    "score": 1.044,
+    "tie_label": "strong",
+    "why": [
+     "Chief Risk Officer at Lendgrid: the right seat for a fund raise question",
+     "Was at Bajaj Finance (2016–2023)",
+     "Last spoke Sep 2026 (call: Unsecured credit stress)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "arjun-nair",
+    "name": "Arjun Nair",
+    "relation": "competitor",
+    "org": "HDFC Bank",
+    "role": "Senior VP, Business Banking Credit",
+    "score": 0.552,
+    "tie_label": "strong",
+    "why": [
+     "At competitor HDFC Bank",
+     "Last spoke Aug 2026 (coffee: SME credit cycle)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106822209",
@@ -18631,7 +19363,37 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106820992",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "sameer-joshi",
+    "name": "Sameer Joshi",
+    "relation": "former",
+    "org": "Mahindra & Mahindra",
+    "role": "Head, Brand Marketing",
+    "score": 0.517,
+    "tie_label": "good",
+    "why": [
+     "Was at Mahindra & Mahindra (2013–2022)",
+     "Last spoke Jun 2024 (coffee)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "ishaan-kapoor",
+    "name": "Ishaan Kapoor",
+    "relation": "supplier",
+    "org": "Bharat Forge",
+    "role": "Director, Defence Programs",
+    "score": 0.24,
+    "tie_label": "light",
+    "why": [
+     "At supplier Bharat Forge",
+     "Last spoke Oct 2023 (conference: Aero India side meeting)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106820785",
@@ -19355,7 +20117,23 @@
   ],
   "category_label": "Legal / regulatory",
   "story_id": "NSE-106819599",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "manish-bansal",
+    "name": "Manish Bansal",
+    "relation": "competitor",
+    "org": "KEI Industries",
+    "role": "GM, Institutional Sales",
+    "score": 0.187,
+    "tie_label": "light",
+    "why": [
+     "At competitor KEI Industries",
+     "Last spoke Nov 2024 (call)"
+    ],
+    "caution": null
+   }
+  ]
  },
  {
   "id": "NSE-106819545",
@@ -19430,6 +20208,39 @@
   ],
   "category_label": "M&A",
   "story_id": "NSE-106819545",
-  "related": []
+  "related": [],
+  "event_contacts": [
+   {
+    "person_id": "rohan-mehta",
+    "name": "Rohan Mehta",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "VP, Corporate Strategy",
+    "score": 1.676,
+    "tie_label": "strong",
+    "why": [
+     "Knows the subject: IT services",
+     "VP, Corporate Strategy at LTIMindtree: the right seat for a deal question",
+     "Was at Wipro (2012–2021)",
+     "Last spoke Oct 2026 (dinner: IIM-A batch dinner)"
+    ],
+    "caution": null
+   },
+   {
+    "person_id": "angan-guha",
+    "name": "Angan Guha",
+    "relation": "former",
+    "org": "Wipro",
+    "role": "",
+    "score": 0.216,
+    "tie_label": "weak",
+    "why": [
+     "Knows the subject: IT services",
+     "Was at Wipro (~1993–2021)",
+     "Last spoke Mar 2024 (meeting: Birlasoft analyst meet - one-on-one after the session)"
+    ],
+    "caution": null
+   }
+  ]
  }
 ]
