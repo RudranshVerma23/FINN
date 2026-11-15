@@ -2,7 +2,7 @@
 
 > **An editor, not a feed.** FINN tells an investor the few things that changed and matter, and who in their own network can help them understand it.
 
-Built to be opened on a phone: add it to your home screen for the app experience.
+**Try it on your phone:** https://finn-ecru.vercel.app &nbsp;·&nbsp; add it to your home screen for the app experience.
 
 Built for the ENAM Holdings *Founding AI Engineer* build challenge. Three layers, woven together:
 
