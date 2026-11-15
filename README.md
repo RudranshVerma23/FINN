@@ -38,6 +38,7 @@ python ingest/scripts/build_snapshot.py --days 30   # refresh data/snapshot/ fro
 python ingest/scripts/build_network.py --stories    # network.json + print paths to new executives
 python ingest/scripts/enrich_filings.py             # classify, read (bulk LLM), score and group filings
 python ingest/scripts/extract_people.py --eval      # executive bios from filings + network paths
+python ingest/scripts/build_results.py              # Revenue/EBITDA/PBT/PAT QoQ & YoY from XBRL, with checks
 
 cd web
 npm install

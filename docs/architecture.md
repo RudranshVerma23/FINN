@@ -164,6 +164,10 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-30 | Two new kinds of evidence: "same career path" (both moved A → B, counted only where their time could have overlapped) and "joined first" bounded overlap | Only dated overlaps | Recovers real signal when filings omit years (Rohan followed Guha Wipro → Birlasoft) without accepting false ones (both went NTPC → TPREL, 20 years apart). |
 | ADR-31 | The path UI shows each hop's own strength, a reason per hop, a UPSI caution, "you've met them", and an explicit negative ("No one in your network has crossed paths with Ritu") | Show only positive matches | The investor can judge the path themselves; silence would hide whether FINN looked. |
 
+| ADR-32 | Results card reads the quarter's XBRL context (a ~3-month duration ending on the quarter date, no dimensions); QoQ and YoY come from the earlier quarters' own filings | Screener table; LLM on the PDF | Numbers straight from the exchange's structured filing. The headline ("Q2 FY27: Revenue +15% YoY, PAT +16% YoY") is computed, not written. |
+| ADR-33 | EBITDA = PBT before exceptional items + finance costs + D&A − other income; lenders get their own lines (bank: NII and pre-provision profit; NBFC: EBITDA "not meaningful") | One formula for all | EBITDA means nothing when interest is the cost of goods; showing it would mislead. |
+| ADR-34 | Every card carries checks: the profit identity (PBT − tax + JV share + discontinued ops + regulatory deferral = profit) and three cross-checks against Screener; failures are shown, not hidden | Trust the parse | The first run failed 17/82 checks, each a real accounting nuance (JV share below PBT, Ind AS 114 deferrals for power utilities, bank revenue definitions). After the fixes 81/82 pass to the rupee; ITC's gross-vs-net revenue gap is shown on the card as a divergence. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |
