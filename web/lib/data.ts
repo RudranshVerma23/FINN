@@ -7,7 +7,10 @@ import filingsJson from "@/data/filings.json";
 import metaJson from "@/data/meta.json";
 import networkJson from "@/data/network.json";
 import pricesJson from "@/data/prices.json";
+import preferencesJson from "@/data/preferences.json";
 import resultsJson from "@/data/results.json";
+
+import type { AlertCompany, AlertSettings, SlimBar, SlimFiling } from "./alerts";
 
 import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard, Suggestion } from "./types";
 
@@ -161,6 +164,51 @@ export function getStories(symbol?: string): StoryCard[] {
     .filter((f) => f.story_id === f.id && (!symbol || f.symbol === symbol))
     .map(toCard)
     .sort((a, b) => b.filedAt.localeCompare(a.filedAt));
+}
+
+/** Everything the alerts inbox needs, slimmed for the client (FR-09). */
+export function getAlertInputs() {
+  const prefs = preferencesJson as unknown as {
+    alerts: { volume_multiple: number; volume_lookback_days: number; price_move_pct: number; categories: string[] };
+  };
+  const bars: Record<string, SlimBar[]> = {};
+  for (const [sym, series] of Object.entries(prices)) {
+    bars[sym] = series.slice(-90).map((b) => ({ d: b.date, c: b.close, v: b.volume }));
+  }
+  const slim: SlimFiling[] = filings
+    .filter((f) => f.story_id === f.id && f.tier !== "routine")
+    .map((f) => ({
+      id: f.id,
+      symbol: f.symbol,
+      filedAt: f.filed_at,
+      category: f.category,
+      categoryLabel: f.category_label,
+      headline: resultsFor(f)?.headline || f.headline || f.title,
+      tier: f.tier,
+    }));
+  const companyMap: Record<string, AlertCompany> = {};
+  for (const c of Object.values(companies)) {
+    companyMap[c.symbol] = { symbol: c.symbol, name: shortName(c.name), inPortfolio: c.in_portfolio, weight: c.weight };
+  }
+  const labels: Record<string, string> = {
+    results: "Results", "M&A": "M&A", management_change: "Management change", litigation: "Legal / regulatory",
+    pledging: "Promoter pledge", fund_raise: "Fund raise", capex: "Capex", credit_rating: "Credit rating",
+    insider_trading: "Insider trade", dividend: "Dividend",
+  };
+  return {
+    bars,
+    filings: slim,
+    companies: companyMap,
+    defaults: {
+      volumeMultiple: prefs.alerts.volume_multiple,
+      lookback: prefs.alerts.volume_lookback_days,
+      priceMovePct: prefs.alerts.price_move_pct,
+      categories: prefs.alerts.categories,
+      includeWatchlist: true,
+    } satisfies AlertSettings,
+    categoryOptions: Object.entries(labels).map(([key, label]) => ({ key, label })),
+    now: meta.generated_at,
+  };
 }
 
 /** Day-over-day change on the last trading day. */
