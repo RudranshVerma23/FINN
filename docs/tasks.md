@@ -48,6 +48,25 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 
 ## Release log
 
+### v0.2.0 — Pull for any ticker, results, alerts (2026-11-15)
+
+Tasks T07–T11. New snapshot files: `results.json` (Q2 FY27 for 22 companies), `fundamentals.json` (22 companies), `pull.json` (promised vs delivered for 7 demo tickers).
+
+**What's new**
+- **Results card** (FR-07): Revenue, EBITDA, PBT and PAT with QoQ and YoY, read from the exchange's XBRL (no LLM), with a computed headline. Lenders get NII / pre-provision profit. 81/82 accounting checks pass; the one divergence (ITC revenue vs Screener) is shown on the card.
+- **Research tab** (FR-11–FR-13, FR-17, NFR-02): any NSE ticker by name or symbol. Snapshot tiles, 10-year trajectory, margins, momentum, cash conversion, leverage and working capital, all computed with the source table named; primary documents listed. Known tickers are instant; others are fetched live (verified on ASTRAL, MARICO, SYRMA, INFY).
+- **Promised vs delivered and bull vs bear** (FR-14–FR-16): the last four earnings calls are read, guidance is extracted with verbatim quotes checked against their page, and compared with filed numbers. Verdicts are met / missed / partly / on track / off track, with page-linked sources and a citation validator. Precomputed for 7 tickers; live for others in ~25 s.
+- **Who to call** (FR-08, FR-22): material events name the person best placed to explain them (role and subject expertise, not just employer); Research lists who to call for any ticker, with honest negatives.
+- **Alerts** (FR-09): volume, price and filing-type thresholds you set, a live recount, likely cause or follow-through for every move, and the last session's moves on the Brief.
+
+**Cost**: Gemini free tier. A full Pull run for one ticker is ~50k tokens (4 bulk calls + 1 reasoning call); results, research tiles, network and alerts use no model at all.
+
+**Known limits**
+- Live Pull runs need `GEMINI_API_KEY` on the host and reach Screener/BSE from it; if those are blocked, known tickers still work from the snapshot.
+- Live results are cached per server instance, not persistently (a KV store is the next step).
+- Alerts run on the snapshot; scheduled evaluation after each close and push notifications are the next step.
+- Data is a committed snapshot refreshed by running the ingest scripts locally.
+
 ### v0.1.0 — Push + Network, end to end (2026-11-15)
 
 Tasks T00–T06. Data snapshot: 22 companies (18 holdings, 4 watchlist), 290 NSE filings from 16 Oct to 15 Nov 2026, 6 months of end-of-day prices, a 33-person synthetic network.
