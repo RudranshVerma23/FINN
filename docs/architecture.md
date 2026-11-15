@@ -59,7 +59,7 @@ flowchart LR
 | Scorer | `ingest/finn/score.py` | `score = category weight × investor preference × position weight × network relevance × price reaction`. Stores each factor so the UI can explain the rank. | FR-04, FR-05, NFR-07 |
 | Extractors | `ingest/finn/extract/` | Results numbers (structured data first, LLM fallback with checks); incoming-executive bio from appointment filings. | FR-06, FR-07, NFR-06 |
 | Network engine | `ingest/finn/network/` | Entity resolution, 1st/2nd-degree paths, tie strength, who-to-call, reasons to reconnect. **Pure code, no LLM.** | FR-18–FR-23, NFR-05 |
-| Alert rules | `ingest/finn/alerts.py` | Volume and price thresholds and category subscriptions evaluated on EOD data. | FR-09 |
+| Alert rules | `web/lib/alerts.ts` | Volume and price thresholds and category subscriptions evaluated on EOD data, each move linked to its likely cause (see ADR-46/47). | FR-09 |
 | Data access layer | `web/lib/data/` | The only module that knows the snapshot is JSON files. Swapping to Postgres changes this module only. | NFR-09 |
 | Pull pipeline | `web/lib/pull/` | Resolve ticker → fetch docs → bulk-extract guidance → compute actuals in code → reasoning model compares → citation validator. | FR-11–FR-17, NFR-02 |
 | UI | `web/app/` | Brief (Push), Research (Pull), People (Network), alert settings. | FR-10, FR-24, FR-26, NFR-08 |
@@ -181,6 +181,9 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 
 | ADR-44 | Material events (M&A, capex, litigation, fund raises) name the person best placed to explain *that event*: score = tie × relation × fit, where fit rewards a matching role (legal/regulatory, strategy/BD, projects/ops, finance) and, most, expertise in the event's subject | Reuse "who do I know at this company" | "Who can explain the Vishay OSAT JV" is Kunal (runs semiconductor assembly), not the person who left Kaynes in 2022. Generic sector words ("financials") don't count as subject knowledge; first run matched "financial statements". |
 | ADR-45 | Who to call inside Pull works for any ticker: precomputed ranking for known companies; for others, the company name is matched against every contact's career in the web app | Known companies only | The network has to answer inside Pull for any NSE ticker (SYRMA → Priya, INFY → Neha), and say so plainly when no one has (ASTRAL). |
+
+| ADR-46 | Alerts are evaluated in the app, on end-of-day data, as pure functions of the investor's thresholds (`web/lib/alerts.ts`); thresholds persist per viewer | Precompute alerts in the batch pipeline | "I decide what unusual means" becomes tangible: moving the volume slider from 2× to 4× changes the inbox from 18 alerts to 13 instantly. Production adds a scheduled run after each close with web-push notifications. |
+| ADR-47 | Every price/volume alert names its likely cause (the most material filing between the previous close and this one, results first) or says it is follow-through from the previous unusual session | Bare "PIIND −19%" | "Fell 19.1% on 30× volume · likely cause: Q2 FY27 PAT −63%" is the alert worth sending. A move with no filing behind it is flagged as "worth a look". |
 
 ### Push ranking factors (`ingest/finn/score.py`)
 
