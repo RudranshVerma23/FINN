@@ -66,6 +66,7 @@ export function getContact(id: string) {
 }
 
 export interface Caller {
+  id: string;
   name: string;
   relation: Suggestion["relation"];
   org: string;
@@ -95,7 +96,7 @@ export function getCallers(symbol: string, companyName: string): Caller[] {
   const known = network.who_to_call[symbol];
   if (known) {
     return known.map((s) => ({
-      name: s.name, relation: s.relation, org: s.org, role: s.role, span: s.span, tie: s.tie_label,
+      id: s.person_id, name: s.name, relation: s.relation, org: s.org, role: s.role, span: s.span, tie: s.tie_label,
       tieReasons: s.tie_reasons, angle: s.angle, caution: s.caution,
     }));
   }
@@ -110,6 +111,7 @@ export function getCallers(symbol: string, companyName: string): Caller[] {
     if (!stint) continue;
     const current = stint.span.endsWith("now");
     out.push({
+      id: c.id,
       name: c.name,
       relation: current ? "current" : "former",
       org: stint.org,
