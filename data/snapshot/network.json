@@ -82,7 +82,24 @@
     ],
     "last_interaction": "2026-10-30",
     "interactions_24m": 3
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-10-30",
+     "kind": "dinner",
+     "note": "IIM-A batch dinner"
+    },
+    {
+     "on": "2026-06-14",
+     "kind": "call",
+     "note": "Large-deal pricing in IT services"
+    },
+    {
+     "on": "2026-01-09",
+     "kind": "coffee",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "harsh-vora",
@@ -128,7 +145,19 @@
     ],
     "last_interaction": "2026-10-12",
     "interactions_24m": 2
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-10-12",
+     "kind": "dinner",
+     "note": "IIT-B batch reunion"
+    },
+    {
+     "on": "2026-03-28",
+     "kind": "call",
+     "note": "Solar module prices"
+    }
+   ]
   },
   {
    "id": "gaurav-sethi",
@@ -174,7 +203,19 @@
     ],
     "last_interaction": "2026-11-03",
     "interactions_24m": 2
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-11-03",
+     "kind": "lunch",
+     "note": "Ex-colleague catch-up"
+    },
+    {
+     "on": "2026-06-30",
+     "kind": "call",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "arjun-nair",
@@ -213,7 +254,19 @@
     ],
     "last_interaction": "2026-08-21",
     "interactions_24m": 2
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-08-21",
+     "kind": "coffee",
+     "note": "SME credit cycle"
+    },
+    {
+     "on": "2026-02-11",
+     "kind": "call",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "nikhil-agarwal",
@@ -259,7 +312,14 @@
     ],
     "last_interaction": "2026-09-30",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-09-30",
+     "kind": "call",
+     "note": "Unsecured credit stress"
+    }
+   ]
   },
   {
    "id": "kunal-verma",
@@ -305,7 +365,14 @@
     ],
     "last_interaction": "2026-09-02",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-09-02",
+     "kind": "coffee",
+     "note": "OSAT ramp-up"
+    }
+   ]
   },
   {
    "id": "siddharth-menon",
@@ -344,7 +411,14 @@
     ],
     "last_interaction": "2026-08-08",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-08-08",
+     "kind": "call",
+     "note": "Utilities coverage"
+    }
+   ]
   },
   {
    "id": "meera-iyer",
@@ -396,7 +470,24 @@
     ],
     "last_interaction": "2026-09-18",
     "interactions_24m": 3
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-09-18",
+     "kind": "coffee",
+     "note": "Discom privatisation and Delhi tariff orders"
+    },
+    {
+     "on": "2026-04-02",
+     "kind": "call",
+     "note": "Smart-meter rollout economics"
+    },
+    {
+     "on": "2025-11-20",
+     "kind": "conference",
+     "note": "India Energy Forum"
+    }
+   ]
   },
   {
    "id": "rahul-khanna",
@@ -442,7 +533,19 @@
     ],
     "last_interaction": "2026-10-08",
     "interactions_24m": 2
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-10-08",
+     "kind": "dinner",
+     "note": "Steel consolidation and overseas assets"
+    },
+    {
+     "on": "2026-05-21",
+     "kind": "call",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "priya-sharma",
@@ -488,7 +591,19 @@
     ],
     "last_interaction": "2026-07-17",
     "interactions_24m": 2
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-07-17",
+     "kind": "call",
+     "note": "EMS margins and new-customer wins"
+    },
+    {
+     "on": "2026-03-05",
+     "kind": "coffee",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "vikram-desai",
@@ -540,7 +655,14 @@
     ],
     "last_interaction": "2025-09-09",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-09-09",
+     "kind": "coffee",
+     "note": "Passive flows and index inclusion"
+    }
+   ]
   },
   {
    "id": "sameer-joshi",
@@ -585,7 +707,14 @@
     ],
     "last_interaction": "2024-06-18",
     "interactions_24m": 0
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-06-18",
+     "kind": "coffee",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "tanvi-shah",
@@ -631,7 +760,14 @@
     ],
     "last_interaction": "2025-08-14",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-08-14",
+     "kind": "coffee",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "anil-mathur",
@@ -683,7 +819,14 @@
     ],
     "last_interaction": "2026-07-29",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-07-29",
+     "kind": "call",
+     "note": "Fluorochemicals capacity cycle"
+    }
+   ]
   },
   {
    "id": "ishaan-kapoor",
@@ -729,7 +872,14 @@
     ],
     "last_interaction": "2023-10-10",
     "interactions_24m": 0
-   }
+   },
+   "interactions": [
+    {
+     "on": "2023-10-10",
+     "kind": "conference",
+     "note": "Aero India side meeting"
+    }
+   ]
   },
   {
    "id": "aditya-rao",
@@ -775,7 +925,14 @@
     ],
     "last_interaction": "2024-01-22",
     "interactions_24m": 0
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-01-22",
+     "kind": "call",
+     "note": "Jio tariff cycle"
+    }
+   ]
   },
   {
    "id": "deepa-menon",
@@ -821,7 +978,14 @@
     ],
     "last_interaction": "2025-12-04",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-12-04",
+     "kind": "call",
+     "note": "PLI and laptop assembly ramp"
+    }
+   ]
   },
   {
    "id": "pooja-malhotra",
@@ -867,7 +1031,14 @@
     ],
     "last_interaction": "2026-02-19",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-02-19",
+     "kind": "coffee",
+     "note": "Value fashion competition"
+    }
+   ]
   },
   {
    "id": "shruti-deshpande",
@@ -913,7 +1084,14 @@
     ],
     "last_interaction": "2026-04-24",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-04-24",
+     "kind": "call",
+     "note": "Demat account growth"
+    }
+   ]
   },
   {
    "id": "aisha-khan",
@@ -952,7 +1130,14 @@
     ],
     "last_interaction": "2026-01-15",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2026-01-15",
+     "kind": "meeting",
+     "note": "Dixon Noida plant visit"
+    }
+   ]
   },
   {
    "id": "farah-siddiqui",
@@ -997,7 +1182,14 @@
     ],
     "last_interaction": "2025-03-27",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-03-27",
+     "kind": "call",
+     "note": "Hospital bed additions in the west"
+    }
+   ]
   },
   {
    "id": "kavita-rao",
@@ -1049,7 +1241,19 @@
     ],
     "last_interaction": "2025-05-07",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-05-07",
+     "kind": "call",
+     "note": "Small finance bank compliance load"
+    },
+    {
+     "on": "2023-11-02",
+     "kind": "conference",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "sneha-kulkarni",
@@ -1094,7 +1298,14 @@
     ],
     "last_interaction": "2024-12-03",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-12-03",
+     "kind": "call",
+     "note": "US generics litigation landscape"
+    }
+   ]
   },
   {
    "id": "ananya-bose",
@@ -1140,7 +1351,19 @@
     ],
     "last_interaction": "2025-02-26",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-02-26",
+     "kind": "call",
+     "note": "CSM export order book across the industry"
+    },
+    {
+     "on": "2023-07-12",
+     "kind": "meeting",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "rajesh-iyer",
@@ -1186,7 +1409,14 @@
     ],
     "last_interaction": "2025-06-11",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-06-11",
+     "kind": "plant visit",
+     "note": "Aarti Jhagadia site"
+    }
+   ]
   },
   {
    "id": "manish-bansal",
@@ -1232,7 +1462,14 @@
     ],
     "last_interaction": "2024-11-15",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-11-15",
+     "kind": "call",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "ritu-saxena",
@@ -1278,7 +1515,14 @@
     ],
     "last_interaction": "2025-10-06",
     "interactions_24m": 1
-   }
+   },
+   "interactions": [
+    {
+     "on": "2025-10-06",
+     "kind": "call",
+     "note": ""
+    }
+   ]
   },
   {
    "id": "divya-krishnan",
@@ -1324,7 +1568,8 @@
     ],
     "last_interaction": null,
     "interactions_24m": 0
-   }
+   },
+   "interactions": []
   },
   {
    "id": "lakshmi-narayanan",
@@ -1370,7 +1615,8 @@
     ],
     "last_interaction": null,
     "interactions_24m": 0
-   }
+   },
+   "interactions": []
   },
   {
    "id": "neha-gupta",
@@ -1415,7 +1661,8 @@
     ],
     "last_interaction": null,
     "interactions_24m": 0
-   }
+   },
+   "interactions": []
   },
   {
    "id": "suresh-pillai",
@@ -1460,7 +1707,8 @@
     ],
     "last_interaction": null,
     "interactions_24m": 0
-   }
+   },
+   "interactions": []
   },
   {
    "id": "angan-guha",
@@ -1505,7 +1753,14 @@
     ],
     "last_interaction": "2024-03-19",
     "interactions_24m": 0
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-03-19",
+     "kind": "meeting",
+     "note": "Birlasoft analyst meet - one-on-one after the session"
+    }
+   ]
   },
   {
    "id": "karthik-raman",
@@ -1551,7 +1806,14 @@
     ],
     "last_interaction": "2024-08-30",
     "interactions_24m": 0
-   }
+   },
+   "interactions": [
+    {
+     "on": "2024-08-30",
+     "kind": "call",
+     "note": "Innerwear demand and channel inventory"
+    }
+   ]
   }
  ],
  "who_to_call": {
