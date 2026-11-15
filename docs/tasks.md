@@ -48,8 +48,9 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 
 ## Release log
 
-### v1.0.1, v1.0.2 — Hotfixes (2026-11-15)
+### v1.0.1 – v1.0.3 — Hotfixes (2026-11-15)
 
+- **v1.0.3**: release notes and decision records describe the project only.
 - **v1.0.2**: README tour corrected to the time window each example appears in; local precompute step fixed (`npm run sync` first).
 - **v1.0.1**: docs cleaned up; references repointed to `cost.md` and `architecture.md`; known limits listed in the v1.0.0 notes below.
 
