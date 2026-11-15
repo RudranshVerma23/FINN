@@ -9,6 +9,7 @@ import type { StoryCard as Story } from "@/lib/types";
 
 import { PersonBlock } from "./person-block";
 import { ReactionPill } from "./reaction-pill";
+import { ResultsTable } from "./results-table";
 
 const SWIPE = 110;
 
@@ -60,7 +61,7 @@ export function StoryCard({
       >
         <header className="flex items-center gap-2 text-[12px] text-muted">
           <span className="font-mono text-[12px] font-semibold tracking-tight text-ink">{story.symbol}</span>
-          <span className="truncate">{story.company}</span>
+          <span className="min-w-0 truncate">{story.company}</span>
           <span aria-hidden>·</span>
           <span className="shrink-0">{ago(story.filedAt, now)}</span>
           <span className="ml-auto">
@@ -71,6 +72,8 @@ export function StoryCard({
         <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.08em] text-accent">{story.categoryLabel}</p>
         <h3 className="mt-1 font-serif text-[21px] leading-[1.22] tracking-[-0.01em] text-ink">{story.headline}</h3>
         {story.summary ? <p className="mt-2 text-[14.5px] leading-[1.45] text-ink-2">{story.summary}</p> : null}
+
+        {story.results ? <ResultsTable results={story.results} /> : null}
 
         {story.people.slice(0, 2).map((p) => (
           <PersonBlock key={p.name} person={p} />

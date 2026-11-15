@@ -7,14 +7,28 @@ import filingsJson from "@/data/filings.json";
 import metaJson from "@/data/meta.json";
 import networkJson from "@/data/network.json";
 import pricesJson from "@/data/prices.json";
+import resultsJson from "@/data/results.json";
 
-import type { Bar, Company, Filing, Meta, NetworkSnapshot, StoryCard } from "./types";
+import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard } from "./types";
 
 const companies = companiesJson as unknown as Record<string, Company>;
 const filings = filingsJson as unknown as Filing[];
 const meta = metaJson as unknown as Meta;
 const network = networkJson as unknown as NetworkSnapshot;
 const prices = pricesJson as unknown as Record<string, Bar[]>;
+const results = resultsJson as unknown as Record<string, Results>;
+
+export function getResults(symbol: string): Results | null {
+  return results[symbol] ?? null;
+}
+
+/** Results numbers belong on the results story filed within two days of the XBRL. */
+function resultsFor(f: Filing): Results | null {
+  const r = results[f.symbol];
+  if (!r || !r.filed_at || f.category !== "results") return null;
+  const gap = Math.abs(new Date(f.filed_at).getTime() - new Date(r.filed_at).getTime());
+  return gap <= 2 * 86400000 ? r : null;
+}
 
 export function shortName(name: string): string {
   return name
@@ -52,6 +66,7 @@ export function getContact(id: string) {
 function toCard(f: Filing): StoryCard {
   const c = companies[f.symbol];
   const top = (network.who_to_call[f.symbol] ?? [])[0];
+  const res = resultsFor(f);
   return {
     id: f.id,
     symbol: f.symbol,
@@ -61,8 +76,9 @@ function toCard(f: Filing): StoryCard {
     score: f.score,
     category: f.category,
     categoryLabel: f.category_label,
-    headline: f.headline || f.title,
-    summary: f.summary ?? null,
+    // A results story's headline is computed from the XBRL, not written by a model.
+    headline: res?.headline || f.headline || f.title,
+    summary: res ? null : (f.summary ?? null),
     why: f.why.filter((w) => w !== f.category_label && !w.startsWith(f.category_label + " ")),
     reaction: f.reaction,
     relatedCount: f.related.length,
@@ -74,6 +90,7 @@ function toCard(f: Filing): StoryCard {
         ? { name: top.name, relation: top.relation, org: top.org, tie: top.tie_label, angle: top.angle, caution: top.caution }
         : null,
     people: (f.people ?? []).filter((p) => p.change !== "reappointed"),
+    results: res,
   };
 }
 
