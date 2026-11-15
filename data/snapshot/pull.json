@@ -1,0 +1,3484 @@
+{
+ "PIIND": {
+  "symbol": "PIIND",
+  "generated_at": "2026-11-15T06:28:33.846Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-11",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=484ab886-ee3e-47e4-b37f-df779a55297b.pdf",
+    "pages": 22
+   },
+   {
+    "id": "T2",
+    "month": "2026-08",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6e89e11-f33d-4ab2-9db8-d4f53da649e5.pdf",
+    "pages": 22
+   },
+   {
+    "id": "T3",
+    "month": "2026-05",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a49358d-c938-4581-827e-d66dcf6bb7d5.pdf",
+    "pages": 19
+   },
+   {
+    "id": "T4",
+    "month": "2026-02",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8ac6417-b08f-45e6-9bc9-cef1827c6c93.pdf",
+    "pages": 18
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "electronic chemicals business target",
+    "period": "3-4 year's time",
+    "statement": "Management targets about USD 100 million business in the electronic chemicals segment in 3-4 years.",
+    "quote": "and in the electronic chemicals that we have stated, we are targeting about USD 100 billion business in 3-4 year’s time, and we are seeing the trajectory of that right now.",
+    "page": 15,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "gross margin outlook",
+    "period": "next 2-3 quarters",
+    "statement": "Management expects gross margins to hold around 49% with an objective to continue improving over the next 2-3 quarters.",
+    "quote": "49% is what I am seeing the 2-3 quarters in this today I believe that keeping that and trying to improve that should be our objective in the next 2-3 quarters, continue to improve that and I do see that happen.",
+    "page": 13,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "contract assets range",
+    "period": "next few quarters",
+    "statement": "Management expects contract assets to remain around Rs. 700 crores over the next few quarters.",
+    "quote": "we are currently around Rs. 700 odd crore, and we expect to be in the same range.",
+    "page": 16,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "agchem export pressures",
+    "period": "current period",
+    "statement": "Agchem exports declined by 18% due to price optimization, genericization pressures, and unpassed cost escalations.",
+    "quote": "Ag Chem exports declined by 18% during the period. We remained focused on driving volume growth post-genericization through price optimization while cost escalation could not be passed through in this current market conditions.",
+    "page": 5,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "plant healthcare losses",
+    "period": "full year",
+    "statement": "Plant healthcare globally is expected to incur losses of about $10 plus million for the full year.",
+    "quote": "It is about $10 plus million that we have lost there. For the full year.",
+    "page": 9,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "monsoon and rabi impact",
+    "period": "rabi season",
+    "statement": "The weakest monsoon in over a decade and below-last-year soil moisture led management to plan for a cautious Rabi season.",
+    "quote": "In India, the season was defined by the weakest monsoon in over a decade with prolonged dry spells, delayed sowing and, as a result, lower pest pressure. Kharif acreage was flat and the season was lacklustre. Going into rabi, soil moisture and reservoir levels are below last year in several rain-fed belts, so we are planning for a cautious Rabi and will respond to how the season actually develops.",
+    "page": 4,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "domestic agri growth",
+    "period": "Q2 FY27",
+    "statement": "Domestic agri business delivered strong year-on-year growth of 19% supported by differentiated crop protection solutions.",
+    "quote": "Our domestic business continues to hold its ground with strong year-on-year growth of 19% despite the challenging market dynamics, supported by a portfolio of differentiated high-value crop protection solutions and strong market position across key brands.",
+    "page": 4,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "biologicals segment growth",
+    "period": "Q2 FY27",
+    "statement": "Domestic biological portfolio grew by 45% and global biological portfolio grew by over 250% this quarter.",
+    "quote": "Biologicals deserve a specific mention here. Our domestic portfolio has grown by 45% and our global portfolio has seen more than 250% growth this quarter as farmers continue to adopt sustainable solutions.",
+    "page": 4,
+    "id": "G8",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "order book position",
+    "period": "current",
+    "statement": "Order book position stands around USD 1.25 billion.",
+    "quote": "Order book position is around USD 1.25 billion.",
+    "page": 14,
+    "id": "G9",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "revenue growth",
+    "period": "FY27",
+    "statement": "Management expects positive revenue growth trajectory in the lower single digit for FY27.",
+    "quote": "You see, as stated earlier, we are looking at a positive trajectory, and in the lower single digit as indicated earlier.",
+    "page": 8,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "effective tax rate",
+    "period": "FY27",
+    "statement": "Management expects the effective tax rate (ETR) for FY27 to be around 24%.",
+    "quote": "We expect ETR for FY27 to be around 24%.",
+    "page": 6,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "capital expenditure",
+    "period": "current year",
+    "statement": "Management guides for a standard annual capex of Rs. 700 to Rs. 800 crore.",
+    "quote": "We have given a guidance of Rs. 700 to Rs. 800 crore, which is the standard capex as you rightly said.",
+    "page": 10,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "pricing pressure",
+    "period": "Q1 FY27",
+    "statement": "Management acknowledged pricing pressures due to challenged demand cycles, soft commodity prices, and high input costs.",
+    "quote": "There are pressure on margins due to high input cost & higher levels of inventory, however we believe consumption patterns will see a positive trajectory.",
+    "page": 3,
+    "id": "G13",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "geopolitical and export headwinds",
+    "period": "mid to long term",
+    "statement": "Management noted that the export operating environment remains challenging due to soft commodity prices, geopolitical uncertainties, and rising costs.",
+    "quote": "With respect to our exports business, the operating environment continues to remain challenging. Soft commodity prices, in-line with impact of the previous year's industry downturn, and muted recovery in crop economics, consumption patterns continue to exert pressure on growth and pricing.",
+    "page": 4,
+    "id": "G14",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "biologicals segment growth",
+    "period": "Q1 FY27",
+    "statement": "Management reported a strong 50% aggressive growth in the biologicals segment.",
+    "quote": "Biologicals have shown an aggressive growth of 50% with a three- year CAGR of 15%.",
+    "page": 5,
+    "id": "G15",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "net working capital",
+    "period": "Q1 FY27",
+    "statement": "Management achieved a reduction of 19 days in net working capital, releasing Rs. 300 crore of cash.",
+    "quote": "Despite the challenging environment, the team delivered an impressive reduction of 19 days in net working capital, releasing INR 300 crore of cash.",
+    "page": 6,
+    "id": "G16",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "balance sheet strength",
+    "period": "Q1 FY27",
+    "statement": "Management highlighted a strong debt-free balance sheet with a net cash position of INR 38 billion.",
+    "quote": "Our strong debt-free balance sheet, supported with net cash of INR 38 billion, provides resilience and flexibility for strategic investments.",
+    "page": 6,
+    "id": "G17",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "revenue growth",
+    "period": "FY27",
+    "statement": "Management expects positive revenue growth in fiscal 2027 driven by export recovery, new product launches, and scaling of pharma and biologicals.",
+    "quote": "As we see the opportunities in FY27, we expect a positive growth in FY27 led by recovery in exports in the second half, supported by new product launches especially our first homegrown NCE in the domestic business and our pharma & biologicals continue to scale up.",
+    "page": 5,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "effective tax rate",
+    "period": "FY27 and thereafter",
+    "statement": "Management guides that the effective tax rate (ETR) will inch up to 24% from FY27 onwards.",
+    "quote": "We expect FY27 and thereafter ETR to inch upto 24%.",
+    "page": 5,
+    "id": "G19",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "pharma business revenue",
+    "period": "next 2-3 years",
+    "statement": "Management targets reaching a top line of INR 500 crore to INR 600 crore in the pharma segment over the next two to three years.",
+    "quote": "Obviously, the investment mindsets are shifting. As we have seen these things move and as we have stated earlier, achieving a INR 500 crore – INR 600 crore top line is when you would see these things move into a positive phase.",
+    "page": 9,
+    "id": "G20",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "capex spend",
+    "period": "next year / FY27",
+    "statement": "Management guides for an annual capex spend of INR 700 to INR 800 crore covering manufacturing, new launches, and R&D.",
+    "quote": "So, the capex would be as we have guided in the past also, we should have INR 700 to INR 800 crore of capex both at the manufacturing level, some of the new launches which we are going to be having, R&D spends across both pharma and our agrochemical business.",
+    "page": 11,
+    "id": "G21",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "electronic chemicals revenue",
+    "period": "next 4 to 5 years",
+    "statement": "Management targets achieving about $100 million in revenue in the electronic chemicals segment in the next 4 to 5 years.",
+    "quote": "As we have stated earlier last year, we are looking to target about $100 million in the next 4 to 5 years in this segment.",
+    "page": 9,
+    "id": "G22",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "agchem downcycle",
+    "period": "near-term",
+    "statement": "Management acknowledged that the global crop protection market has continued a multi-year downcycle with uneven recovery and just-in-time purchasing.",
+    "quote": "The global crop protection market has continued the multi-year downcycle and recovery remains uneven further complicated by global events during the quarter which has led to clear shift towards just- in-time purchasing.",
+    "page": 3,
+    "id": "G23",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "domestic demand",
+    "period": "near-term",
+    "statement": "Domestic industry demand has been impacted by elevated channel inventory, lower crop prices, and incessant rainfall.",
+    "quote": "The domestic backdrop is genuinely encouraging on the fundamentals, even though near-term industry demand has been muted due to elevated channel inventory, lower crop prices and incessant rainfall.",
+    "page": 3,
+    "id": "G24",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "pharma growth",
+    "period": "full year FY26",
+    "statement": "The pharma business delivered a strong 40% revenue growth for the full year.",
+    "quote": "Our Pharma business delivered 40% growth for the full year.",
+    "page": 3,
+    "id": "G25",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "biologicals compounding",
+    "period": "past few years",
+    "statement": "The global biologicals business has emerged as one of the fastest-growing segments, compounding at over 20%.",
+    "quote": "Over the past few years this business has emerged as one of the fastest-growing segments within our portfolio compounding at over 20%+.",
+    "page": 3,
+    "id": "G26",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "balance sheet strength",
+    "period": "FY26",
+    "statement": "The company maintained a debt-free balance sheet with a cash balance of INR 34,265 million.",
+    "quote": "Our consolidated revenue for the full year FY26, we have delivered revenue of ₹ 67,137 million with healthy EBITDA margins of 25% and cash balance of INR 34,265 million enabling the company to pursue future strategic investments for long - term sustainable growth.",
+    "page": 3,
+    "id": "G27",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Gross margin guidance",
+    "period": "long-term",
+    "statement": "Management continues to maintain its long-term gross profit margin guidance between 50% to 52%.",
+    "quote": "As we guided in the past, we continue to maintain our long-term GP margin guidance between 50% to 52%, and we continue to move with that.",
+    "page": 7,
+    "id": "G28",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Molecule commercialization",
+    "period": "FY26",
+    "statement": "The company is on track to commercialize 8 to 10 new molecules in total for the year.",
+    "quote": "We are on track to commercialize 8 to 10 new molecules with 5 molecules already commercialized.",
+    "page": 3,
+    "id": "G29",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Capex plan",
+    "period": "FY27",
+    "statement": "The capex plan for FY27 will broadly be about INR 500 crore to INR 600 crore.",
+    "quote": "So broadly, it will be about INR 500 crore to INR 600 crore.",
+    "page": 11,
+    "id": "G30",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Revenue growth resumption",
+    "period": "FY27",
+    "statement": "Management expects revenue growth to resume from FY27 onwards as industry conditions stabilize.",
+    "quote": "We expect the domestic growth to be back on track from FY27 onwards.",
+    "page": 5,
+    "id": "G31",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "Soft product pricing",
+    "period": "near term",
+    "statement": "Product pricing continues to remain soft, particularly for the generic category.",
+    "quote": "Product pricing continues to remain soft, particularly for the generic category.",
+    "page": 3,
+    "id": "G32",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "Domestic demand pressure",
+    "period": "Q3 FY26",
+    "statement": "Domestic demand for key agrochemicals remained muted due to channel inventories and adverse weather.",
+    "quote": "However, the demand for key agrochemicals during the quarter remained muted due to elevated channel inventories, adverse weather conditions, lower crop prices.",
+    "page": 3,
+    "id": "G33",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "Biotech funding headwinds",
+    "period": "near term",
+    "statement": "Global biotech funding and geopolitical uncertainties lengthened decision cycles for pharma.",
+    "quote": "Near term momentum, however, has been moderated due to global biotech funding and ongoing geopolitical uncertainties, which have lengthened decision cycles and slowed the conversion of select opportunities.",
+    "page": 4,
+    "id": "G34",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Pharma business growth",
+    "period": "9M FY26",
+    "statement": "Pharma business delivered a 50% year-on-year growth during the nine-month period.",
+    "quote": "Now coming to Pharma, we have delivered a 50% year-on-year growth.",
+    "page": 3,
+    "id": "G35",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Balance sheet strength",
+    "period": "current",
+    "statement": "The company maintains a debt-free balance sheet with net cash of INR 35 billion.",
+    "quote": "Our debt-free balance sheet position supported with net cash of INR 35 billion provides strong resilience and flexibility for strategic investments.",
+    "page": 6,
+    "id": "G36",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Gross margin expansion",
+    "period": "Q3 FY26",
+    "statement": "Gross margins expanded to 59% during the quarter supported by product mix and cost discipline.",
+    "quote": "On other financial metrices, our gross margin expanded to 59% during the quarter, supported by a favorable product mix and cost discipline.",
+    "page": 6,
+    "id": "G37",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹1,900 cr, YoY -8.2%, QoQ +6.3%, operating margin 27%, net profit ₹400 cr, profit YoY -10.9%, tax rate 21%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹1,872 cr, YoY -15.7%, QoQ -1.5%, operating margin 29%, net profit ₹409 cr, profit YoY -19.5%, tax rate 22%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹1,376 cr, YoY -27.6%, QoQ -26.5%, operating margin 22%, net profit ₹311 cr, profit YoY -16.6%, tax rate 14%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹1,565 cr, YoY -12.4%, QoQ +13.7%, operating margin 22%, net profit ₹200 cr, profit YoY -39.4%, tax rate 33%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹1,702 cr, YoY -10.4%, QoQ +8.8%, operating margin 22%, net profit ₹244 cr, profit YoY -39.0%, tax rate 24%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹1,702 cr, YoY -9.1%, QoQ +0.0%, operating margin 14%, net profit ₹122 cr, profit YoY -70.2%, tax rate 34%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹7,978 cr, growth +4.1%, operating margin 28%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹6,714 cr, growth -15.8%, operating margin 26%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹300 cr at Sep 2026, ₹342 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Revenue Growth FY27",
+    "promise": "Management expects positive revenue growth trajectory in lower single digit for FY27.",
+    "delivered": "H1 FY27 revenue declined, with Q1 revenue down 10.4% YoY and Q2 revenue down 9.1% YoY.",
+    "verdict": "off_track",
+    "guidance_ids": [
+     "G10",
+     "G18",
+     "G31"
+    ],
+    "actual_ids": [
+     "A5",
+     "A6"
+    ]
+   },
+   {
+    "metric": "Effective Tax Rate (ETR)",
+    "promise": "Management expects effective tax rate for FY27 to be around 24%.",
+    "delivered": "Tax rate was 24% in Q1 FY27 and 34% in Q2 FY27.",
+    "verdict": "partly",
+    "guidance_ids": [
+     "G11",
+     "G19"
+    ],
+    "actual_ids": [
+     "A5",
+     "A6"
+    ]
+   },
+   {
+    "metric": "Electronic Chemicals Revenue",
+    "promise": "Targets USD 100 million in electronic chemicals segment in 3 to 5 years.",
+    "delivered": "No specific revenue figures reported for electronic chemicals in actuals.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G1",
+     "G22"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Pharma Revenue Target",
+    "promise": "Targets INR 500 crore to INR 600 crore in pharma segment over 2-3 years.",
+    "delivered": "Actual financial segment breakdown is not provided in reported actuals.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G20"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Annual Capex Spend",
+    "promise": "Management guides for annual capex spend of INR 700 to INR 800 crore.",
+    "delivered": "Actual capex spending numbers are not provided in actuals filings.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G12",
+     "G21"
+    ],
+    "actual_ids": []
+   }
+  ],
+  "scorecard": "Management is off-track on FY27 revenue growth expectations as demand downcycles and pricing pressure persist into H1 FY27.",
+  "bull": [
+   {
+    "point": "Domestic biological portfolio delivered robust growth, expanding 45% domestic and over 250% globally in Q2 FY27.",
+    "ids": [
+     "G8"
+    ]
+   },
+   {
+    "point": "Domestic agri business maintained momentum with 19% YoY growth in Q2 FY27.",
+    "ids": [
+     "G7"
+    ]
+   },
+   {
+    "point": "Order book position remains stable at around USD 1.25 billion.",
+    "ids": [
+     "G9"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Revenue growth guidance for FY27 is off-track, with Q1 FY27 down 10.4% YoY and Q2 FY27 down 9.1% YoY.",
+    "ids": [
+     "G10",
+     "A5",
+     "A6"
+    ]
+   },
+   {
+    "point": "Operating margin experienced severe contraction to 14% in Q2 FY27 from 29% in Q2 FY26.",
+    "ids": [
+     "A2",
+     "A6"
+    ]
+   },
+   {
+    "point": "Net profit declined significantly by 70.2% YoY in Q2 FY27 to ₹122 cr due to export headwinds.",
+    "ids": [
+     "G4",
+     "A6"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T4",
+    "model": "gemini-3.5-flash-lite",
+    "input": 9966,
+    "output": 983,
+    "cached": false,
+    "ms": 3069
+   },
+   {
+    "label": "extract T3",
+    "model": "gemini-3.5-flash-lite",
+    "input": 11909,
+    "output": 1216,
+    "cached": false,
+    "ms": 3580
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.5-flash-lite",
+    "input": 11618,
+    "output": 1069,
+    "cached": false,
+    "ms": 4346
+   },
+   {
+    "label": "extract T2",
+    "model": "gemini-3.5-flash-lite",
+    "input": 10990,
+    "output": 846,
+    "cached": false,
+    "ms": 4685
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2663,
+    "output": 999,
+    "cached": false,
+    "ms": 4143
+   }
+  ]
+ },
+ "DEEPAKNTR": {
+  "symbol": "DEEPAKNTR",
+  "generated_at": "2026-11-15T06:29:16.795Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-11",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfbdab4-d040-4a99-b694-bbe26f015f14.pdf",
+    "pages": 21
+   },
+   {
+    "id": "T2",
+    "month": "2026-08",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+    "pages": 21
+   },
+   {
+    "id": "T3",
+    "month": "2026-05",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf",
+    "pages": 15
+   },
+   {
+    "id": "T4",
+    "month": "2026-02",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+    "pages": 21
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "AI segment EBIT percentage",
+    "period": "Q3 FY27",
+    "statement": "Management expects Q3 EBIT percentage to be between Q1 and Q2, specifically closer to Q1 levels.",
+    "quote": "So we expect Q3, in terms of EBIT percentage, somewhere between Q1 and Q2, I think closer to Q1 in terms of percentage.",
+    "page": 8,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "AI segment EBIT percentage",
+    "period": "Q4 FY27",
+    "statement": "Management guides that the EBIT percentage in Q4 should be better than Q3.",
+    "quote": "And on an annualized basis from next year onwards, we should see further improvement. Some of these investments that we have commissioned, especially in agchem, they are linked to annualized procurement contracts that are there with customers. So those happen in line with their campaign runs. But the way that we have commissioned those assets, they are up- engineered to be able to do a multiplicity of reactions as well as products. So when we looked at fluorination, even at that time, I had clarified that these are up-engineered assets. They're able to do not just aromatic fluorination, but pyridine fluorination as well. The same concept applies for the chlorination as well as the photochlorination as well as the specialty chemical assets. So this will allow us a broad spectrum of applications where we are in a way delinked from campaign management that our customers may have in some applications, and we should be able to perform a very broad range of chemistries over and above what we traditionally perform. Nirav Jimudia: Second question is on the Phenolics side. So last time you said that we have made ourselves ready for close to around 4 lakh tonnes of annual volumes. So just wanted your thoughts that whether we have achieved that sort of a run rate in Q2? And on a consistent basis, is it possible that we can run the plant at that sort of run rate on a full year basis from next year onwards? That's question number one. And in addition to that, if you can share your thoughts on IPA also because I think there were some propylene shortages in India and because of which we could have an advantage on. So if you can share your thoughts on IPA utilization for the second quarter? And how do you see it for the second half, that would be very helpful. Maulik Mehta: Sure. With regards to asset capability, I think we have come close enough to the 4 lakh tonnes plus or minus. We'll continue to see how we can squeeze out more production. In the last 6 months, there has been a disturbance with regards to propylene availability. And so very often, what we have ended up needing to do is buy from non-traditional sources in order to ensure and even if that's been at higher prices in order to make sure that we continue to maintain a kind of presence. So I would not say that Q2 has run at a consistent 4 lakh tonne capacity. I would say that it is less than that, but not significantly less. Proactive procurement strategies is what has helped us optimize. And moving forward, as we expect winter months, which always help with an improvement in throughput, that will also give us some benefit and this management of raw",
+    "page": 8,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "AI segment EBIT percentage target",
+    "period": "next year",
+    "statement": "Management targets 14% to 15% EBIT for the AI segment next year with steady-state asset operations.",
+    "quote": "So just for clarification, we are estimating that in the next year, with all the assets that have been commissioned running at steady-state, we should be targeting something along the lines of about 14% to 15% EBIT.",
+    "page": 10,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Feedstock procurement headwinds",
+    "period": "Q2 FY27",
+    "statement": "Disruptions in propylene availability forced management to procure feedstocks from non-traditional sources at significantly higher costs.",
+    "quote": "In the last 6 months, there has been a disturbance with regards to propylene availability. And so very often, what we have ended up needing to do is buy from non-traditional sources in order to ensure and even if that's been at higher prices in order to make sure that we continue to maintain a kind of presence.",
+    "page": 8,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Advanced Intermediates customer imports",
+    "period": "Q2 FY27",
+    "statement": "Proactive raw material price increases led customers to pre-emptively import sodium nitrite and nitroaromatics directly, impacting plant utilization.",
+    "quote": "Consumers saw elevated ammonia prices and other raw material prices and imported proactively, which landed up in July. This led to lower utilization of some plants despite the moderation in raw material prices.",
+    "page": 4,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Advanced Intermediates profitability",
+    "period": "Q2 FY27",
+    "statement": "EBIT for Advanced Intermediates dropped sequentially due to input price headwinds, customer volume variations, duties, and logistics costs.",
+    "quote": "The sequential moderation in profitability reflects the headwinds from input prices, some variation in customer volumes as well as impact of duties, logistics and freight rates.",
+    "page": 6,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Record financial performance",
+    "period": "Q2 & H1 FY27",
+    "statement": "Company achieved the best-ever performance in its operating history with record revenue and EBITDA on both quarterly and half-yearly bases.",
+    "quote": "At the outset, I am delighted to announce that we have achieved the Best Ever Performance in Deepak Nitrite's operating history of over 5 decades, delivering record Revenue and EBITDA on both a quarterly as well as a half yearly basis.",
+    "page": 3,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Phenolics annual benchmark surpassed",
+    "period": "H1 FY27",
+    "statement": "Phenolics segment EBIT in just the first six months surpassed the previous highest annual EBIT registered in FY22.",
+    "quote": "I am sure many of you would have noticed that in just the first 6 months of this financial year, our EBIT of INR 933 crore has surpassed previous highest annual EBIT of INR 867 crore, which was registered in FY22.",
+    "page": 6,
+    "id": "G8",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Deepak Chemtech new commissioning",
+    "period": "Q2 FY27",
+    "statement": "Deepak Chemtech commissioned chlorination, photohalogenation assets, and a specialty chemicals plant in Dahej with about INR 300 crore capital investment.",
+    "quote": "Moreover, towards the end of the quarter, Deepak Chemtech also commissioned its chlorination, which is in addition to the photohalogenation assets as well as specialty chemicals plant in Dahej with capital investment of approximately INR 300 crore, including associated utilities and infra.",
+    "page": 5,
+    "id": "G9",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Capacity Expansion",
+    "period": "short to medium term",
+    "statement": "Management expects to achieve a run rate of close to 4 lakh tonnes of phenol production in the short to medium term.",
+    "quote": "We are looking at opportunities to debottleneck further. And hopefully, we should in the short to medium term, be able to achieve the big 4 number.",
+    "page": 8,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Plant Commissioning",
+    "period": "August",
+    "statement": "MIBK, MIBC, and acetophenone projects will be commissioned in August itself.",
+    "quote": "MIBK as well as MIBC will be commissioned along with acetophenone in August itself, and the rest of them will be commissioned within Q2.",
+    "page": 5,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Polycarbonate Commissioning",
+    "period": "FY28-29",
+    "statement": "Management targets H2 of FY28-29 for polycarbonate commissioning.",
+    "quote": "I would anticipate that would target H2 for our polycarbonate commissioning.",
+    "page": 12,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Capex Spend",
+    "period": "this year",
+    "statement": "The company plans to spend around INR 1,000 crore to INR 1,500 crore further this year for capex.",
+    "quote": "Further this year, we'll spend around another INR 1,000 crore to INR 1,500 crore this year further.",
+    "page": 14,
+    "id": "G13",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Raw Material Volatility",
+    "period": "Q1 FY27",
+    "statement": "The quarter faced volatility in global feedstock markets and pressure of high-cost raw materials for certain products.",
+    "quote": "Within AI, pressure of high- cost raw materials remained for certain products.",
+    "page": 4,
+    "id": "G14",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Contractual Manpower",
+    "period": "Q1 FY27",
+    "statement": "Q1 experienced a disruption where contractual manpower was not available along with a national natural gas shortage.",
+    "quote": "So Q1 also had a disruption where contractual manpower was not available. There was a natural gas shortage across the country.",
+    "page": 9,
+    "id": "G15",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Record Financial Performance",
+    "period": "Q1 FY27",
+    "statement": "The company reported record revenues, EBITDA, PBT, and PAT in Q1 FY27.",
+    "quote": "We are proud to report that Q1 demonstrated an improving trajectory for the company with record Revenues, EBITDA, Profit Before Tax and Profit After Tax.",
+    "page": 4,
+    "id": "G16",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Phenolics EBIT",
+    "period": "Q1 FY27",
+    "statement": "Phenolics delivered its highest ever quarterly performance with a record EBIT of INR 418 crore.",
+    "quote": "Phenolics delivered its highest ever quarterly performance, highlighting the strength of our manufacturing platform and operational excellence.",
+    "page": 4,
+    "id": "G17",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Polycarbonate commissioning",
+    "period": "June 2028",
+    "statement": "Management expects the polycarbonate project to be commissioned by June 2028.",
+    "quote": "So we've clarified earlier, and we are, by and large, remaining kind of in line with that, and we are expecting it to be commissioned by June 2028.",
+    "page": 13,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "MIBK and MIBC commissioning",
+    "period": "Q2 FY27",
+    "statement": "MIBK and MIBC projects are scheduled for commissioning at the tail end of Q1 or the early part of Q2 FY27.",
+    "quote": "Our long-term growth remains anchored in value chain integration and specialty chemical expansion. We witnessed a steady progress of our multipurpose agrochemical intermediates and MIBK, MIBC projects, which are scheduled for commissioning in Q2 FY27.",
+    "page": 4,
+    "id": "G19",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Nitric acid utilization",
+    "period": "Q4 FY26",
+    "statement": "The nitric acid plant operated at about 45% utilization due to technical issues.",
+    "quote": "So once the plant is under stable operations, we do anticipate the kind of target that we're looking at. But during this quarter under review, we were roughly at about 45% of utilization.",
+    "page": 7,
+    "id": "G20",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Global logistics disruptions",
+    "period": "Q4 FY26",
+    "statement": "The fourth quarter witnessed unprecedented disruption in established supply chains and challenges to logistics and freight from the war in the Middle East.",
+    "quote": "The environment further intensified in the fourth quarter due to the war in the Middle East, following which the industry witnessed unprecedented disruption in established supply chains, challenges to logistics and freight with the blocking of the Strait of Hormuz",
+    "page": 3,
+    "id": "G21",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "EBITDA sequential growth",
+    "period": "Q4 FY26",
+    "statement": "Consolidated EBITDA grew by 74% sequentially over Q3 FY26 to reach INR383 crore.",
+    "quote": "EBITDA for the quarter stood at INR383 crore, reflecting strong sequential growth of 74% over Q3 and 13% on a year-on-year basis.",
+    "page": 4,
+    "id": "G22",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "Phenolics EBIT margins",
+    "period": "Q4 FY26",
+    "statement": "Phenolics segment EBIT margins improved to 20% during Q4 FY26.",
+    "quote": "Revenue from operations for Q4 stood at INR1,429 crore, while EBIT stood at INR287 crore compared to INR239 crore in Q4 last year and INR145 crore in Q3. EBIT margins improved to 20% during Q4.",
+    "page": 4,
+    "id": "G23",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "nitric acid consumption",
+    "period": "Q4 FY26",
+    "statement": "The company expects to achieve nearly 100% in-house consumption of nitric acid for its production requirements starting from Q4 FY26.",
+    "quote": "This quarter and next quarter will be the first period where we would have pretty much 100% consumption of nitric acid.",
+    "page": 8,
+    "id": "G24",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "MIBK/MIBC commissioning",
+    "period": "Q4 FY26",
+    "statement": "The MIBK/MIBC project is on track for commissioning within the current quarter.",
+    "quote": "The MIBK/ MIBC project is progressing well and is targeted for commissioning within this quarter.",
+    "page": 4,
+    "id": "G25",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "polycarbonate project",
+    "period": "December 2027",
+    "statement": "The company maintains its target to bring the integrated polycarbonate project onstream by December 2027.",
+    "quote": "December 2027 is the timeline we had discussed for being onstream. So we are roughly on track.",
+    "page": 18,
+    "id": "G26",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "CAPEX outlay",
+    "period": "FY27",
+    "statement": "The company has planned a capital expenditure of approximately INR 2,500 crore for the fiscal year 2027.",
+    "quote": "Around INR 2,500 crore. INR 2,500 crore is for FY27, not FY26.",
+    "page": 19,
+    "id": "G27",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "pricing pressure",
+    "period": "Q3 FY26",
+    "statement": "The Advanced Intermediates segment faced significant EBIT pressure due to aggressive Chinese dumping and global oversupply.",
+    "quote": "However, EBIT for the segment stood at INR 15 crore, reflecting this continued pricing pressure arising from aggressive Chinese dumping and global oversupply.",
+    "page": 4,
+    "id": "G28",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "raw material costs",
+    "period": "Q3 FY26",
+    "statement": "Margins were compressed in Q3 because the company had to procure raw materials like nitric acid at spot rates due to commissioning delays.",
+    "quote": "We had no long-term contracts or quantity discounts or such that we were able to apply in our purchase.",
+    "page": 9,
+    "id": "G29",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "vertical integration",
+    "period": "Q3 FY26",
+    "statement": "The company completed its vertical integration across the ammonia-nitration-to-amines value chain, strengthening margins and raw material security.",
+    "quote": "The commissioning of the nitric acid plant, both the WNA as well as the CNA plant in Nandesari, along with the nitration and expanded hydrogenation plant at Dahej completes our vertical integration across the ammonia-nitration-to-amines value chain.",
+    "page": 4,
+    "id": "G30",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "sodium nitrite exports",
+    "period": "Q3 FY26",
+    "statement": "The U.S. removed anti-dumping duties on the company's sodium nitrite exports, providing a competitive advantage.",
+    "quote": "A boost to this strategy comes from a favourable shift in the U.S. India tariff policy, along with a complete removal of anti-dumping duty (ADD) by the U.S. on Deepak's sodium nitrite exports.",
+    "page": 4,
+    "id": "G31",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹1,890 cr, YoY -12.8%, QoQ -13.3%, operating margin 10%, net profit ₹112 cr, profit YoY -44.8%, tax rate 27%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹1,902 cr, YoY -6.4%, QoQ +0.6%, operating margin 11%, net profit ₹119 cr, profit YoY -38.7%, tax rate 27%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹1,975 cr, YoY +3.8%, QoQ +3.8%, operating margin 11%, net profit ₹100 cr, profit YoY +2.0%, tax rate 28%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹2,120 cr, YoY -2.8%, QoQ +7.3%, operating margin 18%, net profit ₹220 cr, profit YoY +8.9%, tax rate 27%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹2,578 cr, YoY +36.4%, QoQ +21.6%, operating margin 21%, net profit ₹345 cr, profit YoY +208.0%, tax rate 26%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹3,076 cr, YoY +61.7%, QoQ +19.3%, operating margin 20%, net profit ₹398 cr, profit YoY +234.5%, tax rate 27%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹8,282 cr, growth +7.8%, operating margin 13%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹7,887 cr, growth -4.8%, operating margin 13%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹1,762 cr at Sep 2026, ₹1,638 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "AI segment EBIT percentage target",
+    "promise": "Targets 14% to 15% EBIT for the AI segment next year with steady-state asset operations.",
+    "delivered": "The target period for next year has not commenced yet.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G3"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Polycarbonate commissioning schedule",
+    "promise": "Targeting H2 of FY28-29 for polycarbonate commissioning.",
+    "delivered": "The target commissioning timeline of H2 FY28-29 has not been reached yet.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G12"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "MIBK and MIBC project commissioning",
+    "promise": "Scheduled for commissioning in August (or tail end of Q1 / early Q2 FY27).",
+    "delivered": "Financial filings cover Q2 FY27 performance but do not specify individual asset commissioning completion status.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G11",
+     "G19"
+    ],
+    "actual_ids": [
+     "A6"
+    ]
+   },
+   {
+    "metric": "CAPEX Outlay FY27",
+    "promise": "Planned capital expenditure of approximately INR 2,500 crore for FY27.",
+    "delivered": "Filings record borrowings of ₹1,762 crore at Sep 2026, but do not state total FY27 capex incurred to date.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G27"
+    ],
+    "actual_ids": [
+     "A9"
+    ]
+   }
+  ],
+  "scorecard": "Management provided detailed operational guidance, but specific metric verification remains unclear due to lack of segment-level disclosure in periodic filings.",
+  "bull": [
+   {
+    "point": "Company achieved record performance in H1 FY27, with Q2 revenue surging 61.7% YoY to ₹3,076 cr and operating margin reaching 20%.",
+    "ids": [
+     "G7",
+     "A6"
+    ]
+   },
+   {
+    "point": "Phenolics segment delivered outstanding EBIT of ₹418 cr in Q1 FY27, supporting record quarterly net profit of ₹345 cr.",
+    "ids": [
+     "G17",
+     "A5"
+    ]
+   },
+   {
+    "point": "Commissioned chlorination and specialty chemical assets in Dahej backed by about ₹300 crore capital investment.",
+    "ids": [
+     "G9"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Feedstock availability disruptions in Q2 FY27 forced higher cost raw material procurement, impacting Advanced Intermediates segment margins.",
+    "ids": [
+     "G4",
+     "G6"
+    ]
+   },
+   {
+    "point": "Nitric acid plant operated at low 45% utilization during Q4 FY26 due to technical issues, causing margin compression.",
+    "ids": [
+     "G20",
+     "G29"
+    ]
+   },
+   {
+    "point": "Full year FY26 revenue declined 4.8% YoY to ₹7,887 cr amid aggressive Chinese dumping and global oversupply pressures.",
+    "ids": [
+     "G28",
+     "A8"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T2",
+    "model": "gemini-3.5-flash-lite",
+    "input": 14399,
+    "output": 813,
+    "cached": false,
+    "ms": 2686
+   },
+   {
+    "label": "extract T3",
+    "model": "gemini-3.5-flash-lite",
+    "input": 9644,
+    "output": 752,
+    "cached": false,
+    "ms": 3164
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.5-flash-lite",
+    "input": 14142,
+    "output": 1666,
+    "cached": false,
+    "ms": 4592
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.1-flash-lite",
+    "input": 14750,
+    "output": 901,
+    "cached": false,
+    "ms": 34582
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2470,
+    "output": 808,
+    "cached": false,
+    "ms": 3628
+   }
+  ]
+ },
+ "POLYCAB": {
+  "symbol": "POLYCAB",
+  "generated_at": "2026-11-15T06:29:28.887Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-10",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+    "pages": 20
+   },
+   {
+    "id": "T2",
+    "month": "2026-07",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+    "pages": 19
+   },
+   {
+    "id": "T3",
+    "month": "2026-05",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+    "pages": 19
+   },
+   {
+    "id": "T4",
+    "month": "2026-01",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+    "pages": 20
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "EBITDA margin range",
+    "period": "FY30",
+    "statement": "The company maintains its long-term EBITDA margin guidance for the Wires and Cables business within the 11% to 13% range.",
+    "quote": "In line with our Project Spring roadmap, we remain confident of sustaining medium- to long-term EBITDA margins within our guided range of 11% to 13%.",
+    "page": 7,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "FMEG growth rate",
+    "period": "long-term",
+    "statement": "The company aims to grow the FMEG business at 1.5x to 2x the industry growth rate.",
+    "quote": "Our objective continues to be growing at 1.5x to 2x of the industry growth rate while steadily enhancing profitability.",
+    "page": 7,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "EHV plant commissioning",
+    "period": "FY28",
+    "statement": "The company expects to commission its Extra High Voltage (EHV) plant in the next fiscal year, FY28.",
+    "quote": "I would like to take this opportunity to sort of also let the investor community know that in terms of our EHV plant timelines, we are expecting the EHV plant to now commission somewhere in FY 2028, the next year, though, so FY28.",
+    "page": 18,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Legal proceedings",
+    "period": "near-term",
+    "statement": "The company is involved in ongoing legal proceedings regarding Asier Metals, though it expects no material impact on operations.",
+    "quote": "We do not expect any adverse or material impact on our financial or business operations arising from the said situation.",
+    "page": 5,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Logistics disruptions",
+    "period": "near-term",
+    "statement": "Geopolitical tensions and shipping route disruptions have created uncertainty and impacted export bookings.",
+    "quote": "Geopolitical tensions, elevated energy prices, higher global bond yields, and disruptions across certain international shipping routes have created near-term uncertainty across markets.",
+    "page": 4,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Working capital efficiency",
+    "period": "Q2 FY27",
+    "statement": "The company improved its working capital efficiency, reducing the average cycle to approximately 11 days.",
+    "quote": "We also witnessed further improvement in our working capital efficiency, with the average working capital cycle reducing to approximately 11 days in second quarter fiscal '27.",
+    "page": 6,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "FMEG profitability",
+    "period": "Q2 FY27",
+    "statement": "The FMEG segment achieved a milestone by recording EBIT margins of 10.1%, crossing the double-digit mark for the first time.",
+    "quote": "The segment also achieved a major profitability milestone, with EBIT margins crossing the double-digit mark for the first time and recording a 10.1% margin during the quarter.",
+    "page": 7,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Wires Cables margins",
+    "period": "medium to long term",
+    "statement": "Management maintains its medium to long-term margin guidance of 11% to 13% for the Wires and Cables business.",
+    "quote": "Consistent with our Project Spring roadmap, we continue to maintain our medium- to long-term margin guidance of 11% to 13% for this business.",
+    "page": 5,
+    "id": "G8",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "FMEG EBITDA margins",
+    "period": "FY 2030",
+    "statement": "Management targets EBITDA margins of 8% to 10% for the FMEG business by FY 2030.",
+    "quote": "EBIT margins for the quarter were 8%, very much in line with the milestones laid out under Project Spring, where we target EBITDA margins of 8% to 10% by FY 2030.",
+    "page": 6,
+    "id": "G9",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "FMEG growth",
+    "period": "coming years",
+    "statement": "Strategic priorities remain to grow at 1.5x to 2x of industry growth while enhancing profitability.",
+    "quote": "Our strategic priorities remain unchanged to grow at 1.5x to 2x of the industry growth while progressively enhancing profitability.",
+    "page": 6,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "EPC operating margins",
+    "period": "medium to long term",
+    "statement": "Sustainable operating margins for the EPC business are expected to remain in the high single-digit range over the medium to long term.",
+    "quote": "Over the medium to long term, we continue to expect sustainable operating margins for the EPC business to remain in the high single-digit range.",
+    "page": 6,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Export revenue share",
+    "period": "by 2030",
+    "statement": "Management gave guidance of going north of 10% of overall top line from exports by 2030.",
+    "quote": "We have given our guidance of going north of 10% of our overall top line by 2030.",
+    "page": 19,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Geopolitical inflation",
+    "period": "near term",
+    "statement": "Disruptions across energy markets and trade routes contributed to inflationary pressures and supply chain uncertainties.",
+    "quote": "Disruptions across energy markets and global trade routes, particularly around the Strait of Hormuz contributed to inflationary pressures during the first half of 2026.",
+    "page": 3,
+    "id": "G13",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "International business dip",
+    "period": "near term",
+    "statement": "The international business witnessed a year-on-year decline due to the impact of near-term geopolitical developments.",
+    "quote": "Our international business witnessed a decline on Y-o-Y basis, reflecting the impact of near- term geopolitical developments.",
+    "page": 5,
+    "id": "G14",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "EPC revenue decline",
+    "period": "Q1 FY27",
+    "statement": "The EPC business reported a year-on-year revenue decline of 11% due to timing and execution cycles.",
+    "quote": "The EPC business reported revenues of INR 3,077 million during the Quarter 1 Financial Year 2027, reflecting a year-on-year decline of 11%, primarily due to the timing and execution cycle of projects.",
+    "page": 6,
+    "id": "G15",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Quarterly PAT",
+    "period": "Q1 FY27",
+    "statement": "The company achieved its highest ever quarterly Profit After Tax of INR 7,967 million, growing 33% year-on-year.",
+    "quote": "At the bottom line, we achieved our highest ever quarterly Profit After Tax of INR 7,967 million, representing a growth of 33% year-on-year.",
+    "page": 4,
+    "id": "G16",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "FMEG outperformance",
+    "period": "Q1 FY27",
+    "statement": "FMEG segment marked the tenth consecutive quarter of outperforming industry growth rates with 71% year-on-year growth.",
+    "quote": "This marks the tenth consecutive quarter in which we have outperformed industry growth rates, reinforcing the strength of our business model and execution capabilities.",
+    "page": 5,
+    "id": "G17",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "export revenue contribution",
+    "period": "FY2030",
+    "statement": "The company aims to increase the contribution of exports to its total revenue to over 10% by the financial year 2030.",
+    "quote": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030.",
+    "page": 8,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "FMEG EBITDA margin",
+    "period": "FY2030",
+    "statement": "The company is working towards achieving an EBITDA margin of 8% to 10% for the FMEG segment by financial year 2030.",
+    "quote": "EBIT margins for the quarter stood at 4.1%, in line with our Project Spring trajectory of achieving 8% to 10% EBITDA margins by financial year 2030.",
+    "page": 8,
+    "id": "G19",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "capital expenditure",
+    "period": "next 5 years",
+    "statement": "The company plans to execute a capital expenditure program totaling INR 60 billion to INR 80 billion over the next five years.",
+    "quote": "We remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years, which will further enhance our capabilities, scale and innovation.",
+    "page": 6,
+    "id": "G20",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "dividend payout ratio",
+    "period": "FY2030",
+    "statement": "The company is targeting a dividend payout ratio exceeding 30% by the financial year 2030.",
+    "quote": "This represents a step forward towards our Project Spring goal of achieving a 30% payout ratio by financial year 2030.",
+    "page": 6,
+    "id": "G21",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Middle East conflict",
+    "period": "Q4 FY26",
+    "statement": "Geopolitical tensions in the Middle East negatively impacted export sales and trade sentiment during the quarter.",
+    "quote": "The demand sentiment to an extent was impacted by geopolitical developments in the Middle East, but our teams executed with agility and resilience, enabling us to sustain an industry- leading performance.",
+    "page": 3,
+    "id": "G22",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "raw material inflation",
+    "period": "Q4 FY26",
+    "statement": "The company experienced significant volatility in raw material costs, specifically noting a sharp rise in PVC prices during March.",
+    "quote": "So all of this going on plus the trade sentiment due to West Asia crisis, there was definitely some impact in terms of lifting from our distributors, which is our primary sale, primarily because the secondary sale was not moving at the pace at which we anticipate in the month of March.",
+    "page": 11,
+    "id": "G23",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "market share",
+    "period": "FY26",
+    "statement": "The company continued to gain market share in the domestic wires and cables segment, reaching 30-31%.",
+    "quote": "Our domestic wires and cable organized market share has now increased to 30-31% up from 18- 19% in financial year 2019.",
+    "page": 6,
+    "id": "G24",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "FMEG growth",
+    "period": "Q4 FY26",
+    "statement": "The FMEG segment achieved strong growth, marking nine consecutive quarters of outperforming industry benchmarks.",
+    "quote": "The FMEG segment delivered an exceptional performance for this quarter, registering a strong 47% year-on-year growth with broad-based contributions across all product categories. This marks the ninth consecutive quarter of outperformance versus industry benchmarks",
+    "page": 7,
+    "id": "G25",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "EPC revenue",
+    "period": "next 3 years",
+    "statement": "The company expects to generate ₹4.5 billion from existing BharatNet scheme orders over the next three years.",
+    "quote": "This quarter, we commenced execution of our existing orders under BharatNet scheme, which is expected to generate ₹ 4.5 billion over the next 3 years for project execution",
+    "page": 7,
+    "id": "G26",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "EPC O&M revenue",
+    "period": "next 10 years",
+    "statement": "The company expects to generate ₹3.5 billion from BharatNet project operations and maintenance over the next decade.",
+    "quote": "and an additional ₹ 3.5 billion for 10 years for project O&M.",
+    "page": 7,
+    "id": "G27",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "EPC operating margin",
+    "period": "mid- to long term",
+    "statement": "Management expects annual sustainable operating margins for the EPC business to remain in the high single digits.",
+    "quote": "Looking ahead, the annual sustainable operating margin is expected to remain in the high single digits over mid- to long term.",
+    "page": 7,
+    "id": "G28",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "FMEG EBITDA margin",
+    "period": "FY30",
+    "statement": "The company aims to achieve EBITDA margins in the range of 8% to 10% for the FMEG segment by FY30.",
+    "quote": "remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30",
+    "page": 7,
+    "id": "G29",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Capex investment",
+    "period": "annually through FY30",
+    "statement": "The company plans to invest between ₹12 billion and ₹16 billion annually in capital expenditure through FY30.",
+    "quote": "in-line with our Project Spring guidance of investing ₹ 12 billion to ₹ 16 billion annually through FY30.",
+    "page": 5,
+    "id": "G30",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "Commodity price inflation",
+    "period": "Q3 FY26",
+    "statement": "Sharp increases in copper and aluminium prices created near-term margin pressure as the company staggered price pass-throughs.",
+    "quote": "Segment profitability was impacted during the quarter due to multiple factors, primarily on account of continued commodity price inflation and depreciation of the Indian rupee.",
+    "page": 6,
+    "id": "G31",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "U.S. tariff uncertainty",
+    "period": "Q3 FY26",
+    "statement": "Elevated U.S. tariffs are acting as a global overhang and impacting the company's export performance.",
+    "quote": "This remains a global overhang and is impacting players worldwide, not just in India. We are currently awaiting a final resolution on this matter.",
+    "page": 9,
+    "id": "G32",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Domestic W&C volume",
+    "period": "Q3 FY26",
+    "statement": "The domestic Wires and Cables business achieved strong volume growth of 40% during the quarter.",
+    "quote": "In volume, the domestic W&C business recorded nearly 40% growth, reflecting healthy underlying demand.",
+    "page": 6,
+    "id": "G33",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "FMEG solar growth",
+    "period": "Q3 FY26",
+    "statement": "The solar business segment more than doubled its performance compared to the same quarter last year.",
+    "quote": "Within the segment, the solar business has been a standout performer, growing more than 2x compared to the same quarter last year",
+    "page": 7,
+    "id": "G34",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Consolidated PAT",
+    "period": "Q3 FY26",
+    "statement": "The company reported its highest ever quarterly profit after tax of ₹6.3 billion.",
+    "quote": "At the PAT level, the Company delivered its highest ever Q3 PAT at ₹ 6.3 billion, reflecting 36% YoY growth.",
+    "page": 5,
+    "id": "G35",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹5,906 cr, YoY +25.7%, QoQ -15.5%, operating margin 15%, net profit ₹600 cr, profit YoY +49.3%, tax rate 25%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹6,477 cr, YoY +17.8%, QoQ +9.7%, operating margin 16%, net profit ₹693 cr, profit YoY +55.7%, tax rate 25%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹7,636 cr, YoY +46.1%, QoQ +17.9%, operating margin 13%, net profit ₹630 cr, profit YoY +35.8%, tax rate 25%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹8,864 cr, YoY +26.9%, QoQ +16.1%, operating margin 13%, net profit ₹786 cr, profit YoY +7.1%, tax rate 25%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹8,210 cr, YoY +39.0%, QoQ -7.4%, operating margin 14%, net profit ₹797 cr, profit YoY +32.8%, tax rate 25%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹9,899 cr, YoY +52.8%, QoQ +20.6%, operating margin 14%, net profit ₹990 cr, profit YoY +42.9%, tax rate 24%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹22,408 cr, growth +24.2%, operating margin 13%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹28,884 cr, growth +28.9%, operating margin 14%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹272 cr at Sep 2026, ₹236 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Wires & Cables EBITDA Margin Target",
+    "promise": "Maintain long-term Wires and Cables EBITDA margins between 11% and 13% for FY30.",
+    "delivered": "Overall corporate operating margins ranged from 13% to 16% across FY26 and FY27 quarters.",
+    "verdict": "on_track",
+    "guidance_ids": [
+     "G1",
+     "G8"
+    ],
+    "actual_ids": [
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A8"
+    ]
+   },
+   {
+    "metric": "FMEG EBITDA Margins by FY30",
+    "promise": "Achieve FMEG EBITDA margins of 8% to 10% by FY30.",
+    "delivered": "FMEG recorded EBIT margins of 10.1% in Q2 FY27.",
+    "verdict": "on_track",
+    "guidance_ids": [
+     "G9",
+     "G19",
+     "G29"
+    ],
+    "actual_ids": [
+     "A6"
+    ]
+   },
+   {
+    "metric": "Annual Capital Expenditure",
+    "promise": "Invest between ₹12 billion and ₹16 billion annually in capital expenditure through FY30.",
+    "delivered": "The provided actuals do not track capex spending metrics.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G20",
+     "G30"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Export Revenue Share by FY30",
+    "promise": "Increase total export revenue contribution to over 10% by FY30.",
+    "delivered": "The provided actuals do not break out export revenue share.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G12",
+     "G18"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "EHV Plant Commissioning",
+    "promise": "Commission the Extra High Voltage (EHV) plant during FY28.",
+    "delivered": "The period FY28 has not commenced yet.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G3"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Dividend Payout Ratio by FY30",
+    "promise": "Target a dividend payout ratio exceeding 30% by FY30.",
+    "delivered": "Actual dividend payout figures are not provided in actuals.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G21"
+    ],
+    "actual_ids": []
+   }
+  ],
+  "scorecard": "Management shows strong operational execution, keeping company operating margins above target while expanding FMEG profitability ahead of long-term milestones.",
+  "bull": [
+   {
+    "point": "Polycab achieved its highest ever quarterly PAT of ₹7,967 million in Q1 FY27, growing 33% YoY.",
+    "ids": [
+     "G16",
+     "A5"
+    ]
+   },
+   {
+    "point": "Full-year FY26 revenue grew 28.9% YoY to ₹28,884 crore with a strong operating margin of 14%.",
+    "ids": [
+     "A8"
+    ]
+   },
+   {
+    "point": "FMEG EBIT margin crossed double digits for the first time, reaching 10.1% in Q2 FY27.",
+    "ids": [
+     "G7"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Near-term geopolitical tensions and trade route disruptions continue to impact export bookings and sentiment.",
+    "ids": [
+     "G5",
+     "G14",
+     "G22"
+    ]
+   },
+   {
+    "point": "Sharp raw material price spikes in copper, aluminium, and PVC create ongoing margin pressure.",
+    "ids": [
+     "G23",
+     "G31"
+    ]
+   },
+   {
+    "point": "The EPC segment suffered a 11% year-on-year revenue decline in Q1 FY27 due to execution timing.",
+    "ids": [
+     "G15"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T2",
+    "model": "gemini-3.5-flash-lite",
+    "input": 12881,
+    "output": 1142,
+    "cached": false,
+    "ms": 3313
+   },
+   {
+    "label": "extract T3",
+    "model": "gemini-3.1-flash-lite",
+    "input": 12472,
+    "output": 965,
+    "cached": false,
+    "ms": 3206
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.1-flash-lite",
+    "input": 12129,
+    "output": 1072,
+    "cached": false,
+    "ms": 3260
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.1-flash-lite",
+    "input": 12270,
+    "output": 797,
+    "cached": false,
+    "ms": 5510
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2671,
+    "output": 997,
+    "cached": false,
+    "ms": 3849
+   }
+  ]
+ },
+ "CDSL": {
+  "symbol": "CDSL",
+  "generated_at": "2026-11-15T06:29:36.674Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-11",
+    "url": "https://nsearchives.nseindia.com/corporate/CDSL_05112026164633_NSEIntimationTranscript02112026Sd.pdf",
+    "pages": 11
+   },
+   {
+    "id": "T2",
+    "month": "2026-08",
+    "url": "https://nsearchives.nseindia.com/corporate/CDSL_07082026155803_NSEintimationtranscript.pdf",
+    "pages": 12
+   },
+   {
+    "id": "T3",
+    "month": "2026-05",
+    "url": "https://nsearchives.nseindia.com/corporate/CDSL_07052026193244_NSEintimationtranscript_Sign.pdf",
+    "pages": 18
+   },
+   {
+    "id": "T4",
+    "month": "2026-02",
+    "url": "https://nsearchives.nseindia.com/corporate/CDSL_06022026152040_NSEintimationtranscriptSigned.pdf",
+    "pages": 15
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "positive",
+    "metric": "Demat Account Base",
+    "period": "Q2 FY27",
+    "statement": "CDSL accounted for more than 80 percent of the industry's demat accounts with about 19.34 crores accounts.",
+    "quote": "CDSL continued to account for approximately 80%+of the industry's demat accounts with about 19.34 crores accounts by the end of September 2026.",
+    "page": 3,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "H1 CVL Revenue",
+    "period": "H1 FY27",
+    "statement": "During H1 FY27, revenue for CVL grew by 20 percent to reach INR99.91 crores.",
+    "quote": "During H1 FY27, revenue grew by 20% to INR99.91 crores, as compared to INR83.52 crores in the previous year.",
+    "page": 5,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "CVL Profitability",
+    "period": "H1 FY27",
+    "statement": "Profit after tax for CVL declined by 12 percent in H1 FY27 compared to the previous year.",
+    "quote": "Profit after tax for H1 FY27 stood at INR23.74 crores compared to INR27.09 crores in H1 '26, representing a decline of 12%.",
+    "page": 6,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Search API Revenue",
+    "period": "Q2 FY27",
+    "statement": "Revenue on the search API came down as it transitioned from free to chargeable and intermediaries fine-tuned systems.",
+    "quote": "And on the search API, the revenue as compared to the first quarter has come down primarily because it was earlier free and now it is chargeable.",
+    "page": 9,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Demat Accounts Growth",
+    "period": "Q1 FY27",
+    "statement": "CDSL opened about 58 lakh new demat accounts during the quarter, taking the total to 18.59 crores.",
+    "quote": "CDSL has opened about 58 lakh new demat accounts during the quarter, taking the total demat accounts on the CDSL platform to 18.59 crores as on 30th June 2026 and maintaining a market share of approximately 80%.",
+    "page": 3,
+    "id": "G5",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Market Share Maintained",
+    "period": "Q1 FY27",
+    "statement": "CDSL maintained a market share of approximately 80% in total demat accounts.",
+    "quote": "CDSL has opened about 58 lakh new demat accounts during the quarter, taking the total demat accounts on the CDSL platform to 18.59 crores as on 30th June 2026 and maintaining a market share of approximately 80%.",
+    "page": 3,
+    "id": "G6",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "CVL Revenue Growth",
+    "period": "Q1 FY27",
+    "statement": "CVL reported revenue from operations of INR45 crores, reflecting a growth of 22% year-on-year.",
+    "quote": "During Q1 FY '27, CVL reported revenue from operations of INR45 crores as compared to INR36 crores during the same period last year, reflecting a growth of INR8 crores or 22%.",
+    "page": 4,
+    "id": "G7",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "CVL Profit Decline",
+    "period": "Q1 FY27",
+    "statement": "CVL profit after tax declined by 5% year-on-year to INR12.12 crores.",
+    "quote": "Profit after tax was at INR12.12 crores as against INR12.71 crores in the corresponding quarter of the previous year, which was a decline of INR59 lakh or 5%.",
+    "page": 4,
+    "id": "G8",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Regulatory KYC Price Cut",
+    "period": "Q1 FY27",
+    "statement": "SEBI reduced fetch and creation charges on KYC, creating downward pressure on pricing.",
+    "quote": "As per the directive, the charges were earlier INR35 on fetch. It was reduced to INR28, which was a decline of 20%.",
+    "page": 7,
+    "id": "G9",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "IPO and corporate action revenue",
+    "period": "FY26",
+    "statement": "Management noted a significant fall in IPO and corporate action revenue during the year due to lower IPO volumes.",
+    "quote": "Both the depositories have seen a significant fall in the IPO and corporate action income.",
+    "page": 10,
+    "id": "G10",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "Demat account base and market share",
+    "period": "FY26",
+    "statement": "CDSL crossed 18.01 crores demat accounts by the end of March 2026, maintaining over 80% market share.",
+    "quote": "bringing our total to 18.01 crores demat accounts as on March 31st, 2026, maintaining our 80% plus market share with a consistently incremental market share of 85% to 90%",
+    "page": 4,
+    "id": "G11",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Industry Turnover Growth",
+    "period": "December 2025",
+    "statement": "Management acknowledged an 8.3% decline in the combined average daily turnover at BSE and NSE compared to the previous year.",
+    "quote": "The combined average daily turnover at BSE and NSE for December 2025 was around INR1 lakh crores, about 8.3% less than the average daily turnover during the same period of the previous year.",
+    "page": 3,
+    "id": "G12",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "CVL Revenue and PAT",
+    "period": "9M FY26",
+    "statement": "CDSL Ventures Limited experienced a decline in operational revenue and profit after tax for the 9-month period compared to the previous year.",
+    "quote": "For the 9-month period ended December '25 So for the 9-month period December '25, revenue from operations was INR132 crores compared to INR189 crores in the 9MFY'25.",
+    "page": 4,
+    "id": "G13",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Demat Accounts Milestones",
+    "period": "Q3 FY26",
+    "statement": "The depository industry crossed 21.6 crore Demat accounts with CDSL adding over 75 lakh accounts during the quarter to reach 17.27 crores.",
+    "quote": "I'm glad to report that as a depository industry, we have crossed 21.6 crores Demat accounts and CDSL saw more than 75-+ lakh accounts opened during this quarter, bringing our total to 17.27 crores Demat accounts, maintaining our 80% share.",
+    "page": 3,
+    "id": "G14",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Consolidated Total Revenue",
+    "period": "Q3 FY26",
+    "statement": "Consolidated total revenue for the quarter ended December increased to INR334 crores compared to INR298 crores in the previous year.",
+    "quote": "In terms of quarterly performance on a consolidated basis, the total revenue of the quarter ended December is achieved at INR334 crores as against INR298 crores for the corresponding quarter of the previous year.",
+    "page": 4,
+    "id": "G15",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹259 cr, YoY +0.8%, QoQ +15.6%, operating margin 50%, net profit ₹102 cr, profit YoY -23.9%, tax rate 32%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹319 cr, YoY -0.9%, QoQ +23.2%, operating margin 55%, net profit ₹140 cr, profit YoY -13.6%, tax rate 23%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹304 cr, YoY +9.4%, QoQ -4.7%, operating margin 52%, net profit ₹133 cr, profit YoY +2.3%, tax rate 23%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹263 cr, YoY +17.4%, QoQ -13.5%, operating margin 44%, net profit ₹80 cr, profit YoY -20.0%, tax rate 23%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹293 cr, YoY +13.1%, QoQ +11.4%, operating margin 47%, net profit ₹118 cr, profit YoY +15.7%, tax rate 29%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹394 cr, YoY +23.5%, QoQ +34.5%, operating margin 58%, net profit ₹173 cr, profit YoY +23.6%, tax rate 25%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹1,082 cr, growth +33.3%, operating margin 58%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹1,145 cr, growth +5.8%, operating margin 51%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹2 cr at Sep 2026, ₹2 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Consolidated Total Revenue",
+    "promise": "Reported consolidated total revenue of INR334 crores for Q3 FY26.",
+    "delivered": "Reported actual Q3 FY26 revenue of ₹304 cr (YoY +9.4%).",
+    "verdict": "missed",
+    "guidance_ids": [
+     "G15"
+    ],
+    "actual_ids": [
+     "A3"
+    ]
+   }
+  ],
+  "scorecard": "Management provided mixed quarterly operational commentaries, though financial delivery fell slightly short of Q3 FY26 revenue targets.",
+  "bull": [
+   {
+    "point": "Revenue growth rebounded strongly to +23.5% YoY reaching ₹394 cr in Q2 FY27.",
+    "ids": [
+     "A6"
+    ]
+   },
+   {
+    "point": "CDSL expanded its total demat account base to 19.34 crores in Q2 FY27.",
+    "ids": [
+     "G1"
+    ]
+   },
+   {
+    "point": "Operating margin improved to 58% in Q2 FY27 from 47% in the previous quarter.",
+    "ids": [
+     "A5",
+     "A6"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Regulatory pricing cuts by SEBI on KYC creation and fetch charges exert margin pressure.",
+    "ids": [
+     "G9"
+    ]
+   },
+   {
+    "point": "CVL Profit after tax faced ongoing headwinds, declining by 12% YoY in H1 FY27.",
+    "ids": [
+     "G3"
+    ]
+   },
+   {
+    "point": "Annual revenue growth slowed substantially from 33.3% in FY25 to 5.8% in FY26.",
+    "ids": [
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T3",
+    "model": "gemini-3.5-flash-lite",
+    "input": 11195,
+    "output": 248,
+    "cached": false,
+    "ms": 1518
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.5-flash-lite",
+    "input": 7091,
+    "output": 487,
+    "cached": false,
+    "ms": 2071
+   },
+   {
+    "label": "extract T2",
+    "model": "gemini-3.5-flash-lite",
+    "input": 7738,
+    "output": 647,
+    "cached": false,
+    "ms": 2435
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.5-flash-lite",
+    "input": 9673,
+    "output": 555,
+    "cached": false,
+    "ms": 2235
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 1721,
+    "output": 438,
+    "cached": false,
+    "ms": 2066
+   }
+  ]
+ },
+ "TATAPOWER": {
+  "symbol": "TATAPOWER",
+  "generated_at": "2026-11-15T06:29:43.848Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-07",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2eec946-af3f-4579-8a6b-1483aa6f7312.pdf",
+    "pages": 21
+   },
+   {
+    "id": "T2",
+    "month": "2026-05",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e7a67bd-6f64-475b-96e4-37f8d51b86f3.pdf",
+    "pages": 20
+   },
+   {
+    "id": "T3",
+    "month": "2026-02",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93b975b6-96db-407e-b75e-8ba408beb787.pdf",
+    "pages": 18
+   },
+   {
+    "id": "T4",
+    "month": "2025-12",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc08c9a5-8cf1-4103-951a-2ab5bdce40cd.pdf",
+    "pages": 20
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "renewables capacity",
+    "period": "end of this financial year",
+    "statement": "Management expects renewable capacity to cross 9 gigawatts by the end of the financial year.",
+    "quote": "Right now, we are at 6.7 gigawatts. We add 2.5 gigawatts. We'll cross 9 gigawatts by the end of this financial year.",
+    "page": 5,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "rooftop business growth",
+    "period": "this year",
+    "statement": "Management has plans to grow the rooftop business by about 60% to 70% this year.",
+    "quote": "In fact, last year, we grew by 100%, and this year also, we have plans to grow by about 60% to 70%.",
+    "page": 5,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "pumped hydro commissioning",
+    "period": "beginning of calendar year 2029",
+    "statement": "Management expects to begin commissioning the pumped hydro plant at the beginning of calendar year 2029.",
+    "quote": "And we expect that beginning of calendar year 2029, we will be in a position to commission the plant.",
+    "page": 6,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "delay in collections",
+    "period": "Q1 FY27",
+    "statement": "Management acknowledged that government payments and collections got delayed due to state allocation delays and heat wave rules.",
+    "quote": "One was that there were some government payments which got delayed, especially from Panchayati Raj departments for drinking water and street light and others.",
+    "page": 8,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "legacy project losses",
+    "period": "Q1 FY27",
+    "statement": "Management acknowledged that Tata Projects continues to make losses from legacy projects, though they are in the final stages of closing.",
+    "quote": "On the Tata Projects, we are in the final stages of closing some of the legacy projects. We earlier used to have a large number of legacy projects, which were losing money and very few which were profitable projects.",
+    "page": 9,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "industry curtailment",
+    "period": "Q1 FY27",
+    "statement": "Management acknowledged a general industry curtailment of roughly 5% affecting projects in the quarter.",
+    "quote": "So I think on the first question, I think when we generally look around, including our project, there's been a general curtailment of roughly about 5%.",
+    "page": 10,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "consecutive PAT growth",
+    "period": "27th consecutive quarter",
+    "statement": "Management highlighted achieving the 27th consecutive quarter of increase in PAT and EBITDA.",
+    "quote": "This is the 27th consecutive quarter where we have seen increase in our PAT and EBITDA.",
+    "page": 4,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "module manufacturing",
+    "period": "Q1 FY27",
+    "statement": "Management reported that for the first time, the module plant crossed 1,000 megawatts in the first quarter.",
+    "quote": "For the first time, our module plant we crossed 1,000 megawatt in the first quarter, and we expect that we have virtually peaked over there or peaking over there in terms of our module production",
+    "page": 6,
+    "id": "G8",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "renewable capacity completion",
+    "period": "FY27 and FY28",
+    "statement": "Management states that 50% of the nearly 5 gigawatts of under-implementation in-house projects will be completed in FY27 and the balance 50% in FY28.",
+    "quote": "And we do expect that the nearly 5 gigawatt of projects which are under implementation, and these are all in-house projects. 50% of it will be completed in this financial year and the balance 50% in FY '28.",
+    "page": 4,
+    "id": "G9",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "rooftop business growth",
+    "period": "FY27",
+    "statement": "Management expects the rooftop business to grow by 50% to 60% in the current financial year.",
+    "quote": "So, I do expect that in FY '27, the rooftop market, the rooftop business will grow, if not by 100%, at least by 50%, 60%.",
+    "page": 11,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "project delays from transmission",
+    "period": "past financial year",
+    "statement": "Management acknowledged that right-of-way issues and delays in TBCB transmission projects deferred some utility-scale project completions.",
+    "quote": "Many of the places, the right of way got delayed. Many of the places, the transmission system was to be done by someone else under the TBCB.",
+    "page": 5,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "legacy project losses",
+    "period": "past financial years",
+    "statement": "Management acknowledged that Tata Projects faced losses due to legacy projects like the dedicated freight corridor and Barmer refining projects.",
+    "quote": "What has happened in Tata Projects is they had legacy projects such as the dedicated freight corridor project from the refining project in Barmer and some other projects which are there.",
+    "page": 12,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "full-year PAT milestone",
+    "period": "FY26",
+    "statement": "Management highlighted that the company reported a full-year PAT of nearly more than INR5,000 crores for the first time despite Mundra not operating for 9 months.",
+    "quote": "And we have, for the first time, have reported a full year PAT of nearly more than INR5,000 crores.",
+    "page": 4,
+    "id": "G13",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "solar manufacturing performance",
+    "period": "FY26",
+    "statement": "Management noted that the solar cell and module manufacturing plant doubled its PAT to INR857 crores.",
+    "quote": "We have seen during the year, the plant has delivered a PAT of INR857 crores, which is more than double of the previous year.",
+    "page": 4,
+    "id": "G14",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Odisha discom performance",
+    "period": "FY26",
+    "statement": "Management reported that the Odisha DISCOM delivered a significantly higher PAT of INR809 crores compared to INR439 crores in the previous year.",
+    "quote": "In the previous year, the whole year PAT was just INR439 crores. This year, we have a PAT of INR809 crores.",
+    "page": 4,
+    "id": "G15",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "renewable capacity addition",
+    "period": "FY27",
+    "statement": "Management expects to commission 2.5 gigawatts to 3 gigawatts of own renewable capacity in FY27.",
+    "quote": "If we look at next year, we have a capacity to execute 2.7. We may do more than 2.5 while we have taken the initial estimate of 2.5, we can go up to 3 gigawatts of capacity add.",
+    "page": 13,
+    "id": "G16",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Mundra plant suspension",
+    "period": "Q3 FY26",
+    "statement": "Management acknowledged that the Mundra plant remained non-operational during the quarter, causing substantial losses.",
+    "quote": "despite Mundra being non-operational for the quarter and having a substantial hit because of that.",
+    "page": 3,
+    "id": "G17",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "solar cell manufacturing PAT",
+    "period": "Q3 FY26",
+    "statement": "Plant profit after tax for solar cell and module manufacturing surged to Rs. 251 crores in the quarter.",
+    "quote": "where there has been a huge increase in our plant profit after tax, which has gone up to nearly Rs. 251 crores in the quarter compared to Rs. 112 crores last year.",
+    "page": 3,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "rooftop solar execution",
+    "period": "9-month period",
+    "statement": "The rooftop solar business crossed 1 gigawatt executed in the 9-month period.",
+    "quote": "We crossed one gigawatt in the 9-months period and in Q3, in this quarter, we executed 372 megawatt compared to 173 MW in the previous year.",
+    "page": 4,
+    "id": "G19",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "Odisha Discoms profit",
+    "period": "9-month period",
+    "statement": "Profit of Odisha Discoms increased to Rs. 505 crores for the 9-month period compared to Rs. 164 crores last year.",
+    "quote": "And in the 9- month period, it has gone to Rs. 505 crores compared to Rs. 164 crores in the previous year, 9- months.",
+    "page": 4,
+    "id": "G20",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "renewable capacity addition",
+    "period": "3rd Quarter",
+    "statement": "Management expects to add about 700-megawatt capacity in the third quarter.",
+    "quote": "and we are expecting about 700-megawatt capacity add in the 3rd Quarter and 600 megawatts in the 4th Quarter.",
+    "page": 4,
+    "id": "G21",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "renewable capacity addition",
+    "period": "4th Quarter",
+    "statement": "Management expects to add 600 megawatts capacity in the fourth quarter.",
+    "quote": "and we are expecting about 700-megawatt capacity add in the 3rd Quarter and 600 megawatts in the 4th Quarter.",
+    "page": 4,
+    "id": "G22",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "operating renewable assets",
+    "period": "end of the year",
+    "statement": "Management expects to cross nearly 7 gigawatts of operating renewable assets by the end of the year.",
+    "quote": "So, at the end of the year you will find that we would have crossed nearly 7 gigawatts of our operating renewable assets.",
+    "page": 4,
+    "id": "G23",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "financial closure",
+    "period": "mid of next year",
+    "statement": "Management expects to achieve financial closure of the Dorjilung project by the middle of next year.",
+    "quote": "and we expect that the financial closure of this project will be achieved by mid of next year by when we start the work also.",
+    "page": 5,
+    "id": "G24",
+    "transcript": "T4"
+   },
+   {
+    "kind": "guidance",
+    "metric": "capital expenditure",
+    "period": "this financial year",
+    "statement": "Management plans to spend Rs. 25,000 crores in capital expenditure in the current financial year.",
+    "quote": "Invested nearly Rs.7,349 crores in this year and as we have mentioned to you we plan to spend Rs.25,000 crores in this financial year.",
+    "page": 5,
+    "id": "G25",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "weather impact on demand",
+    "period": "last quarter",
+    "statement": "Management acknowledged that a very long monsoon reduced power demand and halted Mundra operations.",
+    "quote": "One is, last quarter was a tough quarter, in the sense that we had a very long monsoon and because of that, the demand of power was less; secondly, because of that, we also could not run Mundra under Sec.11",
+    "page": 3,
+    "id": "G26",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "renewable project delays",
+    "period": "last quarter",
+    "statement": "Management noted that renewable projects were delayed due to site inundation and poor access for heavy transport.",
+    "quote": "We also saw that many of our renewable projects could not get completed because the sites where these projects were supposed to come up were virtually inundated and access to these sites was very difficult",
+    "page": 3,
+    "id": "G27",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "PAT growth sequence",
+    "period": "Q2 FY26",
+    "statement": "Management highlighted the 24th consecutive quarter of growth in PAT, which grew by 14% compared to last year.",
+    "quote": "As all of you would have seen, this is the 24th consecutive quarter in which we have shown growth in our PAT; our pat has grown by 14% compared to last year.",
+    "page": 3,
+    "id": "G28",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "EBITDA milestone",
+    "period": "last quarter",
+    "statement": "Management reported crossing an EBITDA of Rs. 4,000 crores for the first time.",
+    "quote": "We have also for the first time in the quarter crossed an EBITDA of Rs.4,000 crores and again this is in back of excellent performance from all our businesses",
+    "page": 4,
+    "id": "G29",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹18,035 cr, YoY +4.3%, QoQ +5.5%, operating margin 20%, net profit ₹1,262 cr, profit YoY +6.1%, tax rate 22%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹15,545 cr, YoY -1.0%, QoQ -13.8%, operating margin 21%, net profit ₹1,245 cr, profit YoY +13.9%, tax rate 26%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹13,948 cr, YoY -9.4%, QoQ -10.3%, operating margin 22%, net profit ₹1,194 cr, profit YoY +0.5%, tax rate 22%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹14,900 cr, YoY -12.8%, QoQ +6.8%, operating margin 17%, net profit ₹1,416 cr, profit YoY +8.4%, tax rate 21%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹19,051 cr, YoY +5.6%, QoQ +27.9%, operating margin 20%, net profit ₹1,401 cr, profit YoY +11.0%, tax rate 23%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹19,636 cr, YoY +26.3%, QoQ +3.1%, operating margin 19%, net profit ₹1,652 cr, profit YoY +32.7%, tax rate 24%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹65,478 cr, growth +6.6%, operating margin 19%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹62,429 cr, growth -4.7%, operating margin 21%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹79,142 cr at Sep 2026, ₹76,141 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Renewable Capacity",
+    "promise": "Cross 9 gigawatts by the end of the financial year.",
+    "delivered": "No specific capacity data provided in quarterly financial disclosures.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G1"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Rooftop Business Growth",
+    "promise": "Grow the rooftop business by about 60% to 70% this year.",
+    "delivered": "Disclosures do not break out rooftop solar revenue or volume.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G2"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Capital Expenditure",
+    "promise": "Spend Rs. 25,000 crores in capital expenditure in the current financial year.",
+    "delivered": "Capital expenditure spend is not detailed in the available actual filings.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G25"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "Pumped Hydro Commissioning",
+    "promise": "Begin commissioning the pumped hydro plant at the beginning of CY2029.",
+    "delivered": "Period has not started yet.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G3"
+    ],
+    "actual_ids": []
+   }
+  ],
+  "scorecard": "Management provided long-term operational targets, but filed quarterly financial disclosures lack segment metrics to verify operational renewable additions.",
+  "bull": [
+   {
+    "point": "Tata Power posted strong Q2 FY27 performance with revenue growing 26.3% YoY and net profit expanding 32.7% YoY.",
+    "ids": [
+     "A6"
+    ]
+   },
+   {
+    "point": "Module manufacturing crossed 1,000 MW in Q1 FY27, showcasing operational scale.",
+    "ids": [
+     "G8"
+    ]
+   },
+   {
+    "point": "Solar cell and module manufacturing doubled its PAT to INR 857 crores in FY26.",
+    "ids": [
+     "G14"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Total revenue declined by 4.7% in FY26 to ₹62,429 cr.",
+    "ids": [
+     "A8"
+    ]
+   },
+   {
+    "point": "Total borrowings expanded to ₹79,142 cr by September 2026 from ₹76,141 cr in March 2026.",
+    "ids": [
+     "A9"
+    ]
+   },
+   {
+    "point": "Mundra plant non-operation for 9 months heavily impacted Q3 FY26 and overall FY26 results.",
+    "ids": [
+     "G13",
+     "G17"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 1,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T3",
+    "model": "gemini-3.5-flash-lite",
+    "input": 10717,
+    "output": 604,
+    "cached": false,
+    "ms": 3071
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.5-flash-lite",
+    "input": 11478,
+    "output": 890,
+    "cached": false,
+    "ms": 3069
+   },
+   {
+    "label": "extract T2",
+    "model": "gemini-3.5-flash-lite",
+    "input": 10593,
+    "output": 940,
+    "cached": false,
+    "ms": 3053
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.5-flash-lite",
+    "input": 9692,
+    "output": 993,
+    "cached": false,
+    "ms": 3283
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2350,
+    "output": 693,
+    "cached": false,
+    "ms": 3084
+   }
+  ]
+ },
+ "WIPRO": {
+  "symbol": "WIPRO",
+  "generated_at": "2026-11-15T06:29:53.458Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-10",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b741bc5-7ed0-4223-900a-412aaf529820.pdf",
+    "pages": 16
+   },
+   {
+    "id": "T2",
+    "month": "2026-07",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36342956-3182-4962-a695-068bbafdb263.pdf",
+    "pages": 16
+   },
+   {
+    "id": "T3",
+    "month": "2026-04",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78fab9a0-4864-4470-be49-3544e57f1c49.pdf",
+    "pages": 14
+   },
+   {
+    "id": "T4",
+    "month": "2026-01",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3dbcb44-8526-45a3-ac61-152710230060.pdf",
+    "pages": 16
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "IT services revenue",
+    "period": "Q3 FY27",
+    "statement": "Management guides for a sequential IT services revenue growth of minus 1.5% to plus 0.5% in constant currency for Q3.",
+    "quote": "We are guiding for a sequential IT services revenue growth of minus 1.5% to plus 0.5% in constant currency.",
+    "page": 5,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "revenue range",
+    "period": "Q3 FY27",
+    "statement": "Management expects Q3 revenues to be in the range of $2.571 billion to $2.625 billion.",
+    "quote": "In terms of the guidance, like Srini said, we expect our revenues to be in the range of $2.571 billion to $2.625 billion.",
+    "page": 6,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "healthcare softness",
+    "period": "Q2 FY27",
+    "statement": "Healthcare in the US continues to be adversely impacted by policy changes.",
+    "quote": "However, healthcare in US continues to be affected by policy changes.",
+    "page": 4,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "net other income",
+    "period": "Q2 FY27",
+    "statement": "Net other income dropped sequentially due to a reduction in investable surplus following the completion of the buyback.",
+    "quote": "Our net other income, which includes the interest income, declined 68% sequentially, primarily because the investable surplus reduced quarter-on-quarter owing to completion of our buyback in June 2026.",
+    "page": 6,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "deal signing delay",
+    "period": "Q2 FY27",
+    "statement": "Certain deals could not be signed on time during the quarter and slipped to the next quarter.",
+    "quote": "As far as our TCV of quarter two is concerned, we had few deals where the contract could not be signed on time, because of which they're slipping to this quarter.",
+    "page": 7,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "deal bookings TCV",
+    "period": "Q2 FY27",
+    "statement": "The company closed $2.6 billion in total contract value and signed nine large deals during the quarter.",
+    "quote": "This quarter, we closed $2.6 billion in total contract value and signed nine large deals.",
+    "page": 4,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "operating margin",
+    "period": "Q2 FY27",
+    "statement": "Operating margin improved by 0.5% compared to the previous quarter to reach 16.5%.",
+    "quote": "Our operating margin for the quarter was 16.5%, an improvement of 0.5% compared to last quarter.",
+    "page": 4,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "operating cash flows",
+    "period": "Q2 FY27",
+    "statement": "The company delivered robust operating cash flows, generating 166% of net income.",
+    "quote": "Quarter two was yet another quarter of robust operating cash flows. We generated 166% of net income.",
+    "page": 6,
+    "id": "G8",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "sequential revenue growth",
+    "period": "Q2 FY27",
+    "statement": "Management expects a sequential revenue growth of -1.5% to +0.5% in constant currency terms for the second quarter.",
+    "quote": "In quarter 2, we are guiding for a sequential growth of -1.5% to +0.5% in constant currency terms.",
+    "page": 5,
+    "id": "G9",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "macroeconomic uncertainty",
+    "period": "Q2 FY27",
+    "statement": "Management acknowledges that macro uncertainty and geopolitical instability continue to impact decision-making and demand.",
+    "quote": "As we continue to navigate macro uncertainty and geopolitical instability, our priority is to remain disciplined in execution, helping clients navigate complexity and creating sustainable value for all our stakeholders.",
+    "page": 5,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "operating margin decline",
+    "period": "Q1 FY27",
+    "statement": "Operating margins declined due to salary increases, large deal ramp-ups, and investments in AI.",
+    "quote": "We declined 1.2% year-on-year. The reasons are because of the incremental impact of salary increase, ramp up of large deals won earlier and our ongoing investments in AI.",
+    "page": 6,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "large deal bookings",
+    "period": "Q1 FY27",
+    "statement": "The company secured 13 large deals during the quarter, contributing to a total order booking of $3.4 billion.",
+    "quote": "During the quarter, order booking totaled $3.4 billion and large deal bookings totaled $1.6 billion. Our order booking includes 13 large deals this quarter.",
+    "page": 4,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "sequential revenue growth",
+    "period": "Q1 FY27",
+    "statement": "Wipro expects sequential revenue growth for the IT Services business to be between -2% and 0% in constant currency terms.",
+    "quote": "In Q1, we are guiding for a sequential growth of minus 2% to 0% in constant currency terms.",
+    "page": 5,
+    "id": "G13",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "buyback completion",
+    "period": "Q1 FY27",
+    "statement": "The company expects to complete the announced INR 15,000 crore share buyback in the first quarter of fiscal year 2027.",
+    "quote": "The buyback is expected to complete in Q1 '27 subject to shareholder approval.",
+    "page": 6,
+    "id": "G14",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Americas 2 softness",
+    "period": "Q4 FY26 and Q1 FY27",
+    "statement": "The Americas 2 market unit experienced softness in the BFSI sector due to client-specific issues and delayed ramp-ups.",
+    "quote": "This has been a combination of both client-specific issue and delayed ramp-up that that you're talking about.",
+    "page": 6,
+    "id": "G15",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "margin headwinds",
+    "period": "Q1 FY27",
+    "statement": "Management expects margin pressure in the upcoming quarter due to salary increases and the integration of new large deals.",
+    "quote": "As we move into Q1, we will have the headwinds of two months of salary increase and a few large deals that we've won",
+    "page": 5,
+    "id": "G16",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "large deal wins",
+    "period": "Q4 FY26",
+    "statement": "Wipro secured 14 large deals totaling $1.4 billion during the fourth quarter.",
+    "quote": "We had 14 large deals totaling $1.4 billion this quarter.",
+    "page": 4,
+    "id": "G17",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "APMEA deal win",
+    "period": "Q4 FY26",
+    "statement": "The company announced a strategic engagement with the Olam Group valued at over $1 billion.",
+    "quote": "A strong example is the strategic deal we announced recently with the Olam Group, expected to exceed $1 billion in contract value with a committed spend of $800 million.",
+    "page": 4,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "IT Services revenue",
+    "period": "Q4 FY26",
+    "statement": "Management projects sequential IT Services revenue growth of 0% to 2.0% in constant currency for the fourth quarter.",
+    "quote": "In Quarter 4, we are projecting sequential IT Services revenue growth of 0% to 2.0% in constant currency.",
+    "page": 5,
+    "id": "G19",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "EMR sector performance",
+    "period": "Q3 FY26",
+    "statement": "The EMR sector faced performance challenges due to macroeconomic uncertainty, tariff-related issues, and supply chain disruptions.",
+    "quote": "As far as EMR is concerned, our performance in this sector clearly has been impacted based on the macroeconomic uncertainty we have seen, some during tariff related and also some disrupted supply chain issues that we faced.",
+    "page": 8,
+    "id": "G20",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "Consumer sector growth",
+    "period": "Q3 FY26",
+    "statement": "The consumer sector experienced year-on-year decline due to tariff impacts and a large SAP program being put on hold by customers.",
+    "quote": "If you recollect, I talked about it before as well that the tariffs had an impact on this and that has reflected in our numbers. And also, if you reflect there was a large SAP program which was put on hold last year by our customers.",
+    "page": 9,
+    "id": "G21",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "Operating margins",
+    "period": "Q3 FY26",
+    "statement": "Operating margins expanded to 17.6%, marking one of the best margin performances in the last seven quarters.",
+    "quote": "I would also like to highlight that this is one of our best margin performance in the last 7 quarters.",
+    "page": 6,
+    "id": "G22",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹22,135 cr, YoY +0.8%, QoQ -1.6%, operating margin 19%, net profit ₹3,336 cr, profit YoY +9.8%, tax rate 22%"
+   },
+   {
+    "id": "A2",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹22,697 cr, YoY +1.8%, QoQ +2.5%, operating margin 19%, net profit ₹3,262 cr, profit YoY +1.1%, tax rate 24%"
+   },
+   {
+    "id": "A3",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹23,556 cr, YoY +5.5%, QoQ +3.8%, operating margin 18%, net profit ₹3,145 cr, profit YoY -6.6%, tax rate 24%"
+   },
+   {
+    "id": "A4",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹24,236 cr, YoY +7.7%, QoQ +2.9%, operating margin 20%, net profit ₹3,522 cr, profit YoY -1.8%, tax rate 25%"
+   },
+   {
+    "id": "A5",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹24,479 cr, YoY +10.6%, QoQ +1.0%, operating margin 19%, net profit ₹3,356 cr, profit YoY +0.6%, tax rate 23%"
+   },
+   {
+    "id": "A6",
+    "text": "Q2 FY27 (Sep 2026): revenue ₹24,753 cr, YoY +9.1%, QoQ +1.1%, operating margin 20%, net profit ₹3,200 cr, profit YoY -1.9%, tax rate 24%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹89,088 cr, growth -0.7%, operating margin 20%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹92,624 cr, growth +4.0%, operating margin 19%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹22,106 cr at Sep 2026, ₹20,291 cr at Mar 2026"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Sequential revenue growth",
+    "promise": "Sequential IT Services revenue growth between -1.5% and +0.5% in CC for Q2 FY27.",
+    "delivered": "Reported QoQ revenue growth of +1.1% in Q2 FY27.",
+    "verdict": "met",
+    "guidance_ids": [
+     "G9"
+    ],
+    "actual_ids": [
+     "A6"
+    ]
+   },
+   {
+    "metric": "Sequential revenue growth",
+    "promise": "Sequential revenue growth between -2% and 0% in CC for Q1 FY27.",
+    "delivered": "Reported QoQ revenue growth of +1.0% in Q1 FY27.",
+    "verdict": "met",
+    "guidance_ids": [
+     "G13"
+    ],
+    "actual_ids": [
+     "A5"
+    ]
+   },
+   {
+    "metric": "Sequential revenue growth",
+    "promise": "Sequential IT Services revenue growth between 0% and 2.0% in CC for Q4 FY26.",
+    "delivered": "Reported QoQ revenue growth of +2.9% in Q4 FY26.",
+    "verdict": "met",
+    "guidance_ids": [
+     "G19"
+    ],
+    "actual_ids": [
+     "A4"
+    ]
+   },
+   {
+    "metric": "IT services revenue",
+    "promise": "IT services revenue between $2.571 billion and $2.625 billion for Q3 FY27.",
+    "delivered": "Q3 FY27 actual results are not yet available.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G1",
+     "G2"
+    ],
+    "actual_ids": []
+   }
+  ],
+  "scorecard": "Management consistently achieved or exceeded its sequential revenue growth expectations across multiple quarters in FY26 and FY27.",
+  "bull": [
+   {
+    "point": "Sequential revenue growth consistently outperformed guided ranges in Q4 FY26, Q1 FY27, and Q2 FY27.",
+    "ids": [
+     "G19",
+     "G13",
+     "G9",
+     "A4",
+     "A5",
+     "A6"
+    ]
+   },
+   {
+    "point": "Operating margin remained resilient at 19% to 20% throughout FY26 and into Q2 FY27.",
+    "ids": [
+     "A4",
+     "A5",
+     "A6",
+     "A8"
+    ]
+   },
+   {
+    "point": "Strong large deal wins included $3.4 billion total bookings in Q1 FY27 and a strategic $1 billion deal with Olam Group.",
+    "ids": [
+     "G12",
+     "G18"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Net profit reported YoY declines in Q3 FY26, Q4 FY26, and Q2 FY27 despite revenue expansion.",
+    "ids": [
+     "A3",
+     "A4",
+     "A6"
+    ]
+   },
+   {
+    "point": "Macroeconomic uncertainty and policy changes created headwinds in Americas 2 BFSI, healthcare, and consumer sectors.",
+    "ids": [
+     "G3",
+     "G10",
+     "G15",
+     "G21"
+    ]
+   },
+   {
+    "point": "Total borrowings expanded from ₹20,291 cr at Mar 2026 to ₹22,106 cr at Sep 2026.",
+    "ids": [
+     "A9"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T1",
+    "model": "gemini-3.5-flash-lite",
+    "input": 9252,
+    "output": 852,
+    "cached": false,
+    "ms": 2594
+   },
+   {
+    "label": "extract T2",
+    "model": "gemini-3.1-flash-lite",
+    "input": 9960,
+    "output": 457,
+    "cached": false,
+    "ms": 2367
+   },
+   {
+    "label": "extract T3",
+    "model": "gemini-3.1-flash-lite",
+    "input": 8436,
+    "output": 640,
+    "cached": false,
+    "ms": 2613
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.1-flash-lite",
+    "input": 4934,
+    "output": 469,
+    "cached": false,
+    "ms": 1989
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2028,
+    "output": 828,
+    "cached": false,
+    "ms": 3380
+   }
+  ]
+ },
+ "KAYNES": {
+  "symbol": "KAYNES",
+  "generated_at": "2026-11-15T06:30:03.077Z",
+  "transcripts": [
+   {
+    "id": "T1",
+    "month": "2026-08",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8d82234-f369-467f-a76f-75bb2747aaa1.pdf",
+    "pages": 20
+   },
+   {
+    "id": "T2",
+    "month": "2026-05",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2aa16ac-08ab-430a-819a-833f94c09dde.pdf",
+    "pages": 20
+   },
+   {
+    "id": "T3",
+    "month": "2026-02",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fcb06f1-08f9-4ebd-a6ac-783e8abfda40.pdf",
+    "pages": 19
+   },
+   {
+    "id": "T4",
+    "month": "2025-12",
+    "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d42ff5a9-4c9e-4163-ae33-ed915881baa4.pdf",
+    "pages": 22
+   }
+  ],
+  "guidance": [
+   {
+    "kind": "guidance",
+    "metric": "OSAT and PCB revenue",
+    "period": "FY27",
+    "statement": "The company expects to generate between INR450 crores and INR500 crores in revenue from its OSAT and PCB businesses for the full financial year.",
+    "quote": "we have committed a full year revenue of totally INR500 crores between both, INR450 to INR500 crores, which is what we are targeting at this point in time, we are on the target.",
+    "page": 14,
+    "id": "G1",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "OSAT and PCB operations",
+    "period": "Q3 FY27",
+    "statement": "Management confirms that both the OSAT and PCB units are on track to become operational by the third quarter of the current financial year.",
+    "quote": "Both Kaynes Semicon Unit 2 and Kaynes Circuit Chennai remain on the track to be operational by quarter 3 FY27, and we will continue to update you transparently on our progress every quarter.",
+    "page": 4,
+    "id": "G2",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Cash flow",
+    "period": "FY27",
+    "statement": "Management expects the company to turn cash positive by the end of the current financial year.",
+    "quote": "whatever the commitment that we have given to you as a leadership team, that by end of the financial year we'll turn the cash positive, we are pretty confident on that.",
+    "page": 6,
+    "id": "G3",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Supply chain disruption",
+    "period": "Q1 FY27",
+    "statement": "Escalations in West Asia have disrupted equipment imports and component logistics, causing minor delays in the OSAT and PCB ramp-up schedules.",
+    "quote": "Like the rest of the industry, we saw some disruption this quarter from the escalation in the West Asia affecting equipment imports and component logistics globally, not specific to Kaynes.",
+    "page": 4,
+    "id": "G4",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Component cost inflation",
+    "period": "FY27",
+    "statement": "Management acknowledges that rising component prices and lead times are creating a challenging environment that may pressure margins in the coming quarters.",
+    "quote": "Looking forward, it is going to put a pressure on the bottom line in the coming quarter, because there is a huge impact that is happening. One is availability, second is the price.",
+    "page": 15,
+    "id": "G5",
+    "transcript": "T1"
+   },
+   {
+    "kind": "risk",
+    "metric": "Smart meter receivables",
+    "period": "Q1 FY27",
+    "statement": "The company faced significant working capital challenges in the smart metering business due to low collections, leading to a conscious decision to reduce production.",
+    "quote": "the sales in our GridCrest business, which is the metering business, is about INR240 crores, whereas our collections is INR88 crores, which is what made us to have take a decision to stop productions and supplies",
+    "page": 6,
+    "id": "G6",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "EMS business growth",
+    "period": "Q1 FY27",
+    "statement": "The core EMS business demonstrated strong performance, achieving a 48% year-on-year growth, significantly outpacing the overall company growth rate.",
+    "quote": "as a stand-alone EMS business if you see, our growth is 53%, from INR480 crores of last year to this year of INR639 crores stand-alone EMS business.",
+    "page": 11,
+    "id": "G7",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Order book size",
+    "period": "Q1 FY27",
+    "statement": "The company maintains a strong order book of approximately INR8,900 crores, reflecting robust demand across its business segments.",
+    "quote": "very strong order book of more than about INR8,900 crores is in the system, and things are shaping up much faster.",
+    "page": 19,
+    "id": "G8",
+    "transcript": "T1"
+   },
+   {
+    "kind": "positive",
+    "metric": "Customer acquisition",
+    "period": "Q1 FY27",
+    "statement": "Kaynes successfully onboarded over 72 new customers during the quarter, demonstrating strong market confidence in the company's capabilities.",
+    "quote": "wherein we had working days of 75, we had more than 72 customers who have walked into our company, which talks about the customer confidence into our company.",
+    "page": 7,
+    "id": "G9",
+    "transcript": "T1"
+   },
+   {
+    "kind": "guidance",
+    "metric": "OSAT revenue",
+    "period": "FY27",
+    "statement": "Management expects to generate between INR 250 crores and INR 300 crores in revenue from the OSAT business in the current fiscal year.",
+    "quote": "I'm sure and certain we will do a good number of PCB of around INR300 crores to INR400 crores, and OSAT of around INR250 crores to INR300 crores.",
+    "page": 19,
+    "id": "G10",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "PCB revenue",
+    "period": "FY27",
+    "statement": "Management expects to generate between INR 300 crores and INR 400 crores in revenue from the PCB business in the current fiscal year.",
+    "quote": "I'm sure and certain we will do a good number of PCB of around INR300 crores to INR400 crores, and OSAT of around INR250 crores to INR300 crores.",
+    "page": 19,
+    "id": "G11",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Railway business growth",
+    "period": "FY27",
+    "statement": "The railway business is expected to grow by approximately 20% to 25% in the current fiscal year driven by new product developments.",
+    "quote": "So rail business, I'm expecting this year to grow by around 20%, 25% because of these coming in.",
+    "page": 13,
+    "id": "G12",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "NPD revenue contribution",
+    "period": "next few years",
+    "statement": "The company aims to increase the revenue contribution from new product development and value-added solutions to nearly 30% of total revenue.",
+    "quote": "our goal is to steadily increase the contribution of NPD-led and value-added solutions to nearly 30% of the total revenue in the coming years.",
+    "page": 6,
+    "id": "G13",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Working capital",
+    "period": "FY26",
+    "statement": "The company experienced significant working capital stress due to the smart metering business model, which involves installation and maintenance delays.",
+    "quote": "The metering business, which is a specific model, this is the first full year we have taken and we are getting matured into this business.",
+    "page": 9,
+    "id": "G14",
+    "transcript": "T2"
+   },
+   {
+    "kind": "risk",
+    "metric": "Revenue recognition",
+    "period": "Q4 FY26",
+    "statement": "Geopolitical disruptions, specifically the West Asia conflict, caused customer deferments and supply chain delays, impacting near-term revenue recognition.",
+    "quote": "Near-term top line performance did not fully meet market expectations, primarily due to geopolitical disruption, especially the West Asia conflict, which led to last-minute customer deferment.",
+    "page": 4,
+    "id": "G15",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "Order book",
+    "period": "FY26",
+    "statement": "The company maintains a strong and diversified order book exceeding INR 9,000 crores.",
+    "quote": "Our order book continues to be stronger at INR9,000 crores plus.",
+    "page": 12,
+    "id": "G16",
+    "transcript": "T2"
+   },
+   {
+    "kind": "positive",
+    "metric": "OSAT revenue visibility",
+    "period": "next 5 years",
+    "statement": "The OSAT business has strong revenue visibility of over INR 25,000 million over the next five years.",
+    "quote": "In OSAT, the order outlook for both the current year and the medium term remains strong with revenue visibility of over INR25,000 million over the next 5 years.",
+    "page": 4,
+    "id": "G17",
+    "transcript": "T2"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Revenue target",
+    "period": "FY28",
+    "statement": "Management reiterated their target to reach $1 billion in revenue by fiscal year 2028.",
+    "quote": "See, on the growth, what we have projected $1 billion, we are still sticking on to that because for us, from our bare board, from our OSAT, additional buildings are going to take place.",
+    "page": 9,
+    "id": "G18",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "Net working capital",
+    "period": "March 2026",
+    "statement": "The company expects to bring down net working capital to 85 days by the end of March 2026.",
+    "quote": "So you can expect about 85 days and better net working capital.",
+    "page": 7,
+    "id": "G19",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "OSAT revenue",
+    "period": "FY28",
+    "statement": "Management expects at least INR 1,500 crores in revenue from the OSAT business.",
+    "quote": "So, at the minimum, you can expect INR1,500 crores from our OSAT business.",
+    "page": 10,
+    "id": "G20",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "PCB revenue",
+    "period": "FY28",
+    "statement": "Management expects at least INR 1,000 crores in revenue from the PCB business.",
+    "quote": "Similarly, you can expect about INR1,000 crores from PC Board business.",
+    "page": 10,
+    "id": "G21",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Order deferrals",
+    "period": "Q4 FY26",
+    "statement": "The company experienced a deferral in the railway Kavach order, impacting revenue guidance.",
+    "quote": "Sir, is Kavach the only order which has been deferred or there have been any more orders which we can expect in Q4? Yes. Thank you. So, there are many customers.",
+    "page": 7,
+    "id": "G22",
+    "transcript": "T3"
+   },
+   {
+    "kind": "risk",
+    "metric": "Working capital",
+    "period": "Q3 FY26",
+    "statement": "Management acknowledged elevated working capital levels due to inventory and receivable challenges.",
+    "quote": "Now we understand that this quarter, the working capital was elevated even sequentially, about 23 days higher as compared to September '25.",
+    "page": 6,
+    "id": "G23",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "Order book",
+    "period": "Q3 FY26",
+    "statement": "The company maintains a strong order book of approximately INR 90,000 million.",
+    "quote": "We have an order book of around INR90,000 million, which is pending with us.",
+    "page": 3,
+    "id": "G24",
+    "transcript": "T3"
+   },
+   {
+    "kind": "positive",
+    "metric": "OSAT approval",
+    "period": "Q3 FY26",
+    "statement": "The company successfully received the FSA approval for its OSAT facility under the ISM framework.",
+    "quote": "A key area of concern for many stakeholders have been the approval of the FSA under the ISM framework for OSAT. I am pleased to confirm that this approval is now in place.",
+    "page": 4,
+    "id": "G25",
+    "transcript": "T3"
+   },
+   {
+    "kind": "guidance",
+    "metric": "smart meter revenue",
+    "period": "H2 FY26",
+    "statement": "The company expects to execute approximately INR300 crores of revenue in the smart metering business during the second half of the fiscal year.",
+    "quote": "And then, of course, in the second half, we also plan some execution, which will be of the nature of about INR300-odd crores.",
+    "page": 16,
+    "id": "G26",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "disclosure errors",
+    "period": "FY25",
+    "statement": "Management acknowledged an inadvertent omission of a related party transaction disclosure in the notes to the standalone financial statements of one subsidiary.",
+    "quote": "The oversight pertains solely to the notes to the stand- alone financial statements in one of the companies, but the disclosure was inadvertently omitted.",
+    "page": 6,
+    "id": "G27",
+    "transcript": "T4"
+   },
+   {
+    "kind": "risk",
+    "metric": "working capital",
+    "period": "FY25",
+    "statement": "The company experienced an increase in the consolidated cash conversion cycle by 22 days to 157 days during the fiscal year.",
+    "quote": "The consolidated cash conversion cycle increased by 22 days to 157 days, etcetera.",
+    "page": 6,
+    "id": "G28",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "OSAT client acquisition",
+    "period": "FY26",
+    "statement": "The company has successfully acquired three major clients for its OSAT business, with sample shipments already initiated.",
+    "quote": "As far as the OSAT is concerned, we'll be happy to note that we have acquired three clients. They all of them have themselves come out and given press statements",
+    "page": 19,
+    "id": "G29",
+    "transcript": "T4"
+   },
+   {
+    "kind": "positive",
+    "metric": "railway business",
+    "period": "FY26",
+    "statement": "The company has successfully developed a comprehensive Kavach program and secured new orders in the railway sector.",
+    "quote": "It's an 11- month period and full-fledged Kavach. And we have got approval as well as we have got orders from the railways.",
+    "page": 15,
+    "id": "G30",
+    "transcript": "T4"
+   }
+  ],
+  "actuals": [
+   {
+    "id": "A1",
+    "text": "Q4 FY25 (Mar 2025): revenue ₹984 cr, YoY +54.5%, QoQ +48.9%, operating margin 17%, net profit ₹116 cr, profit YoY +43.2%, tax rate 18%"
+   },
+   {
+    "id": "A2",
+    "text": "Q1 FY26 (Jun 2025): revenue ₹673 cr, YoY +33.5%, QoQ -31.6%, operating margin 17%, net profit ₹75 cr, profit YoY +47.1%, tax rate 22%"
+   },
+   {
+    "id": "A3",
+    "text": "Q2 FY26 (Sep 2025): revenue ₹906 cr, YoY +58.4%, QoQ +34.6%, operating margin 16%, net profit ₹121 cr, profit YoY +101.7%, tax rate 20%"
+   },
+   {
+    "id": "A4",
+    "text": "Q3 FY26 (Dec 2025): revenue ₹804 cr, YoY +21.6%, QoQ -11.3%, operating margin 15%, net profit ₹77 cr, profit YoY +16.7%, tax rate 34%"
+   },
+   {
+    "id": "A5",
+    "text": "Q4 FY26 (Mar 2026): revenue ₹1,243 cr, YoY +26.3%, QoQ +54.6%, operating margin 16%, net profit ₹91 cr, profit YoY -21.6%, tax rate 35%"
+   },
+   {
+    "id": "A6",
+    "text": "Q1 FY27 (Jun 2026): revenue ₹946 cr, YoY +40.6%, QoQ -23.9%, operating margin 16%, net profit ₹56 cr, profit YoY -25.3%, tax rate 36%"
+   },
+   {
+    "id": "A7",
+    "text": "FY25 (full year to Mar 2025): revenue ₹2,722 cr, growth +50.8%, operating margin 15%"
+   },
+   {
+    "id": "A8",
+    "text": "FY26 (full year to Mar 2026): revenue ₹3,626 cr, growth +33.2%, operating margin 16%"
+   },
+   {
+    "id": "A9",
+    "text": "Borrowings: ₹913 cr at Mar 2026, ₹903 cr at Mar 2025"
+   }
+  ],
+  "verdicts": [
+   {
+    "metric": "Net working capital",
+    "promise": "In Feb 2026, management expected to bring down net working capital to 85 days by March 2026.",
+    "delivered": "The actual net working capital days figure for March 2026 is not provided in the actuals.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G19"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "OSAT and PCB revenue",
+    "promise": "In Aug 2026, expected INR450 cr to INR500 cr from OSAT and PCB in FY27.",
+    "delivered": "Q1 FY27 total revenue reached INR 946 cr, but OSAT/PCB segment revenue break-up was not provided.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G1"
+    ],
+    "actual_ids": [
+     "A6"
+    ]
+   },
+   {
+    "metric": "Smart meter revenue",
+    "promise": "In Dec 2025, expected to execute ~INR300 cr of smart meter revenue in H2 FY26.",
+    "delivered": "Specific segment revenue breakdown for smart meters during H2 FY26 was not disclosed in actuals.",
+    "verdict": "unclear",
+    "guidance_ids": [
+     "G26"
+    ],
+    "actual_ids": [
+     "A4",
+     "A5"
+    ]
+   },
+   {
+    "metric": "Cash flow",
+    "promise": "In Aug 2026, expected company to turn cash positive by the end of FY27.",
+    "delivered": "Actual cash flow metrics for FY27 are not available yet as only Q1 FY27 results are reported.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G3"
+    ],
+    "actual_ids": [
+     "A6"
+    ]
+   },
+   {
+    "metric": "OSAT and PCB operational timeline",
+    "promise": "In Aug 2026, management promised both units would become operational by Q3 FY27.",
+    "delivered": "Q3 FY27 period has not yet occurred or been reported.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G2"
+    ],
+    "actual_ids": []
+   },
+   {
+    "metric": "FY28 Revenue Target",
+    "promise": "In Feb 2026, management target was $1 billion in revenue by FY28.",
+    "delivered": "FY28 period has not started yet.",
+    "verdict": "too_early",
+    "guidance_ids": [
+     "G18"
+    ],
+    "actual_ids": []
+   }
+  ],
+  "scorecard": "Management's track record cannot be fully evaluated as segment revenues, working capital days, and future operational milestones lack corresponding disclosures in actuals.",
+  "bull": [
+   {
+    "point": "The core EMS business demonstrated impressive 48% YoY growth in Q1 FY27.",
+    "ids": [
+     "G7"
+    ]
+   },
+   {
+    "point": "Kaynes maintains a massive order book of INR 8,900 crores as of Q1 FY27.",
+    "ids": [
+     "G8"
+    ]
+   },
+   {
+    "point": "The company expanded customer traction significantly, onboarding over 72 new clients in Q1 FY27 alone.",
+    "ids": [
+     "G9"
+    ]
+   }
+  ],
+  "bear": [
+   {
+    "point": "Working capital remains stressed due to low collections in the smart meter business.",
+    "ids": [
+     "G6",
+     "G14"
+    ]
+   },
+   {
+    "point": "Supply chain disruptions in West Asia are delaying OSAT and PCB ramp-up schedules.",
+    "ids": [
+     "G4",
+     "G15"
+    ]
+   },
+   {
+    "point": "Net profit in Q1 FY27 declined by 25.3% YoY to INR 56 cr alongside rising tax rates.",
+    "ids": [
+     "A6"
+    ]
+   }
+  ],
+  "dropped": {
+   "quotes": 0,
+   "claims": 0
+  },
+  "usage": [
+   {
+    "label": "extract T3",
+    "model": "gemini-3.1-flash-lite",
+    "input": 12039,
+    "output": 823,
+    "cached": false,
+    "ms": 2932
+   },
+   {
+    "label": "extract T4",
+    "model": "gemini-3.1-flash-lite",
+    "input": 14451,
+    "output": 549,
+    "cached": false,
+    "ms": 2427
+   },
+   {
+    "label": "extract T1",
+    "model": "gemini-3.1-flash-lite",
+    "input": 12615,
+    "output": 1092,
+    "cached": false,
+    "ms": 3678
+   },
+   {
+    "label": "extract T2",
+    "model": "gemini-3.1-flash-lite",
+    "input": 13131,
+    "output": 922,
+    "cached": false,
+    "ms": 3484
+   },
+   {
+    "label": "compare",
+    "model": "gemini-3.6-flash",
+    "input": 2387,
+    "output": 968,
+    "cached": false,
+    "ms": 3968
+   }
+  ]
+ }
+}
