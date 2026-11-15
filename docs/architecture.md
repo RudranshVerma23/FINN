@@ -185,6 +185,8 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-46 | Alerts are evaluated in the app, on end-of-day data, as pure functions of the investor's thresholds (`web/lib/alerts.ts`); thresholds persist per viewer | Precompute alerts in the batch pipeline | "I decide what unusual means" becomes tangible: moving the volume slider from 2× to 4× changes the inbox from 18 alerts to 13 instantly. Production adds a scheduled run after each close with web-push notifications. |
 | ADR-47 | Every price/volume alert names its likely cause (the most material filing between the previous close and this one, results first) or says it is follow-through from the previous unusual session | Bare "PIIND −19%" | "Fell 19.1% on 30× volume · likely cause: Q2 FY27 PAT −63%" is the alert worth sending. A move with no filing behind it is flagged as "worth a look". |
 
+| ADR-48 | Reasons to reconnect = contacts dormant 6+ months × a material event at their current/former employer (or a competitor they work at) in the last 14 days, at most two per event type | "You haven't spoken to X" reminders | A reason to call beats a reminder to call. Capping per type keeps results season from turning every nudge into "they reported"; transcript and AGM filings are not reasons. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |
