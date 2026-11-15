@@ -8,11 +8,13 @@ import metaJson from "@/data/meta.json";
 import networkJson from "@/data/network.json";
 import pricesJson from "@/data/prices.json";
 import preferencesJson from "@/data/preferences.json";
+import reconnectJson from "@/data/reconnect.json";
 import resultsJson from "@/data/results.json";
 
 import type { AlertCompany, AlertSettings, SlimBar, SlimFiling } from "./alerts";
+import { shortName } from "./names";
 
-import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard, Suggestion } from "./types";
+import type { Bar, Company, Filing, Meta, NetworkSnapshot, Reconnect, Results, StoryCard, Suggestion } from "./types";
 
 const companies = companiesJson as unknown as Record<string, Company>;
 const filings = filingsJson as unknown as Filing[];
@@ -20,6 +22,10 @@ const meta = metaJson as unknown as Meta;
 const network = networkJson as unknown as NetworkSnapshot;
 const prices = pricesJson as unknown as Record<string, Bar[]>;
 const results = resultsJson as unknown as Record<string, Results>;
+
+export function getReconnect(): Reconnect[] {
+  return reconnectJson as unknown as Reconnect[];
+}
 
 export function getResults(symbol: string): Results | null {
   return results[symbol] ?? null;
@@ -33,14 +39,7 @@ function resultsFor(f: Filing): Results | null {
   return gap <= 2 * 86400000 ? r : null;
 }
 
-export function shortName(name: string): string {
-  return name
-    .replace(/\s+(Limited|Ltd\.?)$/i, "")
-    .replace(/\s*\(India\)/i, "")
-    .replace(/Corporation of India/i, "Corp")
-    .replace(/Enterprise$/i, "")
-    .trim();
-}
+export { shortName };
 
 export function getMeta(): Meta {
   return meta;
