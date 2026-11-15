@@ -53,6 +53,8 @@ def build(today: date) -> dict:
             "expertise": p.expertise,
             "public_figure": p.public_figure,
             "tie": tie.__dict__,
+            # The investor's own log (private in a real deployment; synthetic here)
+            "interactions": [{"on": i.on.isoformat(), "kind": i.kind, "note": i.note} for i in net.interactions.get(p.id, [])],
         })
     contacts.sort(key=lambda c: c["tie"]["strength"], reverse=True)
 

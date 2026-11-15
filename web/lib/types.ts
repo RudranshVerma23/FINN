@@ -41,6 +41,25 @@ export interface Filing {
   event_contacts?: EventContact[];
 }
 
+/** A dormant contact with a natural reason to call (FR-23). */
+export interface Reconnect {
+  person_id: string;
+  name: string;
+  last_spoke: string | null;
+  days_since: number | null;
+  relation: "current" | "former" | "competitor";
+  org: string;
+  span: string;
+  symbol: string;
+  company: string;
+  story_id: string;
+  headline: string;
+  category_label: string;
+  filed_at: string;
+  tie_label: string;
+  score: number;
+}
+
 /** The person best placed to explain a material event (FR-08), with reasons. */
 export interface EventContact {
   person_id: string;
@@ -128,6 +147,7 @@ export interface Contact {
   expertise: string[];
   public_figure: boolean;
   tie: Tie;
+  interactions?: { on: string; kind: string; note: string }[];
 }
 
 export interface Suggestion {

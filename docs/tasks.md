@@ -40,13 +40,26 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | T10 | Who to call inside Pull; material event card | FR-08, FR-22 | v0.2.0 | done |
 | T11 | Configurable alerts and alert inbox | FR-09 | v0.2.0 | done |
 | — | **Release v0.2.0** — Pull working on any ticker, alerts | | | |
-| T12 | Reasons to reconnect in the digest | FR-23 | v1.0.0 | todo |
-| T13 | Person and company pages; Ask bar (stretch) | FR-24, FR-25 | v1.0.0 | todo |
-| T14 | Polish: PWA install, dark mode, motion, performance | FR-26, NFR-03, NFR-08 | v1.0.0 | todo |
-| T15 | Writeup, architecture diagram, cost report, AI build history | docs | v1.0.0 | todo |
+| T12 | Reasons to reconnect in the digest | FR-23 | v1.0.0 | done |
+| T13 | Person and company pages; Ask bar (stretch) | FR-24, FR-25 | v1.0.0 | done |
+| T14 | Polish: PWA install, dark mode, motion, performance | FR-26, NFR-03, NFR-08 | v1.0.0 | done |
+| T15 | Writeup, architecture diagram, cost report, AI build history | docs | v1.0.0 | done |
 | — | **Release v1.0.0** — submission (tag also `submission-v1`) | | | |
 
 ## Release log
+
+### v1.0.0 — Submission (2026-11-15) · tag `submission-v1`
+
+Tasks T12–T15. All 26 functional and 10 non-functional requirements addressed (FR-25, the Ask bar, was a stretch goal and shipped).
+
+**What's new**
+- **Reasons to reconnect** (FR-23): contacts dormant 6+ months whose current or former employer just had news, varied by event type, on the Brief.
+- **People tab** (FR-24): expertise map as a filter, everyone by closeness, and person pages that gather everywhere a contact can help (ways in to new executives, events they can explain, who-to-call entries, reconnect reasons) plus career and conversation log.
+- **Ask bar** (FR-25): the model routes the question to one of eight intents; code answers from your own data; no network data reaches the model; keyword fallback without a key.
+- **Polish** (FR-26, NFR-03, NFR-08): PNG and maskable app icons, Apple touch icon, branded error and not-found pages, focus rings, lighter Brief payload, dark mode checked on the main screens.
+- **Submission docs**: grader README with a two-minute tour, architecture as built (diagram, 52 decision records), measured cost report, submission note.
+
+**Known limits** are listed in the submission note (`docs/writeup.md`, "What I deliberately left out").
 
 ### v0.2.0 — Pull for any ticker, results, alerts (2026-11-15)
 

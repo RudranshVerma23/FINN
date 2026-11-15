@@ -8,11 +8,13 @@ import metaJson from "@/data/meta.json";
 import networkJson from "@/data/network.json";
 import pricesJson from "@/data/prices.json";
 import preferencesJson from "@/data/preferences.json";
+import reconnectJson from "@/data/reconnect.json";
 import resultsJson from "@/data/results.json";
 
 import type { AlertCompany, AlertSettings, SlimBar, SlimFiling } from "./alerts";
+import { shortName } from "./names";
 
-import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard, Suggestion } from "./types";
+import type { Bar, Company, Filing, Meta, NetworkSnapshot, Reconnect, Results, StoryCard, Suggestion } from "./types";
 
 const companies = companiesJson as unknown as Record<string, Company>;
 const filings = filingsJson as unknown as Filing[];
@@ -20,6 +22,10 @@ const meta = metaJson as unknown as Meta;
 const network = networkJson as unknown as NetworkSnapshot;
 const prices = pricesJson as unknown as Record<string, Bar[]>;
 const results = resultsJson as unknown as Record<string, Results>;
+
+export function getReconnect(): Reconnect[] {
+  return reconnectJson as unknown as Reconnect[];
+}
 
 export function getResults(symbol: string): Results | null {
   return results[symbol] ?? null;
@@ -33,14 +39,7 @@ function resultsFor(f: Filing): Results | null {
   return gap <= 2 * 86400000 ? r : null;
 }
 
-export function shortName(name: string): string {
-  return name
-    .replace(/\s+(Limited|Ltd\.?)$/i, "")
-    .replace(/\s*\(India\)/i, "")
-    .replace(/Corporation of India/i, "Corp")
-    .replace(/Enterprise$/i, "")
-    .trim();
-}
+export { shortName };
 
 export function getMeta(): Meta {
   return meta;
@@ -67,6 +66,7 @@ export function getContact(id: string) {
 }
 
 export interface Caller {
+  id: string;
   name: string;
   relation: Suggestion["relation"];
   org: string;
@@ -96,7 +96,7 @@ export function getCallers(symbol: string, companyName: string): Caller[] {
   const known = network.who_to_call[symbol];
   if (known) {
     return known.map((s) => ({
-      name: s.name, relation: s.relation, org: s.org, role: s.role, span: s.span, tie: s.tie_label,
+      id: s.person_id, name: s.name, relation: s.relation, org: s.org, role: s.role, span: s.span, tie: s.tie_label,
       tieReasons: s.tie_reasons, angle: s.angle, caution: s.caution,
     }));
   }
@@ -111,6 +111,7 @@ export function getCallers(symbol: string, companyName: string): Caller[] {
     if (!stint) continue;
     const current = stint.span.endsWith("now");
     out.push({
+      id: c.id,
       name: c.name,
       relation: current ? "current" : "former",
       org: stint.org,
@@ -158,11 +159,19 @@ function toCard(f: Filing): StoryCard {
   };
 }
 
+/** A routine story only ever renders as a one-line title: ship just that (keeps the Brief light). */
+function slimRoutine(s: StoryCard): StoryCard {
+  return s.tier !== "routine"
+    ? s
+    : { ...s, summary: null, why: [], reaction: null, contact: null, eventContacts: [], people: [], results: null, url: null };
+}
+
 /** One card per story (the highest-scoring filing of each group), newest first. */
 export function getStories(symbol?: string): StoryCard[] {
   return filings
     .filter((f) => f.story_id === f.id && (!symbol || f.symbol === symbol))
     .map(toCard)
+    .map(slimRoutine)
     .sort((a, b) => b.filedAt.localeCompare(a.filedAt));
 }
 

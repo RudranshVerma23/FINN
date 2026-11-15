@@ -7,6 +7,7 @@ const TABS = [
   { href: "/", label: "Brief", match: (p: string) => p === "/" },
   { href: "/research", label: "Research", match: (p: string) => p.startsWith("/research") || p.startsWith("/r/") },
   { href: "/alerts", label: "Alerts", match: (p: string) => p.startsWith("/alerts") },
+  { href: "/people", label: "People", match: (p: string) => p.startsWith("/people") || p.startsWith("/p/") },
   { href: "/holdings", label: "Holdings", match: (p: string) => p.startsWith("/holdings") || p.startsWith("/c/") },
 ];
 

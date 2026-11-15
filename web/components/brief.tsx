@@ -6,7 +6,9 @@ import { useEffect, useMemo, useState } from "react";
 
 import { ago, clock, countPhrase, longDate, shortDate } from "@/lib/format";
 import { useTriage } from "@/lib/triage";
-import type { StoryCard as Story } from "@/lib/types";
+import type { Reconnect, StoryCard as Story } from "@/lib/types";
+
+import { ReconnectList } from "./reconnect-list";
 
 import { ReactionPill } from "./reaction-pill";
 import { StoryCard } from "./story-card";
@@ -51,10 +53,12 @@ export function Brief({
   stories,
   now,
   lastSession,
+  reconnect,
 }: {
   stories: Story[];
   now: string;
   lastSession: { day: string; moves: { symbol: string; movePct: number; volumeX: number }[] };
+  reconnect: Reconnect[];
 }) {
   const [win, setWin] = useState<WindowKey>("24h");
   const { triage, isHidden, mark: markStory, restore: restoreStories } = useTriage(now);
@@ -228,6 +232,8 @@ export function Brief({
           </AnimatePresence>
         </section>
       ) : null}
+
+      <ReconnectList items={reconnect} />
 
       {done.length ? (
         <p className="mt-6 text-center text-[12px] text-muted">
