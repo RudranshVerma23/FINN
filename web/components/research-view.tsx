@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 
 import { getCompany } from "@/lib/data";
 import { analyse, crore } from "@/lib/pull/analysis";
@@ -7,6 +8,7 @@ import { NotFound } from "@/lib/pull/screener";
 import type { Signal } from "@/lib/pull/types";
 
 import { CashVsProfit, MiniBars, MiniLine } from "./mini-chart";
+import { PromisesProgress, PromisesView } from "./promises-view";
 
 const TONE: Record<Signal["tone"], string> = { up: "bg-up", down: "bg-down", neutral: "bg-muted" };
 
@@ -103,6 +105,13 @@ export async function ResearchView({ symbol }: { symbol: string }) {
           </ul>
         </section>
       ) : null}
+
+      <section aria-label="Promised vs delivered" className="mt-6">
+        <h2 className="px-1 text-[12px] font-semibold uppercase tracking-[0.08em] text-muted">Promised vs delivered</h2>
+        <Suspense fallback={<PromisesProgress />}>
+          <PromisesView symbol={f.symbol} />
+        </Suspense>
+      </section>
 
       {a.cash && a.cash.years.length >= 3 ? (
         <section aria-label="Cash versus profit" className="mt-6">

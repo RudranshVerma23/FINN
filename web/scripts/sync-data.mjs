@@ -12,7 +12,7 @@ mkdirSync(out, { recursive: true });
 
 const sources = [
   [join(repo, "data", "snapshot"), null],
-  [join(repo, "config"), ["portfolio.json", "preferences.json"]],
+  [join(repo, "config"), ["portfolio.json", "preferences.json", "models.json"]],
 ];
 
 let n = 0;

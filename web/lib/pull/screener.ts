@@ -1,7 +1,7 @@
 // Live Screener fetch + parse for tickers outside the committed snapshot (FR-11, NFR-02).
 // Mirrors ingest/finn/sources/screener.py. We take Screener's TABLES (compiled from the
 // company's own filings) and DOCUMENT LINKS; never its commentary or summaries (FR-16).
-import "server-only";
+// Server-side only (imported by server components and scripts, never by client components).
 
 import { parse, type HTMLElement } from "node-html-parser";
 

@@ -1,7 +1,7 @@
 {
-  "_comment": "Single source of truth for model routing, read by ingest/finn/llm.py and web/lib/llm.ts. Each tier is a fallback chain: free-tier quotas are per model, so on 429 the call moves to the next model. See docs/architecture.md section 4.",
+  "_comment": "Single source of truth for model routing, read by ingest/finn/llm.py and web/lib/llm.ts. Each tier is a fallback chain: free-tier quotas are per model, so on 429/503 the call moves to the next model. Order chosen by a latency benchmark on the real comparison prompt (T09): 3.6-flash answered in ~3s, 3.8-flash was overloaded (503) and 3.7-flash took ~360s. 2.5-flash-lite was dropped (retired). See docs/architecture.md section 4.",
   "tiers": {
-    "bulk": ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
-    "reasoning": ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash"]
+    "bulk": ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"],
+    "reasoning": ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.8-flash", "gemini-3.7-flash"]
   }
 }

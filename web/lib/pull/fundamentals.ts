@@ -1,5 +1,5 @@
 // Fundamentals for any ticker: committed snapshot first (instant, NFR-01), live Screener otherwise (NFR-02).
-import "server-only";
+// Server-side only (imported by server components and scripts, never by client components).
 
 import snapshot from "@/data/fundamentals.json";
 

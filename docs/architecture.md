@@ -173,6 +173,12 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-37 | The snapshot, trajectory, margins, cash conversion, leverage and working capital are arithmetic in code; each signal names its source table | Ask a model to "analyse" the numbers | Numbers need no model; a model would add cost and risk. The LLM is saved for what needs reading (guidance in transcripts, T09). |
 | ADR-38 | Lenders get different lines: net profit margin instead of OPM/financing margin, ROE instead of ROCE, no cash-conversion or D/E | Same template for everyone | Screener's financing margin goes negative for consolidated banks with insurance arms (HDFC Bank showed −12%); D/E and CFO are meaningless when lending is the business. |
 
+| ADR-39 | Promised vs delivered = extract (bulk, one call per transcript, verbatim quote + page) → actuals in code (A-ids) → compare (reasoning, cites only G/A ids) → validator | One long-context "analyse these transcripts" call | Each stage is checkable: quotes are matched against the page text (ASIANPAINT: 3 failed and were dropped); the comparison can only cite ids that exist; numbers never come from the model. |
+| ADR-40 | Verdicts include `on_track` / `off_track` for periods still running | met/missed/too_early only | The first run marked everything "too early" (summarising, not analysing). "Positive FY27 growth" against H1 −10% YoY is the call an analyst wants. |
+| ADR-41 | Thinking off for bulk extraction, capped for comparison; reasoning chain re-ordered by a latency benchmark (3.6-flash ~3 s; 3.8 overloaded; 3.7 ~360 s; 2.5 retired) | Default model settings | A ticker went from ~220 s to 6–42 s. On 503 the chain moves on instead of queueing. |
+| ADR-42 | Live LLM work runs only for real requests (`await connection()`); demo tickers are precomputed by the same code (`scripts/precompute-pull.ts`) into `data/snapshot/pull.json` | Prerender everything; live for all | Without this, every Vercel build would spend ~70 model calls. Precompute makes the demo instant and independent of the API key. |
+| ADR-43 | Companies without earnings calls (Trent) get an explicit "no transcripts" message, not an error | Treat as failure | It's a fact about the company, not a fault in FINN. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |
