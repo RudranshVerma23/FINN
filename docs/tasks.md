@@ -57,9 +57,14 @@ Tasks T12–T15. All 26 functional and 10 non-functional requirements addressed 
 - **People tab** (FR-24): expertise map as a filter, everyone by closeness, and person pages that gather everywhere a contact can help (ways in to new executives, events they can explain, who-to-call entries, reconnect reasons) plus career and conversation log.
 - **Ask bar** (FR-25): the model routes the question to one of eight intents; code answers from your own data; no network data reaches the model; keyword fallback without a key.
 - **Polish** (FR-26, NFR-03, NFR-08): PNG and maskable app icons, Apple touch icon, branded error and not-found pages, focus rings, lighter Brief payload, dark mode checked on the main screens.
-- **Submission docs**: grader README with a two-minute tour, architecture as built (diagram, 52 decision records), measured cost report, submission note.
+- **Submission docs**: grader README with a two-minute tour, architecture as built (diagram, 52 decision records), measured cost report.
 
-**Known limits** are listed in the submission note (`docs/writeup.md`, "What I deliberately left out").
+**Known limits**
+- The network is synthetic; nothing is scraped from LinkedIn. Real onboarding would use the investor's own export, with consent.
+- End-of-day data only; alerts run on the snapshot, with no push notifications yet.
+- A single demo investor; no login or multi-user tenancy.
+- Capex, gross-margin and segment guidance are marked "can't check from filings yet".
+- Live research results are cached per server instance, not persistently.
 
 ### v0.2.0 — Pull for any ticker, results, alerts (2026-11-15)
 
