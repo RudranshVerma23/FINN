@@ -1,6 +1,6 @@
 # FINN — Architecture
 
-Status: v1 (T00, will be refined as tasks land) · Requirements: [`requirements.md`](requirements.md) · Tasks: [`tasks.md`](tasks.md)
+Status: as built for v1.0 · Requirements: [`requirements.md`](requirements.md) · Tasks: [`tasks.md`](tasks.md) · Cost: [`cost.md`](cost.md)
 
 ## 1. Shape of the system
 
@@ -12,57 +12,63 @@ FINN has two halves with very different rhythms:
 ```mermaid
 flowchart LR
   subgraph Sources["Public sources"]
-    BSE["BSE / NSE<br/>announcements"]
+    NSE["NSE<br/>announcements +<br/>results XBRL"]
     YF["Yahoo Finance<br/>EOD price + volume"]
-    SCR["Screener.in<br/>financials + doc links"]
-    PDF["Filing & transcript PDFs"]
+    SCR["Screener.in<br/>tables + doc links"]
+    PDF["Filing & transcript<br/>PDFs (BSE/NSE)"]
   end
 
-  subgraph Batch["Batch pipeline — Python (ingest/)"]
-    FETCH["Fetch adapters"]
-    CLS["Classify<br/>rules → bulk LLM"]
-    SCORE["Score & treat"]
-    EXT["Extract<br/>results numbers, exec bios"]
-    NET["Network engine<br/>resolve · paths · tie strength"]
-    ALERT["Alert rules<br/>(plain code)"]
+  subgraph Batch["Batch pipeline · Python (ingest/), run after the close"]
+    FETCH["Fetch adapters<br/>rate-limited, cached"]
+    CLS["Classify<br/>rules (261/290) → bulk LLM"]
+    READ["Read material filings<br/>bulk LLM, 10 per call"]
+    SCORE["Score with reasons<br/>+ group into stories"]
+    XBRL["Results from XBRL<br/>no LLM, 81/82 checks"]
+    PPL["Exec profiles<br/>bulk LLM"]
+    NET["Network engine<br/>resolve · paths · ties ·<br/>who to call · reconnect<br/>(no LLM)"]
   end
 
-  SNAP[("Data snapshot<br/>data/snapshot/*.json")]
-  NETDATA[("Private network data<br/>(synthetic)")]
+  SNAP[("Snapshot<br/>data/snapshot/*.json<br/>committed")]
+  NETDATA[("Investor's network<br/>connections · log<br/>(synthetic)")]
 
-  subgraph App["Web app — Next.js on Vercel (web/)"]
-    UI["Mobile PWA<br/>Brief · Research · People"]
-    API["API routes"]
-    PULL["Pull pipeline<br/>extract → compare → cite"]
-    CACHE[("Research cache")]
+  subgraph App["Web app · Next.js PWA on Vercel (web/)"]
+    UI["Brief · Research · Alerts ·<br/>People · Holdings"]
+    ALERT["Alerts<br/>thresholds you set<br/>(no LLM)"]
+    PULL["Pull for any ticker<br/>numbers in code →<br/>transcripts → verdicts"]
+    ASK["Ask bar<br/>LLM routes, code answers"]
   end
 
-  GEM["Gemini<br/>bulk + reasoning models"]
+  GEM["Gemini<br/>bulk: 3.5-flash-lite<br/>reasoning: 3.6-flash"]
 
-  BSE & YF & SCR & PDF --> FETCH --> CLS --> SCORE --> SNAP
-  FETCH --> EXT --> SNAP
+  NSE & YF & PDF --> FETCH --> CLS --> READ --> SCORE --> SNAP
+  FETCH --> XBRL --> SNAP
+  FETCH --> PPL --> NET
   NETDATA --> NET --> SNAP
-  SNAP --> ALERT --> SNAP
-  SNAP --> API --> UI
-  UI --> API --> PULL
-  PULL --> SCR & PDF
-  PULL <--> CACHE
-  CLS & EXT & PULL -. "documents only,<br/>never network PII" .-> GEM
+  SNAP --> UI
+  SNAP --> ALERT --> UI
+  UI --> PULL --> SCR & PDF
+  UI --> ASK
+  READ & PPL & PULL -. "public documents only" .-> GEM
+  ASK -. "the question only" .-> GEM
 ```
+
+**What never reaches a model:** contacts, relationships, interaction notes, tie strengths. Matching and paths run in code; the Ask bar's model sees only the question and the public company list.
 
 ## 2. Components
 
 | Component | Where | Responsibility | Requirements |
 |---|---|---|---|
 | Fetch adapters | `ingest/finn/sources/` | `nse` (announcements + integrated-filing results index with XBRL links), `prices` (Yahoo EOD), `screener` (financial tables + annual report / transcript links). All go through one polite client: per-host rate limit, retries, identifying header, disk cache in `data/raw/`. | FR-01, FR-02, FR-11, NFR-10 |
-| Classifier | `ingest/finn/classify.py` | Maps each filing to a reference category. Exchange-provided category plus keyword rules first; leftovers sent to the bulk model **in batches**. | FR-03, NFR-04 |
-| Scorer | `ingest/finn/score.py` | `score = category weight × investor preference × position weight × network relevance × price reaction`. Stores each factor so the UI can explain the rank. | FR-04, FR-05, NFR-07 |
-| Extractors | `ingest/finn/extract/` | Results numbers (structured data first, LLM fallback with checks); incoming-executive bio from appointment filings. | FR-06, FR-07, NFR-06 |
-| Network engine | `ingest/finn/network/` | Entity resolution, 1st/2nd-degree paths, tie strength, who-to-call, reasons to reconnect. **Pure code, no LLM.** | FR-18–FR-23, NFR-05 |
-| Alert rules | `web/lib/alerts.ts` | Volume and price thresholds and category subscriptions evaluated on EOD data, each move linked to its likely cause (see ADR-46/47). | FR-09 |
-| Data access layer | `web/lib/data/` | The only module that knows the snapshot is JSON files. Swapping to Postgres changes this module only. | NFR-09 |
-| Pull pipeline | `web/lib/pull/` | Resolve ticker → fetch docs → bulk-extract guidance → compute actuals in code → reasoning model compares → citation validator. | FR-11–FR-17, NFR-02 |
-| UI | `web/app/` | Brief (Push), Research (Pull), People (Network), alert settings. | FR-10, FR-24, FR-26, NFR-08 |
+| Classifier | `ingest/finn/classify.py` | Maps each filing to a reference category: ordered text rules, then NSE's label; leftovers go to the bulk model. Records which rule fired. | FR-03, NFR-04 |
+| Reader + scorer | `ingest/finn/enrich.py`, `score.py` | Bulk model reads material filings (headline, one-line summary, fact-cited materiality); score = category × preference × position × network × price reaction × materiality, each factor with a sentence; filings grouped into stories. | FR-03–FR-05, NFR-07 |
+| Results | `ingest/finn/xbrl.py`, `results.py` | Revenue, EBITDA, PBT, PAT with QoQ/YoY from exchange XBRL; lender-aware; profit identity and Screener cross-checks. | FR-07, NFR-06 |
+| People in filings | `ingest/finn/people.py` | Executive profiles from appointment filings (bulk model) into the network's `Person` schema; honest date handling; paths attached. | FR-06, FR-19 |
+| Network engine | `ingest/finn/network/` | Org registry, entity resolution, tie strength, 1st/2nd-degree paths, who to call, best person per event, reasons to reconnect. **Pure code, no LLM.** | FR-08, FR-18–FR-23, NFR-05 |
+| Data access layer | `web/lib/data.ts`, `people.ts` | The only modules that know the snapshot is JSON. Swapping to Postgres changes these only. | NFR-09 |
+| Pull | `web/lib/pull/` | Any ticker: snapshot or live Screener fetch → computed analysis → transcripts → quote-checked guidance → reasoning comparison → citation validator. | FR-11–FR-17, NFR-02 |
+| Alerts | `web/lib/alerts.ts` | Thresholds the investor sets, evaluated on EOD data in the app; each move linked to its likely cause. | FR-09 |
+| Ask bar | `web/lib/ask.ts` | Bulk model routes the question to one of eight intents; code answers. Keyword fallback. | FR-25, NFR-05 |
+| UI | `web/app/`, `web/components/` | Brief, Research, Alerts, People, Holdings; company and person pages. | FR-10, FR-24, FR-26, NFR-08 |
 
 ## 3. Data model (core entities)
 
@@ -89,20 +95,18 @@ Principle: **use a model only where judgment over unstructured text is needed.**
 
 | Step | Model tier | Why this tier |
 |---|---|---|
-| Classifying filings the rules couldn't place | bulk | Short, high-volume, simple labels; batched ~30 per call. |
-| One-line summaries of material filings | bulk | Short inputs, short outputs. |
-| Results numbers (fallback only) | bulk | Structured extraction with a JSON schema; output checked in code. |
-| Executive bio from an appointment filing | bulk | Extraction into a fixed schema. |
-| Guidance statements from transcripts | bulk | Long input, structured output; run once per document and cached. |
-| Promised vs delivered verdicts | reasoning | Needs to compare claims against numbers across quarters. |
-| Bull vs bear | reasoning | Synthesis; run once per ticker, cached. |
-| Network matching, paths, tie strength | **none** | Must be deterministic and explainable, and keeps personal data away from the model. |
-| Financial snapshot, QoQ/YoY, ratios | **none** | Arithmetic. |
-| Alerts | **none** | Thresholds. |
+| Classify filings the rules couldn't place + headline, summary, materiality | bulk (`3.5-flash-lite`) | Short structured extraction, 10 filings per call. |
+| Executive profiles from appointment filings | bulk | Extraction into the network's schema, 3 filings per call. |
+| Guidance statements from transcripts (verbatim quote + page) | bulk, thinking off | Long input, structured output; one call per transcript. |
+| Promised vs delivered verdicts + bull/bear | reasoning (`3.6-flash`), thinking ≤ 2k tokens | The one step that needs judgement across quarters. |
+| Ask bar routing | bulk | Question → intent; never reads data. |
+| Results numbers | **none** | Exchange XBRL; numbers must be exact. |
+| Network matching, paths, ties, who to call, reconnect | **none** | Deterministic, explainable, and keeps personal data away from any model. |
+| Snapshot, trajectory, ratios, alerts | **none** | Arithmetic and thresholds. |
 
-Model IDs live in one file, [`config/models.json`](../config/models.json), read by both the Python and TypeScript helpers. Each tier is a **fallback chain**: free-tier quotas apply per model, so when one model returns 429 the call moves to the next model in the chain.
+Model IDs live in one file, [`config/models.json`](../config/models.json), read by both the Python and TypeScript helpers. Each tier is a **fallback chain**: free-tier quotas apply per model, so on 429 (quota), 503 (overloaded) or 404 (retired) the call moves to the next model. The order came from a latency benchmark on the real prompt (ADR-41).
 
-Every call is cached by `sha256(model, system prompt, schema, input)`, so a repeated call costs nothing. Every call logs token usage to `data/llm_usage.jsonl`, which feeds the cost report.
+Every call is cached by a hash of (tier, system prompt, schema, input), so a repeated call costs nothing. Python calls log token usage to `data/llm_usage.jsonl`; Pull results carry their own usage. Measured numbers are in [`cost.md`](cost.md).
 
 **Agents.** The batch pipeline and the Pull pipeline are fixed pipelines: predictable, cacheable and cheap. The Ask bar (FR-25) is deliberately *not* a free-roaming agent: the model only routes the question to one of eight read-only intents (experts, who to call, company news, results, research, person, reconnect, unknown), and code executes the intent. See ADR-49.
 
@@ -111,7 +115,8 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | Concern | Prototype | Real deployment |
 |---|---|---|
 | Whose data is it | Synthetic network; no real person's data. | The investor uploads their own LinkedIn data export and meeting notes — data they own, given with consent. |
-| What reaches an LLM | Public documents only (filings, transcripts). Network matching runs in code. | Same rule, plus a paid tier with zero data retention. |
+| What reaches an LLM | Public documents (filings, transcripts) and the investor's typed question for routing. Never contacts, relationships or notes. This matters doubly on Gemini's free tier, whose prompts may be used to improve Google's products. | Same rule, on a paid tier with zero data retention. |
+| Personal data FINN stores | Per contact: name, career stints, education, expertise tags, the investor's own interaction log. People in filings: only what the filing discloses. | The same minimum, sourced from the investor's own exports with consent; nothing scraped. |
 | Isolation | Single demo investor. | Per-investor tenancy with database row-level security; network tables encrypted at rest. |
 | Retention | Raw fetches cached locally, not committed. | Profile enrichments expire (e.g. 90 days) unless re-confirmed; contacts can be deleted on request. |
 | Secrets | `.env` gitignored; Vercel environment variables. | A secrets manager, with keys rotated. |
@@ -120,10 +125,11 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 
 | Piece | Prototype | Why |
 |---|---|---|
-| Web app + API routes | Vercel (Hobby) | One link that works on any phone; preview deploys per branch. |
-| Batch pipeline | Run locally, output committed as the snapshot | Exchange sites often block cloud IPs; a snapshot keeps the demo reliable. |
-| LLM | Gemini API (free tier) | ₹0 cost; long context for transcripts. |
-| Next step | GitHub Actions cron → Postgres (Supabase) → same data access layer | Scheduled end-of-day refresh without a server to babysit. |
+| Web app | Vercel (Hobby): static pages for the snapshot (91 prerendered), serverless functions for live Pull (`maxDuration` 120 s), search and Ask | One link that works on any phone; production from `main`, a preview URL per branch. |
+| Batch pipeline | Run locally after the close; output committed as the snapshot | Exchange sites can block cloud IPs; a committed snapshot keeps the demo reliable and reviewable in git. |
+| Caching | Screener and PDF fetches through Next's fetch cache (persists across serverless instances); Pull results in memory per instance; demo tickers precomputed | Free-tier quota and latency. |
+| LLM | Gemini API, free tier | ₹0; see `cost.md`. |
+| Next step | GitHub Actions cron after each close → Postgres (Supabase) behind the same data modules → a KV store for live Pull results → web push for alerts | A daily refresh with no server to babysit. |
 
 ## 7. Key decisions (ADR log)
 
