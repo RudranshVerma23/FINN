@@ -179,6 +179,9 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-42 | Live LLM work runs only for real requests (`await connection()`); demo tickers are precomputed by the same code (`scripts/precompute-pull.ts`) into `data/snapshot/pull.json` | Prerender everything; live for all | Without this, every Vercel build would spend ~70 model calls. Precompute makes the demo instant and independent of the API key. |
 | ADR-43 | Companies without earnings calls (Trent) get an explicit "no transcripts" message, not an error | Treat as failure | It's a fact about the company, not a fault in FINN. |
 
+| ADR-44 | Material events (M&A, capex, litigation, fund raises) name the person best placed to explain *that event*: score = tie × relation × fit, where fit rewards a matching role (legal/regulatory, strategy/BD, projects/ops, finance) and, most, expertise in the event's subject | Reuse "who do I know at this company" | "Who can explain the Vishay OSAT JV" is Kunal (runs semiconductor assembly), not the person who left Kaynes in 2022. Generic sector words ("financials") don't count as subject knowledge; first run matched "financial statements". |
+| ADR-45 | Who to call inside Pull works for any ticker: precomputed ranking for known companies; for others, the company name is matched against every contact's career in the web app | Known companies only | The network has to answer inside Pull for any NSE ticker (SYRMA → Priya, INFY → Neha), and say so plainly when no one has (ASTRAL). |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |

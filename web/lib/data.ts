@@ -9,7 +9,7 @@ import networkJson from "@/data/network.json";
 import pricesJson from "@/data/prices.json";
 import resultsJson from "@/data/results.json";
 
-import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard } from "./types";
+import type { Bar, Company, Filing, Meta, NetworkSnapshot, Results, StoryCard, Suggestion } from "./types";
 
 const companies = companiesJson as unknown as Record<string, Company>;
 const filings = filingsJson as unknown as Filing[];
@@ -63,6 +63,66 @@ export function getContact(id: string) {
   return network.contacts.find((c) => c.id === id);
 }
 
+export interface Caller {
+  name: string;
+  relation: Suggestion["relation"];
+  org: string;
+  role: string;
+  span: string;
+  tie: string;
+  tieReasons: string[];
+  angle: string;
+  caution: string | null;
+}
+
+const normOrg = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\b(ltd|limited|india|pvt|private|the|co|company|corporation|industries|enterprises?)\b\.?/g, " ")
+    .replace(/[^a-z0-9& ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+/**
+ * Who to call about any company (FR-22). Known companies use the precomputed ranking (company,
+ * competitors, suppliers, customers). For a ticker FINN has never seen, match the company's name
+ * against every contact's career, so the network still answers inside Pull for any NSE ticker.
+ */
+export function getCallers(symbol: string, companyName: string): Caller[] {
+  const known = network.who_to_call[symbol];
+  if (known) {
+    return known.map((s) => ({
+      name: s.name, relation: s.relation, org: s.org, role: s.role, span: s.span, tie: s.tie_label,
+      tieReasons: s.tie_reasons, angle: s.angle, caution: s.caution,
+    }));
+  }
+  const target = normOrg(companyName);
+  if (!target) return [];
+  const out: (Caller & { strength: number })[] = [];
+  for (const c of network.contacts) {
+    const stint = c.career.find((s) => {
+      const o = normOrg(s.org);
+      return o && (o === target || o.startsWith(target + " ") || target.startsWith(o + " "));
+    });
+    if (!stint) continue;
+    const current = stint.span.endsWith("now");
+    out.push({
+      name: c.name,
+      relation: current ? "current" : "former",
+      org: stint.org,
+      role: stint.role,
+      span: stint.span,
+      tie: c.tie.label,
+      tieReasons: c.tie.reasons,
+      angle: `${current ? "Inside view of" : "How it works inside"} ${companyName} (${stint.role}).`,
+      caution: current ? "Works there now: keep it to background, avoid unpublished price-sensitive information." : null,
+      strength: c.tie.strength,
+    });
+  }
+  return out.sort((a, b) => b.strength - a.strength).slice(0, 4);
+}
+
 function toCard(f: Filing): StoryCard {
   const c = companies[f.symbol];
   const top = (network.who_to_call[f.symbol] ?? [])[0];
@@ -89,6 +149,7 @@ function toCard(f: Filing): StoryCard {
       top && top.score >= 0.25 && f.tier !== "routine"
         ? { name: top.name, relation: top.relation, org: top.org, tie: top.tie_label, angle: top.angle, caution: top.caution }
         : null,
+    eventContacts: f.tier === "routine" ? [] : (f.event_contacts ?? []),
     people: (f.people ?? []).filter((p) => p.change !== "reappointed"),
     results: res,
   };
