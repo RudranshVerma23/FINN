@@ -104,7 +104,7 @@ Model IDs live in one file, [`config/models.json`](../config/models.json), read 
 
 Every call is cached by `sha256(model, system prompt, schema, input)`, so a repeated call costs nothing. Every call logs token usage to `data/llm_usage.jsonl`, which feeds the cost report.
 
-**Agents.** The batch pipeline and the Pull pipeline are fixed pipelines: predictable, cacheable and cheap. The only component that plans and calls tools on its own is the Ask bar (FR-25), which gets read-only tools (`get_filings`, `get_financials`, `search_documents`, `network_lookup`).
+**Agents.** The batch pipeline and the Pull pipeline are fixed pipelines: predictable, cacheable and cheap. The Ask bar (FR-25) is deliberately *not* a free-roaming agent: the model only routes the question to one of eight read-only intents (experts, who to call, company news, results, research, person, reconnect, unknown), and code executes the intent. See ADR-49.
 
 ## 5. Data security and privacy
 
@@ -186,6 +186,9 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-47 | Every price/volume alert names its likely cause (the most material filing between the previous close and this one, results first) or says it is follow-through from the previous unusual session | Bare "PIIND −19%" | "Fell 19.1% on 30× volume · likely cause: Q2 FY27 PAT −63%" is the alert worth sending. A move with no filing behind it is flagged as "worth a look". |
 
 | ADR-48 | Reasons to reconnect = contacts dormant 6+ months × a material event at their current/former employer (or a competitor they work at) in the last 14 days, at most two per event type | "You haven't spoken to X" reminders | A reason to call beats a reminder to call. Capping per type keeps results season from turning every nudge into "they reported"; transcript and AGM filings are not reasons. |
+
+| ADR-49 | The Ask bar's model is a router, not a reader: it maps the question to one of 8 intents with arguments (bulk model, JSON schema, ~1.4 s); code answers from the snapshot and network; keyword routing is the fallback | A tool-calling agent that reads results back | Keeps NFR-05 intact: only the question and the public company list reach the model, never contacts or relationships. Answers are exact (no paraphrased data) and it still works with no API key. |
+| ADR-50 | Person pages gather "where they can help": ways in to new executives, events they're best placed to explain, who-to-call entries, reconnect reasons; the People tab's expertise map doubles as a filter | A contact list | "What does the network notice that I wouldn't" is answered per person, from the same engine that powers Push and Pull. |
 
 ### Push ranking factors (`ingest/finn/score.py`)
 
