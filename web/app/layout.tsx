@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   description: "What changed in your portfolio, why it matters, and who you know who can explain it.",
   applicationName: "FINN",
   appleWebApp: { capable: true, title: "FINN", statusBarStyle: "default" },
+  icons: { apple: "/apple-touch-icon.png" },
+  openGraph: {
+    title: "FINN — Financial Investment Agent",
+    description: "A ranked brief of what changed in your portfolio, research on any NSE company, and who in your network can explain it.",
+    type: "website",
+  },
+  formatDetection: { telephone: false },
 };
 
 export const viewport: Viewport = {
