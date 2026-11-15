@@ -4,7 +4,7 @@
 
 **Try it on your phone:** https://finn-ecru.vercel.app &nbsp;·&nbsp; add it to your home screen for the app experience.
 
-Built for the ENAM Holdings *Founding AI Engineer* build challenge. Three layers, woven together:
+Three layers, woven together:
 
 - **Push** — a ranked brief of what changed across an 18-stock portfolio, results with the numbers, and alerts on thresholds you set.
 - **Pull** — research on **any NSE ticker** from its own filings: computed snapshot and trajectory, and *promised vs delivered* from its last four earnings calls.
@@ -12,10 +12,10 @@ Built for the ENAM Holdings *Founding AI Engineer* build challenge. Three layers
 
 ## A two-minute tour
 
-1. **Brief** opens with a verdict, not a feed: *"Two things matter."* Switch to **3 days**. Open the **Tata Power** card: Sanjay Banga is the CEO-designate; FINN shows his career (from the filing itself) and **your way in** through Harsh, your IIT-B batchmate who works in Banga's unit today, with a UPSI caution. Swipe a card left when you're done with it.
-2. Still on the Brief, find **Kaynes**' joint venture with Vishay: FINN names **Kunal Verma** as best placed to explain it, because he runs semiconductor assembly, not because he once worked at Kaynes. Find a **results** card (HAL, PI Industries): Revenue, EBITDA, PBT and PAT with QoQ/YoY, straight from the exchange XBRL, with the checks it passed.
+1. **Brief** opens with a verdict, not a feed: *"Two things matter."* Switch to **7 days** and find the **Tata Power** card: Sanjay Banga is the CEO-designate; FINN shows his career (from the filing itself) and **your way in** through Harsh, your IIT-B batchmate who works in Banga's unit today, with a UPSI caution. Swipe a card left when you're done with it.
+2. In the same window, find **Kaynes**' joint venture with Vishay: FINN names **Kunal Verma** as best placed to explain it, because he knows semiconductor packaging (he runs semiconductor assembly), not because he once worked at Kaynes. Find a **results** card (HAL, Page Industries): Revenue, EBITDA, PBT and PAT with QoQ/YoY, straight from the exchange XBRL, with the checks it passed.
 3. **Research → WIPRO**: tiles, a 10-year trajectory, and **promised vs delivered**: Wipro guided −2% to 0% sequential growth and delivered +1.0% (*met*, three quarters running), each verdict linked to the exact transcript page. Then **PI Industries** for *off track*. Then type a company FINN has never seen, like **Astral**: it is read live.
-4. **Alerts**: tap *Edit* and move the volume slider from 2× to 4×; the inbox recounts instantly. *"PIIND fell 19.1% on 30× volume · likely cause: Q2 FY27, PAT −63% YoY."*
+4. **Alerts**: tap *Edit* and move the volume slider from 2× to 4×; the inbox recounts instantly. Switch to **30 days** for the biggest move: *"PIIND fell 19.1% on 30× its usual volume · likely cause: Q2 FY27, PAT −63% YoY."*
 5. **People**: tap a theme in *What your network knows*, open **Harsh Vora** to see everywhere he can help, then ask *"who knows semiconductors?"*.
 
 ## How it works
@@ -52,14 +52,14 @@ Full design, privacy, cloud and 52 decision records: [`docs/architecture.md`](do
 config/          model routing (shared by Python and TypeScript), portfolio, preferences, org registry
 ingest/          Python batch pipeline: sources → classify → read → score → results → people → network
 data/network/    the investor's network inputs (synthetic): connections export, profiles, interaction log
-data/snapshot/   everything the app reads (committed, so the demo never depends on a live source)
+data/snapshot/   everything the app reads (committed, so the app never depends on a live source)
 web/             Next.js 16 mobile-first PWA (Vercel root directory)
 docs/            requirements, architecture, tasks, cost
 ```
 
 ## Running locally
 
-Requires Python 3.12+ and Node 20+. Secrets live in one root `.env` (gitignored), read by both halves.
+Requires Python 3.12+ and Node 20.9+. Secrets live in one root `.env` (gitignored), read by both halves.
 
 ```bash
 cp .env.example .env                                   # add GEMINI_API_KEY
@@ -77,12 +77,13 @@ python ingest/scripts/build_fundamentals.py            # Screener tables for kno
 
 cd web
 npm install
+npm run sync                                           # copy data/snapshot into web/data
 npx tsx --env-file=../.env scripts/precompute-pull.ts PIIND WIPRO   # optional: precompute research
 npm run dev                                            # http://localhost:3000
 ```
 
-The committed snapshot already contains all of this, so `cd web && npm install && npm run dev` is enough to run the app.
+The committed snapshot already contains all of this, so `cd web && npm install && npm run dev` is enough to run the app. Live research on new tickers and the Ask bar need `GEMINI_API_KEY`; everything else works without it.
 
-## How this was built
+## How it's built
 
-Git-flow with one numbered commit per step (`T07.2 feat(push): … [FR-07, NFR-06]`), feature branches merged into `develop`, releases `v0.1.0` → `v0.2.0` → `v1.0.0` on `main`. Built with Claude Code; the session history is part of the submission.
+Git-flow with one numbered commit per step (`T07.2 feat(push): … [FR-07, NFR-06]`), feature branches merged into `develop`, and releases tagged on `main`: `v0.1.0` (Push and Network) → `v0.2.0` (Pull, results, alerts) → `v1.0.0` (people, Ask bar, polish), with hotfixes as `v1.0.x`. Built with Claude Code as a pair programmer.
