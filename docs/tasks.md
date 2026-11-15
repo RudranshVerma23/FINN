@@ -35,7 +35,7 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | T06 | Management change card with network path | FR-06, FR-20, FR-21 | v0.1.0 | done |
 | — | **Release v0.1.0** — Push + Network working end to end, first deploy | | | |
 | T07 | Quarterly results card (QoQ / YoY) | FR-07, NFR-06 | v0.2.0 | done |
-| T08 | Pull pipeline for any ticker: fetch, snapshot, trajectory, cache | FR-11, FR-12, FR-13, FR-17, NFR-02, NFR-03 | v0.2.0 | todo |
+| T08 | Pull pipeline for any ticker: fetch, snapshot, trajectory, cache | FR-11, FR-12, FR-13, FR-17, NFR-02, NFR-03 | v0.2.0 | done |
 | T09 | Promised vs delivered and bull/bear with citation validator | FR-14, FR-15, FR-16 | v0.2.0 | todo |
 | T10 | Who to call inside Pull; material event card | FR-08, FR-22 | v0.2.0 | todo |
 | T11 | Configurable alerts and alert inbox | FR-09 | v0.2.0 | todo |

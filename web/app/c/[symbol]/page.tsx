@@ -58,6 +58,12 @@ export default async function CompanyPage(props: PageProps<"/c/[symbol]">) {
         <p className="mt-1 text-[13px] text-muted">
           {company.sector} · {company.in_portfolio ? `${company.weight}% of portfolio` : "Watchlist"}
         </p>
+        <Link
+          href={`/r/${encodeURIComponent(company.symbol)}`}
+          className="mt-3 inline-block rounded-full bg-ink px-4 py-2 text-[13px] font-medium text-paper"
+        >
+          Research {company.symbol} →
+        </Link>
       </header>
 
       <section className="mt-5 rounded-[18px] border border-hairline bg-surface p-4">

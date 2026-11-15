@@ -49,6 +49,8 @@ def _parse_table(section) -> dict | None:
         if not cells:
             continue
         label = re.sub(r"\s*\+$", "", cells[0].get_text(" ", strip=True)).strip()
+        if label.startswith("CFO/EBITDA"):  # the label cell also carries a tooltip sentence
+            label = "CFO/EBITDA"
         if not label or label.lower().startswith("raw pdf"):
             continue
         rows[label] = [_num(td.get_text(strip=True)) for td in cells[1:]]
@@ -83,6 +85,16 @@ def _parse_documents(soup) -> dict:
     return {"annual_reports": annual_reports, "concalls": concalls}
 
 
+def _top_ratios(soup) -> dict[str, str]:
+    """Market data shown at the top of the page (market cap, price, P/E, ROCE...). Raw strings."""
+    out = {}
+    for li in soup.select("#top-ratios li"):
+        name, value = li.select_one(".name"), li.select_one(".value")
+        if name and value:
+            out[name.get_text(" ", strip=True)] = re.sub(r"\s+", " ", value.get_text(" ", strip=True))
+    return out
+
+
 def _bse_code(soup) -> str | None:
     for a in soup.select("a[href*='bseindia.com/stock-share-price']"):
         m = re.search(r"/(\d{6})/", a.get("href", ""))
@@ -109,9 +121,9 @@ def company(symbol: str, consolidated: bool = True, ttl: float = DAY) -> dict:
             continue
         soup = BeautifulSoup(html, "html.parser")
         tables = {key: _parse_table(soup.find("section", id=sid)) for key, sid in _TABLE_SECTIONS.items()}
-        quarters = tables.get("quarters")
-        if view and (not quarters or not quarters["rows"]):
-            continue  # no consolidated numbers; try standalone
+        quarters, annual = tables.get("quarters"), tables.get("profit_loss")
+        if view and (not quarters or not quarters["rows"] or not annual or not annual["periods"]):
+            continue  # no (or too short a) consolidated history; use standalone
         name = soup.find("h1")
         return {
             "symbol": symbol,
@@ -119,6 +131,7 @@ def company(symbol: str, consolidated: bool = True, ttl: float = DAY) -> dict:
             "bse_code": _bse_code(soup),
             "view": "consolidated" if view else "standalone",
             "source_url": url,
+            "top_ratios": _top_ratios(soup),
             "tables": tables,
             "documents": _parse_documents(soup),
         }
