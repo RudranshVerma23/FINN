@@ -2,7 +2,7 @@
 
 > **An editor, not a feed.** FINN tells an investor the few things that changed and matter, and who in their own network can help them understand it.
 
-**Try it on your phone:** <LIVE_URL> &nbsp;·&nbsp; add it to your home screen for the app experience.
+Built to be opened on a phone: add it to your home screen for the app experience.
 
 Built for the ENAM Holdings *Founding AI Engineer* build challenge. Three layers, woven together:
 
@@ -41,7 +41,7 @@ Full design, privacy, cloud and 52 decision records: [`docs/architecture.md`](do
 
 | Doc | What's in it |
 |---|---|
-| [`docs/writeup.md`](docs/writeup.md) | The covering note: what I built, decisions and tradeoffs, what I left out, what's next |
+| [`docs/writeup.md`](docs/writeup.md) | Submission note: what I built, decisions and tradeoffs, architecture, what I left out, what's next |
 | [`docs/architecture.md`](docs/architecture.md) | Diagram, components, data model, LLM routing, privacy, cloud, decision log (ADR-01…52) |
 | [`docs/requirements.md`](docs/requirements.md) | Numbered functional (FR) and non-functional (NFR) requirements |
 | [`docs/tasks.md`](docs/tasks.md) | Task plan T00–T15 mapped to requirements, git conventions, release notes |
