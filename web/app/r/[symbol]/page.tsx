@@ -4,6 +4,9 @@ import { Suspense } from "react";
 import { ResearchProgress, ResearchView } from "@/components/research-view";
 import { knownSymbols } from "@/lib/pull/fundamentals";
 
+// A live run reads four transcripts and makes five model calls; allow for it (FR-17).
+export const maxDuration = 120;
+
 // Known tickers are prerendered from the committed snapshot; any other NSE ticker renders on
 // first request (streamed behind a progress fallback) and is then kept (FR-11, FR-17, NFR-02).
 export function generateStaticParams() {
