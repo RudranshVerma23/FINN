@@ -36,5 +36,5 @@ Thumbs.db
 # Local tool config
 .claude/
 
-# Submission note: sent in the covering email, not published in the repo
+# Private notes, kept out of the repository
 docs/writeup.md

@@ -136,7 +136,7 @@ Every call is cached by a hash of (tier, system prompt, schema, input), so a rep
 | # | Decision | Alternatives | Why |
 |---|---|---|---|
 | ADR-01 | Ranked, triage-card "brief" as the main surface; chat secondary | Chat-first, dashboard | The brief's core problem is filtering. A ranked brief makes filtering the interaction itself. |
-| ADR-02 | Next.js PWA on Vercel | Expo, Flutter | A grader taps one link; no app store or Expo Go. |
+| ADR-02 | Next.js PWA on Vercel | Expo, Flutter | Anyone can open it from one link on a phone; no app store or Expo Go. |
 | ADR-03 | Batch snapshot + on-demand Pull | Everything live | Reliability (NFR-01) and free-tier quota (NFR-04). |
 | ADR-04 | Network logic in code, not an LLM | LLM reasoning over contacts | Deterministic, explainable, and keeps personal data private. |
 | ADR-05 | Numbers from structured data, LLM only as a checked fallback | LLM reads every results PDF | Numbers must be right; models can make them up. |
@@ -197,7 +197,7 @@ Every call is cached by a hash of (tier, system prompt, schema, input), so a rep
 | ADR-50 | Person pages gather "where they can help": ways in to new executives, events they're best placed to explain, who-to-call entries, reconnect reasons; the People tab's expertise map doubles as a filter | A contact list | "What does the network notice that I wouldn't" is answered per person, from the same engine that powers Push and Pull. |
 
 | ADR-51 | Performance budget checked on a production build (gzipped): Brief 44 KB, Alerts 33 KB, Research 16 KB, person page 5 KB; all JS for every route 241 KB. Routine stories ship as titles only | Ship full story objects | Every view is usable on a phone on a weak connection; the remaining Brief weight is React's double payload (HTML + hydration data), worth restructuring only if the snapshot grows. |
-| ADR-52 | PNG icons rendered from the SVG's geometry (`web/scripts/make-icons.py`), a maskable icon, Apple touch icon, branded error/not-found pages, keyboard focus rings | SVG-only icon, framework defaults | iOS ignores SVG home-screen icons; a grader adding FINN to a phone should see FINN, not a blank tile. |
+| ADR-52 | PNG icons rendered from the SVG's geometry (`web/scripts/make-icons.py`), a maskable icon, Apple touch icon, branded error/not-found pages, keyboard focus rings | SVG-only icon, framework defaults | iOS ignores SVG home-screen icons; anyone adding FINN to a phone should see FINN, not a blank tile. |
 
 ### Push ranking factors (`ingest/finn/score.py`)
 
