@@ -42,7 +42,7 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 | — | **Release v0.2.0** — Pull working on any ticker, alerts | | | |
 | T12 | Reasons to reconnect in the digest | FR-23 | v1.0.0 | done |
 | T13 | Person and company pages; Ask bar (stretch) | FR-24, FR-25 | v1.0.0 | done |
-| T14 | Polish: PWA install, dark mode, motion, performance | FR-26, NFR-03, NFR-08 | v1.0.0 | todo |
+| T14 | Polish: PWA install, dark mode, motion, performance | FR-26, NFR-03, NFR-08 | v1.0.0 | done |
 | T15 | Writeup, architecture diagram, cost report, AI build history | docs | v1.0.0 | todo |
 | — | **Release v1.0.0** — submission (tag also `submission-v1`) | | | |
 
