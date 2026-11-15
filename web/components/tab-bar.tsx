@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const TABS = [
   { href: "/", label: "Brief", match: (p: string) => p === "/" },
   { href: "/research", label: "Research", match: (p: string) => p.startsWith("/research") || p.startsWith("/r/") },
+  { href: "/alerts", label: "Alerts", match: (p: string) => p.startsWith("/alerts") },
   { href: "/holdings", label: "Holdings", match: (p: string) => p.startsWith("/holdings") || p.startsWith("/c/") },
 ];
 
@@ -17,7 +18,7 @@ export function TabBar() {
       className="fixed inset-x-0 bottom-0 z-30 border-t border-hairline bg-paper/90 backdrop-blur-md"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
-      <ul className="mx-auto flex h-[60px] max-w-[480px] items-stretch px-6">
+      <ul className="mx-auto flex h-[60px] max-w-[480px] items-stretch px-2">
         {TABS.map((t) => {
           const active = t.match(path);
           return (
