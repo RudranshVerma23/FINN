@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Suspense } from "react";
 
-import { getCompany } from "@/lib/data";
+import { getCallers, getCompany } from "@/lib/data";
+import { relationText } from "@/lib/format";
 import { analyse, crore } from "@/lib/pull/analysis";
 import { getFundamentals } from "@/lib/pull/fundamentals";
 import { NotFound } from "@/lib/pull/screener";
@@ -45,6 +46,8 @@ export async function ResearchView({ symbol }: { symbol: string }) {
   const { data: f, source } = result;
   const a = analyse(f);
   const held = getCompany(f.symbol);
+  const companyShort = f.name.replace(/\s+Ltd\.?$/, "");
+  const callers = getCallers(f.symbol, companyShort);
   const t = a.trajectory;
   const transcripts = f.documents.concalls.filter((c) => c.transcript_url).slice(0, 4);
   const reports = f.documents.annual_reports.slice(0, 3);
@@ -105,6 +108,32 @@ export async function ResearchView({ symbol }: { symbol: string }) {
           </ul>
         </section>
       ) : null}
+
+      <section aria-label="Who to call" className="mt-6">
+        <h2 className="px-1 text-[12px] font-semibold uppercase tracking-[0.08em] text-people">Who to call</h2>
+        {callers.length ? (
+          <ul className="mt-2 space-y-2">
+            {callers.map((p) => (
+              <li key={p.name} className="rounded-[16px] bg-people-soft px-4 py-3">
+                <p className="text-[14px] text-ink">
+                  <span className="font-semibold">{p.name}</span>
+                  <span className="text-ink-2"> · {relationText(p.relation, p.org)} ({p.span})</span>
+                </p>
+                <p className="mt-0.5 text-[12.5px] leading-snug text-ink-2">{p.angle}</p>
+                <p className="mt-1 text-[11.5px] leading-snug text-muted">
+                  {p.tie} tie · {p.tieReasons.join(" · ")}
+                </p>
+                {p.caution ? <p className="mt-1 text-[11.5px] leading-snug text-warn">{p.caution}</p> : null}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="mt-2 rounded-[16px] border border-dashed border-hairline px-4 py-3 text-[13px] leading-snug text-muted">
+            No one in your network has worked at {companyShort}
+            {held ? ", a competitor, a supplier or a customer" : ""}. FINN checked every contact&apos;s career.
+          </p>
+        )}
+      </section>
 
       <section aria-label="Promised vs delivered" className="mt-6">
         <h2 className="px-1 text-[12px] font-semibold uppercase tracking-[0.08em] text-muted">Promised vs delivered</h2>

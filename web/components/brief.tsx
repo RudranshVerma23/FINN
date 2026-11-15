@@ -19,10 +19,19 @@ const WINDOWS = [
 ] as const;
 type WindowKey = (typeof WINDOWS)[number]["key"];
 
-/** One quiet line on a compact row: "Rohan Mehta can introduce you to Guha". */
+/** One quiet line on a compact row: "Rohan Mehta can introduce you to Guha" / "Ask Manish Bansal". */
 function WayIn({ story }: { story: Story }) {
   const person = story.people.find((p) => p.change !== "leaves" && p.paths.length && p.paths[0].label !== "weak");
-  if (!person) return null;
+  if (!person) {
+    const ask = story.eventContacts[0];
+    if (!ask) return null;
+    return (
+      <p className="mt-1 text-[12px] text-people">
+        <span className="mr-1.5 inline-block h-1.5 w-1.5 rounded-full bg-people align-middle" aria-hidden />
+        Ask {ask.name}: {ask.why[0].charAt(0).toLowerCase() + ask.why[0].slice(1)}
+      </p>
+    );
+  }
   const path = person.paths[0];
   const surname = person.name.split(" ").slice(-1)[0];
   return (

@@ -38,6 +38,20 @@ export interface Filing {
   story_id: string;
   related: string[];
   people?: FilingPerson[];
+  event_contacts?: EventContact[];
+}
+
+/** The person best placed to explain a material event (FR-08), with reasons. */
+export interface EventContact {
+  person_id: string;
+  name: string;
+  relation: "current" | "former" | "competitor" | "supplier" | "customer" | null;
+  org: string;
+  role: string;
+  score: number;
+  tie_label: string;
+  why: string[];
+  caution: string | null;
 }
 
 export interface Path {
@@ -184,6 +198,8 @@ export interface StoryCard {
   inPortfolio: boolean;
   weight: number;
   contact: { name: string; relation: string; org: string; tie: string; angle: string; caution: string | null } | null;
+  /** For M&A / capex / litigation / fund raises: who can explain THIS event, and why. */
+  eventContacts: EventContact[];
   people: FilingPerson[];
   results: Results | null;
 }

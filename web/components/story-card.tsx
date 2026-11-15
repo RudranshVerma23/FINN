@@ -7,6 +7,7 @@ import { useState } from "react";
 import { ago, relationText } from "@/lib/format";
 import type { StoryCard as Story } from "@/lib/types";
 
+import { EventContactBlock } from "./event-contact";
 import { PersonBlock } from "./person-block";
 import { ReactionPill } from "./reaction-pill";
 import { ResultsTable } from "./results-table";
@@ -79,8 +80,10 @@ export function StoryCard({
           <PersonBlock key={p.name} person={p} />
         ))}
 
-        {/* A specific path to the person beats a generic "you know people at this company". */}
-        {story.contact && showContact && !story.people.some((p) => p.change !== "leaves") ? (
+        {/* Most specific first: a path to the new executive, then the best person for this event,
+            then the generic "you know people at this company". */}
+        {story.eventContacts.length ? <EventContactBlock contacts={story.eventContacts} /> : null}
+        {story.contact && showContact && !story.eventContacts.length && !story.people.some((p) => p.change !== "leaves") ? (
           <div className="mt-3 rounded-[14px] bg-people-soft px-3 py-2.5">
             <p className="text-[13px] leading-snug text-ink">
               <span className="mr-1.5 inline-block h-2 w-2 rounded-full bg-people align-middle" aria-hidden />
