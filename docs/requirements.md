@@ -74,13 +74,13 @@ Every surface answers three things: **what changed · why it matters to me · wh
 | NFR-01 | **Demo reliability** — the app is fully usable from the committed data snapshot even if every live source (BSE, NSE, Screener, Gemini) is down. | All P0 flows work offline from the snapshot. |
 | NFR-02 | **Generalisation** — Pull works for tickers outside the demo set. | Verified on ≥ 2 tickers we didn't pick. |
 | NFR-03 | **Latency** | Digest < 1 s · cached research < 2 s · new ticker < 90 s with visible progress. |
-| NFR-04 | **Cost and quota** — runs within the Gemini free tier. Every LLM call is cached by content hash, classification is batched, models fall back down a chain (quotas are per model), and token usage is logged. | ₹0 spend; usage report in the writeup. |
+| NFR-04 | **Cost and quota** — runs within the Gemini free tier. Every LLM call is cached by content hash, classification is batched, models fall back down a chain (quotas are per model), and token usage is logged. | ₹0 spend; measured usage in [`cost.md`](cost.md). |
 | NFR-05 | **Privacy** — no personal network data (names, relationships, notes) is sent to an LLM; matching and paths run in code. Synthetic people only. Secrets never enter the repo. | Audit of prompts in code review; `.env` gitignored. |
 | NFR-06 | **Numerical accuracy** — financial figures come from structured data where it exists. LLM-extracted numbers are checked (e.g. PBT − tax ≈ PAT) and labelled as extracted. | No unlabelled LLM numbers in the UI. |
 | NFR-07 | **Explainability** — every rank, match and tie strength can show its reason. | "Why" available on every card. |
 | NFR-08 | **Mobile UX quality** — designed for 360–430 px, touch targets ≥ 44 px, works on iOS Safari and Android Chrome, light and dark themes. | Manual check on both. |
 | NFR-09 | **Maintainability** — data access sits behind one layer (snapshot today, Postgres tomorrow); shared schemas; model routing in one config file. | Swapping the data store touches one module. |
-| NFR-10 | **Source compliance** — no LinkedIn scraping; polite, rate-limited requests with an identifying user agent; only publicly available filings and documents. | Documented in the writeup. |
+| NFR-10 | **Source compliance** — no LinkedIn scraping; polite, rate-limited requests with an identifying user agent; only publicly available filings and documents. | Documented in [`architecture.md`](architecture.md) (sources, ADR-07, ADR-08). |
 
 ---
 
