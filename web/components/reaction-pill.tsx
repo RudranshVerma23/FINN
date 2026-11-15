@@ -9,7 +9,7 @@ export function ReactionPill({ reaction }: { reaction: Reaction | null }) {
   const up = reaction.move_pct >= 0;
   return (
     <span
-      className={`tabular inline-flex shrink-0 items-center gap-1 rounded-full px-2 py-[3px] font-mono text-[11px] font-medium ${
+      className={`tabular inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-2 py-[3px] font-mono text-[11px] font-medium ${
         up ? "bg-up-soft text-up" : "bg-down-soft text-down"
       }`}
       title={`Session of ${reaction.date}`}
