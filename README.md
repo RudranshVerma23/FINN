@@ -41,7 +41,6 @@ Full design, privacy, cloud and 52 decision records: [`docs/architecture.md`](do
 
 | Doc | What's in it |
 |---|---|
-| [`docs/writeup.md`](docs/writeup.md) | Submission note: what I built, decisions and tradeoffs, architecture, what I left out, what's next |
 | [`docs/architecture.md`](docs/architecture.md) | Diagram, components, data model, LLM routing, privacy, cloud, decision log (ADR-01…52) |
 | [`docs/requirements.md`](docs/requirements.md) | Numbered functional (FR) and non-functional (NFR) requirements |
 | [`docs/tasks.md`](docs/tasks.md) | Task plan T00–T15 mapped to requirements, git conventions, release notes |
@@ -55,7 +54,7 @@ ingest/          Python batch pipeline: sources → classify → read → score 
 data/network/    the investor's network inputs (synthetic): connections export, profiles, interaction log
 data/snapshot/   everything the app reads (committed, so the demo never depends on a live source)
 web/             Next.js 16 mobile-first PWA (Vercel root directory)
-docs/            requirements, architecture, tasks, cost, writeup
+docs/            requirements, architecture, tasks, cost
 ```
 
 ## Running locally
