@@ -39,6 +39,7 @@ python ingest/scripts/build_network.py --stories    # network.json + print paths
 python ingest/scripts/enrich_filings.py             # classify, read (bulk LLM), score and group filings
 python ingest/scripts/extract_people.py --eval      # executive bios from filings + network paths
 python ingest/scripts/event_contacts.py             # best person to explain each material event
+python ingest/scripts/build_reconnect.py            # dormant contacts with a natural reason to call
 python ingest/scripts/build_results.py              # Revenue/EBITDA/PBT/PAT QoQ & YoY from XBRL, with checks
 python ingest/scripts/build_fundamentals.py         # Screener tables + document links for known tickers (Pull)
 
