@@ -190,6 +190,9 @@ Every call is cached by `sha256(model, system prompt, schema, input)`, so a repe
 | ADR-49 | The Ask bar's model is a router, not a reader: it maps the question to one of 8 intents with arguments (bulk model, JSON schema, ~1.4 s); code answers from the snapshot and network; keyword routing is the fallback | A tool-calling agent that reads results back | Keeps NFR-05 intact: only the question and the public company list reach the model, never contacts or relationships. Answers are exact (no paraphrased data) and it still works with no API key. |
 | ADR-50 | Person pages gather "where they can help": ways in to new executives, events they're best placed to explain, who-to-call entries, reconnect reasons; the People tab's expertise map doubles as a filter | A contact list | "What does the network notice that I wouldn't" is answered per person, from the same engine that powers Push and Pull. |
 
+| ADR-51 | Performance budget checked on a production build (gzipped): Brief 44 KB, Alerts 33 KB, Research 16 KB, person page 5 KB; all JS for every route 241 KB. Routine stories ship as titles only | Ship full story objects | Every view is usable on a phone on a weak connection; the remaining Brief weight is React's double payload (HTML + hydration data), worth restructuring only if the snapshot grows. |
+| ADR-52 | PNG icons rendered from the SVG's geometry (`web/scripts/make-icons.py`), a maskable icon, Apple touch icon, branded error/not-found pages, keyboard focus rings | SVG-only icon, framework defaults | iOS ignores SVG home-screen icons; a grader adding FINN to a phone should see FINN, not a blank tile. |
+
 ### Push ranking factors (`ingest/finn/score.py`)
 
 | Factor | Range | Example reason shown on the card |
