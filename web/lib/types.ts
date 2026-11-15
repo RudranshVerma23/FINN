@@ -147,6 +147,7 @@ export interface Contact {
   expertise: string[];
   public_figure: boolean;
   tie: Tie;
+  interactions?: { on: string; kind: string; note: string }[];
 }
 
 export interface Suggestion {
