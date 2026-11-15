@@ -159,11 +159,19 @@ function toCard(f: Filing): StoryCard {
   };
 }
 
+/** A routine story only ever renders as a one-line title: ship just that (keeps the Brief light). */
+function slimRoutine(s: StoryCard): StoryCard {
+  return s.tier !== "routine"
+    ? s
+    : { ...s, summary: null, why: [], reaction: null, contact: null, eventContacts: [], people: [], results: null, url: null };
+}
+
 /** One card per story (the highest-scoring filing of each group), newest first. */
 export function getStories(symbol?: string): StoryCard[] {
   return filings
     .filter((f) => f.story_id === f.id && (!symbol || f.symbol === symbol))
     .map(toCard)
+    .map(slimRoutine)
     .sort((a, b) => b.filedAt.localeCompare(a.filedAt));
 }
 
