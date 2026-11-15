@@ -44,6 +44,9 @@ python ingest/scripts/build_fundamentals.py         # Screener tables + document
 cd web
 npm install
 npm run dev                     # syncs data/snapshot into web/data, then http://localhost:3000
+
+# precompute "promised vs delivered" for demo tickers (any other ticker runs live)
+npx tsx --env-file=../.env scripts/precompute-pull.ts PIIND WIPRO POLYCAB
 ```
 
 ## Status
