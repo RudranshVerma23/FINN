@@ -48,6 +48,19 @@ Example: `T04.2 feat(push): collapse routine filings into one line [FR-04, FR-05
 
 ## Release log
 
+### v1.0.0 — Submission (2026-11-15) · tag `submission-v1`
+
+Tasks T12–T15. All 26 functional and 10 non-functional requirements addressed (FR-25, the Ask bar, was a stretch goal and shipped).
+
+**What's new**
+- **Reasons to reconnect** (FR-23): contacts dormant 6+ months whose current or former employer just had news, varied by event type, on the Brief.
+- **People tab** (FR-24): expertise map as a filter, everyone by closeness, and person pages that gather everywhere a contact can help (ways in to new executives, events they can explain, who-to-call entries, reconnect reasons) plus career and conversation log.
+- **Ask bar** (FR-25): the model routes the question to one of eight intents; code answers from your own data; no network data reaches the model; keyword fallback without a key.
+- **Polish** (FR-26, NFR-03, NFR-08): PNG and maskable app icons, Apple touch icon, branded error and not-found pages, focus rings, lighter Brief payload, dark mode checked on the main screens.
+- **Submission docs**: grader README with a two-minute tour, architecture as built (diagram, 52 decision records), measured cost report, submission note.
+
+**Known limits** are listed in the submission note (`docs/writeup.md`, "What I deliberately left out").
+
 ### v0.2.0 — Pull for any ticker, results, alerts (2026-11-15)
 
 Tasks T07–T11. New snapshot files: `results.json` (Q2 FY27 for 22 companies), `fundamentals.json` (22 companies), `pull.json` (promised vs delivered for 7 demo tickers).
